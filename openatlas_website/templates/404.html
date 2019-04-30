@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block breadcrumb %}
+    404 - File not found
+{% endblock %}
+{% block content %}
+<div style="text-align:center;padding-top:1em;">
+    <p style="font-size:18px;">
+        404 - File not found
+    </p>
+    <p>
+        {{ _('We are so sorry!') }}
+    </p>
+    <p>
+        {{ _('We searched a long time but this document does not exist. Maybe you mistyped or followed a broken link.') }}
+    </p>
+    <p>
+        {{ _('Use the back button of your browser or click <a href="/">here</a> to go to the main page.') }}
+    </p>
+    <p>
+        <img src="/static/images/layout/404.jpg" alt="404 - File not found" /><br />
+        Excavation of the Oseberg ship (from commons.wikimedia.org)
+    </p>
+</div>
+{% endblock %}
