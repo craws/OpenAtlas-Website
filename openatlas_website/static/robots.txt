@@ -1,0 +1,2 @@
+# all crawlers
+User-agent: *
