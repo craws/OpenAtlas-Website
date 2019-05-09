@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="{{ session['language'] }}">
-    <head>
-        <meta charset="UTF-8" />
-        <title>OpenAtlas</title>
-    </head>
-    <body>
-        <div id="header">
-            <div id="logo">
-                <a href="/"><img src="/static/images/layout/logo.png" alt="OpenAtlas" /></a>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" href="/static/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/static/favicon-16x16.png" sizes="16x16" />
+    <link rel="manifest" href="/static/manifest.json" />
+    <link rel="mask-icon" href="/static/safari-pinned-tab.svg" />
+    <title>OpenAtlas</title>
+    <link rel="stylesheet" href="/static/vendor/bootstrap-4.3.1/css/bootstrap.min.css">
+    <!-- script src="/static/vendor/bootstrap-4.3.1/js/bootstrap.min.js"></script -->
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <div id="logo">
+            <a href="/"><img src="/static/images/layout/logo.png" alt="OpenAtlas"/></a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                {{ ''|display_menu|safe }}
             </div>
         </div>
-        <div id="menu">
-            <a href='/'>{{ _('overview')|uc_first }}</a>
-            <a href='/credits'>{{ _('credits')|uc_first }}</a>
-        </div>
-        <div id="breadcrumb">
-            {% block breadcrumb %}{% endblock %}
-        </div>
-        <main>
-            <div id="content">
-                {% block content %}{% endblock %}
-            </div>
-        </main>
-    </body>
+    </nav>
+</diV>
+<main role="main">
+    {% block content %}{% endblock %}
+</main>
+</body>
 </html>

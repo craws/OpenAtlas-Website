@@ -5,13 +5,23 @@ from openatlas_website import app
 
 
 @app.route('/')
-def index():
-    return render_template('index.html', intro='This is the intro')
+def about():
+    return render_template('about.html')
 
 
-@app.route('/credits')
-def index_credits():
-    return render_template('credits.html')
+@app.route('/screenshots')
+def screenshots():
+    return render_template('screenshots.html')
+
+
+@app.route('/team')
+def team():
+    return render_template('team.html')
+
+
+@app.route('/history')
+def history():
+    return render_template('history.html')
 
 
 @app.errorhandler(403)
