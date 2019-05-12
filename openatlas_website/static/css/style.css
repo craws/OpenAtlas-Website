@@ -1,3 +1,22 @@
 .container {
     margin: 1em;
 }
+
+#team {
+    clear: both;
+}
+
+#team div p {
+    font-weight: bold;
+}
+
+#team > div > div {
+    margin: 0 0.5em 0 0;
+    float: left;
+    width: 324px;
+}
+
+#team img {
+    width: 200px;
+    height: 200px;
+}

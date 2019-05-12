@@ -9,19 +9,9 @@ def about():
     return render_template('about.html')
 
 
-@app.route('/screenshots')
-def screenshots():
-    return render_template('screenshots.html')
-
-
 @app.route('/team')
 def team():
     return render_template('team.html')
-
-
-@app.route('/history')
-def history():
-    return render_template('history.html')
 
 
 @app.errorhandler(403)

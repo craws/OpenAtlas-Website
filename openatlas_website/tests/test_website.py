@@ -1,5 +1,6 @@
 from openatlas_website.test_base import TestBaseCase
 
+
 class WebsiteTests(TestBaseCase):
 
     def test_index(self):
