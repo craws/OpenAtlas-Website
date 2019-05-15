@@ -1,38 +1,37 @@
 {% extends "layout.html" %}
 {% block content %}
-    <div class="container">
-        <h2>{{ _('about')|uc_first }}</h2>
-        <p>
-            Welcome to OpenAtlas.
-        </p>
-        <p>
-            OpenAtlas is an open source, web based database system for complex archaeological, historical and geospatial data.
-        </p>
-        <p>
-            The information is mapped as a network using classes and properties of the
-            <a href="http://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a>.
-        </p>
-        <p>
-            Documentation:
-            <a href="https://redmine.openatlas.eu/projects/uni/wiki" target="_blank">Wiki</a>,
-            <a href="https://redmine.openatlas.eu/projects/uni/Features" target="_blank">Features</a>,
-            <a href="https://redmine.openatlas.eu/projects/uni/issues" target="_blank">Issue tracker</a>
-        </p>
-        <p>
-            Source code on: <a href="https://github.com/craws/OpenAtlas" target="_blank">GitHub</a>
-        </p>
-        <h3>Demo versions</h3>
-        <p>
-            <a href="https://demo.openatlas.eu" target="_blank">Demo</a> with data kindly provided by the
-                <a href="ttps://oeaw.academia.edu/MappingMedievalConflict" target="_blank">MEDCON</a> project.<br/>
-            <a href="https://demo-dev.openatlas.eu" target="_blank">Development demo</a> with data kindly provided by the
-                <a href="https://demo-dev.openatlas.eu" target="_blank">DPP</a> project.
-        </p>
-    </div>
+    <h3>Welcome to OpenAtlas</h3>
+    <p>
+        OpenAtlas is an open source, web based database system for complex archaeological, historical and geospatial data.
+    </p>
+    <p>
+        The information is mapped as a network using classes and properties of the
+        <a href="http://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a>.
+    </p>
+    <p>
+        If you have any questions or are interested in a cooperation contact us at <a href="mailto:info@openatlas.eu">info@openatlas.eu</a>.
+    </p>
+    <p>
+        Documentation:
+        <a href="https://redmine.openatlas.eu/projects/uni/wiki" target="_blank">Wiki</a>,
+        <a href="https://redmine.openatlas.eu/projects/uni/Features" target="_blank">Features</a>,
+        <a href="https://redmine.openatlas.eu/projects/uni/issues" target="_blank">Issue tracker</a>
+    </p>
+    <p>
+        Source code on <a href="https://github.com/craws/OpenAtlas" target="_blank">GitHub</a>
+    </p>
+    <h3>Demo versions</h3>
+    <p>
+        <a href="https://demo.openatlas.eu" target="_blank">Demo</a> with data kindly provided by the
+            <a href="ttps://oeaw.academia.edu/MappingMedievalConflict" target="_blank">MEDCON</a> project.<br/>
+        <a href="https://demo-dev.openatlas.eu" target="_blank">Development demo</a> with data kindly provided by the
+            <a href="https://demo-dev.openatlas.eu" target="_blank">DPP</a> project.
+    </p>
 
-    <div class="container">
-        <p>Development was and is funded by several projects, grants, institutes and departments:</p>
-        <h3>Institutes</h3>
+    <p>Development was and is funded by several projects, grants, institutes and departments:</p>
+
+    <h4>Institutes</h4>
+    <p>
         <a target="_blank" rel="noopener" href="https://www.oeaw.ac.at/">
             <img src="/static/images/credits/logo_oeaw.png" alt="ÖAW" />
         </a>
@@ -51,7 +50,10 @@
         <a target="_blank" rel="noopener" href="https://www.fwf.ac.at/en/">
             <img src="/static/images/credits/logo_fwf.png" alt="FWF Austrian Science Fund" />
         </a>
-        <h3>Projects</h3>
+    </p>
+
+    <h4>Projects</h4>
+    <p>
         <a target="_blank" rel="noopener" href="https://oeaw.academia.edu/MappingMedievalConflict">
             <img src="/static/images/credits/logo_medcon.png" alt="MEDCON" />
         </a>
@@ -67,5 +69,5 @@
         <a target="_blank" rel="noopener" href="https://www.oeaw.ac.at/imafo/forschung/historische-identitaetsforschung/projekte/weitere-projekte/ostalpenraum-revisited/">
             <img src="/static/images/credits/logo_oar.jpg" style="height:60px;" alt="Ostalpenraum Revisited" />
         </a>
-    </div>
+    </p>
 {% endblock %}
