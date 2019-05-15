@@ -3,3 +3,29 @@ img.team {
     width: 140px;
     height: 140px;
 }
+
+.modal-dialog {
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+.modal-body {
+    position: relative;
+    min-height: 400px;
+    background: #ccc;
+}
+
+.close {
+    position: absolute;
+    right: -30px;
+    top: 0;
+    z-index: 999;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #fff;
+    opacity: 1;
+}
+
+#image {
+    min-height: 200px;
+}
