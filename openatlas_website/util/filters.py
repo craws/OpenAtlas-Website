@@ -40,7 +40,7 @@ def display_menu(self, origin):
     """ Returns html with the menu and mark appropriate item as selected."""
     html = ''
     selected = origin.view_name if origin else ''
-    items = ['about', 'team']
+    items = ['about', 'projects', 'team']
     for item in items:
         if selected:
             active = 'active' if item == selected else ''
