@@ -1,5 +1,5 @@
 
-img.team {
+#team img {
     width: 140px;
     height: 140px;
 }
@@ -26,6 +26,6 @@ img.team {
     opacity: 1;
 }
 
-#image {
-    min-height: 200px;
+#projects img {
+    max-width: 200px;
 }

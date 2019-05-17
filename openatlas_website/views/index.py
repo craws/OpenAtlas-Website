@@ -29,7 +29,7 @@ def projects():
         ('CONNEC', {
             'url': 'http://www.connectedclerics.com/',
             'full_name': 'Connected Clerics',
-            'img': '/static/images/credits/logo_connec.png',
+            'img': 'connec.jpg',
             'pi': 'David Natal',
             'duration': '2018 - 2022',
             'text': """analyses how a ‘universal’ late antique Church was constructed despite the 
@@ -38,7 +38,7 @@ def projects():
         ('DPP', {
             'url': 'http://dpp.oeaw.ac.at/',
             'full_name': 'Digitising Patterns of Power',
-            'img': '/static/images/credits/logo_dpp.png',
+            'img': 'dpp.jpg',
             'pi': 'Mihailo Popović',
             'duration': '2015 - 2019',
             'text': """focuses on the analysis of the depiction of space in medieval written 
@@ -48,7 +48,7 @@ def projects():
         ('MEDCON', {
             'url': 'https://oeaw.academia.edu/MappingMedievalConflict',
             'full_name': 'Mapping Medieval Conflict',
-            'img': '/static/images/credits/logo_medcon.png',
+            'img': 'medcon.png',
             'pi': 'Johannes Preiser-Kapeller',
             'duration': '2014 - 2017',
             'text': """examined the explanatory power of concepts of social and spatial network 
@@ -56,7 +56,7 @@ def projects():
         ("Frontier, Contact Zone or No Man's Land", {
             'url': 'http://www.openatlas.eu/gkn',
             'full_name': "Frontier, Contact Zone or No Man's Land",
-            'img': '/static/images/credits/logo_frontier.png',
+            'img': 'frontier.png',
             'pi': 'Stefan Eichert',
             'duration': '2012 - ???',
             'text': """ handelt um ein internationales österreichisch-tschechisches 
@@ -65,7 +65,7 @@ def projects():
          ('The Eastern Alps Revisited', {
              'url': 'https://www.oeaw.ac.at/imafo/forschung/historische-identitaetsforschung/projekte/weitere-projekte/ostalpenraum-revisited/',
              'full_name': 'The Eastern Alps Revisited',
-             'img': '/static/images/credits/logo_oar.jpg',
+             'img': 'ostalpen.jpg',
              'pi': 'Claudia Theune Vogt',
              'duration': '2012 - 2016',
              'text': """focused on the transformation of the late antique province of Noricum 
@@ -77,7 +77,28 @@ def projects():
 
 @app.route('/team')
 def team():
-    return render_template('team.html')
+    team_ = OrderedDict([
+        ('Stefan Eichert', {
+            'email': 'stefan.eichert@oeaw.ac.at',
+            'function': 'Idea, Concept and Data Modelling',
+            'img': 'stefan.jpg'}),
+        ('Alexander Watzinger', {
+            'email': 'alexander.watzinger@oeaw.ac.at',
+            'function': 'Software Development and Concept',
+            'img': 'alex.png'}),
+        ('Jan Belik', {
+            'email': 'buero@janbelik.com',
+            'function': 'Logo and Design Consulting',
+            'img': 'jan.png'}),
+        ('Daniel Kittel', {
+            'email': 'daniel.kittel@craws.net',
+            'function': 'Quality Assurance',
+            'img': 'daniel.png'}),
+        ('Christoph Hoffmann', {
+            'email': 'christoph.hoffmann@oeaw.ac.at',
+            'function': 'Frontend Development',
+            'img': 'christoph.jpg'})])
+    return render_template('team.html', team=team_)
 
 
 @app.errorhandler(403)

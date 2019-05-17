@@ -1,60 +1,20 @@
 {% extends "layout.html" %}
 {% block content %}
-<div class="row mb-2">
+<div class="row mb-2" id="team">
     <div class="col-sm">
-        <div class="row mb-2">
-            <div class="col-md-3 mr-2">
-                <img class="team" src="/static/images/team/stefan.jpg" alt="Stefan"/>
+        {% for name, person in team.items() %}
+            <div class="row mb-2">
+                <div class="col-md-3 mr-2">
+                    <img src="/static/images/team/{{ person.img }}" alt=""/>
+                </div>
+                <div class="col-md-8">
+                    <h5>{{ name }}</h5>
+                    {{ person.function }}<br/>
+                    <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+                </div>
             </div>
-            <div class="col-md-8">
-                <h5>Stefan Eichert</h5>
-                Idea and Concept<br/>
-                CIDOC CRM Adaptions and Mappings
-                <a href="mailto:stefan.eichert@oeaw.ac.at">stefan.eichert@oeaw.ac.at</a>
-            </div>
-        </div>
-        <div class="row mb-2">
-            <div class="col-md-3 mr-2">
-                <img class="team" src="/static/images/team/alex.png" alt="Alex"/>
-            </div>
-            <div class="col-md-8">
-                <h5>Alexander Watzinger</h5>
-                Software Development and Concept<br/>
-                <a href="mailto:alexander.watzinger@oeaw.ac.at">alexander.watzinger@oeaw.ac.at</a>
-            </div>
-        </div>
-        <div class="row mb-2">
-            <div class="col-md-3 mr-2">
-                <img class="team" src="/static/images/team/jan.png" alt="Jan"/>
-            </div>
-            <div class="col-md-8">
-                <h5>Jan Belik</h5>
-                Logo and Design Consulting<br/>
-                <a href="mailto:buero@janbelik.com">buero@janbelik.com</a>
-            </div>
-        </div>
-        <div class="row mb-2">
-            <div class="col-md-3 mr-2">
-                <img class="team" src="/static/images/team/daniel.png" alt="Daniel"/>
-            </div>
-            <div class="col-md-8">
-                <h5>Daniel Kittel</h5>
-                Quality Assurance<br/>
-                <a href="mailto:daniel.kittel@craws.net">daniel.kittel@craws.net</a>
-            </div>
-        </div>
-        <div class="row mb-2">
-            <div class="col-md-3 mr-2" style="width:auto;">
-                <img class="team" src="/static/images/team/christoph.jpg" alt="Christoph"/>
-            </div>
-            <div class="col-md-8">
-                <h5>Christoph Hoffmann</h5>
-                Frontend<br/>
-                <a href="mailto:christoph.hoffmann@oeaw.ac.at">christoph.hoffmann@oeaw.ac.at</a>
-            </div>
-        </div>
+        {% endfor %}
     </div>
-
     <div class="col-sm">
         <h5>Contributors</h5>
         Asil Çetin<br/>
@@ -68,7 +28,6 @@
         Petra Heinicker<br/>
         Veronika Gründhammer
     </div>
-
 </div>
 
 {% endblock %}
