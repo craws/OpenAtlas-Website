@@ -4,6 +4,17 @@
     height: 140px;
 }
 
+#projects img {
+    max-width: 200px;
+}
+
+#credits img {
+    max-height: 40px;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+/* slide show */
 .modal-dialog {
     max-width: 800px;
     margin: 30px auto;
@@ -26,6 +37,6 @@
     opacity: 1;
 }
 
-#projects img {
-    max-width: 200px;
+a.img {
+    text-decoration: none;
 }
