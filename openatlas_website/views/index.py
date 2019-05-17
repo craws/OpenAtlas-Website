@@ -14,6 +14,18 @@ def about():
 @app.route('/projects')
 def projects():
     projects_ = OrderedDict([
+        ('THANADOS', {
+            'url': 'https://www.oeaw.ac.at/stipendien-foerderungen/foerderprogramme/godigital/godigital-next-generation-ausgewaehlte-projekte/',
+            'full_name': 'The Anthropological and Archaeological Database of Sepultures',
+            'img': '',
+            'pi': 'Stefan Eichert',
+            'duration': '2019 - 2022',
+            'text': """hat zum Ziel ein Online Repositorium der frühmittelalterlichen Grabfunde
+                Österreichs zu erschaffen. Es vereint mit Archäologie, Anthropologie und Digital
+                Humanities drei Disziplinen. Die bisher bekannten und veröffentlichten Grabfunde
+                werden dafür mit dem Open Source Datenbanksystem OpenAtlas, das die Informationen
+                nach dem international etablierten Standard des CIDOC CRM modelliert,
+                aufgenommen."""}),
         ('CONNEC', {
             'url': 'http://www.connectedclerics.com/',
             'full_name': 'Connected Clerics',
@@ -28,7 +40,7 @@ def projects():
             'full_name': 'Digitising Patterns of Power',
             'img': '/static/images/credits/logo_dpp.png',
             'pi': 'Mihailo Popović',
-            'duration': '2015 - 2018',
+            'duration': '2015 - 2019',
             'text': """focuses on the analysis of the depiction of space in medieval written 
                 sources, of the interaction between built and natural environment, of appropriation 
                 of space and the emergence of new political, religious and economic structures of 
