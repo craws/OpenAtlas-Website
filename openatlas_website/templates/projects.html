@@ -3,7 +3,8 @@
 {% for name, project in projects.items() %}
     <div id="projects" class="row mb-2">
         <div class="col-md-3 mr-2">
-            <a class="img" target="_blank" rel="noopener" href="{{ project.url }}"><img src="/static/images/projects/{{ project.img }}" alt="{{ name }}" /></a>
+            <a class="img" target="_blank" rel="noopener" href="{{ project.url }}"><img src="/static/images/projects/{{ project.img }}" alt="{{ name }}" /></a><br />
+            <span class="image-license">{{ project.image_license }}</span>
         </div>
         <div class="col-md-8">
             <h5>{{ name }}</h5>

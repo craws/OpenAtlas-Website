@@ -18,6 +18,7 @@ def projects():
             'url': 'https://www.oeaw.ac.at/stipendien-foerderungen/foerderprogramme/godigital/godigital-next-generation-ausgewaehlte-projekte/',
             'full_name': 'The Anthropological and Archaeological Database of Sepultures',
             'img': '',
+            'image_license': 'CC-BY SA 4.0, Jan Belik',
             'pi': 'Stefan Eichert',
             'duration': '2019 - 2022',
             'text': """hat zum Ziel ein Online Repositorium der frühmittelalterlichen Grabfunde
@@ -30,6 +31,7 @@ def projects():
             'url': 'http://www.connectedclerics.com/',
             'full_name': 'Connected Clerics',
             'img': 'connec.jpg',
+            'image_license': '',
             'pi': 'David Natal',
             'duration': '2018 - 2022',
             'text': """analyses how a ‘universal’ late antique Church was constructed despite the 
@@ -39,6 +41,7 @@ def projects():
             'url': 'http://dpp.oeaw.ac.at/',
             'full_name': 'Digitising Patterns of Power',
             'img': 'dpp.jpg',
+            'image_license': 'CC-BY SA 4.0, Jan Belik',
             'pi': 'Mihailo Popović',
             'duration': '2015 - 2019',
             'text': """focuses on the analysis of the depiction of space in medieval written 
@@ -49,6 +52,7 @@ def projects():
             'url': 'https://oeaw.academia.edu/MappingMedievalConflict',
             'full_name': 'Mapping Medieval Conflict',
             'img': 'medcon.png',
+            'image_license': 'CC-BY SA 4.0, Jan Belik',
             'pi': 'Johannes Preiser-Kapeller',
             'duration': '2014 - 2017',
             'text': """examined the explanatory power of concepts of social and spatial network 
@@ -66,6 +70,7 @@ def projects():
              'url': 'https://www.oeaw.ac.at/imafo/forschung/historische-identitaetsforschung/projekte/weitere-projekte/ostalpenraum-revisited/',
              'full_name': 'The Eastern Alps Revisited',
              'img': 'ostalpen.jpg',
+             'image_license': '',
              'pi': 'Claudia Theune Vogt',
              'duration': '2012 - 2016',
              'text': """focused on the transformation of the late antique province of Noricum 
@@ -81,23 +86,28 @@ def team():
         ('Stefan Eichert', {
             'email': 'stefan.eichert@oeaw.ac.at',
             'function': 'Idea, Concept and Data Modelling',
-            'img': 'stefan.jpg'}),
+            'img': 'stefan.jpg',
+            'image_license': ''}),
         ('Alexander Watzinger', {
             'email': 'alexander.watzinger@oeaw.ac.at',
             'function': 'Software Development and Concept',
-            'img': 'alex.png'}),
+            'img': 'alex.png',
+            'image_license': 'CC-BY SA 4.0, Jan Belik'}),
         ('Jan Belik', {
             'email': 'buero@janbelik.com',
             'function': 'Logo and Design Consulting',
-            'img': 'jan.png'}),
+            'img': 'jan.png',
+            'image_license': 'CC-BY SA 4.0, Jan Belik'}),
         ('Daniel Kittel', {
             'email': 'daniel.kittel@craws.net',
             'function': 'Quality Assurance',
-            'img': 'daniel.png'}),
+            'img': 'daniel.png',
+            'image_license': 'CC-BY SA 4.0, Jan Belik'}),
         ('Christoph Hoffmann', {
             'email': 'christoph.hoffmann@oeaw.ac.at',
             'function': 'Frontend Development',
-            'img': 'christoph.jpg'})])
+            'img': 'christoph.jpg',
+            'image_license': 'CC-BY 4.0, Sandra Lehecka'})])
     return render_template('team.html', team=team_)
 
 

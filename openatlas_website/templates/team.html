@@ -4,8 +4,9 @@
     <div class="col-sm">
         {% for name, person in team.items() %}
             <div class="row mb-2">
-                <div class="col-md-3 mr-2">
-                    <img src="/static/images/team/{{ person.img }}" alt=""/>
+                <div class="col-md-3 mr-2 team-image">
+                    <img src="/static/images/team/{{ person.img }}" alt=""/><br />
+                    <span class="image-license">{{ person.image_license }}</span>
                 </div>
                 <div class="col-md-8">
                     <h5>{{ name }}</h5>
