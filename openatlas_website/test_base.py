@@ -7,6 +7,7 @@ from openatlas_website import app
 class TestBaseCase(unittest.TestCase):
 
     def setUp(self):
+        print('hello')
         app.testing = True
         app.config['SERVER_NAME'] = 'localhost'
         app.config['WTF_CSRF_ENABLED'] = False
