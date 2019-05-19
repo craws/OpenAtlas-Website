@@ -11,7 +11,7 @@ app.config.from_object('config.default')  # Load config
 app.config.from_pyfile('production.py')  # Load instance
 
 from openatlas_website.util import filters
-from openatlas_website.views import index, team, projects
+from openatlas_website.views import events, index, projects, team
 
 
 @app.before_request

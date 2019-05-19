@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>Congresses, Presentations and Workshops</h3>
+<p>
+    Papers and presentations are available
+    <a href="https://oeaw.academia.edu/AlexanderWatzinger" target="_blank">here</a>.
+</p>
+<h4>Upcoming</h4>
+{% for date, event in upcoming.items() %}
+    <div class="events">
+        {{ date }}<br/>
+        {% if event.link %}
+            <a href="{{ event.link }}" target="_blank">{{ event.name }}</a>
+        {% else %}
+            {{ event.name }}
+        {% endif %}
+        <br/>
+        {% if event.title %}
+            <strong>{{ event.title }}</strong><br/>
+        {% endif %}
+        {{ event.country }}, {{ event.city }}, {{ event.institute }}
+    </div>
+{% endfor %}
+<h4>Past</h4>
+{% for date, event in past.items() %}
+    <div class="events">
+        {{ date }}<br/>
+        {% if event.link %}
+            <a href="{{ event.link }}" target="_blank">{{ event.name }}</a>
+        {% else %}
+            {{ event.name }}
+        {% endif %}
+        <br/>
+        {% if event.title %}
+            <strong>{{ event.title }}</strong><br/>
+        {% endif %}
+        {{ event.country }}, {{ event.city }}, {{ event.institute }}
+    </div>
+{% endfor %}
+{% endblock %}

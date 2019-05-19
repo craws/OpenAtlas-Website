@@ -8,6 +8,10 @@
     max-width: 200px;
 }
 
+.events {
+    margin-bottom: 1.5em;
+}
+
 #credits img {
     max-height: 40px;
     margin-right: 1em;
