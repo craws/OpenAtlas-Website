@@ -18,17 +18,17 @@ def team():
             'email': 'alexander.watzinger@oeaw.ac.at',
             'function': 'Software Development and Concept',
             'img': 'alex.png',
-            'image_license': 'CC-BY SA 4.0, Jan Belik'}),
+            'image_license': 'CC-BY-SA 4.0, Jan Belik'}),
         ('Jan Belik', {
             'email': 'buero@janbelik.com',
             'function': 'Logo and Design Consulting',
             'img': 'jan.png',
-            'image_license': 'CC-BY SA 4.0, Jan Belik'}),
+            'image_license': 'CC-BY-SA 4.0, Jan Belik'}),
         ('Daniel Kittel', {
             'email': 'daniel.kittel@craws.net',
             'function': 'Quality Assurance',
             'img': 'daniel.png',
-            'image_license': 'CC-BY SA 4.0, Jan Belik'}),
+            'image_license': 'CC-BY-SA 4.0, Jan Belik'}),
         ('Christoph Hoffmann', {
             'email': 'christoph.hoffmann@oeaw.ac.at',
             'function': 'Frontend Development',

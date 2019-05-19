@@ -13,7 +13,7 @@ def projects():
             'url': 'https://www.oeaw.ac.at/stipendien-foerderungen/foerderprogramme/godigital/godigital-next-generation-ausgewaehlte-projekte/',
             'full_name': 'The Anthropological and Archaeological Database of Sepultures',
             'img': '',
-            'image_license': 'CC-BY SA 4.0, Jan Belik',
+            'image_license': 'CC-BY-SA 4.0, Jan Belik',
             'pi': 'Stefan Eichert',
             'duration': '2019 - 2022',
             'text': """hat zum Ziel ein Online Repositorium der frühmittelalterlichen Grabfunde
@@ -36,7 +36,7 @@ def projects():
             'url': 'http://dpp.oeaw.ac.at/',
             'full_name': 'Digitising Patterns of Power',
             'img': 'dpp.jpg',
-            'image_license': 'CC-BY SA 4.0, Jan Belik',
+            'image_license': 'CC-BY-SA 4.0, Jan Belik',
             'pi': 'Mihailo Popović',
             'duration': '2015 - 2019',
             'text': """focuses on the analysis of the depiction of space in medieval written 
@@ -47,7 +47,7 @@ def projects():
             'url': 'https://oeaw.academia.edu/MappingMedievalConflict',
             'full_name': 'Mapping Medieval Conflict',
             'img': 'medcon.png',
-            'image_license': 'CC-BY SA 4.0, Jan Belik',
+            'image_license': 'CC-BY-SA 4.0, Jan Belik',
             'pi': 'Johannes Preiser-Kapeller',
             'duration': '2014 - 2017',
             'text': """examined the explanatory power of concepts of social and spatial network 
