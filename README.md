@@ -10,7 +10,3 @@ At the moment the (new) OpenAtlas project website is in the concept phase.
 
 All OpenAtlas website code unless otherwise noted is licensed under the terms of the GNU General Public License Version 2,
 June 1991. Please refer to the file COPYING in the root directory of this repository or the online version at https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
-
-All documentation and images unless otherwise noted are licensed under the terms of
-Creative Commons Attribution-ShareAlike 4.0 International License.
-To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/
