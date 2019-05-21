@@ -40,18 +40,14 @@
     </div>
     <script>
         $(document).ready(function() {
-
             var $imageSrc;
             $('.gallery img').click(function() {
                 $imageSrc = $(this).data('bigimage');
             });
-
             // when the modal is opened autoplay it
             $('#myModal').on('shown.bs.modal', function (e) {
-                // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
                 $("#image").attr('src', $imageSrc  );
             })
-
             // reset the modal image
             $('#myModal').on('hide.bs.modal', function (e) {
                 // a poor man's stop video
@@ -59,29 +55,11 @@
             })
         });
     </script>
-
     <p>
         Development was and is funded by several <a href="{{ url_for('projects') }}">projects</a>,
         grants, institutes  and departments:
     </p>
     <p id="credits">
-        <a class="img" target="_blank" rel="noopener" href="https://www.oeaw.ac.at/">
-            <img src="/static/images/credits/oeaw.png" alt="ÖAW" />
-        </a>
-        <a class="img" target="_blank" rel="noopener" href="https://www.oeaw.ac.at/imafo/">
-            <img src="/static/images/credits/imafo.png" alt="IMAFO" />
-        </a>
-        <a class="img" target="_blank" rel="noopener" href="https://www.oeaw.ac.at/acdh">
-            <img src="/static/images/credits/acdh.png" alt="ACDH - Austrian Centre for Digital Humanities" />
-        </a>
-        <a class="img" target="_blank" rel="noopener" href="https://erc.europa.eu/">
-            <img src="/static/images/credits/erc.png" alt=" European Research Council " />
-        </a>
-        <a class="img" target="_blank" rel="noopener" href="https://www.univie.ac.at/en/">
-            <img src="/static/images/credits/uni_vienna.jpg" alt="University of Vienna" />
-        </a>
-        <a class="img" target="_blank" rel="noopener" href="https://www.fwf.ac.at/en/">
-            <img src="/static/images/credits/fwf.png" alt="FWF Austrian Science Fund" />
-        </a>
+        {{ ['OEAW', 'IMAFO', 'ACDH', 'ERC', 'univie', 'FWF']|display_institutes|safe }}
     </p>
 {% endblock %}

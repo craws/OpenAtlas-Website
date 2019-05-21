@@ -13,14 +13,8 @@
                 The <a target="_blank" rel="noopener" href="{{ project.url }}">{{ project.full_name }}</a>
                 project {{ project.text|safe  }}
             </p>
-            <p>
-                Institute: <a href="{{ project.institute_url }}" target="_blank">{{ project.institute }}</a>
-                {% if project.institute2 %}
-                    in cooperation with <a href="{{ project.institute2_url }}" target="_blank">{{ project.institute2 }}</a>
-                {% endif %}
-                {% if project.grant %}
-                    <br/>Grant: {{ project.grant }}
-                {% endif %}
+            <p class="project-institutes">
+                {{ project.institutes|display_institutes|safe }}
             </p>
         </div>
     </div>

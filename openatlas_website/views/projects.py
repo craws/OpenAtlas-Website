@@ -4,7 +4,7 @@ from collections import OrderedDict
 from flask import render_template
 
 from openatlas_website import app
-# https://www.oeaw.ac.at/oeai/
+
 
 @app.route('/projects')
 def projects():
@@ -16,11 +16,7 @@ def projects():
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
             'pi': 'Stefan Eichert',
             'duration': '2019 - 2022',
-            'institute': 'Austrian Archaeological Institute (OeAI)',
-            'institute_url': 'https://www.oeaw.ac.at/en/oeai/',
-            'institute2': 'Austrian Centre for Digital Humanities (ACDH)',
-            'institute2_url': 'https://www.oeaw.ac.at/acdh/',
-            'grant': 'go!digital NEXT GENERATION',
+            'institutes': ['OEAW', 'OeAI', 'ACDH'],
             'text': """hat zum Ziel ein Online Repositorium der frühmittelalterlichen Grabfunde
                 Österreichs zu erschaffen. Es vereint mit Archäologie, Anthropologie und Digital
                 Humanities drei Disziplinen. Die bisher bekannten und veröffentlichten Grabfunde
@@ -34,11 +30,7 @@ def projects():
             'image_license': '',
             'pi': 'David Natal',
             'duration': '2018 - 2022',
-            'institute': 'Royal Holloway, University of London',
-            'institute_url': 'https://www.royalholloway.ac.uk/',
-            'institute2': 'Austrian Centre for Digital Humanities (ACDH)',
-            'institute2_url': 'https://www.oeaw.ac.at/acdh/',
-            'grant': 'ERC starting grant',
+            'institutes': ['RHUL', 'OEAW', 'ACDH', 'ERC'],
             'text': """analyses how a ‘universal’ late antique Church was constructed despite the 
                 context of political fragmentation that precipitated the end of the Western 
                 Roman Empire and its division into smaller polities."""}),
@@ -49,9 +41,7 @@ def projects():
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
             'pi': 'Mihailo Popović',
             'duration': '2015 - 2019',
-            'institute': 'Institute for Medieval Research (IMAFO)',
-            'institute_url': 'https://www.oeaw.ac.at/imafo/',
-            'grant': '',
+            'institutes': ['OEAW', 'IMAFO', 'univie'],
             'text': """focuses on the analysis of the depiction of space in medieval written 
                 sources, of the interaction between built and natural environment, of appropriation 
                 of space and the emergence of new political, religious and economic structures of 
@@ -63,9 +53,7 @@ def projects():
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
             'pi': 'Johannes Preiser-Kapeller',
             'duration': '2014 - 2017',
-            'institute': 'Institute for Medieval Research (IMAFO)',
-            'institute_url': 'https://www.oeaw.ac.at/imafo/',
-            'grant': '',
+            'institutes': ['OEAW', 'IMAFO'],
             'text': """examined the explanatory power of concepts of social and spatial network 
                     analysis for phenomena of political conflict in medieval societies."""}),
         ("Frontier, Contact Zone or No Man's Land", {
@@ -74,11 +62,7 @@ def projects():
             'img': 'frontier.png',
             'pi': 'Stefan Eichert, Jiří Macháček',
             'duration': '2012 - ?',
-            'institute': 'Faculty of Historical and Cultural Studies',
-            'institute_url': 'https://hist-kult.univie.ac.at',
-            'institute2': 'Masaryk University',
-            'institute2_url': 'https://www.muni.cz/',
-            'grant': 'FWF, GA ČR',
+            'institutes': ['univie', 'MU', 'FWF', 'GACR'],
             'text': """handelt um ein internationales österreichisch-tschechisches
                 Forschungsprojekt, das vom Österreichischen Wissenschaftsfond (FWF) und Grantová
                 agentura České republiky (GA ČR) gefördert wird."""}),
@@ -89,11 +73,7 @@ def projects():
              'image_license': '',
              'pi': 'Maximilian Diesenberger, Claudia Theune Vogt',
              'duration': '2012 - 2016',
-             'institute': 'Institute for Medieval Research (IMAFO)',
-             'institute_url': 'https://www.oeaw.ac.at/imafo/',
-             'institute2': 'Faculty of Historical and Cultural Studies',
-             'institute2_url': 'https://hist-kult.univie.ac.at',
-             'grant': 'FWF',
+             'institutes': ['OEAW', 'IMAFO', 'FWF'],
              'text': """focused on the transformation of the late antique province of Noricum 
                          Mediterraneum into an area inhabited by a Slavic-speaking population that 
                          eventually became part of Bavaria. """})])
