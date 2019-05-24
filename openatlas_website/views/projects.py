@@ -12,7 +12,7 @@ def projects():
         ('THANADOS', {
             'url': 'https://www.oeaw.ac.at/stipendien-foerderungen/foerderprogramme/godigital/godigital-next-generation-ausgewaehlte-projekte/',
             'full_name': 'The Anthropological and Archaeological Database of Sepultures',
-            'img': '',
+            'img': 'thanados.png',
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
             'pi': 'Stefan Eichert',
             'duration': '2019 - 2022',
