@@ -33,5 +33,10 @@ def team():
             'email': 'christoph.hoffmann@oeaw.ac.at',
             'function': 'Frontend Development',
             'img': 'christoph.jpg',
-            'image_license': 'CC-BY 4.0, Sandra Lehecka'})])
+            'image_license': 'CC-BY 4.0, Sandra Lehecka'}),
+        ('Bernhard Koschicek', {
+            'email': 'bernhard.koschicek@oeaw.ac.at',
+            'function': 'Software Development',
+            'img': 'bernhard.jpg',
+            'image_license': ''})])
     return render_template('team.html', team=team_)
