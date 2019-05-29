@@ -1,6 +1,10 @@
 
-#team img {
+img.team {
     width: 140px;
+}
+
+.gallery img {
+    margin-right: 1em;
 }
 
 #projects img {

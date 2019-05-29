@@ -48,8 +48,7 @@ INSTITUTES = {
     'GACR': {
         'name': 'Czech Science Foundation ',
         'url': 'https://gacr.cz',
-        'logo': 'gacr.png'}
-}
+        'logo': 'gacr.png'}}
 
 
 @blueprint.app_template_filter()
@@ -65,7 +64,7 @@ def display_menu(unused_variable) -> str:
             active = 'active' if request.path.startswith('/' + item) or \
                                  (item == 'about' and request.path == '/') else ''
         html += '<a class="nav-item nav-link {active}" href="{url}">{label}</a>'.format(
-            active=active, url=url_for(item), label=util.uc_first(item))
+            active=active, url=url_for(item), label=item.upper())
     return html
 
 

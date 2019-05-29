@@ -1,20 +1,22 @@
 {% extends "layout.html" %}
 {% block content %}
-<div id='team' class="col-sm">
-    {% for name, person in team.items() %}
-        <div class="row">
-            <div class="col-md-3 mr-2 mb-2 team-image">
-                <img src="/static/images/team/{{ person.img }}" alt=""/><br />
-                <span class="image-license">{{ person.image_license }}</span>
-            </div>
-            <div class="col-md-8">
-                <h5>{{ name }}</h5>
+{% for name, person in team.items() %}
+    <div class="row mb-5">
+        <div class="col-md-3 mr-2 mb-2 team-image">
+            <img class="team" src="/static/images/team/{{ person.img }}" alt=""/><br />
+            <span class="image-license">{{ person.image_license }}</span>
+        </div>
+        <div class="col-md-8">
+            <p style="font-weight: bold;">{{ name }}</p>
+            <p>
                 {{ person.function }}<br/>
                 <a href="mailto:{{ person.email }}">{{ person.email }}</a>
-            </div>
+            </p>
+            <p>{{ person.text|safe }}</p>
+
         </div>
-    {% endfor %}
-</div>
+    </div>
+{% endfor %}
 <div>
     <h5>Contributors</h5>
     Asil Çetin<br/>

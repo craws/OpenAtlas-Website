@@ -5,7 +5,7 @@
     Some of the papers and presentations are available
     <a href="https://oeaw.academia.edu/AlexanderWatzinger" target="_blank">here</a>.
 </p>
-<h4>Upcoming</h4>
+<h4 style="margin-top:2em;">Upcoming</h4>
 {% for date, event in upcoming.items() %}
     <div class="events">
         {{ date }}<br/>
@@ -21,7 +21,7 @@
         {{ event.country }}, {{ event.city }}, {{ event.institute }}
     </div>
 {% endfor %}
-<h4>Past</h4>
+<h4 style="margin-top:2em;">Past</h4>
 {% for date, event in past.items() %}
     <div class="events">
         {{ date }}<br/>
