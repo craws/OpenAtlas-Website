@@ -10,7 +10,8 @@
             <h5>{{ name }}</h5>
             <p>{{ project.duration }}, PI: {{ project.pi }}</p>
             <p>
-                The <a target="_blank" rel="noopener" href="{{ project.url }}">{{ project.full_name }}</a>
+                {% if not project.full_name.startswith('The') %}The {% endif %}
+                <a target="_blank" rel="noopener" href="{{ project.url }}">{{ project.full_name }}</a>
                 project {{ project.text|safe  }}
             </p>
             <p class="project-institutes">
