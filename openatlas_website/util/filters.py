@@ -2,9 +2,8 @@
 from typing import Iterator
 
 import flask
+import jinja2
 from flask import request, url_for
-
-from openatlas_website.util import util
 
 blueprint = flask.Blueprint('filters', __name__)
 
@@ -51,25 +50,26 @@ INSTITUTES = {
         'logo': 'gacr.png'}}
 
 
+@jinja2.contextfilter
 @blueprint.app_template_filter()
-def display_menu(unused_variable) -> str:
+def display_menu(self, unused_variable) -> str:
     """ Returns HTML with the menu and mark appropriate item as selected."""
     html = ''
-    selected = ''
     items = ['about', 'projects', 'team', 'events']
     for item in items:
-        if selected:  # pragma: no cover
-            active = 'active' if item == selected else ''
-        else:
-            active = 'active' if request.path.startswith('/' + item) or \
-                                 (item == 'about' and request.path == '/') else ''
+        active = ''
+        if request.path.startswith('/' + item):
+            active = 'active'
+        if item == 'about' and request.path == '/':
+            active = 'active'
         html += '<a class="nav-item nav-link {active}" href="{url}">{label}</a>'.format(
             active=active, url=url_for(item), label=item.upper())
     return html
 
 
+@jinja2.contextfilter
 @blueprint.app_template_filter()
-def display_institutes(institutes: Iterator) -> str:
+def display_institutes(self, institutes: Iterator) -> str:
     html = ''
     for short_name in institutes:
         institute = INSTITUTES[short_name]
