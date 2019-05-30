@@ -11,40 +11,29 @@
         <a href="https://redmine.openatlas.eu/projects/uni/wiki/Documentation" target="_blank">Documentation</a><br/>
         Code on <a href="https://github.com/craws/OpenAtlas" target="_blank">GitHub</a>
     </p>
-    <div class="gallery"  style="margin-top: 1em; margin-bottom: 2em;">
-        <img style="width: 120px;" src="/static/images/screenshot/screen1.png" alt="" data-toggle="modal" data-bigimage="/static/images/screenshot/screen1.png" data-target="#myModal" class="img-fluid">
-        <img style="width: 120px;" src="/static/images/screenshot/screen2.png" alt="" data-toggle="modal" data-bigimage="/static/images/screenshot/screen2.png"  data-target="#myModal" class="img-fluid">
-        <img style="width: 120px;" src="/static/images/screenshot/screen3.png" alt="" data-toggle="modal" data-bigimage="/static/images/screenshot/screen3.png"  data-target="#myModal" class="img-fluid">
+
+    <!-- The Gallery as lightbox dialog -->
+    <div id="blueimp-gallery" class="blueimp-gallery">
+        <div class="slides"></div>
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <a class="play-pause"></a>
+        <ol class="indicator"></ol>
     </div>
 
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <img src="//media.tenor.com/images/556e9ff845b7dd0c62dcdbbb00babb4b/tenor.gif" alt="" id="image" class="img-fluid">
-                </div>
-            </div>
-        </div>
+    <div id="links">
+        <a href="/static/images/screenshot/screen1.png" title="1">
+            <img style="width: 120px;" src="/static/images/screenshot/screen1.png" alt="1">
+        </a>
+        <a href="/static/images/screenshot/screen2.png" title="2">
+            <img style="width: 120px;" src="/static/images/screenshot/screen2.png" alt="2">
+        </a>
+        <a href="/static/images/screenshot/screen3.png" title="3">
+            <img style="width: 120px;" src="/static/images/screenshot/screen3.png" alt="3">
+        </a>
     </div>
-    <script>
-        $(document).ready(function() {
-            var $imageSrc;
-            $('.gallery img').click(function() {
-                $imageSrc = $(this).data('bigimage');
-            });
-            // when the modal is opened autoplay it
-            $('#myModal').on('shown.bs.modal', function (e) {
-                $("#image").attr('src', $imageSrc  );
-            })
-            // reset the modal image
-            $('#myModal').on('hide.bs.modal', function (e) {
-                // a poor man's stop video
-                $("#image").attr('src','');
-            })
-        });
-    </script>
     <p>
         Development was and is funded by several <a href="{{ url_for('projects') }}">projects</a>,
         grants, institutes  and departments:
@@ -55,4 +44,6 @@
     <p>
         Feel free to contact us at <a href="mailto:info@openatlas.eu">info@openatlas.eu</a>.
     </p>
+    <script src="/static/js/gallery.js"></script>
+    <script src="/static/vendor/blueimp-gallery-2.33.0/js/blueimp-gallery.min.js"></script>
 {% endblock %}
