@@ -6,9 +6,11 @@
             <a class="img" target="_blank" rel="noopener" href="{{ project.url }}"><img src="/static/images/projects/{{ project.img }}" alt="{{ name }}" /></a><br />
             <span class="image-license">{{ project.image_license }}</span>
         </div>
-        <div class="col">
-            <h5>{{ name }}</h5>
-            <p>{{ project.duration }}, PI: {{ project.pi }}</p>
+        <div class="col mb-5">
+            <p>
+                <span style="font-weight: bold;">{{ name }}</span><br>
+                {{ project.duration }}, PI: {{ project.pi }}
+            </p>
             <p>
                 {% if not project.full_name.startswith('The') %}The {% endif %}
                 <a target="_blank" rel="noopener" href="{{ project.url }}">{{ project.full_name }}</a>
