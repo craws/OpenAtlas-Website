@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
     <h3>Welcome to OpenAtlas</h3>
-    <p>
+    <p class="mt-4">
         OpenAtlas is an open source, web based database system for complex archaeological, historical and geospatial data.<br />
         The information is mapped as a network using classes and properties of the
         <a href="http://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a>.
@@ -23,25 +23,25 @@
         <ol class="indicator"></ol>
     </div>
 
-    <div id="links">
+    <div id="links" class="mb-4">
         <a href="/static/images/screenshot/screen1.png" title="1">
-            <img style="width: 120px;" src="/static/images/screenshot/screen1.png" alt="1">
+            <img style="width:120px;" src="/static/images/screenshot/screen1.png" alt="1">
         </a>
         <a href="/static/images/screenshot/screen2.png" title="2">
-            <img style="width: 120px;" src="/static/images/screenshot/screen2.png" alt="2">
+            <img style="width:120px;" src="/static/images/screenshot/screen2.png" alt="2">
         </a>
         <a href="/static/images/screenshot/screen3.png" title="3">
-            <img style="width: 120px;" src="/static/images/screenshot/screen3.png" alt="3">
+            <img style="width:120px;" src="/static/images/screenshot/screen3.png" alt="3">
         </a>
     </div>
     <p>
         Development was and is funded by several <a href="{{ url_for('projects') }}">projects</a>,
         grants, institutes  and departments:
     </p>
-    <p id="credits">
+    <div id="credits">
         {{ ['OEAW', 'IMAFO', 'ACDH', 'ERC', 'univie', 'FWF']|display_institutes|safe }}
-    </p>
-    <p>
+    </div>
+    <p class="mt-4">
         Feel free to contact us at <a href="mailto:info@openatlas.eu">info@openatlas.eu</a>.
     </p>
     <script src="/static/js/gallery.js"></script>

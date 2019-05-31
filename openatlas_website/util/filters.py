@@ -70,11 +70,12 @@ def display_menu(self, unused_variable) -> str:
 @jinja2.contextfilter
 @blueprint.app_template_filter()
 def display_institutes(self, institutes: Iterator) -> str:
-    html = ''
+    html = '<div>'
     for short_name in institutes:
         institute = INSTITUTES[short_name]
         html += '''
-            <a href="{url}" target="_blank" class="img">
+            <a href="{url}" target="_blank">
                 <img src="/static/images/credits/{logo}" alt="{name}" title="{name}"/>
             </a>'''.format(url=institute['url'], logo=institute['logo'], name=institute['name'])
+    html += '</div>'
     return html

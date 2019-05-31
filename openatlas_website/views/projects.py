@@ -17,12 +17,9 @@ def projects():
             'pi': 'Stefan Eichert',
             'duration': '2019 - 2022',
             'institutes': ['OEAW', 'OeAI', 'ACDH'],
-            'text': """hat zum Ziel ein Online Repositorium der frühmittelalterlichen Grabfunde
-                Österreichs zu erschaffen. Es vereint mit Archäologie, Anthropologie und Digital
-                Humanities drei Disziplinen. Die bisher bekannten und veröffentlichten Grabfunde
-                werden dafür mit dem Open Source Datenbanksystem OpenAtlas, das die Informationen
-                nach dem international etablierten Standard des CIDOC CRM modelliert,
-                aufgenommen."""}),
+            'text': """has the aim to create a repository of early medieval Austrian grave finds.
+                It combines the three disciplines archaeology, anthropologie and digital humanities.
+                """}),
         ('CONNEC', {
             'url': 'http://www.connectedclerics.com/',
             'full_name': 'Connected Clerics: Building a Universal Church in the Late Antique West (380-604 CE)',
@@ -31,8 +28,8 @@ def projects():
             'pi': 'David Natal',
             'duration': '2018 - 2022',
             'institutes': ['RHUL', 'OEAW', 'ACDH', 'ERC'],
-            'text': """analyses how a ‘universal’ late antique Church was constructed despite the 
-                context of political fragmentation that precipitated the end of the Western 
+            'text': """analyses how a ‘universal’ late antique Church was constructed despite the
+                context of political fragmentation that precipitated the end of the Western
                 Roman Empire and its division into smaller polities."""}),
         ('DPP', {
             'url': 'http://dpp.oeaw.ac.at/',
@@ -42,9 +39,9 @@ def projects():
             'pi': 'Mihailo Popović',
             'duration': '2015 - 2019',
             'institutes': ['OEAW', 'IMAFO', 'univie'],
-            'text': """focuses on the analysis of the depiction of space in medieval written 
-                sources, of the interaction between built and natural environment, of appropriation 
-                of space and the emergence of new political, religious and economic structures of 
+            'text': """focuses on the analysis of the depiction of space in medieval written
+                sources, of the interaction between built and natural environment, of appropriation
+                of space and the emergence of new political, religious and economic structures of
                 power."""}),
         ('MEDCON', {
             'url': 'https://oeaw.academia.edu/MappingMedievalConflict',
@@ -54,18 +51,18 @@ def projects():
             'pi': 'Johannes Preiser-Kapeller',
             'duration': '2014 - 2017',
             'institutes': ['OEAW', 'IMAFO'],
-            'text': """examined the explanatory power of concepts of social and spatial network 
+            'text': """examined the explanatory power of concepts of social and spatial network
                     analysis for phenomena of political conflict in medieval societies."""}),
         ("Frontier, Contact Zone or No Man's Land", {
             'url': 'http://www.openatlas.eu/gkn',
             'full_name': "Frontier, Contact Zone or No Man's Land",
             'img': 'frontier.png',
             'pi': 'Stefan Eichert, Jiří Macháček',
-            'duration': '2012 - ?',
+            'duration': '2014 - 2017',
             'institutes': ['univie', 'MU', 'FWF', 'GACR'],
-            'text': """handelt um ein internationales österreichisch-tschechisches
-                Forschungsprojekt, das vom Österreichischen Wissenschaftsfond (FWF) und Grantová
-                agentura České republiky (GA ČR) gefördert wird."""}),
+            'text': """is a international Austrian-Czech research project sponsored by the
+                Österreichischen Wissenschaftsfond (FWF) and Grantová agentura České republiky
+                (GA ČR)."""}),
          ('The Eastern Alps Revisited', {
              'url': 'https://www.oeaw.ac.at/imafo/forschung/historische-identitaetsforschung/projekte/weitere-projekte/ostalpenraum-revisited/',
              'full_name': 'The Eastern Alps Revisited',
@@ -74,7 +71,7 @@ def projects():
              'pi': 'Maximilian Diesenberger, Claudia Theune Vogt',
              'duration': '2012 - 2016',
              'institutes': ['OEAW', 'IMAFO', 'FWF'],
-             'text': """focused on the transformation of the late antique province of Noricum 
-                         Mediterraneum into an area inhabited by a Slavic-speaking population that 
+             'text': """focused on the transformation of the late antique province of Noricum
+                         Mediterraneum into an area inhabited by a Slavic-speaking population that
                          eventually became part of Bavaria. """})])
     return render_template('projects.html', projects=projects_)
