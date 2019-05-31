@@ -39,13 +39,13 @@ def team():
             'function': 'Quality Assurance',
             'text': """Daniels main occupation is at the Austria Press Agency but from time to time
                 he goes on a bug hunt, tests the application with different devices and browsers and
-                does other important tasks to improve the user experience of using OpenAtlas.""",
+                does other important tasks to improve the user experience.""",
             'img': 'daniel.png',
             'image_license': 'CC-BY 4.0, Jan Belik'}),
         ('Christoph Hoffmann', {
             'email': 'christoph.hoffmann@oeaw.ac.at',
             'function': 'Frontend Development',
-            'text': """Christoph is engaged in Webdesign and Frontend-Development. As a philosophy
+            'text': """Christoph is engaged in web design and frontend development. As a philosophy
                 student at the University of Vienna, he is interested in the epistemological
                 implications of digital research methods in the humanities.""",
             'img': 'christoph.jpg',
