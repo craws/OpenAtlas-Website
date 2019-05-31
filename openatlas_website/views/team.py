@@ -44,7 +44,7 @@ def team():
             'image_license': 'CC-BY 4.0, Jan Belik'}),
         ('Christoph Hoffmann', {
             'email': 'christoph.hoffmann@oeaw.ac.at',
-            'function': 'Frontend Development, Maps',
+            'function': 'Frontend Development',
             'text': """Christoph is engaged in Webdesign and Frontend-Development. As a philosophy
                 student at the University of Vienna, he is interested in the epistemological
                 implications of digital research methods in the humanities.""",
