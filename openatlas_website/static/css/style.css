@@ -9,6 +9,7 @@ img.team {
 
 .screenshot {
     margin-right: 1em;
+    margin-top: 0.5em;
 }
 
 .projects img {
@@ -18,6 +19,7 @@ img.team {
 #credits img {
     max-height: 40px;
     margin-right: 2em;
+    margin-top: 0.5em;
 }
 
 .projects-institutes img {

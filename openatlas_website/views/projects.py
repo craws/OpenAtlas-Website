@@ -14,11 +14,11 @@ def projects():
             'full_name': 'The Anthropological and Archaeological Database of Sepultures',
             'img': 'thanados.png',
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
-            'pi': 'Stefan Eichert',
+            'pi': 'Stefan Eichert, Nina Brundke',
             'duration': '2019 - 2022',
             'institutes': ['OEAW', 'OeAI', 'ACDH'],
             'text': """has the aim to create a repository of early medieval Austrian grave finds.
-                It combines the three disciplines archaeology, anthropologie and digital humanities.
+                It combines the three disciplines archaeology, anthropology and digital humanities.
                 """}),
         ('CONNEC', {
             'url': 'http://www.connectedclerics.com/',
@@ -60,8 +60,8 @@ def projects():
             'pi': 'Stefan Eichert, Jiří Macháček',
             'duration': '2014 - 2017',
             'institutes': ['univie', 'MU', 'FWF', 'GACR'],
-            'text': """is a international Austrian-Czech research project sponsored by the
-                Österreichischen Wissenschaftsfond (FWF) and Grantová agentura České republiky
+            'text': """is an international Austrian-Czech research project sponsored by the
+                Austrian Science Fund (FWF) and Grantová agentura České republiky
                 (GA ČR)."""}),
          ('The Eastern Alps Revisited', {
              'url': 'https://www.oeaw.ac.at/imafo/forschung/historische-identitaetsforschung/projekte/weitere-projekte/ostalpenraum-revisited/',
