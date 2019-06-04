@@ -49,7 +49,7 @@ def team():
                 student at the University of Vienna, he is interested in the epistemological
                 implications of digital research methods in the humanities.""",
             'img': 'christoph.jpg',
-            'image_license': 'CC-BY 4.0, Sandra Lehecka'}),
+            'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'}),
         ('Bernhard Koschicek', {
             'email': 'bernhard.koschicek@oeaw.ac.at',
             'function': 'Software Development',

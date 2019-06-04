@@ -1,5 +1,4 @@
 # Created by Alexander Watzinger and others. Please see README.md for licensing information
-
 from flask import render_template
 
 from openatlas_website import app
