@@ -32,7 +32,7 @@ def projects():
                 context of political fragmentation that precipitated the end of the Western
                 Roman Empire and its division into smaller polities."""}),
         ('DPP', {
-            'url': 'http://dpp.oeaw.ac.at/',
+            'url': 'https://dpp.oeaw.ac.at/',
             'full_name': 'Digitising Patterns of Power',
             'img': 'dpp.jpg',
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
