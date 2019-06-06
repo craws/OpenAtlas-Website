@@ -1,11 +1,6 @@
 # Created by Alexander Watzinger and others. Please see README.md for licensing information
 from flask import Flask, request
 
-try:
-    import mod_wsgi
-except ImportError:
-    mod_wsgi = None
-
 app = Flask(__name__, instance_relative_config=True)
 app.config.from_object('config.default')  # Load config
 app.config.from_pyfile('production.py')  # Load instance
