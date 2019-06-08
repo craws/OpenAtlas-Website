@@ -12,7 +12,7 @@ def events():
         ('2019-06-18', {'country': 'Austria',
                         'city': 'Vienna',
                         'institute': 'WUK',
-                        'name': 'OpenAtlas summer meeting 2019',
+                        'name': 'OpenAtlas and THANADOS summer meeting',
                         'link': '',
                         'title': ''}),
         ('2019-07-03', {'country': 'United Kingdom',
