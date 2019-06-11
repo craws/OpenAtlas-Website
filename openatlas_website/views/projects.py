@@ -67,7 +67,7 @@ def projects():
              'url': 'https://www.oeaw.ac.at/imafo/forschung/historische-identitaetsforschung/projekte/weitere-projekte/ostalpenraum-revisited/',
              'full_name': 'The Eastern Alps Revisited',
              'img': 'ostalpen.png',
-             'image_license': '',
+             'image_license': 'CC-BY-SA 4.0, Dagmar Giesriegl',
              'pi': 'Maximilian Diesenberger, Claudia Theune Vogt',
              'duration': '2012 - 2016',
              'institutes': ['OEAW', 'IMAFO', 'FWF'],
