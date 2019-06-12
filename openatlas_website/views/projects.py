@@ -57,6 +57,7 @@ def projects():
             'url': 'http://www.openatlas.eu/gkn',
             'full_name': "Frontier, Contact Zone or No Man's Land",
             'img': 'frontier.png',
+            'image_license': 'CC-BY-SA 4.0, Stefan Eichert',
             'pi': 'Stefan Eichert, Jiří Macháček',
             'duration': '2014 - 2017',
             'institutes': ['univie', 'MU', 'FWF', 'GACR'],

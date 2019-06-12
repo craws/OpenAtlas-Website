@@ -22,7 +22,7 @@
         <a class="play-pause"></a>
         <ol class="indicator"></ol>
     </div>
-
+    <p>Screenshots:</p>
     <div id="links" class="mb-5">
         <a href="/static/images/screenshot/1_big.png" title="About">
             <img class="screenshot" src="/static/images/screenshot/1_small.png" alt="About">
@@ -45,7 +45,7 @@
     </div>
     <p>
         Development was and is funded by several <a href="{{ url_for('projects') }}">projects</a>,
-        grants, institutes  and departments.
+        grants, institutes  and departments:
     </p>
     <div id="credits" class="mb-5">
         {{ ['OEAW', 'IMAFO', 'ACDH', 'ERC', 'univie', 'FWF']|display_institutes|safe }}

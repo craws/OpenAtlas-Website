@@ -10,25 +10,37 @@ img.team {
 .screenshot {
     margin-right: 1em;
     margin-top: 0.5em;
+    max-width: 400px;
 }
 
+.projects {
+    margin-bottom: 0.5em;
+    padding-right: 1.5em;
+}
 .projects img {
     max-width: 200px;
+    max-height: 100px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding-right: 1em;
 }
 
 #credits img {
     max-height: 40px;
-    margin-right: 2em;
-    margin-top: 0.5em;
+    margin-right: 1.5em;
+    margin-top: 1em;
 }
 
 .projects-institutes img {
     max-height: 36px;
-    margin-right: 2em;
+    margin-right: 1.5em;
+    margin-top: 1em;
 }
 
-span.image-license {
+.image-license {
     color: #999999;
     font-size: 0.6em;
     white-space: nowrap;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
 }
