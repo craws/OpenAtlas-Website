@@ -3,9 +3,11 @@
 {% for name, project in projects.items() %}
     <div class="row mb-5">
         <div class="col-md-3 mr-4 projects">
-            <a class="img" target="_blank" rel="noopener" href="{{ project.url }}"><img src="/static/images/projects/{{ project.img }}" alt="{{ name }}" /></a><br />
-            {% if project.image_license %}
-                <span class="image-license">{{ project.image_license }}</span>
+            {% if project.img %}
+                <a class="img" target="_blank" rel="noopener" href="{{ project.url }}"><img src="/static/images/projects/{{ project.img }}" alt="{{ name }}" /></a><br />
+                {% if project.image_license %}
+                    <span class="image-license">{{ project.image_license }}</span>
+                {% endif %}
             {% endif %}
         </div>
         <div class="col mb-5">

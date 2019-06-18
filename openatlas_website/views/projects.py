@@ -31,6 +31,20 @@ def projects():
             'text': """analyses how a ‘universal’ late antique Church was constructed despite the
                 context of political fragmentation that precipitated the end of the Western
                 Roman Empire and its division into smaller polities."""}),
+        ('A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)', {
+            'url': 'https://orthodoxes-wien.oeaw.ac.at/',
+            'full_name': 'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)',
+            'img': '',
+            'image_license': '',
+            'pi': 'Mihailo Popović',
+            'duration': '2018 - 2019',
+            'institutes': ['Wien Kultur', 'OEAW', 'IMAFO', 'Byzantine Research', 'AIT', 'BCM',
+                           'NLS', 'Biblioteka Matice Srpske'],
+            'text': """uses biographical data on the Orthodox 
+                Serbs in Vienna in the period from 1741 until 1918 in order to illustrate how 
+                the Orthodox began to migrate to the Habsburg Empire, how Orthodox merchants 
+                settled in Vienna and how they integrated into Viennese society of that time.
+                """}),
         ('DPP', {
             'url': 'https://dpp.oeaw.ac.at/',
             'full_name': 'Digitising Patterns of Power',

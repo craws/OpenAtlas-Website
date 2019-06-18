@@ -47,7 +47,33 @@ INSTITUTES = {
     'GACR': {
         'name': 'Czech Science Foundation ',
         'url': 'https://gacr.cz',
-        'logo': 'gacr.png'}}
+        'logo': 'gacr.png'},
+    'Wien Kultur': {
+        'name': 'Wien Kultur (MA 7)',
+        'url': 'https://www.wien.gv.at/kultur/abteilung/',
+        'logo': 'wien_kultur.jpg'},
+    'Byzantine Research': {
+        'name': 'Byzantine Research',
+        'url': 'https://www.oeaw.ac.at/en/byzantine-research/',
+        'logo': 'byzantine_research.png'},
+    'AIT': {
+        'name': 'Austrian Institute of Technology',
+        'url': 'https://www.ait.ac.at/',
+        'logo': 'ait.jpg'},
+    'BCM': {
+        'name': 'Belgrade City Museum',
+        'url': 'http://www.mgb.org.rs/en/',
+        'logo': 'bcm.png'},
+    'NLS': {
+        'name': 'National Library of Serbia',
+        'url': 'https://www.nb.rs',
+        'logo': 'nls.jpg'},
+    'Biblioteka Matice Srpske': {
+        'name': 'Biblioteka Matice Srpske',
+        'url': 'http://www.bms.ns.ac.rs/bms101.htm',
+        'logo': 'biblioteka_matice_srpske.png'},
+
+}
 
 
 @jinja2.contextfilter
