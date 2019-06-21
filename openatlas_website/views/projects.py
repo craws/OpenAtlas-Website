@@ -24,7 +24,7 @@ def projects():
             'url': 'http://www.connectedclerics.com/',
             'full_name': 'Connected Clerics: Building a Universal Church in the Late Antique West (380-604 CE)',
             'img': 'connec.jpg',
-            'image_license': '',
+            'image_license': 'CC-BY-SA 4.0, Sapfo Psani',
             'pi': 'David Natal',
             'duration': '2018 - 2022',
             'institutes': ['RHUL', 'OEAW', 'ACDH', 'ERC'],
