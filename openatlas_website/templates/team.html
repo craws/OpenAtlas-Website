@@ -2,7 +2,7 @@
 {% block content %}
 {% for name, person in team.items() %}
     <div class="row mb-4">
-        <div class="col-xs-auto mr-4 team-image">
+        <div class="col-xs-auto mr-4">
             <img class="team" src="/static/images/team/{{ person.img }}" alt=""/><br />
             {% if person.image_license %}
                 <span class="image-license">{{ person.image_license|safe }}</span>
