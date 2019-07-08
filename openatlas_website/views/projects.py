@@ -10,7 +10,7 @@ from openatlas_website import app
 def projects():
     projects_ = OrderedDict([
         ('THANADOS', {
-            'url': 'https://www.oeaw.ac.at/stipendien-foerderungen/foerderprogramme/godigital/godigital-next-generation-ausgewaehlte-projekte/',
+            'url': '',
             'full_name': 'The Anthropological and Archaeological Database of Sepultures',
             'img': 'thanados.png',
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
@@ -45,6 +45,17 @@ def projects():
                 the Orthodox began to migrate to the Habsburg Empire, how Orthodox merchants 
                 settled in Vienna and how they integrated into Viennese society of that time.
                 """}),
+        ('PLAS', {
+            'url': '',
+            'full_name': 'The Prosopography of the Lascarid Period',
+            'img': 'plas.jpg',
+            'image_license': 'CC-BY-SA 4.0, Ekaterini Mitsiou and </br>Johannes Preiser-Kapeller',
+            'pi': 'Ekaterini Mitsiou',
+            'duration': '2018 - ongoing',
+            'institutes': [],
+            'text': """aims at creating a prosopographical database for the first half of the 13th
+                century Byzantium mapping the complexities of a society in transition..
+            """}),
         ('DPP', {
             'url': 'https://dpp.oeaw.ac.at/',
             'full_name': 'Digitising Patterns of Power',

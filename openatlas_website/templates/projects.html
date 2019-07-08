@@ -4,9 +4,15 @@
     <div class="row mb-5">
         <div class="col-md-3 mr-4 projects">
             {% if project.img %}
-                <a class="img" target="_blank" rel="noopener" href="{{ project.url }}"><img src="/static/images/projects/{{ project.img }}" alt="{{ name }}" /></a><br />
+                {% if project.url %}
+                    <a class="img" target="_blank" rel="noopener" href="{{ project.url }}">
+                {% endif %}
+                <img src="/static/images/projects/{{ project.img }}" alt="{{ name }}" />
+                {% if project.url %}
+                    </a>
+                {% endif %}
                 {% if project.image_license %}
-                    <span class="image-license">{{ project.image_license }}</span>
+                    <br /><span class="image-license">{{ project.image_license|safe }}</span>
                 {% endif %}
             {% endif %}
         </div>
@@ -17,7 +23,11 @@
             </p>
             <p>
                 {% if not project.full_name.startswith('The') %}The {% endif %}
-                <a target="_blank" rel="noopener" href="{{ project.url }}">{{ project.full_name }}</a>
+                {% if project.url %}
+                    <a target="_blank" rel="noopener" href="{{ project.url }}">{{ project.full_name }}</a>
+                {% else %}
+                    <span style="font-weight:bold;">{{ project.full_name }}</span>
+                {% endif %}
                 project {{ project.text|safe  }}
             </p>
             <div class="projects-institutes">
