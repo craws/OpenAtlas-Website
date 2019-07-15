@@ -31,6 +31,22 @@ def projects():
             'text': """analyses how a ‘universal’ late antique Church was constructed despite the
                 context of political fragmentation that precipitated the end of the Western
                 Roman Empire and its division into smaller polities."""}),
+        ('Maps of Power', {
+            'url': 'https://tib.oeaw.ac.at/index.php?seite=digtib',
+            'full_name': 'Maps of Power: Historical Atlas of Places, Borderzones and Migration Dynamics in Byzantium',
+            'img': 'tib.png',
+            'image_license': '',
+            'pi': 'Andreas Külzer, Mihailo Popović',
+            'duration': '2019 - ongoing',
+            'institutes': ['OEAW', 'IMAFO', 'FWF', 'Byzantine Research', 'UAI'],
+            'text': """ (a subproject of the Long-Term Project Tabula Imperii Byzantini (TIB) of 
+            the Austrian Academy of Sciences in Vienna) creates, develops and upkeeps the online 
+            atlas "Maps of Power:
+            Historical Atlas of Places, Borderzones and Migration Dynamics in Byzantium".
+            Parts from the large pool of the rich analogue data of the TIB are extracted in order to
+            address digitally new scholarly questions and methods. The academia as well as the
+            interested public are warmly encouraged to query the respective TIB data and
+                to engage in our discourse on the Mapping of Byzantium."""}),
         ('A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)', {
             'url': 'https://orthodoxes-wien.oeaw.ac.at/',
             'full_name': 'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)',

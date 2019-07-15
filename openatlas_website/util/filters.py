@@ -55,7 +55,7 @@ INSTITUTES = {
     'Byzantine Research': {
         'name': 'Byzantine Research',
         'url': 'https://www.oeaw.ac.at/en/byzantine-research/',
-        'logo': 'byzantine_research.png'},
+        'logo': 'byzantine_research.jpg'},
     'AIT': {
         'name': 'Austrian Institute of Technology',
         'url': 'https://www.ait.ac.at/',
@@ -72,7 +72,10 @@ INSTITUTES = {
         'name': 'Biblioteka Matice Srpske',
         'url': 'http://www.bms.ns.ac.rs/bms101.htm',
         'logo': 'biblioteka_matice_srpske.png'},
-
+    'UAI': {
+        'name': 'Union Académique Internationale',
+        'url': 'http://www.uai-iua.org/en',
+        'logo': 'uai.jpg'}
 }
 
 
