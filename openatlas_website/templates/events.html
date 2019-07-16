@@ -26,19 +26,22 @@
 {% if upcoming %}
     <h4 class="mt-4 mb-4">Past</h4>
 {% endif %}
-{% for date, event in past.items() %}
-    <div class="mb-4">
-        {{ date }}<br/>
-        {% if event.link %}
-            <a href="{{ event.link }}" target="_blank">{{ event.name }}</a>
-        {% else %}
-            {{ event.name }}
-        {% endif %}
-        <br/>
-        {% if event.title %}
-            <strong>{{ event.title }}</strong><br/>
-        {% endif %}
-        {{ event.country }}, {{ event.city }}, {{ event.institute }}
-    </div>
+{% for year, events in past.items() %}
+    <h4>{{year}}</h4>
+    {% for date, event in events.items() %}
+        <div class="mb-4">
+            {{ date }}
+            {% if event.link %}
+                <a href="{{ event.link }}" target="_blank">{{ event.name }}</a>
+            {% else %}
+                {{ event.name }}
+            {% endif %}
+            <br/>
+            {% if event.title %}
+                <strong>{{ event.title }}</strong><br/>
+            {% endif %}
+            {{ event.country }}, {{ event.city }}, {{ event.institute }}
+        </div>
+    {% endfor %}
 {% endfor %}
 {% endblock %}
