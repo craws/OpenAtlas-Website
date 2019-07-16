@@ -30,7 +30,7 @@
     <h4>{{year}}</h4>
     {% for date, event in events.items() %}
         <div class="mb-4">
-            {{ date }}
+            {{ date }}<br/>
             {% if event.link %}
                 <a href="{{ event.link }}" target="_blank">{{ event.name }}</a>
             {% else %}
