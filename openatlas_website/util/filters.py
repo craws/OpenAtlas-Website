@@ -72,6 +72,10 @@ INSTITUTES = {
         'name': 'Biblioteka Matice Srpske',
         'url': 'http://www.bms.ns.ac.rs/bms101.htm',
         'logo': 'biblioteka_matice_srpske.png'},
+    'TIB': {
+        'name': 'Tabula Imperii Byzantini',
+        'url': 'https://tib.oeaw.ac.at',
+        'logo': 'tib.png',},
     'UAI': {
         'name': 'Union Académique Internationale',
         'url': 'http://www.uai-iua.org/en',
