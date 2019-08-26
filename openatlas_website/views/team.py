@@ -25,6 +25,22 @@ def team():
                 PostgreSQL, Linux, and open source software in general.""",
             'img': 'alex.jpg',
             'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'}),
+        ('Bernhard Koschicek', {
+            'email': 'bernhard.koschicek@oeaw.ac.at',
+            'function': 'Software Development',
+            'text': """Berni is a student of Computer Sciences and currently student of history.
+            Research interests include computer security, Python, digital reservation,
+            historical geographie, GIS, medieval and military history.""",
+            'img': 'bernhard.jpg',
+            'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'}),
+        ('Christoph Hoffmann', {
+            'email': 'christoph.hoffmann@oeaw.ac.at',
+            'function': 'Frontend Development',
+            'text': """Christoph is engaged in web design and frontend development. As a philosophy
+            student at the University of Vienna, he is interested in the epistemological
+            implications of digital research methods in the humanities.""",
+            'img': 'christoph.jpg',
+            'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'}),
         ('Jan Belik', {
             'email': 'buero@janbelik.com',
             'function': 'Logo Design and Design Consulting',
@@ -41,21 +57,5 @@ def team():
                 he goes on a bug hunt, tests the application with different devices and browsers and
                 does other important tasks to improve the user experience.""",
             'img': 'daniel.jpg',
-            'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'}),
-        ('Christoph Hoffmann', {
-            'email': 'christoph.hoffmann@oeaw.ac.at',
-            'function': 'Frontend Development',
-            'text': """Christoph is engaged in web design and frontend development. As a philosophy
-                student at the University of Vienna, he is interested in the epistemological
-                implications of digital research methods in the humanities.""",
-            'img': 'christoph.jpg',
-            'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'}),
-        ('Bernhard Koschicek', {
-            'email': 'bernhard.koschicek@oeaw.ac.at',
-            'function': 'Software Development',
-            'text': """Berni is a student of Computer Sciences and currently student of history.
-                Research interests include computer security, Python, digital reservation,
-                historical geographie, GIS, medieval and military history.""",
-            'img': 'bernhard.jpg',
             'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'})])
     return render_template('team.html', team=team_)
