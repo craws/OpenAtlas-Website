@@ -7,7 +7,7 @@ from openatlas_website import app
 
 
 @app.route('/projects')
-def projects():
+def projects() -> str:
     projects_ = OrderedDict([
         ('THANADOS', {
             'url': '',

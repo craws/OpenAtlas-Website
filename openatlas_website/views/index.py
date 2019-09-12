@@ -5,7 +5,7 @@ from openatlas_website import app
 
 
 @app.route('/')
-def about():
+def about() -> str:
     return render_template('about.html')
 
 

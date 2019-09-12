@@ -7,7 +7,7 @@ from openatlas_website import app
 
 
 @app.route('/team')
-def team():
+def team() -> str:
     team_ = OrderedDict([
         ('Stefan Eichert', {
             'email': 'stefan.eichert@oeaw.ac.at',

@@ -9,7 +9,18 @@ from openatlas_website import app
 @app.route('/events')
 def events():
     upcoming = OrderedDict([
-
+        ('2019-10-22', {'country': 'United Kingdom',
+                        'city': 'London',
+                        'institute': 'Royal Holloway',
+                        'name': 'OpenAtlas Workshop',
+                        'link': '',
+                        'title': ''}),
+        ('2020-07-06', {'country': 'United Kingdom',
+                        'city': 'Leeds',
+                        'institute': 'University of Leeds',
+                        'name': 'International Medieval Congress 2020',
+                        'link': 'https://www.imc.leeds.ac.uk/imc2020/',
+                        'title': 'OpenAtlas - Open Software without Borders'}),
         ])
     past = OrderedDict([
         ('2019', OrderedDict([
@@ -18,15 +29,13 @@ def events():
                             'institute': 'Austrian Centre for Digital Humanities',
                             'name': 'ACDH - Meet the Researchers',
                             'link': 'https://www.oeaw.ac.at/acdh/education/acdh-internships/meet-the-researchers/',
-                            'title': '''Introduction to CIDOC CRM with OpenAtlas as an example use case
-                                '''}),
+                            'title': 'Introduction to CIDOC CRM with OpenAtlas as an example use case'}),
             ('2019-07-03', {'country': 'United Kingdom',
                             'city': 'Leeds',
                             'institute': 'University of Leeds',
                             'name': 'International Medieval Congress 2019',
                             'link': 'https://www.imc.leeds.ac.uk/imc2019/',
-                            'title': '''OpenAtlas - An open source application to map historical data 
-                                        with CIDOC CRM'''}),
+                            'title': 'OpenAtlas - An open source application to map historical data with CIDOC CRM'}),
             ('2019-06-18', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'WUK',
