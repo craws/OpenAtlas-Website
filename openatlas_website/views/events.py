@@ -24,6 +24,12 @@ def events():
         ])
     past = OrderedDict([
         ('2019', OrderedDict([
+            ('2019-10-18', {'country': 'Austria',
+                            'city': 'Vienna',
+                            'institute': 'Austrian Academy of Sciences',
+                            'name': 'Byzantino-Serbian Borderzones in Transition',
+                            'link': '/static/documents/Byzantino-Serbian_Borderzones_in_Transition.pdf',
+                            'title': 'OpenAtlas'}),
             ('2019-07-16', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'Austrian Centre for Digital Humanities',
