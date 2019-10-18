@@ -28,7 +28,7 @@ def events():
                             'city': 'Vienna',
                             'institute': 'Austrian Academy of Sciences',
                             'name': 'Byzantino-Serbian Borderzones in Transition',
-                            'link': '/static/documents/Byzantino-Serbian_Borderzones_in_Transition.pdf',
+                            'link': 'https://openatlas.eu/static/documents/Byzantino-Serbian_Borderzones_in_Transition.pdf',
                             'title': 'OpenAtlas'}),
             ('2019-07-16', {'country': 'Austria',
                             'city': 'Vienna',
