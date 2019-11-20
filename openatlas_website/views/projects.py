@@ -10,7 +10,7 @@ from openatlas_website import app
 def projects() -> str:
     projects_ = OrderedDict([
         ('THANADOS', {
-            'url': '',
+            'url': 'https://thanados.net',
             'full_name': 'The Anthropological and Archaeological Database of Sepultures',
             'img': 'thanados.png',
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
