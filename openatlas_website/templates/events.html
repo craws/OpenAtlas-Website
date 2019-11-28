@@ -10,15 +10,15 @@
 {% endif %}
 {% for date, event in upcoming.items() %}
     <div class="mb-4">
-        {{ date }}<br/>
+        {{ date }}<br>
         {% if event.link %}
             <a href="{{ event.link }}" target="_blank">{{ event.name }}</a>
         {% else %}
             {{ event.name }}
         {% endif %}
-        <br/>
+        <br>
         {% if event.title %}
-            <strong>{{ event.title }}</strong><br/>
+            <strong>{{ event.title }}</strong><br>
         {% endif %}
         {{ event.country }}, {{ event.city }}, {{ event.institute }}
     </div>
@@ -30,15 +30,15 @@
     <h4>{{year}}</h4>
     {% for date, event in events.items() %}
         <div class="mb-4">
-            {{ date }}<br/>
+            {{ date }}<br>
             {% if event.link %}
                 <a href="{{ event.link }}" target="_blank">{{ event.name }}</a>
             {% else %}
                 {{ event.name }}
             {% endif %}
-            <br/>
+            <br>
             {% if event.title %}
-                <strong>{{ event.title }}</strong><br/>
+                <strong>{{ event.title }}</strong><br>
             {% endif %}
             {{ event.country }}, {{ event.city }}, {{ event.institute }}
         </div>

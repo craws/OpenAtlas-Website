@@ -1,4 +1,3 @@
-# Created by Alexander Watzinger and others. Please see README.md for licensing information
 from flask import Flask, request
 
 app = Flask(__name__, instance_relative_config=True)

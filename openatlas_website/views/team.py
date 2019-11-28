@@ -1,4 +1,3 @@
-# Created by Alexander Watzinger and others. Please see README.md for licensing information
 from collections import OrderedDict
 
 from flask import render_template
@@ -16,7 +15,7 @@ def team() -> str:
                 His main research fields are early medieval history and archaeology as well as
                 computer applications in archaeology and digital humanities.""",
             'img': 'stefan.jpg',
-            'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'}),
+            'image_license': 'CC-BY 4.0,<br> Sandra Lehecka'}),
         ('Alexander Watzinger', {
             'email': 'alexander.watzinger@oeaw.ac.at',
             'function': 'Lead Developer and Concept',
@@ -24,7 +23,7 @@ def team() -> str:
                 in data modeling and scientific web applications. His favorite tools are Python,
                 PostgreSQL, Linux, and open source software in general.""",
             'img': 'alex.jpg',
-            'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'}),
+            'image_license': 'CC-BY 4.0,<br> Sandra Lehecka'}),
         ('Bernhard Koschicek', {
             'email': 'bernhard.koschicek@oeaw.ac.at',
             'function': 'Software Development',
@@ -32,7 +31,7 @@ def team() -> str:
             Research interests include computer security, Python, digital reservation,
             historical geographie, GIS, medieval and military history.""",
             'img': 'bernhard.jpg',
-            'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'}),
+            'image_license': 'CC-BY 4.0,<br> Sandra Lehecka'}),
         ('Christoph Hoffmann', {
             'email': 'christoph.hoffmann@oeaw.ac.at',
             'function': 'Frontend Development',
@@ -40,7 +39,7 @@ def team() -> str:
             student at the University of Vienna, he is interested in the epistemological
             implications of digital research methods in the humanities.""",
             'img': 'christoph.jpg',
-            'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'}),
+            'image_license': 'CC-BY 4.0,<br> Sandra Lehecka'}),
         ('Jan Belik', {
             'email': 'buero@janbelik.com',
             'function': 'Logo Design and Design Consulting',
@@ -49,7 +48,7 @@ def team() -> str:
                 He has plenty of experience working with local and international brands and has
                 created a range of OpenAtlas project logos.""",
             'img': 'jan.jpg',
-            'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'}),
+            'image_license': 'CC-BY 4.0,<br> Sandra Lehecka'}),
         ('Daniel Kittel', {
             'email': 'daniel.kittel@craws.net',
             'function': 'Quality Assurance',
@@ -57,5 +56,5 @@ def team() -> str:
                 he goes on a bug hunt, tests the application with different devices and browsers and
                 does other important tasks to improve the user experience.""",
             'img': 'daniel.jpg',
-            'image_license': 'CC-BY 4.0,<br/> Sandra Lehecka'})])
+            'image_license': 'CC-BY 4.0,<br> Sandra Lehecka'})])
     return render_template('team.html', team=team_)

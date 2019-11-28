@@ -1,4 +1,3 @@
-# Created by Alexander Watzinger and others. Please see README.md for licensing information
 from collections import OrderedDict
 
 from flask import render_template

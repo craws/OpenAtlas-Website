@@ -13,12 +13,12 @@
                 {% if project.url %}
                     <a class="img" target="_blank" rel="noopener" href="{{ project.url }}">
                 {% endif %}
-                <img src="/static/images/projects/{{ project.img }}" alt="{{ name }}" />
+                <img src="/static/images/projects/{{ project.img }}" alt="{{ name }}">
                 {% if project.url %}
                     </a>
                 {% endif %}
                 {% if project.image_license %}
-                    <br /><span class="image-license">{{ project.image_license|safe }}</span>
+                    <br><span class="image-license">{{ project.image_license|safe }}</span>
                 {% endif %}
             {% endif %}
         </div>
