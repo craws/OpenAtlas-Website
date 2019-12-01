@@ -1,10 +1,10 @@
-from typing import Iterator
+from typing import Any, Iterator
 
 import flask
 import jinja2
 from flask import request, url_for
 
-blueprint = flask.Blueprint('filters', __name__)
+blueprint: flask.Blueprint = flask.Blueprint('filters', __name__)
 
 INSTITUTES = {
     'OEAW': {
@@ -84,15 +84,15 @@ INSTITUTES = {
 
 @jinja2.contextfilter
 @blueprint.app_template_filter()
-def display_menu(self, unused_variable) -> str:
+def display_menu(self: Any, route: str) -> str:
     """ Returns HTML with the menu and mark appropriate item as selected."""
     html = ''
     items = ['about', 'projects', 'team', 'events']
     for item in items:
         active = ''
-        if request.path.startswith('/' + item):
+        if route.startswith('/' + item):
             active = 'active'
-        if item == 'about' and request.path == '/':
+        if item == 'about' and route == '/':
             active = 'active'
         html += '<a class="nav-item nav-link {active}" href="{url}">{label}</a>'.format(
             active=active, url=url_for(item), label=item.upper())
@@ -101,7 +101,7 @@ def display_menu(self, unused_variable) -> str:
 
 @jinja2.contextfilter
 @blueprint.app_template_filter()
-def display_institutes(self, institutes: Iterator) -> str:
+def display_institutes(self: Any, institutes: Iterator) -> str:
     html = '<div>'
     for short_name in institutes:
         institute = INSTITUTES[short_name]

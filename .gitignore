@@ -4,6 +4,8 @@ instance/*
 
 # cache
 __pycache__/*
+.mypy_cache/*
+
 
 # compiled files
 *.pyc

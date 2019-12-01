@@ -1,21 +1,21 @@
-from flask import Flask, request
+from flask import Flask, Response, request
 
 app = Flask(__name__, instance_relative_config=True)
-app.config.from_object('config.default')  # Load config
-app.config.from_pyfile('production.py')  # Load instance
+app.config.from_object('config.default')   # type: ignore
+app.config.from_pyfile('production.py')   # type: ignore
 
 from openatlas_website.util import filters
 from openatlas_website.views import events, index, projects, team
 
 
 @app.before_request
-def before_request():
+def before_request() -> None:
     if request.path.startswith('/static'):  # pragma: no cover
         return  # Only needed if not running with apache and static alias
 
 
 @app.after_request
-def apply_caching(response):
+def apply_caching(response: Response) -> Response:
     response.headers['Strict-Transport-Security'] = 'max-age=31536000; includeSubDomains'
     response.headers['X-Content-Type-Options'] = 'nosniff'
     response.headers['X-Frame-Options'] = 'SAMEORIGIN'

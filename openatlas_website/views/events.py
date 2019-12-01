@@ -6,7 +6,7 @@ from openatlas_website import app
 
 
 @app.route('/events')
-def events():
+def events() -> str:
     upcoming = OrderedDict([
         ('2020-07-06', {'country': 'United Kingdom',
                         'city': 'Leeds',
