@@ -1,0 +1,24 @@
+import unittest
+
+from flask import url_for
+
+from openatlas_website import app
+
+
+class TestBaseCase(unittest.TestCase):
+
+    def setUp(self):
+        app.testing = True
+        app.config['SERVER_NAME'] = 'local.host'
+        self.app = app.test_client()
+
+
+class WebsiteTests(TestBaseCase):
+
+    def test_sites(self):
+        with app.app_context():
+            assert b'OpenAtlas' in self.app.get('/').data
+            assert b'Eichert' in self.app.get(url_for('team')).data
+            assert b'MEDCON' in self.app.get(url_for('projects')).data
+            assert b'Leeds' in self.app.get(url_for('events')).data
+            assert b'404' in self.app.get('/whatever').data
