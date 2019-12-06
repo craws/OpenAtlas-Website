@@ -14,6 +14,12 @@ def events() -> str:
                         'institute': 'University of Leeds',
                         'name': 'International Medieval Congress 2020',
                         'link': 'https://www.imc.leeds.ac.uk/imc2020/',
+                        'title': 'Digital Tools for Historical Research: A Round Table Discussion'}),
+        ('2020-07-08', {'country': 'United Kingdom',
+                        'city': 'Leeds',
+                        'institute': 'University of Leeds',
+                        'name': 'International Medieval Congress 2020',
+                        'link': 'https://www.imc.leeds.ac.uk/imc2020/',
                         'title': 'OpenAtlas - Open Software without Borders'}),
     ])
     past = OrderedDict([
