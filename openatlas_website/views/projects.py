@@ -30,6 +30,17 @@ def projects() -> str:
             'text': """analyses how a ‘universal’ late antique Church was constructed despite the
                 context of political fragmentation that precipitated the end of the Western
                 Roman Empire and its division into smaller polities."""}),
+        ('Moving Byzantium', {
+            'url': 'https://www.oeaw.ac.at/en/byzantine-research/byzantium-and-beyond/mobility-and-intercultural-contacts/moving-byzantium/',
+            'full_name': 'Moving Byzantium',
+            'img': 'moving_byzantium.jpg',
+            'image_license': '',
+            'pi': 'Claudia Rapp',
+            'duration': '2015 - 2020',
+            'institutes': ['OEAW', 'IMAFO', 'ACDH', 'FWF'],
+            'text': """highlights the role of Byzantium as a global culture and analyses the internal flexibility of Byzantine society.
+                It aims to contribute to a re-evaluation of a society and culture that has traditionally been depicted as stiff,
+                rigid and encumbered by its own tradition."""}),
         ('MOP', {
             'url': 'https://oeaw.academia.edu/MapsofPower',
             'full_name': 'Maps of Power: Historical Atlas of Places, Borderzones and Migration Dynamics in Byzantium',
@@ -48,8 +59,8 @@ def projects() -> str:
         ('A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)', {
             'url': 'https://orthodoxes-wien.oeaw.ac.at/',
             'full_name': 'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)',
-            'img': '',
-            'image_license': '',
+            'img': 'openatlas.png',
+            'image_license': 'CC-BY-SA 4.0, Jan Belik',
             'pi': 'Mihailo Popović',
             'duration': '2018 - 2019',
             'institutes': ['Wien Kultur', 'OEAW', 'IMAFO', 'Byzantine Research', 'AIT', 'BCM',
