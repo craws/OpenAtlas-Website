@@ -41,21 +41,31 @@ def projects() -> str:
             'text': """highlights the role of Byzantium as a global culture and analyses the internal flexibility of Byzantine society.
                 It aims to contribute to a re-evaluation of a society and culture that has traditionally been depicted as stiff,
                 rigid and encumbered by its own tradition."""}),
+        ('MEDCEM', {
+            'url': 'https://medcem.aiscr.cz/',
+            'full_name': 'Medieval Cemeteries at the Periphery of the Carolingian World',
+            'img': 'openatlas.png',
+            'image_license': 'CC-BY-SA 4.0, Jan Belik',
+            'pi': 'Stefan Eichert',
+            'duration': '2019 - ongoing',
+            'institutes': ['MSMT', 'ARUP'],
+            'text': """deals with the digital collection and presentation of medieval cemeteries and it is based at the Archaeological
+            Institute of the Czech Academy of Sciences in Prague. All published information is provided online and can be explored via a
+            digital catalogue and within an interactive map. Cartographic visualisations as well as charts and plots are created
+            dynamically based on real archaeological research data. """}),
         ('MOP', {
             'url': 'https://oeaw.academia.edu/MapsofPower',
             'full_name': 'Maps of Power: Historical Atlas of Places, Borderzones and Migration Dynamics in Byzantium',
             'img': 'digtib.jpg',
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
-            'pi': 'Mihailo Popović (TIB Project Leader Balkans) in cooperation with Andreas Külzer (TIB Project Leader Asia Minor)',
+            'pi': 'Mihailo Popović (TIB PI: Balkans), Andreas Külzer (TIB PI: Asia Minor)',
             'duration': '2019 - ongoing',
             'institutes': ['OEAW', 'IMAFO', 'FWF', 'Byzantine Research', 'TIB', 'UAI'],
             'text': """is a sub-project of the Long-Term Project Tabula Imperii Byzantini (TIB) and 
             part of the DigTIB initiative of the Austrian Academy of Sciences in Vienna. It creates, 
             develops and upkeeps an online atlas of the Byzantine World. Parts from the large pool 
             of the rich analogue data of the TIB are extracted in order to address digitally new 
-            scholarly questions and methods. The academia as well as the interested public are 
-            warmly encouraged to query the respective TIB data and to engage in our discourse on 
-            the Mapping of Byzantium."""}),
+            scholarly questions and methods."""}),
         ('A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)', {
             'url': 'https://orthodoxes-wien.oeaw.ac.at/',
             'full_name': 'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)',
