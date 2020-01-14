@@ -9,7 +9,7 @@ from openatlas_website import app
 def team() -> str:
     team_ = OrderedDict([
         ('Stefan Eichert', {
-            'email': 'stefan.eichert@oeaw.ac.at',
+            'email': 'stefan.eichert@univie.ac.at',
             'function': 'Idea, Concept and Data Modelling',
             'text': """Stefan is the the initiator and master mind behind the OpenAtlas project.
                 His main research fields are early medieval history and archaeology as well as
