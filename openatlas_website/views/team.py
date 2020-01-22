@@ -44,7 +44,7 @@ def team() -> str:
             'email': 'veronika.gruendhammer@oeaw.ac.at',
             'function': 'Project Administration',
             'text': """Veronika provides essential support for cooperations in her role as project officer at the
-                <a target="_blank" href='https://www.oeaw.ac.at/acdh/'>ACDH-CH</</a>.""",
+                <a target="_blank" href='https://www.oeaw.ac.at/acdh/'>ACDH-CH</a>.""",
             'img': 'veronika.jpg',
             'image_license': ''}),
         ('Jan Belik', {
