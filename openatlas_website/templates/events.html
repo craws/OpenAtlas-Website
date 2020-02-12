@@ -1,10 +1,5 @@
 {% extends "layout.html" %}
 {% block content %}
-<h3>Congresses, Presentations and Workshops</h3>
-<p class="mt-4">
-    Some of the papers and presentations are available
-    <a href="https://oeaw.academia.edu/AlexanderWatzinger" target="_blank">here</a>.
-</p>
 {% if upcoming %}
     <h4 class="mt-4 mb-4">Upcoming</h4>
 {% endif %}
@@ -23,11 +18,9 @@
         {{ event.country }}, {{ event.city }}, {{ event.institute }}
     </div>
 {% endfor %}
-{% if upcoming %}
-    <h4 class="mt-4 mb-4">Past</h4>
-{% endif %}
 {% for year, events in past.items() %}
-    <h4>{{year}}</h4>
+    <hr>
+    <h4 class="mt-4 mb-4">{{year}}</h4>
     {% for date, event in events.items() %}
         <div class="mb-4">
             {{ date }}<br>
@@ -41,6 +34,12 @@
                 <strong>{{ event.title }}</strong><br>
             {% endif %}
             {{ event.country }}, {{ event.city }}, {{ event.institute }}
+            {% if event.docs is defined %}
+                <br>
+                {% for title, url in event.docs.items() %}
+                    <a target="_blank" href="/static/documents/{{ url }}">{{ title }}</a>
+                {%  endfor %}
+            {% endif %}
         </div>
     {% endfor %}
 {% endfor %}

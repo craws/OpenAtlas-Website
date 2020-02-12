@@ -8,12 +8,6 @@ from openatlas_website import app
 @app.route('/events')
 def events() -> str:
     upcoming = OrderedDict([
-        ('2020-02-11', {'country': 'Austria',
-                        'city': 'Vienna',
-                        'institute': 'Austrian Centre for Digital Humanities',
-                        'name': 'Meet the Researchers',
-                        'link': '',
-                        'title': 'OpenAtlas'}),
         ('2020-03-19', {'country': 'Austria',
                         'city': 'Vienna',
                         'institute': 'Institute for Medieval Research',
@@ -34,6 +28,15 @@ def events() -> str:
                         'title': 'OpenAtlas - Open Software without Borders'}),
     ])
     past = OrderedDict([
+        ('2020', OrderedDict([
+            ('2020-02-11', {'country': 'Austria',
+                            'city': 'Vienna',
+                            'institute': 'Austrian Centre for Digital Humanities',
+                            'name': 'Meet the Researchers',
+                            'link': 'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/meet-the-researchers/',
+                            'title': 'OpenAtlas',
+                            'docs': {'Presentation': '2020-02-11_OpenAtlas_Meet_the_Researchers.pdf'}}),
+        ])),
         ('2019', OrderedDict([
             ('2019-12-04', {'country': 'Austria',
                             'city': 'Vienna',
@@ -46,7 +49,8 @@ def events() -> str:
                             'institute': 'Royal Holloway',
                             'name': 'OpenAtlas Workshop',
                             'link': 'https://www.eventbrite.co.uk/e/introducing-openatlas-tickets-77159242371',
-                            'title': 'Introducing OpenAtlas'}),
+                            'title': 'Introducing OpenAtlas',
+                            'docs': {'Presentation': '2019-10-24_OpenAtlas_London.pdf'}}),
             ('2019-10-18', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'Austrian Academy of Sciences',
