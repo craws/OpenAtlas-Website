@@ -35,9 +35,9 @@
             {% endif %}
             {{ event.country }}, {{ event.city }}, {{ event.institute }}
             {% if event.docs is defined %}
-                <br>
+                <br>Documents:
                 {% for title, url in event.docs.items() %}
-                    <a target="_blank" href="/static/documents/{{ url }}">{{ title }}</a>
+                    <a target="_blank" href="/static/documents/{{ url }}">{{ title }}</a>{% if not loop.last %},{% endif %}
                 {%  endfor %}
             {% endif %}
         </div>
