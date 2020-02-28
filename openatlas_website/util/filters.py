@@ -16,7 +16,7 @@ INSTITUTES = {
         'url': 'https://www.oeaw.ac.at/imafo/',
         'logo': 'imafo.png'},
     'ACDH': {
-        'name': 'Austrian Centre for Digital Humanities',
+        'name': 'Austrian Centre for Digital Humanities and Cultural Heritage',
         'url': 'https://www.oeaw.ac.at/acdh/',
         'logo': 'acdh.png'},
     'ERC': {
