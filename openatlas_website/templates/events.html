@@ -1,27 +1,9 @@
 {% extends "layout.html" %}
 {% block content %}
-{% if upcoming %}
-    <h4 class="mt-4 mb-4">Upcoming</h4>
-{% endif %}
-{% for date, event in upcoming.items() %}
-    <div class="mb-4">
-        {{ date }}<br>
-        {% if event.link %}
-            <a href="{{ event.link }}" target="_blank">{{ event.name }}</a>
-        {% else %}
-            {{ event.name }}
-        {% endif %}
-        <br>
-        {% if event.title %}
-            <strong>{{ event.title }}</strong><br>
-        {% endif %}
-        {{ event.country }}, {{ event.city }}, {{ event.institute }}
-    </div>
-{% endfor %}
-{% for year, events in past.items() %}
-    <hr>
-    <h4 class="mt-4 mb-4">{{year}}</h4>
-    {% for date, event in events.items() %}
+    {% if upcoming %}
+        <h4 class="mt-4 mb-4">Upcoming</h4>
+    {% endif %}
+    {% for date, event in upcoming.items() %}
         <div class="mb-4">
             {{ date }}<br>
             {% if event.link %}
@@ -34,13 +16,31 @@
                 <strong>{{ event.title }}</strong><br>
             {% endif %}
             {{ event.country }}, {{ event.city }}, {{ event.institute }}
-            {% if event.docs is defined %}
-                <br>Documents:
-                {% for title, url in event.docs.items() %}
-                    <a target="_blank" href="/static/documents/{{ url }}">{{ title }}</a>{% if not loop.last %},{% endif %}
-                {%  endfor %}
-            {% endif %}
         </div>
     {% endfor %}
-{% endfor %}
+    {% for year, events in past.items() %}
+        <hr>
+        <h4 class="mt-4 mb-4">{{year}}</h4>
+        {% for date, event in events.items() %}
+            <div class="mb-4">
+                {{ date }}<br>
+                {% if event.link %}
+                    <a href="{{ event.link }}" target="_blank">{{ event.name }}</a>
+                {% else %}
+                    {{ event.name }}
+                {% endif %}
+                <br>
+                {% if event.title %}
+                    <strong>{{ event.title }}</strong><br>
+                {% endif %}
+                {{ event.country }}, {{ event.city }}, {{ event.institute }}
+                {% if event.docs is defined %}
+                    <br>Documents:
+                    {% for title, url in event.docs.items() %}
+                        <a target="_blank" href="/static/documents/{{ url }}">{{ title }}</a>{% if not loop.last %},{% endif %}
+                    {%  endfor %}
+                {% endif %}
+            </div>
+        {% endfor %}
+    {% endfor %}
 {% endblock %}

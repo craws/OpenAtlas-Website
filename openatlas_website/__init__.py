@@ -5,7 +5,7 @@ app.config.from_object('config.default')   # type: ignore
 app.config.from_pyfile('production.py')   # type: ignore
 
 from openatlas_website.util import filters
-from openatlas_website.views import events, index, projects, team
+from openatlas_website.views import events, features, index, projects, team
 
 
 @app.before_request
