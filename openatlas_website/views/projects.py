@@ -66,6 +66,17 @@ def projects() -> str:
             develops and upkeeps an online atlas of the Byzantine World. Parts from the large pool 
             of the rich analogue data of the TIB are extracted in order to address digitally new 
             scholarly questions and methods."""}),
+        ('PLAS', {
+            'url': '',
+            'full_name': 'The Prosopography of the Lascarid Period',
+            'img': 'plas.jpg',
+            'image_license': 'CC-BY-SA 4.0, Ekaterini Mitsiou and </br>Johannes Preiser-Kapeller',
+            'pi': 'Ekaterini Mitsiou',
+            'duration': '2018 - ongoing',
+            'institutes': [],
+            'text': """aims at creating a prosopographical database for the first half of the 13th
+            century Byzantium mapping the complexities of a society in transition..
+        """}),
         ('A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)', {
             'url': 'https://orthodoxes-wien.oeaw.ac.at/',
             'full_name': 'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)',
@@ -80,17 +91,6 @@ def projects() -> str:
                 the Orthodox began to migrate to the Habsburg Empire, how Orthodox merchants 
                 settled in Vienna and how they integrated into Viennese society of that time.
                 """}),
-        ('PLAS', {
-            'url': '',
-            'full_name': 'The Prosopography of the Lascarid Period',
-            'img': 'plas.jpg',
-            'image_license': 'CC-BY-SA 4.0, Ekaterini Mitsiou and </br>Johannes Preiser-Kapeller',
-            'pi': 'Ekaterini Mitsiou',
-            'duration': '2018 - ongoing',
-            'institutes': [],
-            'text': """aims at creating a prosopographical database for the first half of the 13th
-                century Byzantium mapping the complexities of a society in transition..
-            """}),
         ('DPP', {
             'url': 'https://dpp.oeaw.ac.at/',
             'full_name': 'Digitising Patterns of Power',
