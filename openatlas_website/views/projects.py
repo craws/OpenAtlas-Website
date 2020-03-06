@@ -75,7 +75,7 @@ def projects() -> str:
             'duration': '2018 - ongoing',
             'institutes': [],
             'text': """aims at creating a prosopographical database for the first half of the 13th
-            century Byzantium mapping the complexities of a society in transition..
+            century Byzantium mapping the complexities of a society in transition.
         """}),
         ('A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)', {
             'url': 'https://orthodoxes-wien.oeaw.ac.at/',
