@@ -49,7 +49,7 @@
     <h4 class="mt-4 mb-4">File Upload</h4>
     <p>
         Files can be uploaded and linked with entities. It is possible to link one file to multiple
-        entities (e.g. a group picture for many actors) and the other way round. Files are available
+        entities (e.g. a group picture of many actors) and the other way round. Files are available
         to download in the original size. In the admin interface the upload file size limit and
         allowed extensions can be configured.
     </p>
@@ -60,9 +60,16 @@
     </p>
     <h4 class="mt-4 mb-4">Archaeological Subunits</h4>
     <p>
-        For detailed mapping of archeological finds, e.g. in a cemetery. They are used in a strict
+        For detailed mapping of archaeological finds, e.g. in a cemetery. They are used in a strict
         hierarchy: Place -> Feature (e.g. a grave) -> Stratigraphic Unit (e.g. a coffin or skeleton)
         -> Find (e.g. grave goods).
+    </p>
+    <h4 class="mt-4 mb-4">Spatial and Temporal Fuzziness</h4>
+    <p>
+        In many cases the spatial or temporal position respectively extent of an entity is not known
+        precisely. Therefore OpenAtlas allows to define time-spans (earliest/latest begin and
+        earliest/latest end) or areas in which the temporal respectively spatial extent can be
+        located with a 100% certainty.
     </p>
     <h4 class="mt-4 mb-4">Search and Filters</h4>
     <p>
@@ -84,8 +91,10 @@
     </p>
     <h4 class="mt-4 mb-4">Data integrity check functions</h4>
     <p>
-        Because data integrity is important for the quality of research data we implemented functions to check possible inconsistencies
-        including checks for orphaned data, date inconsistency, duplicates, similar names, invalid links, unused types and more.
+        Because data integrity is important for the quality of research data we implemented
+        functions to check possible inconsistencies
+        including checks for orphaned data, date inconsistency, duplicates, similar names, invalid
+        links, unused types and more.
     </p>
     <h4 class="mt-4 mb-4">Users and Groups</h4>
     <p>
