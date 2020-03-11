@@ -8,12 +8,6 @@ from openatlas_website import app
 @app.route('/events')
 def events() -> str:
     upcoming = OrderedDict([
-        ('2020-03-19', {'country': 'Austria',
-                        'city': 'Vienna',
-                        'institute': 'Institute for Medieval Research',
-                        'name': 'Bridging the Gap: The Prosopography of a Fragmented World (13th cent. CE)',
-                        'link': 'https://rapp.univie.ac.at/events/upcoming-events/',
-                        'title': 'Prosopographical Data in OpenAtlas'}),
         ('2020-06-29', {'country': 'Austria',
                         'city': 'Vienna',
                         'institute': 'University of Vienna',
