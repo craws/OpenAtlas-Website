@@ -44,7 +44,7 @@ def projects() -> str:
         ('MEDCEM', {
             'url': 'https://medcem.aiscr.cz/',
             'full_name': 'Medieval Cemeteries at the Periphery of the Carolingian World',
-            'img': 'openatlas.png',
+            'img': 'medcem.png',
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
             'pi': 'Stefan Eichert',
             'duration': '2019 - ongoing',
