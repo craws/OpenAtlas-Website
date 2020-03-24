@@ -14,18 +14,6 @@ def events() -> str:
                         'name': 'Digital Methods and Means for Historical Studies',
                         'link': 'https://ufind.univie.ac.at/en/course.html?lv=070188&semester=2020S',
                         'title': 'OpenAtlas'}),
-        ('2020-07-06', {'country': 'United Kingdom',
-                        'city': 'Leeds',
-                        'institute': 'University of Leeds',
-                        'name': 'International Medieval Congress 2020',
-                        'link': 'https://www.imc.leeds.ac.uk/imc2020/',
-                        'title': 'Digital Tools for Historical Research: A Round Table Discussion'}),
-        ('2020-07-08', {'country': 'United Kingdom',
-                        'city': 'Leeds',
-                        'institute': 'University of Leeds',
-                        'name': 'International Medieval Congress 2020',
-                        'link': 'https://www.imc.leeds.ac.uk/imc2020/',
-                        'title': 'OpenAtlas - Open Software without Borders'}),
     ])
     past = OrderedDict([
         ('2020', OrderedDict([
