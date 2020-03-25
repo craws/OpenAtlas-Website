@@ -55,13 +55,5 @@ def team() -> str:
                 He has plenty of experience working with local and international brands and has
                 created a range of OpenAtlas project logos.""",
             'img': 'jan.jpg',
-            'image_license': 'CC-BY 4.0,<br> Sandra Lehecka'}),
-        ('Daniel Kittel', {
-            'email': 'daniel.kittel@craws.net',
-            'function': 'Quality Assurance',
-            'text': """Daniels main occupation is at the Austria Press Agency but from time to time
-                he goes on a bug hunt, tests the application with different devices and browsers and
-                does other important tasks to improve the user experience.""",
-            'img': 'daniel.jpg',
             'image_license': 'CC-BY 4.0,<br> Sandra Lehecka'})])
     return render_template('team.html', team=team_)
