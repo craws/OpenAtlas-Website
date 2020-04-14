@@ -34,7 +34,7 @@ def projects() -> str:
             'url': 'https://www.oeaw.ac.at/en/byzantine-research/byzantium-and-beyond/mobility-and-intercultural-contacts/moving-byzantium/',
             'full_name': 'Moving Byzantium',
             'img': 'moving_byzantium.jpg',
-            'image_license': '',
+            'image_license': 'CC-BY-SA 4.0, Johannes Preiser-Kapeller',
             'pi': 'Claudia Rapp',
             'duration': '2015 - 2020',
             'institutes': ['OEAW', 'IMAFO', 'ACDH', 'FWF'],
