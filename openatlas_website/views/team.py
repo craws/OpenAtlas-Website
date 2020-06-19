@@ -55,5 +55,15 @@ def team() -> str:
                 He has plenty of experience working with local and international brands and has
                 created a range of OpenAtlas project logos.""",
             'img': 'jan.jpg',
-            'image_license': 'CC-BY 4.0,<br> Sandra Lehecka'})])
+            'image_license': 'CC-BY 4.0,<br> Sandra Lehecka'}),
+        ('Nina Brundke', {
+            'email': 'nina.brundke@oeai.at',
+            'function': 'Bioarchaeological Expertise',
+            'text': """Nina studied medieval and modern archaeology at the Otto-Friedrich University, 
+                Bamberg, and studied biology with a concentration on anthropology at the University of Vienna. 
+                With her expertise she provides essential support planning and implementing archeological 
+                modules in OpenAtlas.""",
+            'img': 'nina.jpg',
+            'image_license': ''})
+    ])
     return render_template('team.html', team=team_)
