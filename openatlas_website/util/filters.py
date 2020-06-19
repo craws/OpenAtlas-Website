@@ -2,7 +2,7 @@ from typing import Any, Iterator
 
 import flask
 import jinja2
-from flask import request, url_for
+from flask import url_for
 
 blueprint: flask.Blueprint = flask.Blueprint('filters', __name__)
 
@@ -86,8 +86,7 @@ INSTITUTES = {
     'ARUP': {
         'name': 'Institute of archaeology of the CAS',
         'url': 'http://www.arup.cas.cz/',
-        'logo': 'arup.jpg'},
-}
+        'logo': 'arup.jpg'}}
 
 
 @jinja2.contextfilter
@@ -95,7 +94,7 @@ INSTITUTES = {
 def display_menu(self: Any, route: str) -> str:
     """ Returns HTML with the menu and mark appropriate item as selected."""
     html = ''
-    items = ['about', 'features', 'projects', 'team', 'events']
+    items = ['about', 'projects', 'features', 'team', 'events']
     for item in items:
         active = ''
         if route.startswith('/' + item):
@@ -117,5 +116,4 @@ def display_institutes(self: Any, institutes: Iterator) -> str:
             <a href="{url}" target="_blank">
                 <img src="/static/images/institutes/{logo}" alt="{name}" title="{name}">
             </a>'''.format(url=institute['url'], logo=institute['logo'], name=institute['name'])
-    html += '</div>'
-    return html
+    return html + '</div>'
