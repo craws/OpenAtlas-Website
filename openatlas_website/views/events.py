@@ -7,9 +7,11 @@ from openatlas_website import app
 
 @app.route('/events')
 def events() -> str:
-    upcoming = OrderedDict([
+    upcoming = OrderedDict([('2020-07-23', {'country': 'Austria',
+                                            'city': 'Vienna',
+                                            'name': 'OpenAtlas Summer Meeting'}),
 
-    ])
+                            ])
     past = OrderedDict([
         ('2020', OrderedDict([
             ('2020-06-17', {'country': 'Austria',
@@ -23,7 +25,8 @@ def events() -> str:
                             'name': 'ACDH-CH - Meet the Researchers',
                             'link': 'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/meet-the-researchers/',
                             'title': 'OpenAtlas',
-                            'docs': {'Presentation': '2020-02-11_OpenAtlas_Meet_the_Researchers.pdf'}}),
+                            'docs': {
+                                'Presentation': '2020-02-11_OpenAtlas_Meet_the_Researchers.pdf'}}),
         ])),
         ('2019', OrderedDict([
             ('2019-12-04', {'country': 'Austria',
@@ -44,7 +47,9 @@ def events() -> str:
                             'institute': 'Austrian Academy of Sciences',
                             'name': 'Byzantino-Serbian Borderzones in Transition',
                             'title': 'OpenAtlas',
-                            'docs': {'Program': '2019-10_18_Byzantino-Serbian_Borderzones_in_Transition.pdf', 'Presentation': '2019-10-18_OpenAtlas_DIGTIP_german.pdf'}}),
+                            'docs': {
+                                'Program': '2019-10_18_Byzantino-Serbian_Borderzones_in_Transition.pdf',
+                                'Presentation': '2019-10-18_OpenAtlas_DIGTIP_german.pdf'}}),
             ('2019-07-16', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'Austrian Centre for Digital Humanities',
@@ -61,14 +66,15 @@ def events() -> str:
             ('2019-06-18', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'WUK',
-                            'name': 'OpenAtlas and THANADOS summer meeting'}),
+                            'name': 'OpenAtlas and THANADOS Summer Meeting'}),
             ('2019-05-16', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'Austrian Academy of Sciences',
                             'name': 'Digitising Patterns of Power - Book and Project Presentation',
                             'title': 'OpenAtlas unter die Haube geschaut',
                             'link': 'https://www.oeaw.ac.at/en/detail/news/landkarten-der-macht/',
-                            'docs': {'Program': '2019-05-16_Programm_DPP.pdf', 'Presentation': '2019-05-16_dpp_book_presentation.pdf'}}),
+                            'docs': {'Program': '2019-05-16_Programm_DPP.pdf',
+                                     'Presentation': '2019-05-16_dpp_book_presentation.pdf'}}),
             ('2019-02-20', {'country': 'Czech Republic',
                             'city': 'Prague',
                             'institute': 'Institute of Archaeology of the Czech Academy of Sciences',
@@ -86,7 +92,8 @@ def events() -> str:
                             'name': 'DPP Concluding Conference',
                             'link': 'https://dpp.oeaw.ac.at/conference/index.php?site=program',
                             'title': 'OpenAtlas - How to Grow Software for Historians',
-                            'docs': {'Program': '2018-10-19_dpp_concluding_programm.pdf', 'Presentation': '2018-10-19_dpp_concluding.pdf'}}),
+                            'docs': {'Program': '2018-10-19_dpp_concluding_programm.pdf',
+                                     'Presentation': '2018-10-19_dpp_concluding.pdf'}}),
             ('2018-07-03', {'country': 'United Kingdom',
                             'city': 'Leeds',
                             'institute': 'University of Leeds',
@@ -108,7 +115,8 @@ def events() -> str:
                             'name': 'International Medieval Congress 2017',
                             'link': 'http://imc.leeds.ac.uk/dbsql02/AQueryServlet?*id=30&*formId=30&*context=IMC&conference=2017&sessionId=7539&chosenPaperId=&*servletURI=https://imc.leeds.ac.uk/dbsql02/AQueryServlet',
                             'title': 'Relational Modelling of Historical Data - Concepts and Challenges',
-                            'docs': {'Paper': '2017-07-03_Concepts_and_Challanges.pdf', 'Presentation': '2017-07-03_leeds.pdf'}}),
+                            'docs': {'Paper': '2017-07-03_Concepts_and_Challanges.pdf',
+                                     'Presentation': '2017-07-03_leeds.pdf'}}),
             ('2017-06-20', {'country': 'Germany',
                             'city': 'Bochum',
                             'institute': 'Ruhr-University Bochum',
@@ -129,7 +137,8 @@ def events() -> str:
                             'name': 'International Medieval Congress 2016',
                             'link': 'https://www.imc.leeds.ac.uk/imcarchive/2016/sessions/803/',
                             'title': 'Relational Modelling of Historical Data - A Technical Perspective',
-                            'docs': {'Paper': '2016-07-05_A_Technical_Perspective.pdf', 'Presentation': '2016-07-05_leeds.pdf'}}),
+                            'docs': {'Paper': '2016-07-05_A_Technical_Perspective.pdf',
+                                     'Presentation': '2016-07-05_leeds.pdf'}}),
             ('2016-04-13', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'Institute for Medieval Research',
