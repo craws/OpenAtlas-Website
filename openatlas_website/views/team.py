@@ -64,6 +64,6 @@ def team() -> str:
                 With her expertise she provides essential support planning and implementing archeological 
                 modules in OpenAtlas.""",
             'img': 'nina.jpg',
-            'image_license': ''})
+            'image_license': 'CC-BY 4.0,<br> Jan Belik'})
     ])
     return render_template('team.html', team=team_)
