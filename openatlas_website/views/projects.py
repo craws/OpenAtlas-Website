@@ -9,7 +9,7 @@ from openatlas_website import app
 def projects() -> str:
     projects_ = OrderedDict([
         ('MAMEMS', {
-            'url': 'https://www.uni-mainz.de/presse/aktuell/9518_DEU_HTML.php',
+            'url': 'https://mamems.uni-mainz.de/',
             'full_name': 'Mount Athos in Medieval Eastern Mediterranean Society: Contextualizing the History of a Monastic Republic (ca. 850-1550)',
             'img': 'mamems.png',
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
