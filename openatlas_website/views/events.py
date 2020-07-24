@@ -14,6 +14,7 @@ def events() -> str:
         ('2020', OrderedDict([
             ('2020-07-23', {'country': 'Austria',
                             'city': 'Vienna',
+                            'institute': 'WUK',
                             'name': 'OpenAtlas Summer Meeting'}),
             ('2020-06-17', {'country': 'Austria',
                             'city': 'Vienna',
@@ -48,9 +49,8 @@ def events() -> str:
                             'institute': 'Austrian Academy of Sciences',
                             'name': 'Byzantino-Serbian Borderzones in Transition',
                             'title': 'OpenAtlas',
-                            'docs': {
-                                'Program': '2019-10_18_Byzantino-Serbian_Borderzones_in_Transition.pdf',
-                                'Presentation': '2019-10-18_OpenAtlas_DIGTIP_german.pdf'}}),
+                            'docs': {'Program': '2019-10_18_Byzantino-Serbian_Borderzones_in_Transition.pdf',
+                                     'Presentation': '2019-10-18_OpenAtlas_DIGTIP_german.pdf'}}),
             ('2019-07-16', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'Austrian Centre for Digital Humanities',
