@@ -7,6 +7,10 @@ from flask import url_for
 blueprint: flask.Blueprint = flask.Blueprint('filters', __name__)
 
 INSTITUTES = {
+    'JGU': {
+        'name': 'Johannes Gutenberg University Mainz',
+        'url': 'https://www.uni-mainz.de/eng/index.php',
+        'logo': 'jug.png'},
     'OEAW': {
         'name': 'Austrian Academy of Sciences',
         'url': 'https://www.oeaw.ac.at/',

@@ -40,13 +40,15 @@ def team() -> str:
             implications of digital research methods in the humanities.""",
             'img': 'christoph.jpg',
             'image_license': 'CC-BY 4.0,<br> Sandra Lehecka'}),
-        ('Veronika Gründhammer', {
-            'email': 'veronika.gruendhammer@oeaw.ac.at',
-            'function': 'Project Administration',
-            'text': """Veronika provides essential support for cooperations in her role as project officer at the
-                <a target="_blank" href='https://www.oeaw.ac.at/acdh/'>ACDH-CH</a>.""",
-            'img': 'veronika.jpg',
-            'image_license': ''}),
+        ('Nina Brundke', {
+            'email': 'nina.brundke@oeai.at',
+            'function': 'Bioarchaeological Expertise',
+            'text': """Nina studied medieval and modern archaeology at the Otto-Friedrich University, 
+            Bamberg, and studied biology with a concentration on anthropology at the University of Vienna. 
+            With her expertise she provides essential support planning and implementing archeological 
+            modules in OpenAtlas.""",
+            'img': 'nina.jpg',
+            'image_license': 'CC-BY 4.0,<br> Jan Belik'}),
         ('Jan Belik', {
             'email': 'buero@janbelik.com',
             'function': 'Logo Design and Design Consulting',
@@ -56,14 +58,12 @@ def team() -> str:
                 created a range of OpenAtlas project logos.""",
             'img': 'jan.jpg',
             'image_license': 'CC-BY 4.0,<br> Sandra Lehecka'}),
-        ('Nina Brundke', {
-            'email': 'nina.brundke@oeai.at',
-            'function': 'Bioarchaeological Expertise',
-            'text': """Nina studied medieval and modern archaeology at the Otto-Friedrich University, 
-                Bamberg, and studied biology with a concentration on anthropology at the University of Vienna. 
-                With her expertise she provides essential support planning and implementing archeological 
-                modules in OpenAtlas.""",
-            'img': 'nina.jpg',
+        ('Veronika Gründhammer', {
+            'email': 'veronika.gruendhammer@oeaw.ac.at',
+            'function': 'Project Administration',
+            'text': """Veronika provides essential support for cooperations in her role as project officer at the
+            <a target="_blank" href='https://www.oeaw.ac.at/acdh/'>ACDH-CH</a>.""",
+            'img': 'veronika.jpg',
             'image_license': ''})
     ])
     return render_template('team.html', team=team_)
