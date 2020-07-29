@@ -105,6 +105,7 @@ def projects() -> str:
                 power."""}),
         ('MEDCON', {
             'url': 'https://oeaw.academia.edu/MappingMedievalConflict',
+            'archive_url': 'http://hdl.handle.net/21.11115/0000-000C-D99B-1',
             'full_name': 'Mapping Medieval Conflict',
             'img': 'medcon.png',
             'image_license': 'CC-BY-SA 4.0, Jan Belik',

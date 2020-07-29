@@ -30,12 +30,22 @@
             <p>
                 {% if not project.full_name.startswith('The') %}The {% endif %}
                 {% if project.url %}
-                    <a target="_blank" rel="noopener" href="{{ project.url }}">{{ project.full_name }}</a>
+                    <a target="_blank" rel="noopener" href="{{ project.url }}">
+                        {{ project.full_name }}
+                    </a>
                 {% else %}
                     <span style="font-weight:bold;">{{ project.full_name }}</span>
                 {% endif %}
                 project {{ project.text|safe  }}
             </p>
+            {% if project.archive_url %}
+                <p>
+                    Archived at:
+                    <a target="_blank" rel="noopener" href="{{ project.archive_url }}">
+                        {{ project.archive_url }}
+                    </a>
+                </p>
+            {% endif %}
             <div class="projects-institutes">
                 {{ project.institutes|display_institutes|safe }}
             </div>
