@@ -1,14 +1,14 @@
 {% extends "layout.html" %}
 {% block content %}
     <p style="font-weight: bold;">Welcome to OpenAtlas</p>
-    <p class="mb-4">
+    <p class="mb-3">
         OpenAtlas is an open source database software developed especially to acquire, edit
         and manage research data from various fields of humanities like history, archaeology and
         prosopography. It provides a user interface that can be accessed via any common web-browser
         and allows the respective researchers to work with their data via customized forms and
         categories to record complex relations as simple as possible.
     </p>
-    <p class="mb-4">
+    <p class="mb-3">
         The software automatically maps the information to the international standard of the
         <a href="http://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a> and takes care of today's
         requirements regarding data standards, data management and aims for
@@ -17,8 +17,7 @@
         The software builds on open source technology, is and will always be free and open source to
         guarantee continued usage.
     </p>
-
-    <p class="mb-4">
+    <p class="mb-3">
         <a href="https://demo.openatlas.eu" target="_blank">Demo</a><br>
         <a href="https://demo-dev.openatlas.eu" target="_blank">Development Demo</a><br>
         <a href="https://demo.openatlas.eu/static/manual" target="_blank">Manual</a><br>
@@ -36,7 +35,7 @@
         <ol class="indicator"></ol>
     </div>
     <p class="mb-1" style="font-weight: bold;">Screenshots</p>
-    <div id="links" class="mb-5">
+    <div id="links" class="mb-3">
         <a href="/static/images/screenshot/1_big.png" title="About">
             <img class="screenshot" src="/static/images/screenshot/1_small.png" alt="About">
         </a>
@@ -72,7 +71,7 @@
         Development was and is funded by several <a href="{{ url_for('projects') }}">projects</a>,
         grants, institutes  and departments:
     </p>
-    <div id="credits" class="mb-5">
+    <div id="credits" class="mb-4">
         {{ ['OEAW', 'ACDH', 'OeAI', 'IMAFO', 'RHUL', 'JGU', 'ERC', 'FWF', 'univie']|display_institutes|safe }}
     </div>
     <p>
