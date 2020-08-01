@@ -1,0 +1,62 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <p class="breadcrumb">
+        <a href="{{ url_for('about') }}">About</a>&nbsp;&nbsp;>&nbsp;&nbsp;
+        <a href="{{ url_for('cooperation') }}">Cooperation</a>&nbsp;&nbsp;>&nbsp;&nbsp;
+        Information regarding cooperations
+    </a>
+    <p class="mb-1" style="font-weight: bold;">Information regarding cooperations</p>
+    <p>
+        In case you would like to establish a cooperation it will be very helpful to have some information on the planned project.
+        Information doesn't need to be complete, exact nor is it binding. It just helps us to get a feeling for the project,
+        requirements and dimensions. E.g if there will be thousands of files with a few gigabyte each.
+    </p>
+
+    <p class="mb-1" style="font-weight: bold;">Project</p>
+    <ul>
+        <li>Name</li>
+        <li>Short identifier or acronym if available, e.g. MEDCON for Mapping Medieval Conflict</li>
+        <li>Principal Investigator(s)</li>
+        <li>Project start and duration</li>
+        <li>An abstract about the projects content and aims. Can also be a proposal draft, a website or similar.</li>
+    </ul>
+
+    <p class="mb-1" style="font-weight: bold;">Data</p>
+    <ul>
+        <li>Will data be entered completely new or is there existing data to import?</li>
+        <li>
+            What kind of information will be worked with: E.g. prosopographical data, geospatial data, texts, archaeological features,
+            artifacts, files etc.
+        </li>
+        <li>Estimate of data volume (how many entries) and file volume (Gigabyte)</li>
+        <li>How many people are expected to enter data</li>
+    </ul>
+
+    <p class="mb-1" style="font-weight: bold;">Organizational</p>
+    <ul>
+        <li>Project's hosting institution</li>
+        <li>Type of grant or funding</li>
+        <li>Global project budget</li>
+        <li>Estimate of available budget for a cooperation</li>
+        <li>Will it utilize resources of an existing OpenAtlas project (e.g. infrastructure)</li>
+    </ul>
+
+    <p class="mb-1" style="font-weight: bold;">Which services are requested</p>
+    <ul>
+        <li>
+            Planning - e.g. evaluation how to map research data to <a target="_blank" href="http://www.cidoc-crm.org/">CIDOC CRM</a>
+            and enter them into OpenAtlas
+        </li>
+        <li>Hosting - e.g. installation and server maintenance</li>
+        <li>Support - e.g. software updates, training, troubleshooting</li>
+        <li>Development - e.g. software adaptions and additional features</li>
+        <li>Presentation website - if requested the more detailed requirements the better</li>
+        <li>Long time archiving in <a target="_blank" href="https://www.oeaw.ac.at/acdh/tools/arche/">Arche</a></li>
+    </ul>
+
+    <p>
+        Feel free to contact us at <a href="mailto:openatlas@oeaw.ac.at">openatlas@oeaw.ac.at</a>.
+    </p>
+
+{% endblock %}

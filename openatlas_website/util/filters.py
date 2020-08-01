@@ -103,7 +103,7 @@ def display_menu(self: Any, route: str) -> str:
         active = ''
         if route.startswith('/' + item):
             active = 'active'
-        if item == 'about' and route == '/':
+        if item == 'about' and route in ['/', '/cooperation', '/cooperation/information']:
             active = 'active'
         html += '<a class="nav-item nav-link {active}" href="{url}">{label}</a>'.format(
             active=active, url=url_for(item), label=item.upper())
