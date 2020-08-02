@@ -1,89 +1,87 @@
 {% extends "layout.html" %}
 {% block content %}
+    <p class="breadcrumb">
+        <a href="{{ url_for('about') }}">About</a>&nbsp;>
+        Cooperation
+    </p>
+    <p>
+        Although OpenAtlas is freely available at <a href="https://github.com/craws/OpenAtlas" target="_blank">GitHub</a>
+        not every project has the internal resources to cover all the aspects needed for a successful research project. For that reason some
+        <a href="{{ url_for('projects') }}">projects</a> with available budget cooperate with the
+        <a target="_blank" href="https://www.oeaw.ac.at/acdh">ACDH-CH</a>, an institute of the
+        <a target="_blank" href="https://www.oeaw.ac.at/">Austrian Academy of Sciences</a>, which can cover some or all of the aspects
+        below. Every cooperation also supports and so guaranties the further development of OpenAtlas.
+    </p>
+    <p>
+        If you are interested feel free to contact us at
+        <a href="mailto:openatlas@oeaw.ac.at">openatlas@oeaw.ac.at</a> providing this <a href="/cooperation/information">information</a>.
+    </p>
 
-<p class="breadcrumb">
-    <a href="{{ url_for('about') }}">About</a>&nbsp;&nbsp;>&nbsp;&nbsp;
-    Cooperation
-</a>
-
-<p class="mb-1" style="font-weight: bold;">OpenAtlas Cooperation</p>
-<p>
-    Although OpenAtlas is freely available at <a href="https://github.com/craws/OpenAtlas" target="_blank">GitHub</a>
-    not every project has the internal resources to cover all the aspects needed for a successful research project. For that reason some
-    <a href="{{ url_for('projects') }}">projects</a> with available budget have a cooperation with the
-    <a target="_blank" href="https://www.oeaw.ac.at/acdh">ACDH-CH</a>, an institute of the
-    <a target="_blank" href="https://www.oeaw.ac.at/">Austrian Academy of Sciences</a>, which can cover some or all of these aspects.
-</p>
-<p>
-    Every cooperation also supports and so guaranties the further development of OpenAtlas. If you are interested feel free to contact us at
-    <a href="mailto:openatlas@oeaw.ac.at">openatlas@oeaw.ac.at</a> and please take a look <a href="/cooperation/information">here</a> before.
-</p>
-
-<p class="mb-1" style="font-weight: bold;">OpenAtlas Software</p>
-<p>
-    Because the research focus of projects can be very different there may be need for:
-    <ul>
-        <li>New features</li>
-        <li>Expand on existing features</li>
-        <li>User interface adaptions</li>
-    </ul>
-<p>
-    Development of features requires time and money but once implemented they can be used by all projects.
-    This allows for good synergies between projects because of shared development costs.
-</p>
-
-<p class="mb-1" style="font-weight: bold;">Infrastructure</p>
-<p>
-    To use OpenAtlas an infrastructure is needed. E.g. a server where it can be installed and made available but also
-    persons with time and expertise to:
-</p>
-<ul>
-    <li>
-        Install OpenAtlas, a web server, a database, setting up email and similar - for necessary steps take a look at the
-        <a target="_blank" href="https://github.com/craws/OpenAtlas/blob/master/install.md">installation notes</a>
-    </li>
-    <li>Software updates, there is a new OpenAtlas release about once a month</li>
-    <li>Server updates, e.g. over time servers will need security updates</li>
-    <li>Setting up automated backups</li>
-    <li>
-        Troubleshoot e.g. in case:
+    <p class="mb-1" style="font-weight: bold;">OpenAtlas Software</p>
+    <p>
+        Because the research focus of projects can be very different there may be need for:
         <ul>
-            <li>The website becomes unresponsive or unavailable</li>
-            <li>Functions don't work as expected</li>
-            <li>Available server space is getting low</li>
-            <li>A backup import is needed</li>
+            <li>New features</li>
+            <li>Expand on existing features</li>
+            <li>User interface adaptions</li>
         </ul>
-    </li>
-</ul>
+    <p>
+        Development of features requires time and money but once implemented they can be used by all projects.
+        This allows for good synergies between projects because of shared development costs.
+    </p>
 
-<p class="mb-1" style="font-weight: bold;">Support</p>
-<p>Even with infrastructure in place there might be need for support e.g.</p>
-<ul>
-    <li>
-        Evaluation how to map research data to <a target="_blank" href="http://www.cidoc-crm.org/">CIDOC CRM</a> and enter them into
-        OpenAtlas
-    </li>
-    <li>Import already existing data</li>
-    <li>Training sessions</li>
-    <li>Workshops</li>
-    <li>Re-evaluating the model in the course of the project</li>
-    <li>
-        Support to organize or clean up data, e.g. it is favorable and less error prone to use a script rather to update hundreds or
-        thousands of entries manually
-    </li>
-    <li>Processing and answering user questions and requests</li>
-</ul>
+    <p class="mb-1" style="font-weight: bold;">Infrastructure</p>
+    <p>
+        To use OpenAtlas an infrastructure is needed. E.g. a server where it can be installed and made available but also
+        persons with time and expertise to:
+    </p>
+    <ul>
+        <li>
+            Install OpenAtlas, a web server, a database, setting up email and similar - for necessary steps take a look at the
+            <a target="_blank" href="https://github.com/craws/OpenAtlas/blob/master/install.md">installation notes</a>
+        </li>
+        <li>Software updates, there is a new OpenAtlas release about once a month</li>
+        <li>Server updates, e.g. over time servers will need security updates</li>
+        <li>Setting up automated backups</li>
+        <li>
+            Troubleshoot e.g. in case:
+            <ul>
+                <li>The website becomes unresponsive or unavailable</li>
+                <li>Functions don't work as expected</li>
+                <li>Available server space is getting low</li>
+                <li>A backup import is needed</li>
+            </ul>
+        </li>
+    </ul>
 
-<p class="mb-1" style="font-weight: bold;">Presentation website</p>
-<p>
-    Once data is entered and research results are available it may be desirable to present them to a broader audience.
-    We began work on a generic presentation site but even if finished different projects will still need adaptions to present their
-    specific results.
-</p>
+    <p class="mb-1" style="font-weight: bold;">Support</p>
+    <p>Even with infrastructure in place there might be need for support e.g.</p>
+    <ul>
+        <li>
+            Evaluation how to map research data to <a target="_blank" href="http://www.cidoc-crm.org/">CIDOC CRM</a> and enter them into
+            OpenAtlas
+        </li>
+        <li>Import already existing data</li>
+        <li>Training sessions</li>
+        <li>Workshops</li>
+        <li>Re-evaluating the model in the course of the project</li>
+        <li>
+            Support to organize or clean up data, e.g. it is favorable and less error prone to use a script rather to update hundreds or
+            thousands of entries manually
+        </li>
+        <li>Processing and answering user questions and requests</li>
+    </ul>
 
-<p class="mb-1" style="font-weight: bold;">Long term archiving</p>
-<p class="mb-5">
-    It is advisable to archive the data with meta data and make them online available for future use. At the ACDH-CH this can be done in
-    <a target="_blank" href="https://www.oeaw.ac.at/acdh/tools/arche/">Arche</a>.
-</p>
+    <p class="mb-1" style="font-weight: bold;">Presentation website</p>
+    <p>
+        Once data is entered and research results are available it may be desirable to present them to a broader audience.
+        We began work on a generic presentation site but even if finished different projects will still need adaptions to present their
+        specific results.
+    </p>
+
+    <p class="mb-1" style="font-weight: bold;">Long term archiving</p>
+    <p class="mb-5">
+        It is advisable to archive the data with meta data and make them online available for future use. At the ACDH-CH this can be done in
+        <a target="_blank" href="https://www.oeaw.ac.at/acdh/tools/arche/">Arche</a>.
+    </p>
 {% endblock %}
