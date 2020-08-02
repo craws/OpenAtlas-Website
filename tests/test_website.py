@@ -23,5 +23,6 @@ class WebsiteTests(TestBaseCase):
             assert b'Leeds' in self.app.get(url_for('events')).data
             assert b'interactive' in self.app.get(url_for('features')).data
             assert b'ACDH' in self.app.get(url_for('cooperation')).data
-            assert b'gigabyte' in self.app.get(url_for('cooperation_information')).data
+            assert b'Principal' in self.app.get(url_for('cooperation_information')).data
+            assert b'Flask' in self.app.get(url_for('software')).data
             assert b'404' in self.app.get('/whatever').data
