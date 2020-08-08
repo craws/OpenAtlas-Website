@@ -44,7 +44,7 @@ def software() -> str:
             'license': 'BSD-2-Clause'}),
         ('Jinja', {
             'url': 'https://palletsprojects.com/p/jinja/',
-            'text': '''is a full-featured template engine for Python with full unicode support,''',
+            'text': '''is a full-featured template engine for Python with full unicode support.''',
             'img': 'jinja.png',
             'license': 'BSD'}),
         ('Apache', {
