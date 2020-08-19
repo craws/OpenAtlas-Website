@@ -28,7 +28,7 @@ def team() -> str:
             'email': 'bernhard.koschicek@oeaw.ac.at',
             'function': 'Software Development',
             'text': """Berni is a student of Computer Sciences and currently student of history.
-            Research interests include computer security, Python, digital reservation,
+            Research interests include computer security, Python, digital preservation,
             historical geographie, GIS, medieval and military history.""",
             'img': 'bernhard.jpg',
             'image_license': 'CC-BY 4.0, Sandra Lehecka'}),
