@@ -127,7 +127,7 @@ def projects() -> str:
             'text': """examined the explanatory power of concepts of social and spatial network
                 analysis for phenomena of political conflict in medieval societies."""}),
         ("Frontier, Contact Zone or No Man's Land", {
-            'url': 'http://www.openatlas.eu/gkn',
+            'url': 'https://openatlas.eu/gkn',
             'full_name': "Frontier, Contact Zone or No Man's Land",
             'img': 'frontier.png',
             'image_license': 'CC-BY-SA 4.0, Stefan Eichert',

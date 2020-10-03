@@ -85,11 +85,11 @@ INSTITUTES = {
         'logo': 'uai.jpg'},
     'MSMT': {
         'name': 'Ministry of Education, Youth and Sports',
-        'url': 'http://www.msmt.cz',
+        'url': 'https://www.msmt.cz',
         'logo': 'msmt.png'},
     'ARUP': {
         'name': 'Institute of archaeology of the CAS',
-        'url': 'http://www.arup.cas.cz/',
+        'url': 'https://www.arup.cas.cz/',
         'logo': 'arup.jpg'}}
 
 
