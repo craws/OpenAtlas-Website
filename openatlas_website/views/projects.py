@@ -8,6 +8,18 @@ from openatlas_website import app
 @app.route('/projects')
 def projects() -> str:
     projects_ = OrderedDict([
+        ('HistoGenes', {
+            'url': 'https://www.oeaw.ac.at/imafo/read/article/what-is-histogenes/',
+            'full_name': 'Integrating genetic, archaeological and historical perspectives on Eastern Central Europe, 400-900 AD',
+            'img': 'histogenes.png',
+            'image_license': 'CC-BY-SA 4.0, Dagmar Giesriegl',
+            'pi': 'Walter Pohl',
+            'duration': '2020 - 2026',
+            'institutes': ['OEAW', 'IMAFO', 'ACDH', 'univie', 'NHM', 'MPI-SHH', 'IAS', 'ELTE',
+                           'ERC'],
+            'text': """will seek to understand the impact of migrations and mobility on the
+                population of the Carpathian Basin from 400-900 CE, based on a comprehensive
+                analysis of samples from 6,000 ancient burial sites."""}),
         ('MAMEMS', {
             'url': 'https://mamems.uni-mainz.de/',
             'full_name': 'Mount Athos in Medieval Eastern Mediterranean Society: Contextualizing the History of a Monastic Republic (ca. 850-1550)',
