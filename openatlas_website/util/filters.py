@@ -34,7 +34,7 @@ INSTITUTES = {
     'ELTE': {
         'name': 'Eötvös Loránd University',
         'url': 'https://www.elte.hu/',
-        'logo': 'elte.svg'},
+        'logo': 'elte.jpg'},
     'ERC': {
         'name': 'European Research Council',
         'url': 'https://erc.europa.eu/',
@@ -50,7 +50,7 @@ INSTITUTES = {
     'IAS': {
         'name': 'Institute for Advanced Study',
         'url': 'https://www.ias.edu/',
-        'logo': 'ias.svg'},
+        'logo': 'ias.png'},
     'IMAFO': {
         'name': 'Institute for Medieval Research',
         'url': 'https://www.oeaw.ac.at/imafo/',
@@ -74,7 +74,7 @@ INSTITUTES = {
     'NHM': {
         'name': 'Natural History Museum Vienna',
         'url': 'https://www.nhm-wien.ac.at/',
-        'logo': 'nhm.svg'},
+        'logo': 'nhm.jpg'},
     'NLS': {
         'name': 'National Library of Serbia',
         'url': 'https://www.nb.rs',
