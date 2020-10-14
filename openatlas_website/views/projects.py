@@ -9,7 +9,7 @@ from openatlas_website import app
 def projects() -> str:
     projects_ = OrderedDict([
         ('HistoGenes', {
-            'url': 'https://www.oeaw.ac.at/imafo/read/article/what-is-histogenes/',
+            'url': 'https://www.oeaw.ac.at/imafo/das-institut/detail/histogenes',
             'full_name': 'Integrating genetic, archaeological and historical perspectives on Eastern Central Europe, 400-900 AD',
             'img': 'histogenes.png',
             'image_license': 'CC-BY-SA 4.0, Dagmar Giesriegl',
