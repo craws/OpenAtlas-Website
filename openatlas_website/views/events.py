@@ -17,6 +17,11 @@ def events() -> str:
              'title': 'OpenAtlas - How to Reference Historical Points in Space and Time'})])
     past = OrderedDict([
         ('2020', OrderedDict([
+            ('2020-11-06', {'country': 'Austria',
+                            'city': 'Vienna',
+                            'institute': 'Wien Museum and Stadtarchäologie Wien',
+                            'name': 'Receiving Best App Award at 25th CHNT-Conference',
+                            'link': 'https://www.chnt.at/chnt25-over'}),
             ('2020-07-23', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'WUK',
