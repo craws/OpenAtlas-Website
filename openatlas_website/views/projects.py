@@ -38,7 +38,7 @@ def projects() -> str:
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
             'pi': 'Stefan Eichert, Nina Brundke',
             'duration': '2019 - 2022',
-            'institutes': ['OEAW', 'OeAI', 'ACDH'],
+            'institutes': ['OEAW', 'OeAI', 'ACDH', 'NHM'],
             'text': """has the aim to create a repository of early medieval Austrian grave finds. It
                 combines the three disciplines archaeology, anthropology and digital humanities.
                 """}),
