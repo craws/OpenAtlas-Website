@@ -134,7 +134,7 @@ def display_institutes(self: Any, institutes: Iterator) -> str:
     for short_name in institutes:
         institute = INSTITUTES[short_name]
         html += '''
-            <a href="{url}" target="_blank">
+            <a href="{url}" target="_blank" class="without-decoration">
                 <img src="/static/images/institutes/{logo}" alt="{name}" title="{name}">
             </a>'''.format(url=institute['url'], logo=institute['logo'], name=institute['name'])
     return html + '</div>'
