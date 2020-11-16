@@ -102,7 +102,7 @@ INSTITUTES = {
     'univie': {
         'name': 'University of Vienna',
         'url': 'https://www.univie.ac.at/',
-        'logo': 'uni_vienna.jpg'},
+        'logo': 'uni_vienna.png'},
     'Wien Kultur': {
         'name': 'Wien Kultur (MA 7)',
         'url': 'https://www.wien.gv.at/kultur/abteilung/',
