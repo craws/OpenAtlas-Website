@@ -9,7 +9,7 @@ from openatlas_website import app
 def projects() -> str:
     projects_ = OrderedDict([
         ('HistoGenes', {
-            'url': 'https://www.histogenes.org/',
+            'url': 'https://www.oeaw.ac.at/imafo/das-institut/detail/histogenes',
             'full_name': 'Integrating genetic, archaeological and historical perspectives on Eastern Central Europe, 400-900 AD',
             'img': 'histogenes.png',
             'image_license': 'CC-BY-SA 4.0, Dagmar Giesriegl',
@@ -50,7 +50,7 @@ def projects() -> str:
             'pi': 'David Natal',
             'duration': '2018 - 2022',
             'institutes': ['RHUL', 'OEAW', 'ACDH', 'ERC'],
-            'text': """analyses how a ‘universal’ late antique Church was constructed despite the
+            'text': """analyses how a ‘universal’ Late Antique Church was constructed despite the
                 context of political fragmentation that precipitated the end of the Western
                 Roman Empire and its division into smaller polities."""}),
         ('Moving Byzantium', {
@@ -123,7 +123,7 @@ def projects() -> str:
             'pi': 'Mihailo Popović',
             'duration': '2015 - 2019',
             'institutes': ['OEAW', 'IMAFO', 'univie'],
-            'text': """focussed on the analysis of the depiction of space in medieval written
+            'text': """focused on the analysis of the depiction of space in medieval written
                 sources as well as the interaction between men-made and natural environment and the appropriation
                 of space and the emergence of new political, religious and economic structures of
                 power."""}),
@@ -148,13 +148,13 @@ def projects() -> str:
             'institutes': ['univie', 'MU', 'FWF', 'GACR'],
             'text': """is an international Austrian-Czech research project sponsored by the
                 Austrian Science Fund (FWF) and Grantová agentura České republiky
-                (GA ČR). It focussed on the Morawa-Thaya region as boarder region between nowadays Austria and Czechia in Medieval times."""}),
+                (GA ČR). It focused on the Morawa-Thaya region as boarder region between nowadays Austria and Czechia in Medieval times."""}),
          ('The Eastern Alps Revisited', {
              'url': 'https://www.oeaw.ac.at/imafo/forschung/historische-identitaetsforschung/projekte/weitere-projekte/ostalpenraum-revisited/',
              'full_name': 'The Eastern Alps Revisited',
              'img': 'ostalpen.png',
              'image_license': 'CC-BY-SA 4.0, Dagmar Giesriegl',
-             'pi': 'Maximilian Diesenberger, Claudia Theune-Vogt',
+             'pi': 'Maximilian Diesenberger, Claudia Theune',
              'duration': '2012 - 2016',
              'institutes': ['OEAW', 'IMAFO', 'FWF'],
              'text': """focused on the transformation of the Late Antique province of Noricum

@@ -29,7 +29,7 @@ INSTITUTES = {
         'logo': 'biblioteka_matice_srpske.png'},
     'Byzantine Research': {
         'name': 'Byzantine Research',
-        'url': 'https://www.oeaw.ac.at/en/byzantine-research/',
+        'url': 'https://www.oeaw.ac.at/byzanz/',
         'logo': 'byzantine_research.jpg'},
     'ELTE': {
         'name': 'Eötvös Loránd University',
