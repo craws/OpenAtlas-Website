@@ -9,7 +9,7 @@ from openatlas_website import app
 def projects() -> str:
     projects_ = OrderedDict([
         ('HistoGenes', {
-            'url': 'https://www.oeaw.ac.at/imafo/das-institut/detail/histogenes',
+            'url': 'https://www.histogenes.org/',
             'full_name': 'Integrating genetic, archaeological and historical perspectives on Eastern Central Europe, 400-900 AD',
             'img': 'histogenes.png',
             'image_license': 'CC-BY-SA 4.0, Dagmar Giesriegl',
@@ -17,7 +17,7 @@ def projects() -> str:
             'duration': '2020 - 2026',
             'institutes': ['OEAW', 'IMAFO', 'ACDH', 'univie', 'NHM', 'MPI-SHH', 'IAS', 'ELTE',
                            'ERC'],
-            'text': """will seek to understand the impact of migrations and mobility on the
+            'text': """is seeking to understand the impact of migrations and mobility on the
                 population of the Carpathian Basin from 400-900 CE, based on a comprehensive
                 analysis of samples from 6,000 ancient burial sites."""}),
         ('MAMEMS', {
@@ -30,16 +30,16 @@ def projects() -> str:
             'institutes': ['JGU', 'OEAW', 'ACDH', 'ERC'],
             'text': """will constitute the first comprehensive examination of the monastic
                 communities of Mount Athos as independent actors in medieval Eastern Mediterranean
-                Society."""}),
+                society."""}),
         ('THANADOS', {
             'url': 'https://thanados.net',
             'full_name': 'The Anthropological and Archaeological Database of Sepultures',
             'img': 'thanados.png',
             'image_license': 'CC-BY-SA 4.0, Jan Belik',
             'pi': 'Stefan Eichert, Nina Brundke',
-            'duration': '2019 - 2022',
+            'duration': '2019 - 2021',
             'institutes': ['OEAW', 'OeAI', 'ACDH', 'NHM'],
-            'text': """has the aim to create a repository of early medieval Austrian grave finds. It
+            'text': """has the aim to create an online repository of all sepultures in nowadays Austria, dating to the Early Middle Ages (ca. 600-1100). It
                 combines the three disciplines archaeology, anthropology and digital humanities.
                 """}),
         ('CONNEC', {
@@ -54,7 +54,7 @@ def projects() -> str:
                 context of political fragmentation that precipitated the end of the Western
                 Roman Empire and its division into smaller polities."""}),
         ('Moving Byzantium', {
-            'url': 'https://www.oeaw.ac.at/en/byzantine-research/byzantium-and-beyond/mobility-and-intercultural-contacts/moving-byzantium/',
+            'url': 'https://www.oeaw.ac.at/en/imafo/research/byzantine-research/byzantium-and-beyond/mobility-and-intercultural-contacts/moving-byzantium',
             'full_name': 'Moving Byzantium',
             'img': 'moving_byzantium.jpg',
             'image_license': 'CC-BY-SA 4.0, Johannes Preiser-Kapeller',
@@ -62,7 +62,7 @@ def projects() -> str:
             'duration': '2015 - 2020',
             'institutes': ['OEAW', 'IMAFO', 'ACDH', 'FWF'],
             'text': """highlights the role of Byzantium as a global culture and analyses the
-                internal flexibility of Byzantine society. It aims to contribute to a re-evaluation
+                internal flexibility of Byzantine society. Its main focuse is to contribute to a re-evaluation
                 of a society and culture that has traditionally been depicted as stiff, rigid and
                 encumbered by its own tradition."""}),
         ('MEDCEM', {
@@ -76,7 +76,7 @@ def projects() -> str:
             'text': """deals with the digital collection and presentation of medieval cemeteries and
                 it is based at the Archaeological Institute of the Czech Academy of Sciences in
                 Prague. All published information is provided online and can be explored via
-                digital catalogue and within an interactive map. Cartographic visualisations as well
+                a digital catalogue and within an interactive map. Cartographic visualisations as well
                 as charts and plots are created dynamically based on real archaeological research
                 data."""}),
         ('MOP', {
@@ -89,9 +89,9 @@ def projects() -> str:
             'institutes': ['OEAW', 'IMAFO', 'FWF', 'Byzantine Research', 'TIB', 'UAI'],
             'text': """is a sub-project of the Long-Term Project Tabula Imperii Byzantini (TIB) and
                 part of the DigTIB initiative of the Austrian Academy of Sciences in Vienna. It
-                creates, develops and upkeeps an online atlas of the Byzantine World. Parts from the
-                large pool of the rich analogue data of the TIB are extracted in order to address
-                digitally new scholarly questions and methods."""}),
+                creates, develops and upkeeps an online atlas of the Byzantine World. Selected parts from the
+                rich data pool provided by TIB are extracted in order to digitally address
+                new scholarly questions and methods."""}),
         ('PLAS', {
             'url': '',
             'full_name': 'The Prosopography of the Lascarid Period',
@@ -100,8 +100,8 @@ def projects() -> str:
             'pi': 'Ekaterini Mitsiou',
             'duration': '2018 - ongoing',
             'institutes': [],
-            'text': """aims at creating a prosopographical database for the first half of the 13th
-                century Byzantium mapping the complexities of a society in transition."""}),
+            'text': """aims at creating a prosopographical database of Byzantium in the first half of the 13th
+                century and mapping the complexities of a society in transition."""}),
         ('A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)', {
             'url': 'https://orthodoxes-wien.oeaw.ac.at/',
             'full_name': 'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)',
@@ -111,10 +111,10 @@ def projects() -> str:
             'duration': '2018 - 2019',
             'institutes': ['Wien Kultur', 'OEAW', 'IMAFO', 'Byzantine Research', 'AIT', 'BCM',
                            'NLS', 'Biblioteka Matice Srpske'],
-            'text': """uses biographical data on the Orthodox 
-                Serbs in Vienna in the period from 1741 until 1918 in order to illustrate how 
-                the Orthodox began to migrate to the Habsburg Empire, how Orthodox merchants
-                settled in Vienna and how they integrated into Viennese society of that time."""}),
+            'text': """used biographical data on Orthodox 
+                Serbs living in Vienna between 1741 and 1918 in order to illustrate how 
+                Orthodox people began to migrate into the Habsburg Empire, how Orthodox merchants
+                settled in Vienna and how they were integrated into Viennese society of that time."""}),
         ('DPP', {
             'url': 'https://dpp.oeaw.ac.at/',
             'full_name': 'Digitising Patterns of Power',
@@ -123,12 +123,12 @@ def projects() -> str:
             'pi': 'Mihailo Popović',
             'duration': '2015 - 2019',
             'institutes': ['OEAW', 'IMAFO', 'univie'],
-            'text': """focuses on the analysis of the depiction of space in medieval written
-                sources, of the interaction between built and natural environment, of appropriation
+            'text': """focussed on the analysis of the depiction of space in medieval written
+                sources as well as the interaction between men-made and natural environment and the appropriation
                 of space and the emergence of new political, religious and economic structures of
                 power."""}),
         ('MEDCON', {
-            'url': 'https://oeaw.academia.edu/MappingMedievalConflict',
+            'url': 'https://www.oeaw.ac.at/imafo/das-institut/detail/mapping-medieval-conflicts',
             'archive_url': 'http://hdl.handle.net/21.11115/0000-000C-D99B-1',
             'full_name': 'Mapping Medieval Conflict',
             'img': 'medcon.png',
@@ -148,16 +148,16 @@ def projects() -> str:
             'institutes': ['univie', 'MU', 'FWF', 'GACR'],
             'text': """is an international Austrian-Czech research project sponsored by the
                 Austrian Science Fund (FWF) and Grantová agentura České republiky
-                (GA ČR)."""}),
+                (GA ČR). It focussed on the Morawa-Thaya region as boarder region between nowadays Austria and Czechia in Medieval times."""}),
          ('The Eastern Alps Revisited', {
              'url': 'https://www.oeaw.ac.at/imafo/forschung/historische-identitaetsforschung/projekte/weitere-projekte/ostalpenraum-revisited/',
              'full_name': 'The Eastern Alps Revisited',
              'img': 'ostalpen.png',
              'image_license': 'CC-BY-SA 4.0, Dagmar Giesriegl',
-             'pi': 'Maximilian Diesenberger, Claudia Theune Vogt',
+             'pi': 'Maximilian Diesenberger, Claudia Theune-Vogt',
              'duration': '2012 - 2016',
              'institutes': ['OEAW', 'IMAFO', 'FWF'],
-             'text': """focused on the transformation of the late antique province of Noricum
+             'text': """focused on the transformation of the Late Antique province of Noricum
                  Mediterraneum into an area inhabited by a Slavic-speaking population that
                  eventually became part of Bavaria."""})])
     return render_template('projects.html', projects=projects_)

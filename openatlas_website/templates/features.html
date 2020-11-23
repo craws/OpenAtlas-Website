@@ -9,77 +9,76 @@
         The web interface provides tools to enter and manipulate data which will be saved in a
         <a target="_blank" href="http://www.cidoc-crm.org/">CIDOC CRM</a>
         compatible model to a <a target="_blank" href="https://www.postgresql.org/">PostgreSQL</a>
-        database. It was paid much attention to design a web
-        interface where users don't have to be aware of the underlying data model. The CIDOC CRM
-        specification was imported to the system, can be browsed and is used to verify link
+        database. A main focus of OpenAtlas was to create a web
+        interface that allows users not to focus on the the underlying data model but to enter data in a convenient and easy way. Therefore, the CIDOC CRM
+        specification was imported into the system. It can be browsed and is used to verify link
         conformity between entities. Additionally, link combinations can be tested manually
         e.g when planning model extensions.
     </p>
     <h4 class="mt-4 mb-4">Interactive Map</h4>
     <p>
-        Places with locations can be entered on an interactive map based on
-        <a target="_blank" href="https://leafletjs.com/">Leaflet</a> which features different view
-        layers, zooming, fullscreen, clustering, searching and much more.
+        Places with known location can be entered into an interactive map based on
+        <a target="_blank" href="https://leafletjs.com/">Leaflet</a>, which features different view
+        layers, allows for zooming, fullscreen mode, clustering, searching and much more.
         <a target="_blank" href="https://postgis.net/">PostGIS</a> is used for creating and
-        manipulating spatial data. It is possible to define multiple points, lines, areas and shapes
-        for locations.
+        manipulating spatial data. Therefore, it is possible to enter location as needed as multiple points, lines, areas and shapes.
     </p>
     <h4 class="mt-4 mb-4">System, Custom and Value Types</h4>
     <p>
-        With this feature the model and user interface forms can be adapted for specific research
+        Due to this feature, the model and user interface forms can be adapted for specific research
         interests. Already provided system types can be extended. Additionally, it is possible to
         add new types e.g. "hair color" for persons. These type hierarchies can be configured to
         allow single or multiple choices. A type can be used for multiple entities e.g.
-        a hierarchy "importance" for places, actors and groups.
-        Also value types can be created to add numeric values e.g. weight or material composition
+        a hierarchy like "importance" for places, actors and groups.
+        Furthermore, value types can be created to add numeric values e.g. weight or material composition
         of a find.
     </p>
     <h4 class="mt-4 mb-4">Linked data</h4>
     <p>
-        This is an ongoing process. At the moment links to
+        Adding the possibility of linking data is an ongoing process. At the moment links to
         <a target="_blank" href="https://www.geonames.org/">GeoNames</a> identifier can be created
-        in the map using the GeoNames API. Also generic references, e.g. providing an URL for an
-        actor to a Wikipedia entry. Other features e.g. linking to
-        <a target="_blank" href="https://www.wikidata.org">Wikidata</a> will follow.
+        in the map using the GeoNames API. Also linking generic references, e.g. providing an URL for an
+        actor to a Wikipedia entry is already possible. Other features e.g. linking to
+        <a target="_blank" href="https://www.wikidata.org">Wikidata</a> will be implemented.
     </p>
     <h4 class="mt-4 mb-4">File Upload</h4>
     <p>
         Files can be uploaded and linked with entities. It is possible to link one file to multiple
-        entities (e.g. a group picture of many actors) and the other way round. Files are available
+        entities (e.g. a group picture showing different actors) and the other way round. Files are available
         to download in the original size. In the admin interface the upload file size limit and
         allowed extensions can be configured.
     </p>
     <h4 class="mt-4 mb-4">Network Visualization</h4>
     <p>
-        With the integration of <a target="_blank" href="https://d3js.org/">D3.js</a> it is possible
+        Due to the integration of <a target="_blank" href="https://d3js.org/">D3.js</a>, it is possible
         to visualize data as a network graph in 2D and 3D.
     </p>
     <h4 class="mt-4 mb-4">Spatial and Temporal Fuzziness</h4>
     <p>
         In many cases the spatial or temporal position respectively extent of an entity is not known
-        precisely. Therefore OpenAtlas allows to define time-spans (earliest/latest begin and
+        precisely. Therefore, OpenAtlas allows to define time-spans (earliest/latest begin and
         earliest/latest end) or areas in which the temporal respectively spatial extent can be
         located with a 100% certainty.
     </p>
     <h4 class="mt-4 mb-4">Archaeological Subunits</h4>
     <p>
-        For detailed mapping of archaeological finds, e.g. in a cemetery. They are used in a strict
+        These allow detailed mapping of archaeological finds, e.g. in a cemetery. They are used in a strict
         hierarchy: Place -> Feature (e.g. a grave) -> Stratigraphic Unit (e.g. a coffin or skeleton)
-        -> Find (e.g. grave goods).
+        -> Find (e.g. grave goods)/Human Remains (e.g. for anthropological information on the burial).
     </p>
     <h4 class="mt-4 mb-4">Search and Filters</h4>
     <p>
-        To allow quick navigation even in a big data set full-text search can be used.
-        Additionally, a refined advanced search can be used to filter the results (e.g. only actors,
-        also search in descriptions).
-        Tables and tree views can have many entries and have a full-text filter for convenience.
+        To allow quick navigation, even in a big data set, full-text search is possible.
+        Additionally, a refined advanced search can be used to filter the results (e.g. only actors
+        or a search in descriptions).
+        Tables and tree views, that can have many entries, have a full-text filter for convenience.
         The map provides a search field for a GeoNames search.
     </p>
     <h4 class="mt-4 mb-4">API</h4>
     <p>
         An application programming interface (API) for easier exchange with other information system
         was implemented. In it's first version it is possible to request data from single entities.
-        Output is based on <a target="_blank" href="https://json-ld.org/spec/latest/json-ld/">JSON-LD syntax</a>
+        The output is based on <a target="_blank" href="https://json-ld.org/spec/latest/json-ld/">JSON-LD syntax</a>
         and <a target="_blank" href="https://tools.ietf.org/html/rfc7946">GeoJSON</a>.
         <a href="_blank" href="https://github.com/LinkedPasts/linked-places">Linked Places</a> was used as standard.
         More features will follow in upcoming versions.
@@ -96,22 +95,21 @@
     </p>
     <h4 class="mt-4 mb-4">Data integrity check functions</h4>
     <p>
-        Because data integrity is important for the quality of research data we implemented
+        Because data integrity is important for the quality of research data, we implemented
         functions to check possible inconsistencies
         including checks for orphaned data, date inconsistency, duplicates, similar names, invalid
         links, unused types and more.
     </p>
     <h4 class="mt-4 mb-4">Users and Groups</h4>
     <p>
-        Users and Groups are used to grant different access levels. If email is configured new users
-        can receive an automated mail with access data and can also request password resets.
+        Users and Groups are used to grant different access levels. If an email is configured, new users
+        can receive an automated mail with access data and can request a password resets.
     </p>
     <h4 class="mt-4 mb-4">Internationalization</h4>
     <p>
         Multiple languages for the user interface are implemented with
         <a target="_blank" href="https://www.gnu.org/software/gettext/">gettext</a>. At the moment
-        English and German are implemented but it can easily be extended if translations for other
-        languages are available.
+        English and German are available. Easy extention to other languages is possible, when translations available.
     </p>
     <h4 class="mt-4 mb-4">Newsletter</h4>
     <p>
