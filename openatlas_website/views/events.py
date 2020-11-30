@@ -43,7 +43,7 @@ def events() -> str:
                             'city': 'Vienna',
                             'institute': 'Austrian Centre for Digital Humanities',
                             'name': 'ACDH-CH - Meet the Researchers',
-                            'link': 'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/meet-the-researchers/',
+                            'link': 'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/meet-the-researchers-programme',
                             'title': 'OpenAtlas',
                             'docs': {
                                 'Presentation': '2020-02-11_OpenAtlas_Meet_the_Researchers.pdf'}}),
@@ -73,7 +73,7 @@ def events() -> str:
                             'city': 'Vienna',
                             'institute': 'Austrian Centre for Digital Humanities',
                             'name': 'ACDH-CH - Meet the Researchers',
-                            'link': 'https://www.oeaw.ac.at/acdh/education/acdh-internships/meet-the-researchers/',
+                            'link': 'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/meet-the-researchers-programme',
                             'title': 'Introduction to CIDOC CRM with OpenAtlas as an example use case'}),
             ('2019-07-03', {'country': 'United Kingdom',
                             'city': 'Leeds',
@@ -124,7 +124,7 @@ def events() -> str:
                             'city': 'Vienna',
                             'institute': 'Austrian Centre for Digital Humanities',
                             'name': 'ACDH-CH Tool Gallery - CIDOC CRM',
-                            'link': 'https://www.oeaw.ac.at/acdh/about/news-archive/news-detail/article/acdh-tool-gallery-41',
+                            'link': 'https://www.oeaw.ac.at/acdh/events/event-series/acdh-tool-gallery-41',
                             'title': 'OpenAtlas',
                             'docs': {'Presentation': '2018-05-29_ACDH_Tool_Gallery.pdf'}})])),
         ('2017', OrderedDict([
