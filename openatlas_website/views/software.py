@@ -16,7 +16,7 @@ def software() -> str:
         ('Flask', {
             'url': 'https://palletsprojects.com/p/flask/',
             'text': '''
-                is a micro web framework written in Python with the ability to scale up to 
+                is a micro web framework, written in Python, with the ability to scale up to 
                 complex applications.''',
             'img': 'flask.png',
             'license': 'BSD'}),
@@ -29,7 +29,7 @@ def software() -> str:
             'url': 'https://postgis.net',
             'text': ''' 
                 is a spatial database extender for PostgreSQL and
-                adds support for geographic objects .''',
+                adds support for geographic objects.''',
             'img': 'postgis.png',
             'license': 'GPL 2 or later'}),
         ('Bootstrap', {
@@ -39,7 +39,7 @@ def software() -> str:
             'license': 'MIT'}),
         ('Leaflet', {
             'url': 'https://leafletjs.com/',
-            'text': 'is a open source JavaScript library used to build web mapping applications.',
+            'text': 'is a open-source JavaScript library used to build web mapping applications.',
             'img': 'leaflet.png',
             'license': 'BSD-2-Clause'}),
         ('Jinja', {

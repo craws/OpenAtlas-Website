@@ -12,7 +12,7 @@ def team() -> str:
             'email': 'stefan.eichert@univie.ac.at',
             'function': 'Idea, Concept and Data Modelling',
             'text': """Stefan is the the initiator and master mind behind the OpenAtlas project.
-                His main research fields are early medieval history and archaeology as well as
+                His main research fields are Early Medieval archaeology and history as well as
                 computer applications in archaeology and digital humanities.""",
             'img': 'stefan.jpg',
             'image_license': 'CC-BY 4.0, Sandra Lehecka'}),
@@ -21,15 +21,15 @@ def team() -> str:
             'function': 'Lead Developer and Concept',
             'text': """Alex is the lead developer of OpenAtlas and has a special interest
                 in data modeling and scientific web applications. His favorite tools are Python,
-                PostgreSQL, Linux, and open source software in general.""",
+                PostgreSQL, Linux and open source software in general.""",
             'img': 'alex.jpg',
             'image_license': 'CC-BY 4.0, Sandra Lehecka'}),
         ('Bernhard Koschicek', {
             'email': 'bernhard.koschicek@oeaw.ac.at',
             'function': 'Software Development',
             'text': """Berni is a student of Computer Sciences and currently student of history.
-            Research interests include computer security, Python, digital preservation,
-            historical geographie, GIS, medieval and military history.""",
+            His research interests include computer security, Python, digital preservation,
+            historical geography, GIS, medieval and military history.""",
             'img': 'bernhard.jpg',
             'image_license': 'CC-BY 4.0, Sandra Lehecka'}),
         ('Christoph Hoffmann', {
@@ -41,20 +41,19 @@ def team() -> str:
             'img': 'christoph.jpg',
             'image_license': 'CC-BY 4.0, Sandra Lehecka'}),
         ('Nina Brundke', {
-            'email': 'nina.brundke@oeai.at',
+            'email': 'nina.brundke@oeaw.ac.at',
             'function': 'Bioarchaeological Expertise',
-            'text': """Nina studied medieval and modern archaeology at the Otto-Friedrich University, 
-            Bamberg, and studied biology with a concentration on anthropology at the University of Vienna. 
-            With her expertise she provides essential support planning and implementing archeological 
-            modules in OpenAtlas.""",
+            'text': """Nina is an archaeologist and anthropologist, with a focus on Early Medieval burial grounds.
+            With her expertise she provides essential support planning and implementing archeological, anthropological 
+            and scientific modules in OpenAtlas.""",
             'img': 'nina.jpg',
             'image_license': 'CC-BY 4.0, Jan Belik'}),
         ('Jan Belik', {
             'email': 'buero@janbelik.com',
             'function': 'Logo Design and Design Consulting',
-            'text': """Jan is a freelance Graphic Designer, Illustrator and Art Director at
+            'text': """Jan is a freelance graphic designer, illustrator and art director at
                 <a href="https://janbelik.com" target="_blank">janbelik.com</a> in Vienna, Austria.
-                He has plenty of experience working with local and international brands and has
+                He has plenty of experience working with local as well as international brands and has
                 created a range of OpenAtlas project logos.""",
             'img': 'jan.jpg',
             'image_license': 'CC-BY 4.0, Sandra Lehecka'}),
