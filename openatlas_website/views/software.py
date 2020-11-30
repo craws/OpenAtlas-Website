@@ -22,7 +22,7 @@ def software() -> str:
             'license': 'BSD'}),
         ('PostgreSQL', {
             'url': 'https://www.postgresql.org/',
-            'text': 'is a free and open-source relational database management system.',
+            'text': 'is a free and open source relational database management system.',
             'img': 'postgresql.jpeg',
             'license': 'PostgreSQL License'}),
         ('PostGIS', {
@@ -34,12 +34,12 @@ def software() -> str:
             'license': 'GPL 2 or later'}),
         ('Bootstrap', {
             'url': 'https://getbootstrap.com/',
-            'text': 'is a free and open-source CSS framework.',
+            'text': 'is a free and open source CSS framework.',
             'img': 'bootstrap.jpeg',
             'license': 'MIT'}),
         ('Leaflet', {
             'url': 'https://leafletjs.com/',
-            'text': 'is a open-source JavaScript library used to build web mapping applications.',
+            'text': 'is a open source JavaScript library used to build web mapping applications.',
             'img': 'leaflet.png',
             'license': 'BSD-2-Clause'}),
         ('Jinja', {
@@ -49,7 +49,7 @@ def software() -> str:
             'license': 'BSD'}),
         ('Apache', {
             'url': 'https://httpd.apache.org/',
-            'text': 'is a free and open-source cross-platform web server software.',
+            'text': 'is a free and open source cross-platform web server software.',
             'img': 'apache.png',
             'license': 'Apache License 2.0'}),
 
