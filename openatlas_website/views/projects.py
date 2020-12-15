@@ -8,18 +8,6 @@ from openatlas_website import app
 @app.route('/projects')
 def projects() -> str:
     projects_ = OrderedDict([
-        ('HistoGenes', {
-            'url': 'https://www.oeaw.ac.at/imafo/das-institut/detail/histogenes',
-            'full_name': 'Integrating genetic, archaeological and historical perspectives on Eastern Central Europe, 400-900 AD',
-            'img': 'histogenes.png',
-            'image_license': 'CC-BY-SA 4.0, Dagmar Giesriegl',
-            'pi': 'Walter Pohl',
-            'duration': '2020 - 2026',
-            'institutes': ['OEAW', 'IMAFO', 'ACDH', 'univie', 'NHM', 'MPI-SHH', 'IAS', 'ELTE',
-                           'ERC'],
-            'text': """is seeking to understand the impact of migrations and mobility on the
-                population of the Carpathian Basin from 400-900 CE, based on a comprehensive
-                analysis of samples from 6,000 ancient burial sites."""}),
         ('MAMEMS', {
             'url': 'https://mamems.uni-mainz.de/',
             'full_name': 'Mount Athos in Medieval Eastern Mediterranean Society: Contextualizing the History of a Monastic Republic (ca. 850-1550)',
@@ -42,6 +30,18 @@ def projects() -> str:
             'text': """has the aim to create an online repository of all sepultures in nowadays Austria, dating to the Early Middle Ages (ca. 600-1100). It
                 combines the three disciplines archaeology, anthropology and digital humanities.
                 """}),
+        ('HistoGenes', {
+            'url': 'https://www.oeaw.ac.at/imafo/das-institut/detail/histogenes',
+            'full_name': 'Integrating genetic, archaeological and historical perspectives on Eastern Central Europe, 400-900 AD',
+            'img': 'histogenes.png',
+            'image_license': 'CC-BY-SA 4.0, Dagmar Giesriegl',
+            'pi': 'Walter Pohl',
+            'duration': '2020 - 2026',
+            'institutes': ['OEAW', 'IMAFO', 'ACDH', 'univie', 'NHM', 'MPI-SHH', 'IAS', 'ELTE',
+                           'ERC'],
+            'text': """is seeking to understand the impact of migrations and mobility on the
+            population of the Carpathian Basin from 400-900 CE, based on a comprehensive
+            analysis of samples from 6,000 ancient burial sites."""}),
         ('CONNEC', {
             'url': 'http://www.connectedclerics.com/',
             'full_name': 'Connected Clerics: Building a Universal Church in the Late Antique West (380-604 CE)',

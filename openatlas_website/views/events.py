@@ -11,17 +11,24 @@ def events() -> str:
         ('2021-06-17',
          {'country': 'Germany',
           'city': 'Mainz',
-          'institute': 'Johannes Gutenberg University Mainz',
-          'name': 'MAMEMS',
-          'link': '',
+          'institute': 'Johannes Gutenberg University',
+          'name': 'Medieval Mount Athos: Wealth and Poverty',
+          'link': 'https://mamems.uni-mainz.de/',
           'title': 'OpenAtlas - An Introduction'}),
         ('2021-07-05',
+         {'country': 'United Kingdom',
+          'city': 'Leeds',
+          'institute': 'University of Leeds',
+          'name': 'International Medieval Congress 2021',
+          'link': 'https://www.imc.leeds.ac.uk/2021-climates/',
+          'title': 'OpenAtlas: How to Reference Historical Points in Space and Time'}),
+        ('2021-07-08',
             {'country': 'United Kingdom',
              'city': 'Leeds',
              'institute': 'University of Leeds',
              'name': 'International Medieval Congress 2021',
              'link': 'https://www.imc.leeds.ac.uk/2021-climates/',
-             'title': 'OpenAtlas - How to Reference Historical Points in Space and Time'})])
+             'title': 'Digital Tools for Historical Research: A Round Table Discussion'})])
     past = OrderedDict([
         ('2020', OrderedDict([
             ('2020-11-06', {'country': 'Austria',
