@@ -40,7 +40,7 @@ def events() -> str:
             ('2020-07-23', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'WUK',
-                            'name': 'OpenAtlas Summer Meeting'}),
+                            'title': 'OpenAtlas Summer Meeting'}),
             ('2020-06-17', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'Natural History Museum Vienna',
@@ -92,7 +92,7 @@ def events() -> str:
             ('2019-06-18', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'WUK',
-                            'name': 'OpenAtlas and THANADOS Summer Meeting'}),
+                            'title': 'OpenAtlas and THANADOS Summer Meeting'}),
             ('2019-05-16', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'Austrian Academy of Sciences',
@@ -104,7 +104,7 @@ def events() -> str:
             ('2019-02-20', {'country': 'Czech Republic',
                             'city': 'Prague',
                             'institute': 'Institute of Archaeology of the Czech Academy of Sciences',
-                            'name': 'Networking meeting with AIS'}),
+                            'title': 'Networking meeting with AIS'}),
             ('2019-02-13', {'country': 'Austria',
                             'city': 'Vienna',
                             'institute': 'University of Vienna',
@@ -176,5 +176,5 @@ def events() -> str:
             ('2015-12-16', {'country': 'Czech Republic',
                             'city': 'Brno',
                             'institute': 'Masaryk University',
-                            'name': 'OpenAtlas Workshop'})]))])
+                            'title': 'OpenAtlas Workshop'})]))])
     return render_template('events.html', past=past, upcoming=upcoming)
