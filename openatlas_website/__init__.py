@@ -5,7 +5,7 @@ app.config.from_object('config.default')   # type: ignore
 app.config.from_pyfile('production.py')   # type: ignore
 
 from openatlas_website.util import filters
-from openatlas_website.views import events, features, index, projects, software, team
+from openatlas_website import views
 
 
 @app.before_request
@@ -20,9 +20,6 @@ def apply_caching(response: Response) -> Response:
     response.headers['X-Content-Type-Options'] = 'nosniff'
     response.headers['X-Frame-Options'] = 'SAMEORIGIN'
     response.headers['X-XSS-Protection'] = '1; mode=block'
-
-    # Todo: activate Content-Security-Policy after removal of every inline CSS and JavaScript
-    # response.headers['Content-Security-Policy'] = "default-src 'self'"
     return response
 
 

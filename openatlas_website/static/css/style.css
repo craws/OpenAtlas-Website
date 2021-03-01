@@ -3,6 +3,12 @@ a.img, a.without-decoration {
     text-decoration: none;
 }
 
+span.news-teaser {
+    color: #FFFFFF;
+    padding: 0.2em 0.4em;
+    background-color: #B8CF5B;
+}
+
 img.team {
     max-width: 140px;
 }
