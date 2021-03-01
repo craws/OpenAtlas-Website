@@ -2,7 +2,7 @@ news_items = {
     'News': {
         '2021-01-21': {
             'title': 'THANADOS: Der Standard archeology blog',
-            'text': '''An <a target="_blank" href="https://www.derstandard.at/wissenschaft/wissensblogs/archaeologieblog">
+            'text': '''An <a target="_blank" href="https://www.derstandard.at/story/2000123448701/tausende-graeber-zum-selbsterforschen">
                     article
                 </a>(German) about THANADOS was released at Der Standard.'''},
         '2021-01-16': {
