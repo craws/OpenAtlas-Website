@@ -4,7 +4,7 @@ import flask
 import jinja2
 from flask import url_for
 
-from openatlas_website.data.institute import INSTITUTES
+from openatlas_website.data.institute import institutes
 
 blueprint: flask.Blueprint = flask.Blueprint('filters', __name__)
 
@@ -19,7 +19,7 @@ def display_menu(self: Any, route: str) -> str:
         active = ''
         if route.startswith('/' + item):
             active = 'active'
-        if item == 'about' and route in ['/', '/cooperation', '/cooperation/information']:
+        if item == 'about' and route in ['/', '/cooperation', '/cooperation/information', '/news']:
             active = 'active'
         html += '<a class="nav-item nav-link {active}" href="{url}">{label}</a>'.format(
             active=active, url=url_for(item), label=item.upper())
@@ -28,10 +28,10 @@ def display_menu(self: Any, route: str) -> str:
 
 @jinja2.contextfilter
 @blueprint.app_template_filter()
-def display_institutes(self: Any, institutes: Iterator) -> str:
+def display_institutes(self: Any, institutes_: Iterator) -> str:
     html = '<div>'
-    for short_name in institutes:
-        institute = INSTITUTES[short_name]
+    for short_name in institutes_:
+        institute = institutes[short_name]
         html += '''
             <a href="{url}" target="_blank" class="without-decoration">
                 <img src="/static/images/institutes/{logo}" alt="{name}" title="{name}">

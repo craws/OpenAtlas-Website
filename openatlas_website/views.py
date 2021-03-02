@@ -11,8 +11,7 @@ from openatlas_website.data.team import team_
 @app.route('/')
 def about() -> str:
     news_dictionary = (list(news_items.values())[0])
-    latest_news_title = list(news_dictionary.values())[0]['title']
-    return render_template('about.html', latest_news_title=latest_news_title)
+    return render_template('about.html', latest_news_item=list(news_dictionary.values())[0])
 
 
 @app.errorhandler(404)

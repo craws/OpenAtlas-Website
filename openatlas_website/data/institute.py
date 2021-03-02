@@ -1,4 +1,4 @@
-INSTITUTES = {
+institutes = {
     'ACDH': {
         'name': 'Austrian Centre for Digital Humanities and Cultural Heritage',
         'url': 'https://www.oeaw.ac.at/acdh/',
