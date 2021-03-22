@@ -22,7 +22,7 @@ projects_ = {
                 combines the three disciplines archaeology, anthropology and digital humanities.
                 """},
     'HistoGenes': {
-        'url': 'https://www.oeaw.ac.at/imafo/das-institut/detail/histogenes',
+        'url': 'https://www.histogenes.org/',
         'full_name': 'Integrating genetic, archaeological and historical perspectives on Eastern Central Europe, 400-900 AD',
         'img': 'histogenes.png',
         'image_license': 'CC-BY-SA 4.0, Dagmar Giesriegl',
