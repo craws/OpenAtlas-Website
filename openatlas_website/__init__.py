@@ -23,8 +23,5 @@ def apply_caching(response: Response) -> Response:
     return response
 
 
-app.register_blueprint(filters.blueprint)
-
-
 if __name__ == "__main__":  # pragma: no cover
     app.run()

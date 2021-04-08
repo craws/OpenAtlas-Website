@@ -1,41 +1,34 @@
-from typing import Any, Iterator
+from typing import Iterator
 
-import flask
-import jinja2
 from flask import url_for
+from markupsafe import Markup
 
+from openatlas_website import app
 from openatlas_website.data.institute import institutes
 
-blueprint: flask.Blueprint = flask.Blueprint('filters', __name__)
 
-
-@jinja2.contextfilter
-@blueprint.app_template_filter()
-def display_menu(self: Any, route: str) -> str:
-    """ Returns HTML with the menu and mark appropriate item as selected."""
+@app.template_filter()
+def display_menu(route: str) -> str:
     html = ''
     items = ['about', 'projects', 'features', 'software', 'team', 'events']
     for item in items:
-        active = ''
-        if route.startswith('/' + item):
-            active = 'active'
+        active = 'active' if route.startswith('/' + item) else ''
         if item == 'about' and route in ['/', '/cooperation', '/cooperation/information', '/news']:
             active = 'active'
         html += '''
             <li class="nav-item">
                 <a class="nav-link {active}" href="{url}">{label}</a>
             </li>'''.format(active=active, url=url_for(item), label=item.upper())
-    return html
+    return Markup(html)
 
 
-@jinja2.contextfilter
-@blueprint.app_template_filter()
-def display_institutes(self: Any, institutes_: Iterator) -> str:
-    html = '<div>'
+@app.template_filter()
+def display_institutes(institutes_: Iterator) -> str:
+    html = ''
     for short_name in institutes_:
         institute = institutes[short_name]
         html += '''
             <a href="{url}" target="_blank" class="without-decoration">
                 <img src="/static/images/institutes/{logo}" alt="{name}" title="{name}">
             </a>'''.format(url=institute['url'], logo=institute['logo'], name=institute['name'])
-    return html + '</div>'
+    return Markup('<div>{html}</div>'.format(html=html))
