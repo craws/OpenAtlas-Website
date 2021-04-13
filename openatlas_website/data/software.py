@@ -35,9 +35,4 @@ stack = {
         'url': 'https://palletsprojects.com/p/jinja/',
         'text': '''is a full-featured template engine for Python with full unicode support.''',
         'img': 'jinja.png',
-        'license': 'BSD'},
-    'Apache': {
-        'url': 'https://httpd.apache.org/',
-        'text': 'is a free and open source cross-platform web server software.',
-        'img': 'apache.png',
-        'license': 'Apache License 2.0'}}
+        'license': 'BSD'}}
