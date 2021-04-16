@@ -1,12 +1,5 @@
 upcoming = {
-    '2021-04-15': {
-        'country': 'Austria',
-        'city': 'digital',
-        'institute': 'Digital Humanities Austria via Twitter',
-        'name': '#digitalDHaustria Twitter Schaukasten',
-        'link': 'https://digital-humanities.at/en/dha/s-news/digitaldhaustria-dh-schaukasten-and-twitter-event',
-        'title': ''},
-    '2021-05-17': {
+        '2021-05-17': {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'Institute for Medieval Research',
@@ -36,6 +29,14 @@ upcoming = {
         'title': 'Digital Tools for Historical Research: A Round Table Discussion'}}
 
 past = {
+    '2021': {
+        '2021-04-15': {
+            'country': 'Austria',
+            'city': 'digital',
+            'institute': 'Digital Humanities Austria via Twitter',
+            'name': '#digitalDHaustria Twitter Schaukasten',
+            'link': 'https://digital-humanities.at/en/dha/s-news/digitaldhaustria-dh-schaukasten-and-twitter-event',
+            'title': ''}},
     '2020': {
         '2020-11-06': {
             'country': 'Austria',
