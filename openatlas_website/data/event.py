@@ -36,7 +36,8 @@ past = {
             'institute': 'Digital Humanities Austria via Twitter',
             'name': '#digitalDHaustria Twitter Schaukasten',
             'link': 'https://digital-humanities.at/en/dha/s-news/digitaldhaustria-dh-schaukasten-and-twitter-event',
-            'title': ''}},
+            'title': 'OpenAtlas',
+            'docs': {'OpenAtlas im Schaukasten': 'https://digital-humanities.at/en/dha/s-project/openatlas'}}},
     '2020': {
         '2020-11-06': {
             'country': 'Austria',

@@ -3,8 +3,11 @@ news_items = {
         '2021-04-15': {
             'date': '2021-04-15',
             'title': 'OpenAtlas at DHA Twitter Schaukasten',
-            'text': '''OpenAtlas is part of the DHaustria Twitter conference. Check #digitalDHaustria on twitter or
-                <a target="_blank" href="https://digital-humanities.at">DHA</a>. Feel free to re-tweet'''},
+            'text': '''OpenAtlas is part of the DHaustria Twitter conference. Check
+                #digitalDHaustria on Twitter or
+                <a target="_blank" href="https://digital-humanities.at/en/dha/s-project/openatlas">
+                    here
+                </a>. Feel free to re-tweet.'''},
         '2021-04-05': {
             'date': '2021-04-05',
             'title': 'OpenAtlas version 6.1.0',
