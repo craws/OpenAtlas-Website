@@ -1,11 +1,4 @@
 upcoming = {
-    '2021-04-15': {
-        'country': 'Austria',
-        'city': 'digital',
-        'institute': 'Digital Humanities Austria via Twitter',
-        'name': '#digitalDHaustria Twitter Schaukasten',
-        'link': 'https://digital-humanities.at/en/dha/s-news/digitaldhaustria-dh-schaukasten-and-twitter-event',
-        'title': ''},
     '2021-05-17': {
         'country': 'Austria',
         'city': 'Vienna',
