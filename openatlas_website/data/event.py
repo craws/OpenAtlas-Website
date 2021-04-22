@@ -1,5 +1,12 @@
 upcoming = {
-        '2021-05-17': {
+    '2021-04-15': {
+        'country': 'Austria',
+        'city': 'digital',
+        'institute': 'Digital Humanities Austria via Twitter',
+        'name': '#digitalDHaustria Twitter Schaukasten',
+        'link': 'https://digital-humanities.at/en/dha/s-news/digitaldhaustria-dh-schaukasten-and-twitter-event',
+        'title': ''},
+    '2021-05-17': {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'Institute for Medieval Research',
@@ -36,7 +43,8 @@ past = {
             'institute': 'Digital Humanities Austria via Twitter',
             'name': '#digitalDHaustria Twitter Schaukasten',
             'link': 'https://digital-humanities.at/en/dha/s-news/digitaldhaustria-dh-schaukasten-and-twitter-event',
-            'title': ''}},
+            'title': 'OpenAtlas',
+            'docs': {'OpenAtlas im Schaukasten': 'https://digital-humanities.at/en/dha/s-project/openatlas'}}},
     '2020': {
         '2020-11-06': {
             'country': 'Austria',
