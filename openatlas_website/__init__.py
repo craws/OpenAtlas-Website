@@ -1,8 +1,8 @@
 from flask import Flask, Response, request
 
 app = Flask(__name__, instance_relative_config=True)
-app.config.from_object('config.default')   # type: ignore
-app.config.from_pyfile('production.py')   # type: ignore
+app.config.from_object('config.default')  # type: ignore
+app.config.from_pyfile('production.py')  # type: ignore
 
 from openatlas_website.util import filters
 from openatlas_website import views

@@ -7,7 +7,7 @@ from openatlas_website import app
 
 class TestBaseCase(unittest.TestCase):
 
-    def setUp(self):
+    def setUp(self) -> None:
         app.testing = True
         app.config['SERVER_NAME'] = 'local.host'
         self.app = app.test_client()
@@ -15,7 +15,7 @@ class TestBaseCase(unittest.TestCase):
 
 class WebsiteTests(TestBaseCase):
 
-    def test_sites(self):
+    def test_sites(self) -> None:
         with app.app_context():
             assert b'OpenAtlas' in self.app.get('/').data
             assert b'Eichert' in self.app.get(url_for('team')).data
