@@ -8,12 +8,12 @@
     </p>
     {% for name, software in stack.items() %}
         <div class="row">
-            <div class="col-xs-auto mr-4">
+            <div class="col-md-2" style="text-align:center;">
                 <a target="_blank" rel="noopener" href="{{ software.url }}">
                     <img class="team" src="/static/images/software/{{ software.img }}" alt="">
                 </a>
             </div>
-            <div class="col">
+            <div class="col mb-3">
                 <p>
                     <span style="font-weight: bold;">{{ name }}</span>
                     {{ software.text|safe  }}<br>

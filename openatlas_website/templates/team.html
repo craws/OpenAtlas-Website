@@ -2,13 +2,13 @@
 {% block content %}
 {% for name, person in team.items() %}
     <div class="row">
-        <div class="col-md-auto mb-3">
+        <div class="col-md-auto mb-4">
             <img class="team" src="/static/images/team/{{ person.img }}" alt=""><br>
             {% if person.image_license %}
                 <span class="image-license">{{ person.image_license|safe }}</span>
             {% endif %}
         </div>
-        <div class="col mt-3">
+        <div class="col mb-4">
             <p>
                 <span style="font-weight: bold;">{{ name }}</span><br>
                 {{ person.function }}<br>
