@@ -35,9 +35,8 @@ past = {
             'city': 'digital',
             'institute': 'Digital Humanities Austria via Twitter',
             'name': '#digitalDHaustria Twitter Schaukasten',
-            'link': 'https://digital-humanities.at/en/dha/s-news/digitaldhaustria-dh-schaukasten-and-twitter-event',
-            'title': 'OpenAtlas',
-            'docs': {'OpenAtlas im Schaukasten': 'https://digital-humanities.at/en/dha/s-project/openatlas'}}},
+            'link': 'https://digital-humanities.at/en/dha/s-project/openatlas',
+            'title': 'OpenAtlas'}},
     '2020': {
         '2020-11-06': {
             'country': 'Austria',
@@ -117,8 +116,9 @@ past = {
             'name': 'Digitising Patterns of Power - Book and Project Presentation',
             'title': 'OpenAtlas unter die Haube geschaut',
             'link': 'https://www.oeaw.ac.at/en/detail/news/landkarten-der-macht/',
-            'docs': {'Program': '2019-05-16_Programm_DPP.pdf',
-                     'Presentation': '2019-05-16_dpp_book_presentation.pdf'}},
+            'docs': {
+                'Program': '2019-05-16_Programm_DPP.pdf',
+                'Presentation': '2019-05-16_dpp_book_presentation.pdf'}},
         '2019-02-20': {
             'country': 'Czech Republic',
             'city': 'Prague',
@@ -139,8 +139,9 @@ past = {
             'name': 'DPP Concluding Conference',
             'link': 'https://dpp.oeaw.ac.at/conference/index.php?site=program',
             'title': 'OpenAtlas - How to Grow Software for Historians',
-            'docs': {'Program': '2018-10-19_dpp_concluding_programm.pdf',
-                     'Presentation': '2018-10-19_dpp_concluding.pdf'}},
+            'docs': {
+                'Program': '2018-10-19_dpp_concluding_programm.pdf',
+                'Presentation': '2018-10-19_dpp_concluding.pdf'}},
         '2018-07-03': {
             'country': 'United Kingdom',
             'city': 'Leeds',
@@ -190,8 +191,9 @@ past = {
             'name': 'International Medieval Congress 2016',
             'link': 'https://www.imc.leeds.ac.uk/imcarchive/2016/sessions/803/',
             'title': 'Relational Modelling of Historical Data - A Technical Perspective',
-            'docs': {'Paper': '2016-07-05_A_Technical_Perspective.pdf',
-                     'Presentation': '2016-07-05_leeds.pdf'}},
+            'docs': {
+                'Paper': '2016-07-05_A_Technical_Perspective.pdf',
+                'Presentation': '2016-07-05_leeds.pdf'}},
         '2016-04-13': {
             'country': 'Austria',
             'city': 'Vienna',
