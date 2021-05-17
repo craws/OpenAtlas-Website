@@ -21,6 +21,20 @@ projects_ = {
         'text': """has the aim to create an online repository of all sepultures in nowadays Austria, dating to the Early Middle Ages (ca. 600-1100. It
                 combines the three disciplines archaeology, anthropology and digital humanities.
                 """},
+    'SHAHI': {
+        'url': 'https://shahimaterialculture.univie.ac.at/',
+        'full_name': '''interdisciplinary FWF project (P-31246) Cultural Formation and Transformation: Shahi Art and
+        Architecture from Afghanistan to the West Tibetan Frontier at the Dawn of the Islamic Era''',
+        'img': 'shahi.jpg',
+        'image_license': '',
+        'pi': 'Deborah Klimburg-Salter; National research partner: Michael Alram',
+        'duration': '2018 - 2022',
+        'institutes': ['univie', 'OEAW', 'ACDH', 'FWF', 'KHM', 'CIRDIS'],
+        'text': """  considers for the
+        first time the Shahi kingdoms (c. 7th-10th centuries) as a cohesive entity which played a pivotal role in the
+        history of Central, Inner, and South Asia. Groundbreaking research by the global team of scholars will be
+        published together with the primary source material - artifacts, coins, inscriptions, archaeological sites - for
+        the Shahi kingdoms in the interactive Shahi Kingdoms Digital Research Platform."""},
     'HistoGenes': {
         'url': 'https://www.histogenes.org/',
         'full_name': 'Integrating genetic, archaeological and historical perspectives on Eastern Central Europe, 400-900 AD',

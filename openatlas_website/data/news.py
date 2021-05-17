@@ -1,5 +1,10 @@
 news_items = {
     'News': {
+        '2021-05-17': {
+            'date': '2021-05-17',
+            'title': 'New OpenAtlas cooperation with SHAHI',
+            'text': '''We are happy to announce a new cooperation. For project details, see
+            <a target="_blank" href="https://shahimaterialculture.univie.ac.at/">SHAHI</a>'''},
         '2021-05-08': {
             'date': '2021-05-08',
             'title': 'OpenAtlas version 6.2.0',
@@ -11,7 +16,7 @@ news_items = {
             'text': '''OpenAtlas is part of the DHaustria Twitter conference. Check
                 #digitalDHaustria on Twitter or
                 <a target="_blank" href="https://digital-humanities.at/en/dha/s-project/openatlas">
-                    here</a>. Feel free to re-tweet.'''},
+                    here</a>'''},
         '2021-04-05': {
             'date': '2021-04-05',
             'title': 'OpenAtlas version 6.1.0',
@@ -27,7 +32,7 @@ news_items = {
             'title': 'THANADOS at Der Standard archeology blog',
             'text': '''An <a target="_blank" href="https://www.derstandard.at/story/2000123448701/tausende-graeber-zum-selbsterforschen">
                     article
-                </a>(German) about THANADOS was released at Der Standard.'''},
+                </a>(German) about THANADOS was released at "Der Standard"'''},
         '2021-01-16': {
             'date': '2021-01-16',
             'title': 'OpenAtlas version 5.7.0',

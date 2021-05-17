@@ -23,6 +23,10 @@ institutes = {
         'name': 'Byzantine Research',
         'url': 'https://www.oeaw.ac.at/byzanz/',
         'logo': 'byzantine_research.jpg'},
+    'CIRDIS': {
+        'name': 'Center for Interdisciplinary Research and Documentation of Inner and South Asian Cultural History',
+        'url': 'https://www.univie.ac.at/cirdis/',
+        'logo': 'cirdis.jpg'},
     'ELTE': {
         'name': 'Eötvös Loránd University',
         'url': 'https://www.elte.hu/',
@@ -51,6 +55,10 @@ institutes = {
         'name': 'Johannes Gutenberg University Mainz',
         'url': 'https://www.uni-mainz.de/eng/index.php',
         'logo': 'jug.png'},
+    'KHM': {
+        'name': 'Kunsthistorisches Museum Wien',
+        'url': 'https://www.khm.at/',
+        'logo': 'khm.jpg'},
     'MPI-SHH': {
         'name': 'Max Planck Institute for the Science of Human History',
         'url': 'https://www.shh.mpg.de/',
