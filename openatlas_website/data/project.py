@@ -1,7 +1,7 @@
 projects_ = {
     'MAMEMS': {
         'url': 'https://mamems.uni-mainz.de/',
-        'full_name': 'Mount Athos in Medieval Eastern Mediterranean Society: Contextualizing the History of a Monastic Republic (ca. 850-1550',
+        'full_name': 'Mount Athos in Medieval Eastern Mediterranean Society: Contextualizing the History of a Monastic Republic (ca. 850-1550)',
         'img': 'mamems.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Zachary Chitwood',
@@ -49,7 +49,7 @@ projects_ = {
             analysis of samples from 6,000 ancient burial sites."""},
     'CONNEC': {
         'url': 'http://www.connectedclerics.com/',
-        'full_name': 'Connected Clerics: Building a Universal Church in the Late Antique West (380-604 CE',
+        'full_name': 'Connected Clerics: Building a Universal Church in the Late Antique West (380-604 CE)',
         'img': 'connec.jpg',
         'image_license': 'CC-BY-SA 4.0, Sapfo Psani',
         'pi': 'David Natal',
@@ -89,10 +89,10 @@ projects_ = {
         'full_name': 'Maps of Power: Historical Atlas of Places, Borderzones and Migration Dynamics in Byzantium',
         'img': 'digtib.jpg',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
-        'pi': 'Mihailo Popović (TIB PI: Balkans, Andreas Külzer (TIB PI: Asia Minor',
+        'pi': 'Mihailo Popović (TIB PI: Balkans), Andreas Külzer (TIB PI: Asia Minor)',
         'duration': '2019 - ongoing',
         'institutes': ['OEAW', 'IMAFO', 'FWF', 'Byzantine Research', 'TIB', 'UAI'],
-        'text': """is a sub-project of the Long-Term Project Tabula Imperii Byzantini (TIB and
+        'text': """is a sub-project of the Long-Term Project Tabula Imperii Byzantini (TIB) and
                 part of the DigTIB initiative of the Austrian Academy of Sciences in Vienna. It
                 creates, develops and upkeeps an online atlas of the Byzantine World. Selected parts from the
                 rich data pool provided by TIB are extracted in order to digitally address
@@ -107,9 +107,9 @@ projects_ = {
         'institutes': [],
         'text': """aims at creating a prosopographical database of Byzantium in the first half of the 13th
                 century and mapping the complexities of a society in transition."""},
-    'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918': {
+    'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)': {
         'url': 'https://orthodoxes-wien.oeaw.ac.at/',
-        'full_name': 'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918',
+        'full_name': 'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)',
         'img': 'openatlas.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Mihailo Popović',
@@ -153,8 +153,8 @@ projects_ = {
         'institutes': ['univie', 'MU', 'FWF', 'GACR'],
         'text':
             """is an international Austrian-Czech research project sponsored by the
-                Austrian Science Fund (FWF and Grantová agentura České republiky
-                (GA ČR. It focused on the Morawa-Thaya region as boarder region between nowadays Austria and Czechia in Medieval times."""},
+                Austrian Science Fund (FWF) and Grantová agentura České republiky
+                (GA ČR). It focused on the Morawa-Thaya region as boarder region between nowadays Austria and Czechia in Medieval times."""},
     'The Eastern Alps Revisited': {
         'url': 'https://www.oeaw.ac.at/imafo/forschung/historische-identitaetsforschung/projekte/weitere-projekte/ostalpenraum-revisited/',
         'full_name': 'The Eastern Alps Revisited',

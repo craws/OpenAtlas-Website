@@ -3,7 +3,7 @@ upcoming = {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'Institute for Medieval Research',
-        'name': 'Bridging the gap: the Prosopography of a fragmented world 13th cent. CE',
+        'name': 'Bridging the gap: the Prosopography of a fragmented world (13th Cent.)',
         'link': '',
         'title': 'Prosopographical Data in OpenAtlas'},
     '2021-06-17': {
