@@ -18,9 +18,9 @@ projects_ = {
         'pi': 'Stefan Eichert, Nina Brundke',
         'duration': '2019 - 2021',
         'institutes': ['OEAW', 'OeAI', 'ACDH', 'NHM'],
-        'text': """has the aim to create an online repository of all sepultures in nowadays Austria, dating to the Early Middle Ages (ca. 600-1100. It
-                combines the three disciplines archaeology, anthropology and digital humanities.
-                """},
+        'text': """has the aim to create an online repository of all sepultures in nowadays Austria, dating to the
+        Early Middle Ages (ca. 600-1100). It combines the three disciplines archaeology, anthropology and digital
+        humanities."""},
     'SHAHI': {
         'url': 'https://shahimaterialculture.univie.ac.at/',
         'full_name': '''interdisciplinary FWF project (P-31246) Cultural Formation and Transformation: Shahi Art and
