@@ -23,18 +23,18 @@ projects_ = {
         humanities."""},
     'SHAHI': {
         'url': 'https://shahimaterialculture.univie.ac.at/',
-        'full_name': '''interdisciplinary FWF project (P-31246) Cultural Formation and Transformation: Shahi Art and
+        'full_name': '''Cultural Formation and Transformation: Shahi Art and
         Architecture from Afghanistan to the West Tibetan Frontier at the Dawn of the Islamic Era''',
         'img': 'shahi.jpg',
         'image_license': '',
         'pi': 'Deborah Klimburg-Salter; National research partner: Michael Alram',
         'duration': '2018 - 2022',
         'institutes': ['univie', 'OEAW', 'ACDH', 'FWF', 'KHM', 'CIRDIS'],
-        'text': """  considers for the
-        first time the Shahi kingdoms (c. 7th-10th centuries) as a cohesive entity which played a pivotal role in the
-        history of Central, Inner, and South Asia. Groundbreaking research by the global team of scholars will be
-        published together with the primary source material - artifacts, coins, inscriptions, archaeological sites - for
-        the Shahi kingdoms in the interactive Shahi Kingdoms Digital Research Platform."""},
+        'text': """(FWF, P-31246) considers for the first time the Shahi kingdoms (c. 7th-10th centuries) which played a
+         pivotal role in the history of Central, Inner, and South Asia. Our ongoing research on the primary source
+         material--artifacts, coins, inscriptions, archaeological evidence--suggests that the Hindu-Buddhist culture
+         survived through the end of the first millennium and gradually evolved towards an Islamic culture at the start
+         of the second millennium."""},
     'HistoGenes': {
         'url': 'https://www.histogenes.org/',
         'full_name': 'Integrating genetic, archaeological and historical perspectives on Eastern Central Europe, 400-900 AD',
