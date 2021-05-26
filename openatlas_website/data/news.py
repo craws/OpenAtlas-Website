@@ -1,5 +1,10 @@
 news_items = {
     'News': {
+        '2021-05-25': {
+            'date': '2021-05-25',
+            'title': 'OpenAtlas joined Twitter',
+            'text': '''Check out @OpenAtlas_eu on 
+            <a target="_blank" href="https://twitter.com/OpenAtlas_eu/">Twitter</a> and feel free to follow and retweet.'''},
         '2021-05-17': {
             'date': '2021-05-17',
             'title': 'New OpenAtlas cooperation with SHAHI',
