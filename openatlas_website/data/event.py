@@ -5,7 +5,10 @@ upcoming = {
         'institute': 'Institute for Medieval Research',
         'name': 'Bridging the gap: the Prosopography of a fragmented world (13th Cent.)',
         'link': '',
-        'title': 'Prosopographical Data in OpenAtlas'},
+        'title': 'Prosopographical Data in OpenAtlas',
+        'docs': {
+            'Program': '2020-05-27_program_bridging_the_gap.pdf',
+            'Presentation':'2020-05-27_bridging_the_gap.pdf'}},
     '2021-06-17': {
         'country': 'Germany',
         'city': 'Mainz',
