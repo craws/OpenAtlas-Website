@@ -47,12 +47,4 @@ team_ = {
             He has plenty of experience working with local as well as international brands and has
             created a range of OpenAtlas project logos.""",
         'img': 'jan.jpg',
-        'image_license': 'CC-BY 4.0, Sandra Lehecka'},
-    'Veronika Gründhammer': {
-        'email': '',
-        'function': 'Project Administration',
-        'text': """Veronika provides essential support for cooperations in her role as project 
-            officer at the
-            <a target="_blank" href='https://www.oeaw.ac.at/acdh/'>ACDH-CH</a>.""",
-        'img': 'veronika.jpg',
-        'image_license': 'CC-BY 4.0, Jan Belik'}}
+        'image_license': 'CC-BY 4.0, Sandra Lehecka'}}
