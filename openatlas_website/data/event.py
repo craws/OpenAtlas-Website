@@ -4,7 +4,7 @@ upcoming = {
         'city': 'Mainz',
         'institute': 'Johannes Gutenberg University',
         'name': 'Medieval Mount Athos: Wealth and Poverty',
-        'link': 'https://mamems.uni-mainz.de/',
+        'link': 'https://mamems.uni-mainz.de/conference-medieval-mount-athos-between-wealth-and-poverty/',
         'title': 'OpenAtlas - An Introduction'},
     '2021-07-05': {
         'country': 'United Kingdom',
