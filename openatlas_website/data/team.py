@@ -15,7 +15,7 @@ team_ = {
                 PostgreSQL, Linux and open source software in general.""",
         'img': 'alex.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
-    'Bernhard Koschicek': {
+    'Koschiček-Krombholz': {
         'email': 'bernhard.koschicek@oeaw.ac.at',
         'function': 'Software Development',
         'text': """Berni is a student of Computer Sciences and currently student of history.
