@@ -6,7 +6,9 @@ upcoming = {
         'name': 'Medieval Mount Athos: Wealth and Poverty',
         'link': 'https://mamems.uni-mainz.de/conference-medieval-mount-athos-between-wealth-and-poverty/',
         'title': 'OpenAtlas - An Open Source Application to Map Historical data with CIDOC CRM',
-        'docs': {'Program': '2020-06-18_program_mount_athos.pdf'}},
+        'docs': {
+            'Program': '2021-06-18_program_mount_athos.pdf',
+            'Presentation': '2021-06-18_medieval_mount_athos.pdf'}},
     '2021-07-05': {
         'country': 'United Kingdom',
         'city': 'Leeds',
