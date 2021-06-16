@@ -3,8 +3,8 @@ news_items = {
         '2021-06-18': {
             'date': '2021-06-18',
             'title': 'OpenAtlas at the "Medieval Mount Athos between Wealth and Poverty" conference',
-            'text': '''To join the conference (17th and 18th of June), check out the 
-            <a target="_blank" 
+            'text': '''To join the conference (17th and 18th of June), check out the
+            <a target="_blank"
             href="https://mamems.uni-mainz.de/conference-medieval-mount-athos-between-wealth-and-poverty/">MAMENS homepage</a>'''},
         '2021-06-13': {
             'date': '2021-06-13',
