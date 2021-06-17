@@ -3,7 +3,7 @@ upcoming = {
         'country': 'Germany',
         'city': 'Mainz',
         'institute': 'Johannes Gutenberg University',
-        'name': 'Medieval Mount Athos: Wealth and Poverty',
+        'name': 'Medieval Mount Athos between Wealth and Poverty',
         'link': 'https://mamems.uni-mainz.de/conference-medieval-mount-athos-between-wealth-and-poverty/',
         'title': 'OpenAtlas - An Open Source Application to Map Historical data with CIDOC CRM',
         'docs': {
