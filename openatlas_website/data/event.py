@@ -1,37 +1,37 @@
 upcoming = {
-    '2021-06-17': {
-        'country': 'Germany',
-        'city': 'Mainz',
-        'institute': 'Johannes Gutenberg University',
-        'name': 'Medieval Mount Athos between Wealth and Poverty',
-        'link': 'https://mamems.uni-mainz.de/conference-medieval-mount-athos-between-wealth-and-poverty/',
-        'title': 'OpenAtlas - An Open Source Application to Map Historical data with CIDOC CRM',
-        'docs': {
-            'Program': '2021-06-18_program_mount_athos.pdf',
-            'Presentation': '2021-06-18_medieval_mount_athos.pdf'}},
     '2021-07-05': {
         'country': 'United Kingdom',
         'city': 'Leeds',
         'institute': 'University of Leeds',
         'name': 'International Medieval Congress 2021',
-        'link': 'https://www.imc.leeds.ac.uk/2021-climates/',
+        'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
         'title': 'OpenAtlas: How to Reference Historical Points in Space and Time'},
     '2021-07-08': {
         'country': 'United Kingdom',
         'city': 'Leeds',
         'institute': 'University of Leeds',
         'name': 'International Medieval Congress 2021',
-        'link': 'https://www.imc.leeds.ac.uk/2021-climates/',
+        'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
         'title': 'Digital Tools for Historical Research: A Round Table Discussion'}}
 
 past = {
     '2021': {
+        '2021-06-17': {
+            'country': 'Germany',
+            'city': 'Mainz',
+            'institute': 'Johannes Gutenberg University',
+            'name': 'Medieval Mount Athos between Wealth and Poverty',
+            'link': 'https://mamems.uni-mainz.de/conference-medieval-mount-athos-between-wealth-and-poverty/',
+            'title': 'OpenAtlas - An Open Source Application to Map Historical data with CIDOC CRM',
+            'docs': {
+                'Program': '2021-06-18_program_mount_athos.pdf',
+                'Presentation': '2021-06-18_medieval_mount_athos.pdf'}},
         '2021-05-27': {
             'country': 'Austria',
             'city': 'Vienna',
             'institute': 'Institute for Medieval Research',
             'name': 'Bridging the gap: the Prosopography of a fragmented world (13th Cent.)',
-            'link': '',
+            'link': 'https://www.oeaw.ac.at/en/imafo/events/event-details/bridging-the-gap-the-prosopography-of-a-fragmented-world-13th-cent',
             'title': 'Prosopographical Data in OpenAtlas',
             'docs': {
                 'Program': '2020-05-27_program_bridging_the_gap.pdf',
