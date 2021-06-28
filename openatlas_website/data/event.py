@@ -6,6 +6,13 @@ upcoming = {
         'name': 'International Medieval Congress 2021',
         'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
         'title': 'OpenAtlas: How to Reference Historical Points in Space and Time'},
+    '2021-07-05 ': {
+        'country': 'United Kingdom',
+        'city': 'Leeds',
+        'institute': 'University of Leeds',
+        'name': 'International Medieval Congress 2021',
+        'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
+        'title': 'OpenAtlas: How to Visualise Historical Points in Space and Time'},
     '2021-07-08': {
         'country': 'United Kingdom',
         'city': 'Leeds',
