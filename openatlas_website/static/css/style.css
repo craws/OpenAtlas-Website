@@ -3,6 +3,10 @@ a, a.img, a.without-decoration {
     text-decoration: none;
 }
 
+#twitter-logo {
+    width: 20px;
+}
+
 span.news-teaser {
     color: #FFFFFF;
     padding: 0.2em 0.4em;
