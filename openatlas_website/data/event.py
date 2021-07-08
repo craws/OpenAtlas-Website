@@ -20,7 +20,8 @@ upcoming = {
         'institute': 'University of Leeds',
         'name': 'International Medieval Congress 2021',
         'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
-        'title': 'Digital Tools for Historical Research: A Round Table Discussion'}}
+        'title': 'Digital Tools for Historical Research: A Round Table Discussion',
+        'docs': {'Presentation': '2021-07-08_leeds_round_table.pdf'}}}
 
 past = {
     '2021': {
