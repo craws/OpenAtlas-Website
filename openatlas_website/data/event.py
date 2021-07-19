@@ -49,8 +49,9 @@ past = {
             'link': 'https://www.oeaw.ac.at/en/imafo/events/event-details/bridging-the-gap-the-prosopography-of-a-fragmented-world-13th-cent',
             'title': 'Prosopographical Data in OpenAtlas',
             'docs': {
-                'Program': '2020-05-27_program_bridging_the_gap.pdf',
-                'Presentation': '2020-05-27_bridging_the_gap.pdf'}},
+                'Program': '2021-05-27_program_bridging_the_gap.pdf',
+                'Presentation': '2021-05-27_bridging_the_gap.pdf',
+                'Video': '2021-05-27_bridging_the_gap.mp4'}},
         '2021-04-15': {
             'country': 'Austria',
             'city': 'digital',
