@@ -17,9 +17,8 @@ def display_menu(route: str) -> str:
             active = 'active'
         html += f"""
             <li class="nav-item">
-                <a class="nav-link {active}" href="{url_for(item)}">
-                    {item.upper()}
-                </a>
+                <a class="nav-link {active}" href="{url_for(item)}"
+                    >{item.upper()}</a>
             </li>"""
     return Markup(html)
 
