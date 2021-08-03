@@ -1,5 +1,5 @@
 upcoming = {
-    'TBA (probably end of August)': {
+    '2021-09-02': {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'WUK',
