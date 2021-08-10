@@ -1,5 +1,11 @@
 news_items = {
     'News': {
+        '2021-08-10': {
+            'date': '2021-08-10',
+            'title': 'OpenAtlas version 6.4.0',
+            'text': '''A new software version of OpenAtlas is available, see
+            <a target="_blank" href="https://redmine.openatlas.eu/news/14">release
+            notes</a>'''},
         '2021-07-05': {
             'date': '2021-07-05 to 2021-07-09',
             'title': 'Several OpenAtlas team members present at the IMC Leeds',
