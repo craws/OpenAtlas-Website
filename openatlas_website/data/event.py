@@ -1,13 +1,19 @@
 upcoming = {
-    '2021-09-02': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'WUK',
-        'title': 'OpenAtlas Summer Meeting 2021'}
+        '2021-10-11': {
+            'country': 'Czech Republic',
+            'city': 'Prague',
+            'name': 'Power In Numbers. The Role of the Rural Population in Christianisation and State Formation',
+            'institute': 'Charles University',
+            'title': 'OpenAtlas - A web based tool to acquire and manage historical and archeological data'},
 }
 
 past = {
     '2021': {
+        '2021-09-02': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'WUK',
+            'title': 'OpenAtlas Summer Meeting 2021'},
         '2021-07-08': {
             'country': 'United Kingdom',
             'city': 'Leeds',
@@ -22,14 +28,14 @@ past = {
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2021',
             'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
-            'title': 'OpenAtlas: How to Visualise Historical Points in Space and Time'},
+            'title': 'OpenAtlas - How to Visualise Historical Points in Space and Time'},
         '2021-07-05': {
             'country': 'United Kingdom',
             'city': 'Leeds',
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2021',
             'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
-            'title': 'OpenAtlas: How to Reference Historical Points in Space and Time',
+            'title': 'OpenAtlas - How to Reference Historical Points in Space and Time',
             'docs': {'Presentation': '2021-07-05_leeds.pdf'}},
         '2021-06-17': {
             'country': 'Germany',
