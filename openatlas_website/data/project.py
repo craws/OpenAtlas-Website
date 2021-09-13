@@ -1,4 +1,13 @@
 projects_ = {
+    # 'INDIGO': {
+    #     'url': 'https://projectindigo.eu',
+    #     'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
+    #     'img': 'indigo.jpeg',
+    #     'image_license': '',
+    #     'pi': 'Geert Verhoeven, Norbert Pfeifer',
+    #     'duration': '2021 - 2023',
+    #     'institutes': [LBI zuerst 'OEAW', 'ACDH', ],
+    #     'text': """ """},
     'MAMEMS': {
         'url': 'https://mamems.uni-mainz.de/',
         'full_name': 'Mount Athos in Medieval Eastern Mediterranean Society: Contextualizing the History of a Monastic Republic (ca. 850-1550)',
@@ -10,15 +19,6 @@ projects_ = {
         'text': """will constitute the first comprehensive examination of the monastic
                 communities of Mount Athos as independent actors in medieval Eastern Mediterranean
                 society."""},
-'   INDIGO': {
-        'url': 'https://projectindigo.eu',
-        'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
-        'img': 'indigo.jpeg',
-        'image_license': '',
-        'pi': 'Geert Verhoeven',
-        'duration': '2021 - 2023',
-        'institutes': [],
-        'text': """ """},
     'THANADOS': {
         'url': 'https://thanados.net',
         'full_name': 'The Anthropological and Archaeological Database of Sepultures',
