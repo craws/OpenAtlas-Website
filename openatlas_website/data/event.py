@@ -9,6 +9,12 @@ upcoming = {
 
 past = {
     '2021': {
+        '2021-09-09': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'TU Wien',
+            'title': 'Project INDIGO Kick-off',
+            'docs': {'Program': '2021-09-09_Indigo_kick_off_event.pdf'}},
         '2021-09-02': {
             'country': 'Austria',
             'city': 'Vienna',
