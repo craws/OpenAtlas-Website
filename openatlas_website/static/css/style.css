@@ -62,3 +62,16 @@ img.team {
     margin-top: 0.5em;
     margin-bottom: 1.5em;
 }
+
+.blueimp-gallery > .prev,
+.blueimp-gallery > .next,
+.blueimp-gallery-single > .prev,
+.blueimp-gallery-left > .prev,
+.blueimp-gallery-single > .next,
+.blueimp-gallery-right > .next,
+.blueimp-gallery-single > .play-pause,
+.blueimp-gallery > .close,
+.blueimp-gallery > .title,
+.blueimp-gallery > .play-pause {
+  display: block;
+}

@@ -45,9 +45,11 @@
                     </a>
                 </p>
             {% endif %}
-            <div class="projects-institutes">
-                {{ project.institutes|display_institutes }}
-            </div>
+            {% if project.institutes %}
+                <div class="projects-institutes">
+                    {{ project.institutes|display_institutes }}
+                </div>
+            {% endif %}
         </div>
     </div>
 {% endfor %}
