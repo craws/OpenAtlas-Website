@@ -10,6 +10,15 @@ projects_ = {
         'text': """will constitute the first comprehensive examination of the monastic
                 communities of Mount Athos as independent actors in medieval Eastern Mediterranean
                 society."""},
+'   INDIGO': {
+        'url': 'https://projectindigo.eu',
+        'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
+        'img': 'indigo.jpeg',
+        'image_license': '',
+        'pi': 'Geert Verhoeven',
+        'duration': '2021 - 2023',
+        'institutes': [],
+        'text': """ """},
     'THANADOS': {
         'url': 'https://thanados.net',
         'full_name': 'The Anthropological and Archaeological Database of Sepultures',
