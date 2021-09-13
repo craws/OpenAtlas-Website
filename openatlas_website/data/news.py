@@ -1,12 +1,18 @@
 news_items = {
     'News': {
+        '2021-08-10': {
+            'date': '2021-08-10',
+            'title': 'OpenAtlas version 6.4.0',
+            'text': '''A new software version of OpenAtlas is available, see
+            <a target="_blank" href="https://redmine.openatlas.eu/news/14">release
+            notes</a>'''},
         '2021-07-05': {
             'date': '2021-07-05 to 2021-07-09',
-            'title': 'Several OpenAtlas team members present at the ICM Leeds',
-            'text': '''Several papers regarding OpenAtlas will be presented at the <a target="_blank"
-            href="https://www.imc.leeds.ac.uk/imc-2021/">International Medieval Conference</a> this week. Please check 
-            out session 118, 1001, and 1519 <a target="_blank"
-            href="https://www.imc.leeds.ac.uk/imc-2021/">here</a>'''},
+            'title': 'Several OpenAtlas team members present at the IMC Leeds',
+            'text': '''Several papers regarding OpenAtlas will be presented at the
+            <a target="_blank" href="https://www.imc.leeds.ac.uk/imc-2021/">International Medieval Congress</a>
+            this week. Please check  out session 118, 1001, and 1519
+            <a target="_blank" href="https://www.imc.leeds.ac.uk/imc-2021/">here</a>'''},
         '2021-06-18': {
             'date': '2021-06-18',
             'title': 'OpenAtlas at the "Medieval Mount Athos between Wealth and Poverty" conference',

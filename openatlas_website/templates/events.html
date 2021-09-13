@@ -7,11 +7,10 @@
         <div class="mb-4">
             {{ date }}<br>
             {% if event.link %}
-                <a href="{{ event.link }}" target="_blank">{{ event.name }}</a>
-            {% else %}
-                {{ event.name }}
+                <a href="{{ event.link }}" target="_blank">{{ event.name }}</a><br>
+            {% elif event.name %}
+                {{ event.name }}<br>
             {% endif %}
-            <br>
             {% if event.title %}
                 <strong>{{ event.title }}</strong><br>
             {% endif %}

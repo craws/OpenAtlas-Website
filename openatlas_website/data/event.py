@@ -1,29 +1,42 @@
 upcoming = {
-    '2021-07-05': {
-        'country': 'United Kingdom',
-        'city': 'Leeds',
-        'institute': 'University of Leeds',
-        'name': 'International Medieval Congress 2021',
-        'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
-        'title': 'OpenAtlas: How to Reference Historical Points in Space and Time',
-        'docs': {'Presentation': '2021-07-05_leeds.pdf'}},
-    '2021-07-05 ': {
-        'country': 'United Kingdom',
-        'city': 'Leeds',
-        'institute': 'University of Leeds',
-        'name': 'International Medieval Congress 2021',
-        'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
-        'title': 'OpenAtlas: How to Visualise Historical Points in Space and Time'},
-    '2021-07-08': {
-        'country': 'United Kingdom',
-        'city': 'Leeds',
-        'institute': 'University of Leeds',
-        'name': 'International Medieval Congress 2021',
-        'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
-        'title': 'Digital Tools for Historical Research: A Round Table Discussion'}}
+        '2021-10-11': {
+            'country': 'Czech Republic',
+            'city': 'Prague',
+            'name': 'Power In Numbers. The Role of the Rural Population in Christianisation and State Formation',
+            'institute': 'Charles University',
+            'title': 'OpenAtlas - A web based tool to acquire and manage historical and archeological data'},
+}
 
 past = {
     '2021': {
+        '2021-09-02': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'WUK',
+            'title': 'OpenAtlas Summer Meeting 2021'},
+        '2021-07-08': {
+            'country': 'United Kingdom',
+            'city': 'Leeds',
+            'institute': 'University of Leeds',
+            'name': 'International Medieval Congress 2021',
+            'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
+            'title': 'Digital Tools for Historical Research: A Round Table Discussion',
+            'docs': {'Presentation': '2021-07-08_leeds_round_table.pdf'}},
+        '2021-07-05 ': {
+            'country': 'United Kingdom',
+            'city': 'Leeds',
+            'institute': 'University of Leeds',
+            'name': 'International Medieval Congress 2021',
+            'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
+            'title': 'OpenAtlas - How to Visualise Historical Points in Space and Time'},
+        '2021-07-05': {
+            'country': 'United Kingdom',
+            'city': 'Leeds',
+            'institute': 'University of Leeds',
+            'name': 'International Medieval Congress 2021',
+            'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
+            'title': 'OpenAtlas - How to Reference Historical Points in Space and Time',
+            'docs': {'Presentation': '2021-07-05_leeds.pdf'}},
         '2021-06-17': {
             'country': 'Germany',
             'city': 'Mainz',
@@ -42,8 +55,9 @@ past = {
             'link': 'https://www.oeaw.ac.at/en/imafo/events/event-details/bridging-the-gap-the-prosopography-of-a-fragmented-world-13th-cent',
             'title': 'Prosopographical Data in OpenAtlas',
             'docs': {
-                'Program': '2020-05-27_program_bridging_the_gap.pdf',
-                'Presentation': '2020-05-27_bridging_the_gap.pdf'}},
+                'Program': '2021-05-27_program_bridging_the_gap.pdf',
+                'Presentation': '2021-05-27_bridging_the_gap.pdf',
+                'Video': '2021-05-27_bridging_the_gap.mp4'}},
         '2021-04-15': {
             'country': 'Austria',
             'city': 'digital',
@@ -63,7 +77,7 @@ past = {
             'country': 'Austria',
             'city': 'Vienna',
             'institute': 'WUK',
-            'title': 'OpenAtlas Summer Meeting'},
+            'title': 'OpenAtlas Summer Meeting 2020'},
         '2020-06-17': {
             'country': 'Austria',
             'city': 'Vienna',

@@ -3,8 +3,9 @@ a, a.img, a.without-decoration {
     text-decoration: none;
 }
 
-#twitter-logo {
-    width: 20px;
+#twitter-logo, #facebook-logo {
+    width: 24px;
+    margin-left: 0.4em;
 }
 
 span.news-teaser {
@@ -60,4 +61,17 @@ img.team {
     white-space: nowrap;
     margin-top: 0.5em;
     margin-bottom: 1.5em;
+}
+
+.blueimp-gallery > .prev,
+.blueimp-gallery > .next,
+.blueimp-gallery-single > .prev,
+.blueimp-gallery-left > .prev,
+.blueimp-gallery-single > .next,
+.blueimp-gallery-right > .next,
+.blueimp-gallery-single > .play-pause,
+.blueimp-gallery > .close,
+.blueimp-gallery > .title,
+.blueimp-gallery > .play-pause {
+  display: block;
 }

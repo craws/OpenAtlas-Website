@@ -110,7 +110,7 @@ projects_ = {
         'url': '',
         'full_name': 'The Prosopography of the Lascarid Period',
         'img': 'plas.jpg',
-        'image_license': 'CC-BY-SA 4.0, Ekaterini Mitsiou and </br>Johannes Preiser-Kapeller',
+        'image_license': 'CC-BY-SA 4.0, Ekaterini Mitsiou and <br>Johannes Preiser-Kapeller',
         'pi': 'Ekaterini Mitsiou',
         'duration': '2018 - ongoing',
         'institutes': [],
