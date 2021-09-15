@@ -43,6 +43,10 @@ institutes = {
         'name': 'Czech Science Foundation ',
         'url': 'https://gacr.cz',
         'logo': 'gacr.png'},
+    'GIFLE': {
+        'name': 'Grupo de investigación en Fotogrametria y Láser Escáner/Photogrammetry and Laser Scanning Research Group',
+        'url': 'http://gifle.webs.upv.es/home.html',
+        'logo': 'gifle.jpg'},
     'IAS': {
         'name': 'Institute for Advanced Study',
         'url': 'https://www.ias.edu/',
@@ -59,6 +63,10 @@ institutes = {
         'name': 'Kunsthistorisches Museum Wien',
         'url': 'https://www.khm.at/',
         'logo': 'khm.jpg'},
+    'LBI': {
+        'name': 'Ludwig Boltzmann Institute for Archaeological Prospection and Virtual Archaeology',
+        'url': 'https://archpro.lbg.ac.at/',
+        'logo': 'lbi.jpg'},
     'MPI-SHH': {
         'name': 'Max Planck Institute for the Science of Human History',
         'url': 'https://www.shh.mpg.de/',
@@ -91,10 +99,18 @@ institutes = {
         'name': 'Royal Holloway University of London',
         'url': 'https://www.royalholloway.ac.uk/',
         'logo': 'rhul.png'},
+    'SprayCity': {
+        'name': 'Spraycity.at',
+        'url': 'https://spraycity.at/',
+        'logo': 'spraycity.png'},
     'TIB': {
         'name': 'Tabula Imperii Byzantini',
         'url': 'https://tib.oeaw.ac.at',
         'logo': 'tib.png'},
+    'TUGG': {
+        'name': 'TU Wien, Department of Geodesy and Geoinformation',
+        'url':  'https://www.geo.tuwien.ac.at/',
+        'logo': 'tu_vienna.png'},
     'UAI': {
         'name': 'Union Académique Internationale',
         'url': 'http://www.uai-iua.org/en',
@@ -103,8 +119,16 @@ institutes = {
         'name': 'University of Vienna',
         'url': 'https://www.univie.ac.at/',
         'logo': 'uni_vienna.png'},
+    'VRVIS': {
+        'name': 'Zentrum für Virtual Reality und Visualisierung Forschungs-GmbH',
+        'url': 'https://www.vrvis.at/',
+        'logo': 'vrvis.png'},
     'Wien Kultur': {
         'name': 'Wien Kultur (MA 7)',
         'url': 'https://www.wien.gv.at/kultur/abteilung/',
-        'logo': 'wien_kultur.jpg'}
+        'logo': 'wien_kultur.jpg'},
+    'Wien': {
+        'name': 'Stadt Wien',
+        'url': 'https://www.wien.gv.at/',
+        'logo': 'vienna.png'}
 }

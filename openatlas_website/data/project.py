@@ -1,13 +1,14 @@
 projects_ = {
-    # 'INDIGO': {
-    #     'url': 'https://projectindigo.eu',
-    #     'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
-    #     'img': 'indigo.jpeg',
-    #     'image_license': '',
-    #     'pi': 'Geert Verhoeven, Norbert Pfeifer',
-    #     'duration': '2021 - 2023',
-    #     'institutes': [LBI zuerst 'OEAW', 'ACDH', ],
-    #     'text': """ """},
+     'INDIGO': {
+         'url': 'https://projectindigo.eu',
+         'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
+         'img': 'indigo.jpeg',
+         'image_license': 'CC-BY-SA 4.0, Geert Verhoeven',
+         'pi': 'Geert Verhoeven, Norbert Pfeifer',
+         'duration': '2021 - 2023',
+         'institutes': ['LBI', 'TUGG', 'OEAW', 'ACDH', 'Wien', 'VRVIS', 'GIFLE', 'SprayCity'],
+         'text': """aims to build the basis to systematically document, monitor, disseminate, and analyse 7 km of 
+                 graffiti along Vienna’s Danube Canal in the next decade."""},
     'MAMEMS': {
         'url': 'https://mamems.uni-mainz.de/',
         'full_name': 'Mount Athos in Medieval Eastern Mediterranean Society: Contextualizing the History of a Monastic Republic (ca. 850-1550)',
@@ -28,8 +29,8 @@ projects_ = {
         'duration': '2019 - 2021',
         'institutes': ['OEAW', 'OeAI', 'ACDH', 'NHM'],
         'text': """has the aim to create an online repository of all sepultures in nowadays Austria, dating to the
-        Early Middle Ages (ca. 600-1100). It combines the three disciplines archaeology, anthropology and digital
-        humanities."""},
+                Early Middle Ages (ca. 600-1100). It combines the three disciplines archaeology, anthropology and digital
+                humanities."""},
     'SHAHI': {
         'url': 'https://shahimaterialculture.univie.ac.at/',
         'full_name': '''Cultural Formation and Transformation: Shahi Art and
@@ -44,18 +45,6 @@ projects_ = {
          material--artifacts, coins, inscriptions, archaeological evidence--suggests that the Hindu-Buddhist culture
          survived through the end of the first millennium and gradually evolved towards an Islamic culture at the start
          of the second millennium."""},
-    'HistoGenes': {
-        'url': 'https://www.histogenes.org/',
-        'full_name': 'Integrating genetic, archaeological and historical perspectives on Eastern Central Europe, 400-900 AD',
-        'img': 'histogenes.png',
-        'image_license': 'CC-BY-SA 4.0, Dagmar Giesriegl',
-        'pi': 'Walter Pohl',
-        'duration': '2020 - 2026',
-        'institutes': ['OEAW', 'IMAFO', 'ACDH', 'univie', 'NHM', 'MPI-SHH', 'IAS', 'ELTE',
-                       'ERC'],
-        'text': """is seeking to understand the impact of migrations and mobility on the
-            population of the Carpathian Basin from 400-900 CE, based on a comprehensive
-            analysis of samples from 6,000 ancient burial sites."""},
     'CONNEC': {
         'url': 'http://www.connectedclerics.com/',
         'full_name': 'Connected Clerics: Building a Universal Church in the Late Antique West (380-604 CE)',
