@@ -3,7 +3,7 @@ from flask import render_template
 from openatlas_website import app
 from openatlas_website.data.event import past, upcoming
 from openatlas_website.data.news import news_items
-from openatlas_website.data.project import projects_
+from openatlas_website.data.project import concluded, ongoing
 from openatlas_website.data.software import stack
 from openatlas_website.data.team import team_
 
@@ -48,7 +48,7 @@ def news() -> str:
 
 @app.route('/projects')
 def projects() -> str:
-    return render_template('projects.html', projects=projects_)
+    return render_template('projects.html', concluded=concluded, ongoing=ongoing)
 
 
 @app.route('/software')
