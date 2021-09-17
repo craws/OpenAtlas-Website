@@ -102,7 +102,7 @@ institutes = {
     'SprayCity': {
         'name': 'Spraycity.at',
         'url': 'https://spraycity.at/',
-        'logo': 'spraycity.png'},
+        'logo': 'spraycity2.png'},
     'TIB': {
         'name': 'Tabula Imperii Byzantini',
         'url': 'https://tib.oeaw.ac.at',
