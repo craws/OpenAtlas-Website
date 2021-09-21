@@ -10,8 +10,3 @@ SECRET_KEY = 'CHANGE ME'
 SESSION_COOKIE_SECURE = False  # Should be True in production.py if using HTTPS
 REMEMBER_COOKIE_SECURE = True
 SESSION_COOKIE_SAMESITE = 'Lax'
-
-
-class TestingConfig(Config):
-    TESTING = True
-    SECRET_KEY = "AAaajjjfk887856$%kk"
