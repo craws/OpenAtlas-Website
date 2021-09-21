@@ -9,8 +9,8 @@ the OpenAtlas project on [GitHub](https://github.com/craws/OpenAtlas).
 
 # Licensing
 All OpenAtlas website code unless otherwise noted is licensed under the terms
-of the GNU General Public License Version 2, June 1991. Please refer to the
-file COPYING in the root directory of this repository or the online version at
+of the GNU General Public License Version 2, June 1991. Please refer to the file
+COPYING in the root directory of this repository or the online version at
 https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
 
 OpenAtlas logo by Jan Belik,
