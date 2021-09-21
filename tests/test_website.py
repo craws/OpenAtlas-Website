@@ -4,7 +4,7 @@ from flask import url_for
 
 from openatlas_website import app
 
-
+1/0
 class TestBaseCase(unittest.TestCase):
 
     def setUp(self) -> None:
