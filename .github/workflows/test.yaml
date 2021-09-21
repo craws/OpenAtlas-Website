@@ -1,0 +1,30 @@
+name: Openatlas website test
+
+on:
+  push:
+    branches: [ feature_testing ]
+  pull_request:
+    branches: [ feature_testing ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.7]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        sudo apt install python3 python3-flaskpython3-jinja2
+
+    - name: Test with unittest
+      run: |
+        python3 -m unittest openatlas_website tests/test_website.py
