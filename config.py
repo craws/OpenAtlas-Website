@@ -6,6 +6,6 @@ DEBUG = False
 SECRET_KEY = 'CHANGE ME'
 
 # Security
-SESSION_COOKIE_SECURE = False  # Should be set to True in production.py if using HTTPS only
+SESSION_COOKIE_SECURE = False  # Should be True in production.py if using HTTPS
 REMEMBER_COOKIE_SECURE = True
 SESSION_COOKIE_SAMESITE = 'Lax'
