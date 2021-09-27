@@ -1,4 +1,4 @@
-ongoing = {
+current = {
     'INDIGO': {
          'url': 'https://projectindigo.eu',
          'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
