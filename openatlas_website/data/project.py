@@ -6,8 +6,8 @@ current = {
          'image_license': 'CC-BY-SA 4.0, Geert Verhoeven',
          'pi': 'Geert Verhoeven, Norbert Pfeifer',
          'duration': '2021 - 2023',
-         'institutes': ['LBI', 'TUGG', 'OEAW', 'ACDH', 'Wien', 'VRVIS', 'GIFLE', 'SprayCity'],
-         'text': """aims to build the basis to systematically document, monitor, disseminate, and analyse 7 km of 
+         'institutes': ['LBI', 'TUGG', 'OEAW', 'ACDH', 'Wien', 'SprayCity', 'GIFLE', 'VRVIS'],
+         'text': """aims to build the basis to systematically document, monitor, disseminate, and analyse 7 km of
                  graffiti along Vienna’s Danube Canal in the next decade."""},
     'MAMEMS': {
         'url': 'https://mamems.uni-mainz.de/',
