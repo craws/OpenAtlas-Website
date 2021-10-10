@@ -1,11 +1,25 @@
+
+
 upcoming = {
         '2021-10-11': {
             'country': 'Czech Republic',
             'city': 'Prague',
-            'name': 'Power In Numbers. The Role of the Rural Population in Christianisation and State Formation',
+            'name':
+                'Power In Numbers. The Role of the Rural Population in '
+                'Christianisation and State Formation',
             'institute': 'Charles University',
-            'title': 'OpenAtlas - A web based tool to acquire and manage historical and archeological data'},
-}
+            'title':
+                'OpenAtlas - A web based tool to acquire and manage historical '
+                'and archeological data'},
+        '2022-07-04': {
+            'country': 'United Kingdom',
+            'city': 'Leeds',
+            'institute': 'University of Leeds',
+            'name': 'International Medieval Congress 2022',
+            'link': 'https://www.imc.leeds.ac.uk/imc-2022',
+            'title':
+                'OpenAtlas - Open Software for Overcoming Borders '
+                'between Disciplines'}}
 
 past = {
     '2021': {
@@ -26,7 +40,9 @@ past = {
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2021',
             'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
-            'title': 'Digital Tools for Historical Research: A Round Table Discussion',
+            'title':
+                'Digital Tools for Historical Research: '
+                'A Round Table Discussion',
             'docs': {'Presentation': '2021-07-08_leeds_round_table.pdf'}},
         '2021-07-05 ': {
             'country': 'United Kingdom',
@@ -34,14 +50,18 @@ past = {
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2021',
             'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
-            'title': 'OpenAtlas - How to Visualise Historical Points in Space and Time'},
+            'title':
+                'OpenAtlas - How to Visualise Historical Points in '
+                'Space and Time'},
         '2021-07-05': {
             'country': 'United Kingdom',
             'city': 'Leeds',
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2021',
             'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
-            'title': 'OpenAtlas - How to Reference Historical Points in Space and Time',
+            'title':
+                'OpenAtlas - How to Reference Historical Points in '
+                'Space and Time',
             'docs': {'Presentation': '2021-07-05_leeds.pdf'}},
         '2021-06-17': {
             'country': 'Germany',
@@ -49,7 +69,9 @@ past = {
             'institute': 'Johannes Gutenberg University',
             'name': 'Medieval Mount Athos between Wealth and Poverty',
             'link': 'https://mamems.uni-mainz.de/conference-medieval-mount-athos-between-wealth-and-poverty/',
-            'title': 'OpenAtlas - An Open Source Application to Map Historical data with CIDOC CRM',
+            'title':
+                'OpenAtlas - An Open Source Application to Map Historical data '
+                'with CIDOC CRM',
             'docs': {
                 'Program': '2021-06-18_program_mount_athos.pdf',
                 'Presentation': '2021-06-18_medieval_mount_athos.pdf'}},
@@ -57,7 +79,9 @@ past = {
             'country': 'Austria',
             'city': 'Vienna',
             'institute': 'Institute for Medieval Research',
-            'name': 'Bridging the gap: the Prosopography of a fragmented world (13th Cent.)',
+            'name':
+                'Bridging the gap: the Prosopography of a fragmented world '
+                '(13th Cent.)',
             'link': 'https://www.oeaw.ac.at/en/imafo/events/event-details/bridging-the-gap-the-prosopography-of-a-fragmented-world-13th-cent',
             'title': 'Prosopographical Data in OpenAtlas',
             'docs': {
@@ -77,7 +101,9 @@ past = {
             'city': 'Vienna',
             'institute': 'Wien Museum and Stadtarchäologie Wien',
             'name': '25th CHNT-Conference',
-            'title': 'Winning Best App Award for <a target="_blank" href="https://thanados.net">THANADOS</a>',
+            'title':
+                'Winning Best App Award for '
+                '<a target="_blank" href="https://thanados.net">THANADOS</a>',
             'link': 'https://www.chnt.at/chnt25-over'},
         '2020-07-23': {
             'country': 'Austria',
@@ -105,7 +131,9 @@ past = {
             'institute': 'Austrian Academy of Sciences',
             'name': 'Fourth HistGeo Lecture',
             'link': 'https://histgeo.oeaw.ac.at/category/histgeo-lecture/',
-            'title': 'THANADOS – The Anthropological and Archaeological Database of Sepultures'},
+            'title':
+                'THANADOS – The Anthropological and Archaeological Database of '
+                'Sepultures'},
         '2019-10-24': {
             'country': 'United Kingdom',
             'city': 'London',
@@ -129,14 +157,18 @@ past = {
             'institute': 'Austrian Centre for Digital Humanities',
             'name': 'ACDH-CH - Meet the Researchers',
             'link': 'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/meet-the-researchers-programme',
-            'title': 'Introduction to CIDOC CRM with OpenAtlas as an example use case'},
+            'title':
+                'Introduction to CIDOC CRM with OpenAtlas as an example use '
+                'case'},
         '2019-07-03': {
             'country': 'United Kingdom',
             'city': 'Leeds',
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2019',
             'link': 'https://www.imc.leeds.ac.uk/imc2019/',
-            'title': 'OpenAtlas - An open source application to map historical data with CIDOC CRM',
+            'title':
+                'OpenAtlas - An open source application to map historical data '
+                'with CIDOC CRM',
             'docs': {'Presentation': '2019-07-03_OpenAtlas.pdf'}},
         '2019-06-18': {
             'country': 'Austria',
@@ -147,16 +179,19 @@ past = {
             'country': 'Austria',
             'city': 'Vienna',
             'institute': 'Austrian Academy of Sciences',
-            'name': 'Digitising Patterns of Power - Book and Project Presentation',
+            'name':
+                'Digitising Patterns of Power - Book and Project Presentation',
             'title': 'OpenAtlas unter die Haube geschaut',
-            'link': 'https://www.oeaw.ac.at/en/detail/news/landkarten-der-macht/',
+            'link':
+                'https://www.oeaw.ac.at/en/detail/news/landkarten-der-macht/',
             'docs': {
                 'Program': '2019-05-16_Programm_DPP.pdf',
                 'Presentation': '2019-05-16_dpp_book_presentation.pdf'}},
         '2019-02-20': {
             'country': 'Czech Republic',
             'city': 'Prague',
-            'institute': 'Institute of Archaeology of the Czech Academy of Sciences',
+            'institute':
+                'Institute of Archaeology of the Czech Academy of Sciences',
             'title': 'Networking meeting with AIS'},
         '2019-02-13': {
             'country': 'Austria',
@@ -199,9 +234,12 @@ past = {
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2017',
             'link': 'http://imc.leeds.ac.uk/dbsql02/AQueryServlet?*id=30&*formId=30&*context=IMC&conference=2017&sessionId=7539&chosenPaperId=&*servletURI=https://imc.leeds.ac.uk/dbsql02/AQueryServlet',
-            'title': 'Relational Modelling of Historical Data - Concepts and Challenges',
-            'docs': {'Paper': '2017-07-03_Concepts_and_Challanges.pdf',
-                     'Presentation': '2017-07-03_leeds.pdf'}},
+            'title':
+                'Relational Modelling of Historical Data - '
+                'Concepts and Challenges',
+            'docs': {
+                'Paper': '2017-07-03_Concepts_and_Challanges.pdf',
+                'Presentation': '2017-07-03_leeds.pdf'}},
         '2017-06-20': {
             'country': 'Germany',
             'city': 'Bochum',
@@ -224,7 +262,9 @@ past = {
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2016',
             'link': 'https://www.imc.leeds.ac.uk/imcarchive/2016/sessions/803/',
-            'title': 'Relational Modelling of Historical Data - A Technical Perspective',
+            'title':
+                'Relational Modelling of Historical Data '
+                '- A Technical Perspective',
             'docs': {
                 'Paper': '2016-07-05_A_Technical_Perspective.pdf',
                 'Presentation': '2016-07-05_leeds.pdf'}},
