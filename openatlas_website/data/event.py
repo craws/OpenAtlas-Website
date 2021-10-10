@@ -1,5 +1,4 @@
 
-
 upcoming = {
         '2021-10-11': {
             'country': 'Czech Republic',
@@ -10,7 +9,8 @@ upcoming = {
             'institute': 'Charles University',
             'title':
                 'OpenAtlas - A web based tool to acquire and manage historical '
-                'and archeological data'},
+                'and archeological data',
+            'docs': {'Presentation': '2021-10-11_power_in_numbers.pdf'}},
         '2022-07-04': {
             'country': 'United Kingdom',
             'city': 'Leeds',
