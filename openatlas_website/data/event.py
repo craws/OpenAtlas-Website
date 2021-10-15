@@ -1,28 +1,31 @@
 
 upcoming = {
+    '2022-07-04': {
+        'country': 'United Kingdom',
+        'city': 'Leeds',
+        'institute': 'University of Leeds',
+        'name': 'International Medieval Congress 2022',
+        'link': 'https://www.imc.leeds.ac.uk/imc-2022',
+        'title':
+            'OpenAtlas - Open Software for Overcoming Borders '
+            'between Disciplines'}
+    }
+
+past = {
+    '2021': {
         '2021-10-11': {
             'country': 'Czech Republic',
             'city': 'Prague',
             'name':
-                'Power In Numbers. The Role of the Rural Population in '
+                'Power In Numbers: The Role of the Rural Population in '
                 'Christianisation and State Formation',
             'institute': 'Charles University',
             'title':
                 'OpenAtlas - A web based tool to acquire and manage historical '
                 'and archeological data',
-            'docs': {'Presentation': '2021-10-11_power_in_numbers.pdf'}},
-        '2022-07-04': {
-            'country': 'United Kingdom',
-            'city': 'Leeds',
-            'institute': 'University of Leeds',
-            'name': 'International Medieval Congress 2022',
-            'link': 'https://www.imc.leeds.ac.uk/imc-2022',
-            'title':
-                'OpenAtlas - Open Software for Overcoming Borders '
-                'between Disciplines'}}
-
-past = {
-    '2021': {
+            'docs': {
+                'Program': '2021-10-11_conference_power_in_numbers.pdf',
+                'Presentation': '2021-10-11_power_in_numbers.pdf'}},
         '2021-09-09': {
             'country': 'Austria',
             'city': 'Vienna',
