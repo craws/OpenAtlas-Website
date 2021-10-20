@@ -13,6 +13,17 @@ upcoming = {
 
 past = {
     '2021': {
+        '2021-10-20': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'name': 'ACDH-CH Institute Days',
+            'institute':
+                'Austrian Centre for Digital Humanities and Cultural Heritage',
+            'title':
+                'OpenAtlas at the Science Fair',
+            'docs': {
+                'Poster (English)': '2021-10-20_science_fair_poster_en.pdf',
+                'Poster (German)': '2021-10-20_science_fair_poster_de.pdf'}},
         '2021-10-11': {
             'country': 'Czech Republic',
             'city': 'Prague',
@@ -122,7 +133,8 @@ past = {
         '2020-02-11': {
             'country': 'Austria',
             'city': 'Vienna',
-            'institute': 'Austrian Centre for Digital Humanities',
+            'institute':
+                'Austrian Centre for Digital Humanities and Cultural Heritage',
             'name': 'ACDH-CH - Meet the Researchers',
             'link': 'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/meet-the-researchers-programme',
             'title': 'OpenAtlas',
@@ -157,7 +169,8 @@ past = {
         '2019-07-16': {
             'country': 'Austria',
             'city': 'Vienna',
-            'institute': 'Austrian Centre for Digital Humanities',
+            'institute':
+                'Austrian Centre for Digital Humanities and Cultural Heritage',
             'name': 'ACDH-CH - Meet the Researchers',
             'link': 'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/meet-the-researchers-programme',
             'title':
@@ -225,7 +238,8 @@ past = {
         '2018-05-29': {
             'country': 'Austria',
             'city': 'Vienna',
-            'institute': 'Austrian Centre for Digital Humanities',
+            'institute':
+                'Austrian Centre for Digital Humanities and Cultural Heritage',
             'name': 'ACDH-CH Tool Gallery - CIDOC CRM',
             'link': 'https://www.oeaw.ac.at/acdh/events/event-series/acdh-tool-gallery-41',
             'title': 'OpenAtlas',
