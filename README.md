@@ -1,5 +1,7 @@
 # About
 
+![tests](https://github.com/craws/OpenAtlas-Website/actions/workflows/test.yaml/badge.svg)
+
 OpenAtlas website is the home page of the [OpenAtlas](https://openatlas.eu)
 project which is an open source, web based database system for complex
 archaeological, historical and geospatial data.
