@@ -1,3 +1,6 @@
+import sys
+sys.path.insert(0, '/usr/lib/python3/dist-packages/')
+
 from flask import Flask, Response, request
 
 app = Flask(__name__, instance_relative_config=True)
