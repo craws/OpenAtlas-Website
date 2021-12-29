@@ -1,11 +1,13 @@
 import sys
-sys.path.insert(0, '/usr/lib/python3/dist-packages/')
-
+from pathlib import Path
+sys.path.insert(0, '/usr/lib/python3/dist-packages/')  # For GitHub actions
 from flask import Flask, Response, request
 
 app = Flask(__name__, instance_relative_config=True)
 app.config.from_object('config')  # type: ignore
-# app.config.from_pyfile('production.py')  # type: ignore
+
+if (Path(app.root_path).parent / 'instance' / 'production.py').is_file():
+    app.config.from_pyfile('production.py')  # pragma: no cover
 
 from openatlas_website.util import filters
 from openatlas_website import views
