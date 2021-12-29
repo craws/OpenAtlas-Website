@@ -25,6 +25,10 @@ jobs:
       run: |
         sudo apt install python3 python3-flask python3-jinja2
 
+    - set path
+      run: |
+        export PYTHONPATH=/usr/lib/python3/dist-packages/
+
     - name: Test with unittest
       run: |
         python3 -m unittest openatlas_website tests/test_website.py
