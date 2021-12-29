@@ -19,7 +19,7 @@ class WebsiteTests(TestBaseCase):
         with app.app_context():
             assert b'OpenAtlas' in self.app.get('/').data
             assert b'Eichert' in self.app.get(url_for('team')).data
-            assert b'MEDCONX' in self.app.get(url_for('projects')).data
+            assert b'MEDCONXX' in self.app.get(url_for('projects')).data
             assert b'Leeds' in self.app.get(url_for('events')).data
             assert b'interactive' in self.app.get(url_for('features')).data
             assert b'ACDH' in self.app.get(url_for('cooperation')).data
