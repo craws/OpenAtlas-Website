@@ -27,10 +27,6 @@ institutes = {
         'name': 'Center for Interdisciplinary Research and Documentation of Inner and South Asian Cultural History',
         'url': 'https://www.univie.ac.at/cirdis/',
         'logo': 'cirdis.jpg'},
-    'ELTE': {
-        'name': 'Eötvös Loránd University',
-        'url': 'https://www.elte.hu/',
-        'logo': 'elte.jpg'},
     'ERC': {
         'name': 'European Research Council',
         'url': 'https://erc.europa.eu/',
@@ -47,10 +43,6 @@ institutes = {
         'name': 'Grupo de investigación en Fotogrametria y Láser Escáner/Photogrammetry and Laser Scanning Research Group',
         'url': 'http://gifle.webs.upv.es/home.html',
         'logo': 'gifle.jpg'},
-    'IAS': {
-        'name': 'Institute for Advanced Study',
-        'url': 'https://www.ias.edu/',
-        'logo': 'ias.png'},
     'IMAFO': {
         'name': 'Institute for Medieval Research',
         'url': 'https://www.oeaw.ac.at/imafo/',
@@ -67,10 +59,6 @@ institutes = {
         'name': 'Ludwig Boltzmann Institute for Archaeological Prospection and Virtual Archaeology',
         'url': 'https://archpro.lbg.ac.at/',
         'logo': 'lbi.jpg'},
-    'MPI-SHH': {
-        'name': 'Max Planck Institute for the Science of Human History',
-        'url': 'https://www.shh.mpg.de/',
-        'logo': 'mpi-ssh.png'},
     'MSMT': {
         'name': 'Ministry of Education, Youth and Sports',
         'url': 'https://www.msmt.cz',

@@ -1,5 +1,5 @@
-projects_ = {
-     'INDIGO': {
+current = {
+    'INDIGO': {
          'url': 'https://projectindigo.eu',
          'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
          'img': 'indigo.jpeg',
@@ -56,6 +56,44 @@ projects_ = {
         'text': """analyses how a ‘universal’ Late Antique Church was constructed despite the
                 context of political fragmentation that precipitated the end of the Western
                 Roman Empire and its division into smaller polities."""},
+    'MEDCEM': {
+        'url': 'https://medcem.aiscr.cz/',
+        'full_name': 'Medieval Cemeteries at the Periphery of the Carolingian World',
+        'img': 'medcem.png',
+        'image_license': 'CC-BY-SA 4.0, Jan Belik',
+        'pi': 'Stefan Eichert',
+        'duration': '2019 - ongoing',
+        'institutes': ['MSMT', 'ARUP'],
+        'text': """deals with the digital collection and presentation of medieval cemeteries and
+               it is based at the Archaeological Institute of the Czech Academy of Sciences in
+               Prague. All published information is provided online and can be explored via
+               a digital catalogue and within an interactive map. Cartographic visualisations as well
+               as charts and plots are created dynamically based on real archaeological research
+               data."""},
+    'MOP': {
+        'url': 'https://oeaw.academia.edu/MapsofPower',
+        'full_name': 'Maps of Power: Historical Atlas of Places, Borderzones and Migration Dynamics in Byzantium',
+        'img': 'digtib.jpg',
+        'image_license': 'CC-BY-SA 4.0, Jan Belik',
+        'pi': 'Mihailo Popović (TIB PI: Balkans), Andreas Külzer (TIB PI: Asia Minor)',
+        'duration': '2019 - ongoing',
+        'institutes': ['OEAW', 'IMAFO', 'FWF', 'Byzantine Research', 'TIB', 'UAI'],
+        'text': """is a sub-project of the Long-Term Project Tabula Imperii Byzantini (TIB) and
+               part of the DigTIB initiative of the Austrian Academy of Sciences in Vienna. It
+               creates, develops and upkeeps an online atlas of the Byzantine World. Selected parts from the
+               rich data pool provided by TIB are extracted in order to digitally address
+               new scholarly questions and methods."""},
+    'PLAS': {
+        'url': '',
+        'full_name': 'The Prosopography of the Lascarid Period',
+        'img': 'plas.jpg',
+        'image_license': 'CC-BY-SA 4.0, Ekaterini Mitsiou and <br>Johannes Preiser-Kapeller',
+        'pi': 'Ekaterini Mitsiou',
+        'duration': '2018 - ongoing',
+        'institutes': [],
+        'text': """aims at creating a prosopographical database of Byzantium in the first half of the 13th
+               century and mapping the complexities of a society in transition."""}}
+concluded = {
     'Moving Byzantium': {
         'url': 'https://www.oeaw.ac.at/en/imafo/research/byzantine-research/byzantium-and-beyond/mobility-and-intercultural-contacts/moving-byzantium',
         'full_name': 'Moving Byzantium',
@@ -68,43 +106,6 @@ projects_ = {
                 internal flexibility of Byzantine society. Its main focuse is to contribute to a re-evaluation
                 of a society and culture that has traditionally been depicted as stiff, rigid and
                 encumbered by its own tradition."""},
-    'MEDCEM': {
-        'url': 'https://medcem.aiscr.cz/',
-        'full_name': 'Medieval Cemeteries at the Periphery of the Carolingian World',
-        'img': 'medcem.png',
-        'image_license': 'CC-BY-SA 4.0, Jan Belik',
-        'pi': 'Stefan Eichert',
-        'duration': '2019 - ongoing',
-        'institutes': ['MSMT', 'ARUP'],
-        'text': """deals with the digital collection and presentation of medieval cemeteries and
-                it is based at the Archaeological Institute of the Czech Academy of Sciences in
-                Prague. All published information is provided online and can be explored via
-                a digital catalogue and within an interactive map. Cartographic visualisations as well
-                as charts and plots are created dynamically based on real archaeological research
-                data."""},
-    'MOP': {
-        'url': 'https://oeaw.academia.edu/MapsofPower',
-        'full_name': 'Maps of Power: Historical Atlas of Places, Borderzones and Migration Dynamics in Byzantium',
-        'img': 'digtib.jpg',
-        'image_license': 'CC-BY-SA 4.0, Jan Belik',
-        'pi': 'Mihailo Popović (TIB PI: Balkans), Andreas Külzer (TIB PI: Asia Minor)',
-        'duration': '2019 - ongoing',
-        'institutes': ['OEAW', 'IMAFO', 'FWF', 'Byzantine Research', 'TIB', 'UAI'],
-        'text': """is a sub-project of the Long-Term Project Tabula Imperii Byzantini (TIB) and
-                part of the DigTIB initiative of the Austrian Academy of Sciences in Vienna. It
-                creates, develops and upkeeps an online atlas of the Byzantine World. Selected parts from the
-                rich data pool provided by TIB are extracted in order to digitally address
-                new scholarly questions and methods."""},
-    'PLAS': {
-        'url': '',
-        'full_name': 'The Prosopography of the Lascarid Period',
-        'img': 'plas.jpg',
-        'image_license': 'CC-BY-SA 4.0, Ekaterini Mitsiou and <br>Johannes Preiser-Kapeller',
-        'pi': 'Ekaterini Mitsiou',
-        'duration': '2018 - ongoing',
-        'institutes': [],
-        'text': """aims at creating a prosopographical database of Byzantium in the first half of the 13th
-                century and mapping the complexities of a society in transition."""},
     'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)': {
         'url': 'https://orthodoxes-wien.oeaw.ac.at/',
         'full_name': 'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)',
@@ -152,7 +153,8 @@ projects_ = {
         'text':
             """is an international Austrian-Czech research project sponsored by the
                 Austrian Science Fund (FWF) and Grantová agentura České republiky
-                (GA ČR). It focused on the Morawa-Thaya region as boarder region between nowadays Austria and Czechia in Medieval times."""},
+                (GA ČR). It focused on the Morawa-Thaya region as boarder region between nowadays Austria and Czechia in 
+                Medieval times."""},
     'The Eastern Alps Revisited': {
         'url': 'https://www.oeaw.ac.at/imafo/forschung/historische-identitaetsforschung/projekte/weitere-projekte/ostalpenraum-revisited/',
         'full_name': 'The Eastern Alps Revisited',
