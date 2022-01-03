@@ -24,7 +24,9 @@ institutes = {
         'url': 'https://www.oeaw.ac.at/byzanz/',
         'logo': 'byzantine_research.jpg'},
     'CIRDIS': {
-        'name': 'Center for Interdisciplinary Research and Documentation of Inner and South Asian Cultural History',
+        'name':
+            'Center for Interdisciplinary Research and Documentation of Inner '
+            'and South Asian Cultural History',
         'url': 'https://www.univie.ac.at/cirdis/',
         'logo': 'cirdis.jpg'},
     'ERC': {
@@ -40,7 +42,9 @@ institutes = {
         'url': 'https://gacr.cz',
         'logo': 'gacr.png'},
     'GIFLE': {
-        'name': 'Grupo de investigación en Fotogrametria y Láser Escáner/Photogrammetry and Laser Scanning Research Group',
+        'name':
+            'Grupo de investigación en Fotogrametria y Láser '
+            'Escáner/Photogrammetry and Laser Scanning Research Group',
         'url': 'http://gifle.webs.upv.es/home.html',
         'logo': 'gifle.jpg'},
     'IMAFO': {
@@ -56,7 +60,9 @@ institutes = {
         'url': 'https://www.khm.at/',
         'logo': 'khm.jpg'},
     'LBI': {
-        'name': 'Ludwig Boltzmann Institute for Archaeological Prospection and Virtual Archaeology',
+        'name':
+            'Ludwig Boltzmann Institute for Archaeological Prospection and '
+            'Virtual Archaeology',
         'url': 'https://archpro.lbg.ac.at/',
         'logo': 'lbi.jpg'},
     'MSMT': {
@@ -108,7 +114,8 @@ institutes = {
         'url': 'https://www.univie.ac.at/',
         'logo': 'uni_vienna.png'},
     'VRVIS': {
-        'name': 'Zentrum für Virtual Reality und Visualisierung Forschungs-GmbH',
+        'name':
+            'Zentrum für Virtual Reality und Visualisierung Forschungs-GmbH',
         'url': 'https://www.vrvis.at/',
         'logo': 'vrvis.png'},
     'Wien Kultur': {
