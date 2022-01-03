@@ -23,8 +23,11 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        sudo apt install python3 python3-flask python3-jinja2
+        sudo apt install python3 python3-flask python3-jinja2 python3-coverage python3-nose
 
     - name: Test with unittest
       run: |
         python3 -m unittest openatlas_website tests/test_website.py
+
+    - name: Code coverage
+      nosetests3 --with-coverage --cover-html --cover-package tests --cover-package openatlas_website --cover-tests --cover-erase
