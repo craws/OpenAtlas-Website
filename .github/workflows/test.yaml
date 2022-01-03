@@ -30,4 +30,5 @@ jobs:
         python3 -m unittest openatlas_website tests/test_website.py
 
     - name: Code coverage
-      nosetests3 --with-coverage --cover-html --cover-package tests --cover-package openatlas_website --cover-tests --cover-erase
+      run: |
+        nosetests3 --with-coverage --cover-html --cover-package tests --cover-package openatlas_website --cover-tests --cover-erase
