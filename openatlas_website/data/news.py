@@ -8,6 +8,14 @@ def release_text(news_id: int) -> str:
 
 news_items = {
     'News': {
+        '2022-01-01': {
+            'date': '2022-01-01',
+            'title': 'OpenAtlas version 7.0.0 and new team member',
+            'text':
+                release_text(17) +
+                '<br>And a warm welcome to our newest team member Andi '
+                '(Andreas Olschnögger)'}},
+    '2021': {
         '2021-11-18': {
             'date': '2021-11-18',
             'title': 'OpenAtlas version 6.6.0',
@@ -27,10 +35,10 @@ news_items = {
                 'Several papers regarding OpenAtlas will be presented at the '
                 '<a target="_blank" '
                 'href="https://www.imc.leeds.ac.uk/imc-2021/">'
-                'International Medieval Congress</a> this week. Please check '
-                'out session 118, 1001, and 1519'
-            '<a target="_blank" '
-            'href="https://www.imc.leeds.ac.uk/imc-2021/">here</a>'},
+                'International Medieval Congress</a>.<br>Please check '
+                'out session 118, 1001, and 1519 '
+                '<a target="_blank" '
+                'href="https://www.imc.leeds.ac.uk/imc-2021/">here</a>'},
         '2021-06-18': {
             'date': '2021-06-18',
             'title':
