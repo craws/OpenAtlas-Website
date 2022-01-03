@@ -26,7 +26,7 @@ team_ = {
             and military history.""",
         'img': 'bernhard.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
-    'Nina Brundke': {
+    'Nina Richards': {
         'email': 'nina.brundke@oeaw.ac.at',
         'function': 'Bioarchaeological Expertise',
         'text': """Nina is an archaeologist and anthropologist, with a focus on
