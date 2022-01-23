@@ -24,7 +24,7 @@ def display_menu(route: str) -> str:
 
 
 @app.template_filter()
-def display_institutes(institutes_: Iterator) -> str:
+def display_institutes(institutes_: Iterator[str]) -> str:
     html = ''
     for short_name in institutes_:
         institute = institutes[short_name]

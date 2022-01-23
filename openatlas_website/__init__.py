@@ -2,7 +2,7 @@ from pathlib import Path
 from flask import Flask, Response, request
 
 app = Flask(__name__, instance_relative_config=True)
-app.config.from_object('config')  # type: ignore
+app.config.from_object('config')
 
 if (Path(app.root_path).parent / 'instance' / 'production.py').is_file():
     app.config.from_pyfile('production.py')  # pragma: no cover
