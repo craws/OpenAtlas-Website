@@ -1,4 +1,4 @@
-name: Openatlas website test
+name: Tests
 
 on:
   push:

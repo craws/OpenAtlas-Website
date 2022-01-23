@@ -1,6 +1,4 @@
-import sys
 from pathlib import Path
-# sys.path.insert(0, '/usr/lib/python3/dist-packages/')  # For GitHub actions
 from flask import Flask, Response, request
 
 app = Flask(__name__, instance_relative_config=True)
