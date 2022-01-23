@@ -82,7 +82,9 @@ past = {
             'city': 'Mainz',
             'institute': 'Johannes Gutenberg University',
             'name': 'Medieval Mount Athos between Wealth and Poverty',
-            'link': 'https://mamems.uni-mainz.de/conference-medieval-mount-athos-between-wealth-and-poverty/',
+            'link':
+                'https://mamems.uni-mainz.de/conference-medieval-mount-athos-'
+                'between-wealth-and-poverty/',
             'title':
                 'OpenAtlas - An Open Source Application to Map Historical data '
                 'with CIDOC CRM',
@@ -96,7 +98,9 @@ past = {
             'name':
                 'Bridging the gap: the Prosopography of a fragmented world '
                 '(13th Cent.)',
-            'link': 'https://www.oeaw.ac.at/en/imafo/events/event-details/bridging-the-gap-the-prosopography-of-a-fragmented-world-13th-cent',
+            'link':
+                'https://www.oeaw.ac.at/en/imafo/events/event-details/bridging-'
+                'the-gap-the-prosopography-of-a-fragmented-world-13th-cent',
             'title': 'Prosopographical Data in OpenAtlas',
             'docs': {
                 'Program': '2021-05-27_program_bridging_the_gap.pdf',
@@ -129,16 +133,22 @@ past = {
             'city': 'Vienna',
             'institute': 'Natural History Museum Vienna',
             'name': 'OpenAtlas Hackathon',
-            'link': 'https://redmine.openatlas.eu/projects/uni/wiki/Hackathon_2020-06-17'},
+            'link':
+                'https://redmine.openatlas.eu/projects/uni/wiki/'
+                'Hackathon_2020-06-17'},
         '2020-02-11': {
             'country': 'Austria',
             'city': 'Vienna',
             'institute':
                 'Austrian Centre for Digital Humanities and Cultural Heritage',
             'name': 'ACDH-CH - Meet the Researchers',
-            'link': 'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/meet-the-researchers-programme',
+            'link':
+                'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
+                'meet-the-researchers-programme',
             'title': 'OpenAtlas',
-            'docs': {'Presentation': '2020-02-11_OpenAtlas_Meet_the_Researchers.pdf'}}},
+            'docs': {
+                'Presentation': '2020-02-11_OpenAtlas_Meet_the_Researchers.pdf'}
+        }},
     '2019': {
         '2019-12-04': {
             'country': 'Austria',
@@ -154,7 +164,9 @@ past = {
             'city': 'London',
             'institute': 'Royal Holloway',
             'name': 'OpenAtlas Workshop',
-            'link': 'https://www.eventbrite.co.uk/e/introducing-openatlas-tickets-77159242371',
+            'link':
+                'https://www.eventbrite.co.uk/e/'
+                'introducing-openatlas-tickets-77159242371',
             'title': 'Introducing OpenAtlas',
             'docs': {'Presentation': '2019-10-24_OpenAtlas_London.pdf'}},
         '2019-10-18': {
@@ -164,7 +176,9 @@ past = {
             'name': 'Byzantino-Serbian Borderzones in Transition',
             'title': 'OpenAtlas',
             'docs': {
-                'Program': '2019-10_18_Byzantino-Serbian_Borderzones_in_Transition.pdf',
+                'Program':
+                    '2019-10_18_'
+                    'Byzantino-Serbian_Borderzones_in_Transition.pdf',
                 'Presentation': '2019-10-18_OpenAtlas_DIGTIP_german.pdf'}},
         '2019-07-16': {
             'country': 'Austria',
@@ -172,7 +186,9 @@ past = {
             'institute':
                 'Austrian Centre for Digital Humanities and Cultural Heritage',
             'name': 'ACDH-CH - Meet the Researchers',
-            'link': 'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/meet-the-researchers-programme',
+            'link':
+                'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
+                'meet-the-researchers-programme',
             'title':
                 'Introduction to CIDOC CRM with OpenAtlas as an example use '
                 'case'},
@@ -214,7 +230,11 @@ past = {
             'city': 'Vienna',
             'institute': 'University of Vienna',
             'name': 'Prosopography Hackathon',
-            'link': 'https://acdh.univie.ac.at/nachrichten/single-view/news/linking-past-people-a-prosopography-hackathon-at-the-uni-of-vienna/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Baction%5D=detail&cHash=b3c6c21d5d122910b03f0c0b3f65228e'
+            'link':
+                'https://acdh.univie.ac.at/nachrichten/single-view/news/'
+                'linking-past-people-a-prosopography-hackathon-at-the-uni-of-'
+                'vienna/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5B'
+                'action%5D=detail&cHash=b3c6c21d5d122910b03f0c0b3f65228e'
         }},
     '2018': {
         '2018-10-19': {
@@ -241,7 +261,9 @@ past = {
             'institute':
                 'Austrian Centre for Digital Humanities and Cultural Heritage',
             'name': 'ACDH-CH Tool Gallery - CIDOC CRM',
-            'link': 'https://www.oeaw.ac.at/acdh/events/event-series/acdh-tool-gallery-41',
+            'link':
+                'https://www.oeaw.ac.at/acdh/events/event-series/'
+                'acdh-tool-gallery-41',
             'title': 'OpenAtlas',
             'docs': {'Presentation': '2018-05-29_ACDH_Tool_Gallery.pdf'}}},
     '2017': {
@@ -250,7 +272,10 @@ past = {
             'city': 'Leeds',
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2017',
-            'link': 'http://imc.leeds.ac.uk/dbsql02/AQueryServlet?*id=30&*formId=30&*context=IMC&conference=2017&sessionId=7539&chosenPaperId=&*servletURI=https://imc.leeds.ac.uk/dbsql02/AQueryServlet',
+            'link':
+                'http://imc.leeds.ac.uk/dbsql02/AQueryServlet?*id=30&*formId=30'
+                '&*context=IMC&conference=2017&sessionId=7539&chosenPaperId='
+                '&*servletURI=https://imc.leeds.ac.uk/dbsql02/AQueryServlet',
             'title':
                 'Relational Modelling of Historical Data - '
                 'Concepts and Challenges',
@@ -290,7 +315,9 @@ past = {
             'city': 'Vienna',
             'institute': 'Institute for Medieval Research',
             'name': 'Entangled Worlds Congress',
-            'link': 'https://www.dasanderemittelalter.net/conference-entangled-worlds/',
+            'link':
+                'https://www.dasanderemittelalter.net/'
+                'conference-entangled-worlds/',
             'title': 'OpenAtlas',
             'docs': {'Presentation': '2016-04-13_entangled_worlds.pdf'}}},
     '2015': {

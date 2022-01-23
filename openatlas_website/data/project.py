@@ -6,119 +6,163 @@ current = {
          'image_license': 'CC-BY-SA 4.0, Geert Verhoeven',
          'pi': 'Geert Verhoeven, Norbert Pfeifer',
          'duration': '2021 - 2023',
-         'institutes': ['LBI', 'TUGG', 'OEAW', 'ACDH', 'Wien', 'SprayCity', 'GIFLE', 'VRVIS'],
-         'text': """aims to build the basis to systematically document, monitor, disseminate, and analyse 7 km of
-                 graffiti along Vienna’s Danube Canal in the next decade."""},
+         'institutes': [
+             'LBI', 'TUGG', 'OEAW', 'ACDH', 'Wien', 'SprayCity', 'GIFLE',
+             'VRVIS'],
+         'text':
+             'aims to build the basis to systematically document, monitor, '
+             'disseminate, and analyse 7 km of graffiti along Vienna’s Danube '
+             'Canal in the next decade.'},
     'MAMEMS': {
         'url': 'https://mamems.uni-mainz.de/',
-        'full_name': 'Mount Athos in Medieval Eastern Mediterranean Society: Contextualizing the History of a Monastic Republic (ca. 850-1550)',
+        'full_name':
+            'Mount Athos in Medieval Eastern Mediterranean Society: '
+            'Contextualizing the History of a Monastic Republic (ca. 850-1550)',
         'img': 'mamems.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Zachary Chitwood',
         'duration': '2020 - 2025',
         'institutes': ['JGU', 'OEAW', 'ACDH', 'ERC'],
-        'text': """will constitute the first comprehensive examination of the monastic
-                communities of Mount Athos as independent actors in medieval Eastern Mediterranean
-                society."""},
+        'text':
+            'will constitute the first comprehensive examination of the '
+            'monastic communities of Mount Athos as independent actors in '
+            'medieval Eastern Mediterranean society.'},
     'THANADOS': {
         'url': 'https://thanados.net',
-        'full_name': 'The Anthropological and Archaeological Database of Sepultures',
+        'full_name':
+            'The Anthropological and Archaeological Database of Sepultures',
         'img': 'thanados.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Stefan Eichert, Nina Brundke',
         'duration': '2019 - 2021',
         'institutes': ['OEAW', 'OeAI', 'ACDH', 'NHM'],
-        'text': """has the aim to create an online repository of all sepultures in nowadays Austria, dating to the
-                Early Middle Ages (ca. 600-1100). It combines the three disciplines archaeology, anthropology and digital
-                humanities."""},
+        'text':
+            'has the aim to create an online repository of all sepultures in '
+            'nowadays Austria, dating to the Early Middle Ages (ca. 600-1100). '
+            'It combines the three disciplines archaeology, anthropology and '
+            'digital humanities.'},
     'SHAHI': {
         'url': 'https://shahimaterialculture.univie.ac.at/',
-        'full_name': '''Cultural Formation and Transformation: Shahi Art and
-        Architecture from Afghanistan to the West Tibetan Frontier at the Dawn of the Islamic Era''',
+        'full_name':
+            'Cultural Formation and Transformation: Shahi Art and Architecture '
+            'from Afghanistan to the West Tibetan Frontier at the Dawn of the '
+            'Islamic Era',
         'img': 'shahi.jpg',
         'image_license': '',
-        'pi': 'Deborah Klimburg-Salter; National research partner: Michael Alram',
+        'pi':
+            'Deborah Klimburg-Salter; National research partner: Michael Alram',
         'duration': '2018 - 2022',
         'institutes': ['univie', 'OEAW', 'ACDH', 'FWF', 'KHM', 'CIRDIS'],
-        'text': """(FWF, P-31246) considers for the first time the Shahi kingdoms (c. 7th-10th centuries) which played a
-         pivotal role in the history of Central, Inner, and South Asia. Our ongoing research on the primary source
-         material--artifacts, coins, inscriptions, archaeological evidence--suggests that the Hindu-Buddhist culture
-         survived through the end of the first millennium and gradually evolved towards an Islamic culture at the start
-         of the second millennium."""},
+        'text':
+            '(FWF, P-31246) considers for the first time the Shahi kingdoms '
+            '(c. 7th-10th centuries) which played a pivotal role in the '
+            'history of Central, Inner, and South Asia. Our ongoing research '
+            'on the primary source material--artifacts, coins, inscriptions, '
+            'archaeological evidence--suggests that the Hindu-Buddhist culture '
+            'survived through the end of the first millennium and gradually '
+            'evolved towards an Islamic culture at the start of the second '
+            'millennium.'},
     'CONNEC': {
         'url': 'http://www.connectedclerics.com/',
-        'full_name': 'Connected Clerics: Building a Universal Church in the Late Antique West (380-604 CE)',
+        'full_name':
+            'Connected Clerics: Building a Universal Church in the Late '
+            'Antique West (380-604 CE)',
         'img': 'connec.jpg',
         'image_license': 'CC-BY-SA 4.0, Sapfo Psani',
         'pi': 'David Natal',
         'duration': '2018 - 2022',
         'institutes': ['RHUL', 'OEAW', 'ACDH', 'ERC'],
-        'text': """analyses how a ‘universal’ Late Antique Church was constructed despite the
-                context of political fragmentation that precipitated the end of the Western
-                Roman Empire and its division into smaller polities."""},
+        'text':
+            "analyses how a ‘universal’ Late Antique Church was constructed "
+            "despite the context of political fragmentation that precipitated "
+            "the end of the Western  Roman Empire and its division into "
+            "smaller polities."},
     'MEDCEM': {
         'url': 'https://medcem.aiscr.cz/',
-        'full_name': 'Medieval Cemeteries at the Periphery of the Carolingian World',
+        'full_name':
+            'Medieval Cemeteries at the Periphery of the Carolingian World',
         'img': 'medcem.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Stefan Eichert',
         'duration': '2019 - ongoing',
         'institutes': ['MSMT', 'ARUP'],
-        'text': """deals with the digital collection and presentation of medieval cemeteries and
-               it is based at the Archaeological Institute of the Czech Academy of Sciences in
-               Prague. All published information is provided online and can be explored via
-               a digital catalogue and within an interactive map. Cartographic visualisations as well
-               as charts and plots are created dynamically based on real archaeological research
-               data."""},
+        'text':
+            'deals with the digital collection and presentation of medieval '
+            'cemeteries and it is based at the Archaeological Institute of the '
+            'Czech Academy of Sciences in Prague. All published information is '
+            'provided online and can be explored via a digital catalogue and '
+            'within an interactive map. Cartographic visualisations as well as '
+            'charts and plots are created dynamically based on real '
+            'archaeological research data.'},
     'MOP': {
         'url': 'https://oeaw.academia.edu/MapsofPower',
-        'full_name': 'Maps of Power: Historical Atlas of Places, Borderzones and Migration Dynamics in Byzantium',
+        'full_name':
+            'Maps of Power: Historical Atlas of Places, Borderzones and '
+            'Migration Dynamics in Byzantium',
         'img': 'digtib.jpg',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
-        'pi': 'Mihailo Popović (TIB PI: Balkans), Andreas Külzer (TIB PI: Asia Minor)',
+        'pi':
+            'Mihailo Popović (TIB PI: Balkans), '
+            'Andreas Külzer (TIB PI: Asia Minor)',
         'duration': '2019 - ongoing',
-        'institutes': ['OEAW', 'IMAFO', 'FWF', 'Byzantine Research', 'TIB', 'UAI'],
-        'text': """is a sub-project of the Long-Term Project Tabula Imperii Byzantini (TIB) and
-               part of the DigTIB initiative of the Austrian Academy of Sciences in Vienna. It
-               creates, develops and upkeeps an online atlas of the Byzantine World. Selected parts from the
-               rich data pool provided by TIB are extracted in order to digitally address
-               new scholarly questions and methods."""},
+        'institutes':
+            ['OEAW', 'IMAFO', 'FWF', 'Byzantine Research', 'TIB', 'UAI'],
+        'text':
+            'is a sub-project of the Long-Term Project Tabula Imperii '
+            'Byzantini (TIB) and part of the DigTIB initiative of the Austrian '
+            'Academy of Sciences in Vienna. It creates, develops and upkeeps '
+            'an online atlas of the Byzantine World. Selected parts from the '
+            'rich data pool provided by TIB are extracted in order to '
+            'digitally address new scholarly questions and methods.'},
     'PLAS': {
         'url': '',
         'full_name': 'The Prosopography of the Lascarid Period',
         'img': 'plas.jpg',
-        'image_license': 'CC-BY-SA 4.0, Ekaterini Mitsiou and <br>Johannes Preiser-Kapeller',
+        'image_license':
+            'CC-BY-SA 4.0, Ekaterini Mitsiou and <br>Johannes Preiser-Kapeller',
         'pi': 'Ekaterini Mitsiou',
         'duration': '2018 - ongoing',
         'institutes': [],
-        'text': """aims at creating a prosopographical database of Byzantium in the first half of the 13th
-               century and mapping the complexities of a society in transition."""}}
+        'text':
+            'aims at creating a prosopographical database of Byzantium in the '
+            'first half of the 13th century and mapping the complexities of a '
+            'society in transition.'}}
 concluded = {
     'Moving Byzantium': {
-        'url': 'https://www.oeaw.ac.at/en/imafo/research/byzantine-research/byzantium-and-beyond/mobility-and-intercultural-contacts/moving-byzantium',
+        'url':
+            'https://www.oeaw.ac.at/en/imafo/research/byzantine-research/'
+            'byzantium-and-beyond/mobility-and-intercultural-contacts/'
+            'moving-byzantium',
         'full_name': 'Moving Byzantium',
         'img': 'moving_byzantium.jpg',
         'image_license': 'CC-BY-SA 4.0, Johannes Preiser-Kapeller',
         'pi': 'Claudia Rapp',
         'duration': '2015 - 2020',
         'institutes': ['OEAW', 'IMAFO', 'ACDH', 'FWF'],
-        'text': """highlights the role of Byzantium as a global culture and analyses the
-                internal flexibility of Byzantine society. Its main focuse is to contribute to a re-evaluation
-                of a society and culture that has traditionally been depicted as stiff, rigid and
-                encumbered by its own tradition."""},
+        'text':
+            'highlights the role of Byzantium as a global culture and analyses '
+            'the internal flexibility of Byzantine society. Its main focus is '
+            'to contribute to a re-evaluation of a society and culture that '
+            'has traditionally been depicted as stiff, rigid and encumbered by '
+            'its own tradition.'},
     'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)': {
         'url': 'https://orthodoxes-wien.oeaw.ac.at/',
-        'full_name': 'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)',
+        'full_name':
+            'A Digital Geoportal of the History of the Serbs '
+            'in Vienna (1741-1918)',
         'img': 'openatlas.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Mihailo Popović',
         'duration': '2018 - 2019',
-        'institutes': ['Wien Kultur', 'OEAW', 'IMAFO', 'Byzantine Research', 'AIT', 'BCM',
-                       'NLS', 'Biblioteka Matice Srpske'],
-        'text': """used biographical data on Orthodox 
-                Serbs living in Vienna between 1741 and 1918 in order to illustrate how 
-                Orthodox people began to migrate into the Habsburg Empire, how Orthodox merchants
-                settled in Vienna and how they were integrated into Viennese society of that time."""},
+        'institutes': [
+            'Wien Kultur', 'OEAW', 'IMAFO', 'Byzantine Research', 'AIT', 'BCM',
+            'NLS', 'Biblioteka Matice Srpske'],
+        'text':
+            'used biographical data on Orthodox Serbs living in Vienna between '
+            '1741 and 1918 in order to illustrate how Orthodox people began to '
+            'migrate into the Habsburg Empire, how Orthodox merchants settled '
+            'in Vienna and how they were integrated into Viennese society of '
+            'that time.'},
     'DPP': {
         'url': 'https://dpp.oeaw.ac.at/',
         'full_name': 'Digitising Patterns of Power',
@@ -127,12 +171,16 @@ concluded = {
         'pi': 'Mihailo Popović',
         'duration': '2015 - 2019',
         'institutes': ['OEAW', 'IMAFO', 'univie'],
-        'text': """focused on the analysis of the depiction of space in medieval written
-                sources as well as the interaction between men-made and natural environment and the appropriation
-                of space and the emergence of new political, religious and economic structures of
-                power."""},
+        'text':
+            'focused on the analysis of the depiction of space in medieval '
+            'written sources as well as the interaction between men-made and '
+            'natural environment and the appropriation of space and the '
+            'emergence of new political, religious and economic structures of '
+            'power.'},
     'MEDCON': {
-        'url': 'https://www.oeaw.ac.at/imafo/das-institut/detail/mapping-medieval-conflicts',
+        'url':
+            'https://www.oeaw.ac.at/imafo/das-institut/'
+            'detail/mapping-medieval-conflicts',
         'archive_url': 'http://hdl.handle.net/21.11115/0000-000C-D99B-1',
         'full_name': 'Mapping Medieval Conflict',
         'img': 'medcon.png',
@@ -140,8 +188,10 @@ concluded = {
         'pi': 'Johannes Preiser-Kapeller',
         'duration': '2014 - 2017',
         'institutes': ['OEAW', 'IMAFO'],
-        'text': """examined the explanatory power of concepts of social and spatial network
-                analysis for phenomena of political conflict in medieval societies."""},
+        'text':
+            'examined the explanatory power of concepts of social and spatial '
+            'network analysis for phenomena of political conflict in medieval '
+            'societies.'},
     "Frontier, Contact Zone or No Man's Land": {
         'url': 'https://openatlas.eu/gkn',
         'full_name': "Frontier, Contact Zone or No Man's Land",
@@ -151,12 +201,16 @@ concluded = {
         'duration': '2014 - 2017',
         'institutes': ['univie', 'MU', 'FWF', 'GACR'],
         'text':
-            """is an international Austrian-Czech research project sponsored by the
-                Austrian Science Fund (FWF) and Grantová agentura České republiky
-                (GA ČR). It focused on the Morawa-Thaya region as boarder region between nowadays Austria and Czechia in 
-                Medieval times."""},
+            'is an international Austrian-Czech research project sponsored by '
+            'the Austrian Science Fund (FWF) and Grantová agentura České '
+            'republiky (GA ČR). It focused on the Morawa-Thaya region as '
+            'boarder region between nowadays Austria and Czechia in Medieval '
+            'times.'},
     'The Eastern Alps Revisited': {
-        'url': 'https://www.oeaw.ac.at/imafo/forschung/historische-identitaetsforschung/projekte/weitere-projekte/ostalpenraum-revisited/',
+        'url':
+            'https://www.oeaw.ac.at/imafo/forschung/'
+            'historische-identitaetsforschung/projekte/weitere-projekte/'
+            'ostalpenraum-revisited/',
         'full_name': 'The Eastern Alps Revisited',
         'img': 'ostalpen.png',
         'image_license': 'CC-BY-SA 4.0, Dagmar Giesriegl',
@@ -164,6 +218,6 @@ concluded = {
         'duration': '2012 - 2016',
         'institutes': ['OEAW', 'IMAFO', 'FWF'],
         'text':
-            """focused on the transformation of the Late Antique province of Noricum
-                 Mediterraneum into an area inhabited by a Slavic-speaking population that
-                 eventually became part of Bavaria."""}}
+            'focused on the transformation of the Late Antique province of '
+            'Noricum Mediterraneum into an area inhabited by a Slavic-speaking '
+            'population that eventually became part of Bavaria.'}}
