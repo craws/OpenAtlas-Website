@@ -1,5 +1,4 @@
 # Don't edit this file. To override settings please use instance/production.py
-from flask import Config
 
 VERSION = '0.1.0'
 LANGUAGES = {'en': 'English', 'de': 'Deutsch'}
