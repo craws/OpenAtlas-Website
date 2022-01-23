@@ -27,4 +27,6 @@ jobs:
 
     - name: unittest
       run: |
+        export PYTHONPATH=/usr/lib/python3/dist-packages/:$PYTHONPATH
+        echo "PYTHONPATH=$PYTHONPATH"
         python3 -m unittest openatlas_website tests/test_website.py
