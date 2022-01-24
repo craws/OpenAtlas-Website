@@ -17,7 +17,7 @@ def about() -> str:
 
 
 @app.errorhandler(404)
-def page_not_found(e: Exception) -> tuple[str, int]:
+def page_not_found(e: Exception):
     return render_template('404.html', e=e), 404
 
 

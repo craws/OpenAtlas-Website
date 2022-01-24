@@ -27,7 +27,7 @@ team_ = {
         'img': 'bernhard.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
     'Nina Richards': {
-        'email': 'nina.brundke@oeaw.ac.at',
+        'email': 'nina.richards@oeaw.ac.at',
         'function': 'Bioarchaeological Expertise',
         'text': """Nina is an archaeologist and anthropologist, with a focus on
         Early Medieval  burial grounds. With her expertise she provides
@@ -45,10 +45,10 @@ team_ = {
         'img': 'christoph.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
     'Andreas Olschnögger': {
-        'email': 'Andreas.Olschnoegger@oeaw.ac.at',
+        'email': 'andreas.olschnoegger@oeaw.ac.at',
         'function': 'Frontend Development',
-        'text': """Andi is besides his work as a frontend developer a computer
-        science student at the Technical University of Vienna. He mainly
+        'text': """Andi is a frontend developer and studies computer
+        science at the Technical University of Vienna. He mainly
         develops with VueJs and is also interested in UX design to make
         technology more accessible.""",
         'img': 'andi.jpg',
