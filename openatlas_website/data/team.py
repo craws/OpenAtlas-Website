@@ -20,10 +20,10 @@ team_ = {
     'Bernhard Koschiček-Krombholz': {
         'email': 'bernhard.koschicek-krombholz@oeaw.ac.at',
         'function': 'Software Development, API',
-        'text': """Berni is a student of Computer Sciences and currently student
-            of history. His research interests include computer security,
-            Python, digital preservation, historical geography, GIS, medieval
-            and military history.""",
+        'text': """Bernhard is currently developing our API. He also 
+            studies Computer Sciences and History. His research interests
+            include computer security, Python, digital preservation, historical
+            geography, GIS, medieval and military history.""",
         'img': 'bernhard.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
     'Nina Richards': {
