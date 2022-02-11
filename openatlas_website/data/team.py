@@ -1,6 +1,6 @@
 team_ = {
     'Stefan Eichert': {
-        'email': 'stefan.eichert@univie.ac.at',
+        'email': 'stefan.eichert@nhm-wien.ac.at',
         'function': 'Idea, Concept and Data Modelling',
         'text': """Stefan is the the initiator and master mind behind the
             OpenAtlas project. His main research fields are Early Medieval
@@ -20,7 +20,7 @@ team_ = {
     'Bernhard Koschiček-Krombholz': {
         'email': 'bernhard.koschicek-krombholz@oeaw.ac.at',
         'function': 'Software Development, API',
-        'text': """Bernhard is currently developing our API. He also 
+        'text': """Bernhard is currently developing our API. He also
             studies Computer Sciences and History. His research interests
             include computer security, Python, digital preservation, historical
             geography, GIS, medieval and military history.""",
