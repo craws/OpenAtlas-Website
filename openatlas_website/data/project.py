@@ -33,7 +33,7 @@ current = {
             'The Anthropological and Archaeological Database of Sepultures',
         'img': 'thanados.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
-        'pi': 'Stefan Eichert, Nina Brundke',
+        'pi': 'Stefan Eichert, Nina Richards',
         'duration': '2019 - 2021',
         'institutes': ['OEAW', 'OeAI', 'ACDH', 'NHM'],
         'text':
