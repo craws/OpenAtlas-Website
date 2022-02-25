@@ -297,7 +297,7 @@ past = {
             'name': 'Digitising Patterns of Power',
             'link': 'https://dpp.oeaw.ac.at/workshop/',
             'title': 'OpenAtlas',
-            'docs': {'Presenation': '2016-09-28_dpp.pdf'}},
+            'docs': {'Presentation': '2016-09-28_dpp.pdf'}},
         '2016-07-08': {
             'country': 'United Kingdom',
             'city': 'Leeds',
