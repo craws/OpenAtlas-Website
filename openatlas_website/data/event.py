@@ -30,6 +30,9 @@ past = {
             'name':
                 'Power In Numbers: The Role of the Rural Population in '
                 'Christianisation and State Formation',
+            'link':
+                'https://kreas.ff.cuni.cz/udalost/power-in-numbers-the-role-of-'
+                'the-rural-population-in-christianisation-and-state-formation/',
             'institute': 'Charles University',
             'title':
                 'OpenAtlas - A web based tool to acquire and manage historical '
