@@ -8,7 +8,16 @@ upcoming = {
         'link': 'https://www.imc.leeds.ac.uk/imc-2022',
         'title':
             'OpenAtlas - Open Software for Overcoming Borders '
-            'between Disciplines'}
+            'between Disciplines'},
+    '2022-07-06': {
+        'country': 'United Kingdom',
+        'city': 'Leeds',
+        'institute': 'University of Leeds',
+        'name': 'International Medieval Congress 2022',
+        'link': 'https://www.imc.leeds.ac.uk/imc-2022',
+        'title':
+            'Digitising Late Antique Letter Collections in the ERC CONNEC '
+            'Project: A Round Table Discussion'}
     }
 
 past = {
