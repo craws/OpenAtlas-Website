@@ -41,7 +41,9 @@ past = {
             'country': 'Austria',
             'city': 'Vienna',
             'institute': 'TU Wien',
-            'title': 'Project INDIGO Kick-off',
+            'name': 'INDIGO Kick-off gathering',
+            'title': 'OpenAtlas',
+            'link': 'https://projectindigo.eu/kick-off-gathering/',
             'docs': {'Program': '2021-09-09_Indigo_kick_off_event.pdf'}},
         '2021-09-02': {
             'country': 'Austria',
