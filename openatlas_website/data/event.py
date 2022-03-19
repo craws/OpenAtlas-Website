@@ -287,6 +287,7 @@ past = {
             'city': 'Bochum',
             'institute': 'Ruhr-University Bochum',
             'name': 'Regesten und Register, Netzwerke und Karten',
+            'link': 'https://www.hsozkult.de/event/id/event-84117',
             'title': 'OpenAtlas',
             'docs': {'Presentation': '2017-06-20_bochum.pdf'}}},
     '2016': {
