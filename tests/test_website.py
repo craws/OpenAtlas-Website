@@ -26,5 +26,5 @@ class WebsiteTests(TestBaseCase):
             assert b'Principal' in \
                    self.app.get(url_for('cooperation_information')).data
             assert b'Flask' in self.app.get(url_for('software')).data
-            assert b'THANADOS' in self.app.get('/news').data
+            assert b'THANADOS' in self.app.get(url_for('news')).data
             assert b'404' in self.app.get('/whatever').data
