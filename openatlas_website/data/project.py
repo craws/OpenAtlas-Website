@@ -28,7 +28,7 @@ current = {
             'monastic communities of Mount Athos as independent actors in '
             'medieval Eastern Mediterranean society.'},
     'Approaching Byzantium': {
-        'url': 'https://XXX',
+        #'url': 'https://',
         'full_name':
             'Approaching Byzantium in Ottoman Istanbul: the Reception of the'
             'Byzantine Heritage of Constantinople by Scholars from the Holy'
@@ -38,8 +38,9 @@ current = {
         'pi': 'Nicholas Melvani',
         'duration': '2021 - 2024',
         'institutes': ['JGU', 'DFG', 'ACDH'],
-        'text':
-            'XXX.'},
+        #'text':
+        #    '.'
+    },
     'THANADOS': {
         'url': 'https://thanados.net',
         'full_name':
