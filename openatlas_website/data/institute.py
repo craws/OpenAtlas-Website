@@ -29,6 +29,11 @@ institutes = {
             'and South Asian Cultural History',
         'url': 'https://www.univie.ac.at/cirdis/',
         'logo': 'cirdis.jpg'},
+    'DFG': {
+        'name':
+            'Deutsche Forschungsgemeinschaft ',
+        'url': 'https://www.dfg.de/',
+        'logo': 'dfg.png'},
     'ERC': {
         'name': 'European Research Council',
         'url': 'https://erc.europa.eu/',

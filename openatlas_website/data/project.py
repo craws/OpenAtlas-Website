@@ -27,6 +27,19 @@ current = {
             'will constitute the first comprehensive examination of the '
             'monastic communities of Mount Athos as independent actors in '
             'medieval Eastern Mediterranean society.'},
+    'Approaching Byzantium': {
+        'url': 'https://XXX',
+        'full_name':
+            'Approaching Byzantium in Ottoman Istanbul: the Reception of the'
+            'Byzantine Heritage of Constantinople by Scholars from the Holy'
+            'Roman Empire in the 16th century',
+        'img': 'approaching_byzantium.png',
+        'image_license': 'CC-BY-SA 4.0, Jan Belik',
+        'pi': 'Nicholas Melvani',
+        'duration': '2021 - 2024',
+        'institutes': ['JGU', 'DFG', 'ACDH'],
+        'text':
+            'XXX.'},
     'THANADOS': {
         'url': 'https://thanados.net',
         'full_name':
