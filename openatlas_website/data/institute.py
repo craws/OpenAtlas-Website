@@ -23,6 +23,11 @@ institutes = {
         'name': 'Byzantine Research',
         'url': 'https://www.oeaw.ac.at/byzanz/',
         'logo': 'byzantine_research.jpg'},
+    'Leibnitz Byzanz': {
+        'name': 'Leibnitz WissenschschaftsCampus Byzanz zwischen Orient und'
+                'Okzident, Mainz/Frankfurt',
+        'url': 'https://www.byzanz-mainz.de/index.php/?L=1',
+        'logo': 'leibniz_byzanz.jpg'},
     'CIRDIS': {
         'name':
             'Center for Interdisciplinary Research and Documentation of Inner '
@@ -32,7 +37,7 @@ institutes = {
     'DFG': {
         'name':
             'Deutsche Forschungsgemeinschaft ',
-        'url': 'https://www.dfg.de/',
+        'url': 'https://www.dfg.de/en/index.jsp',
         'logo': 'dfg.png'},
     'ERC': {
         'name': 'European Research Council',

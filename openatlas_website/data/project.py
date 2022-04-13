@@ -28,19 +28,22 @@ current = {
             'monastic communities of Mount Athos as independent actors in '
             'medieval Eastern Mediterranean society.'},
     'Approaching Byzantium': {
-        #'url': 'https://',
+        'url':
+            'https://www.byzanz-mainz.de/en/no_cache/research-byzanz/details-projects/article/approaching-byzantium-in-ottoman-istanbul-the-reception-of-the-byzantine-heritage-of-constantinople-1/',
         'full_name':
-            'Approaching Byzantium in Ottoman Istanbul: the Reception of the'
-            'Byzantine Heritage of Constantinople by Scholars from the Holy'
+            'Approaching Byzantium in Ottoman Istanbul: the Reception of the '
+            'Byzantine Heritage of Constantinople by Scholars from the Holy '
             'Roman Empire in the 16th century',
         'img': 'approaching_byzantium.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Nicholas Melvani',
         'duration': '2021 - 2024',
-        'institutes': ['JGU', 'DFG', 'ACDH'],
-        #'text':
-        #    '.'
-    },
+        'institutes': ['JGU', 'DFG', 'Leibnitz Byzanz', 'ACDH'],
+        'text':
+            'analyzes how visiting the city of Constantinople affected the '
+            'reception of Byzantium by humanists from the Holy Roman Empire in '
+            'the 16th century, when the former Byzantine capital was the seat '
+            'of the Ottoman Empire.'},
     'THANADOS': {
         'url': 'https://thanados.net',
         'full_name':
