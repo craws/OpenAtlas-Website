@@ -1,4 +1,23 @@
 current = {
+    'Approaching Byzantium': {
+        'url':
+            'https://www.byzanz-mainz.de/en/no_cache/research-byzanz/details'
+            '-projects/article/approaching-byzantium-in-ottoman-istanbul-the'
+            '-reception-of-the-byzantine-heritage-of-constantinople-1/',
+        'full_name':
+            'Approaching Byzantium in Ottoman Istanbul: the Reception of the '
+            'Byzantine Heritage of Constantinople by Scholars from the Holy '
+            'Roman Empire in the 16th century',
+        'img': 'approaching_byzantium.png',
+        'image_license': 'CC-BY-SA 4.0, Jan Belik',
+        'pi': 'Nicholas Melvani',
+        'duration': '2021 - 2024',
+        'institutes': ['JGU', 'OEAW', 'ACDH', 'DFG', 'Leibnitz Byzanz'],
+        'text':
+            'analyzes how visiting the city of Constantinople affected the '
+            'reception of Byzantium by humanists from the Holy Roman Empire in '
+            'the 16th century, when the former Byzantine capital was the seat '
+            'of the Ottoman Empire.'},
     'INDIGO': {
          'url': 'https://projectindigo.eu',
          'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
@@ -27,23 +46,6 @@ current = {
             'will constitute the first comprehensive examination of the '
             'monastic communities of Mount Athos as independent actors in '
             'medieval Eastern Mediterranean society.'},
-    'Approaching Byzantium': {
-        'url':
-            'https://www.byzanz-mainz.de/en/no_cache/research-byzanz/details-projects/article/approaching-byzantium-in-ottoman-istanbul-the-reception-of-the-byzantine-heritage-of-constantinople-1/',
-        'full_name':
-            'Approaching Byzantium in Ottoman Istanbul: the Reception of the '
-            'Byzantine Heritage of Constantinople by Scholars from the Holy '
-            'Roman Empire in the 16th century',
-        'img': 'approaching_byzantium.png',
-        'image_license': 'CC-BY-SA 4.0, Jan Belik',
-        'pi': 'Nicholas Melvani',
-        'duration': '2021 - 2024',
-        'institutes': ['JGU', 'DFG', 'Leibnitz Byzanz', 'ACDH'],
-        'text':
-            'analyzes how visiting the city of Constantinople affected the '
-            'reception of Byzantium by humanists from the Holy Roman Empire in '
-            'the 16th century, when the former Byzantine capital was the seat '
-            'of the Ottoman Empire.'},
     'THANADOS': {
         'url': 'https://thanados.net',
         'full_name':
@@ -58,7 +60,7 @@ current = {
             'nowadays Austria, dating to the Early Middle Ages (ca. 600-1100). '
             'It combines the three disciplines archaeology, anthropology and '
             'digital humanities.'},
-    'SHAHI': {
+    'Shahi': {
         'url': 'https://shahimaterialculture.univie.ac.at/',
         'full_name':
             'Cultural Formation and Transformation: Shahi Art and Architecture '

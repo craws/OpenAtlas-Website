@@ -8,6 +8,13 @@ def release_text(news_id: int) -> str:
 
 news_items = {
     'News': {
+        '2022-04-15': {
+            'date': '2022-04-15',
+            'title': 'New OpenAtlas cooperation with Approaching Byzantium',
+            'text':
+                'We are happy to announce a new cooperation with Approaching '
+                'Byzantium.<br>You find more details at the '
+                '<a target="_blank" href="/projects">projects</a> page.'},
         '2022-04-02': {
             'date': '2022-04-02',
             'title': 'OpenAtlas version 7.2.0 and a welcome back',
@@ -15,7 +22,6 @@ news_items = {
                 release_text(19) +
                 '<br>And a warm welcome back to the team to Veronika '
                 '(Gründhammer)'},
-
         '2022-02-15': {
             'date': '2022-02-15',
             'title': 'OpenAtlas version 7.1.0',
@@ -74,11 +80,11 @@ news_items = {
                 'free to follow and retweet'},
         '2021-05-17': {
             'date': '2021-05-17',
-            'title': 'New OpenAtlas cooperation with SHAHI',
+            'title': 'New OpenAtlas cooperation with Shahi',
             'text':
-                'We are happy to announce a new cooperation. For project '
-                'details, see <a target="_blank" '
-                'href="https://shahimaterialculture.univie.ac.at/">SHAHI</a>'},
+                'We are happy to announce a new cooperation with Shahi.'
+                '<br>You find more details at the '
+                '<a target="_blank" href="/projects">projects</a> page.'},
         '2021-05-08': {
             'date': '2021-05-08',
             'title': 'OpenAtlas version 6.2.0',
