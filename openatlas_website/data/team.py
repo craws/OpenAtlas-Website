@@ -35,6 +35,15 @@ team_ = {
         anthropological and scientific modules in OpenAtlas.""",
         'img': 'nina.jpg',
         'image_license': 'CC-BY 4.0, Jan Belik'},
+    'Andreas Olschnögger': {
+        'email': 'andreas.olschnoegger@oeaw.ac.at',
+        'function': 'Frontend Development',
+        'text': """Andi is a frontend developer and studies computer
+            science at the Technical University of Vienna. He mainly
+            develops with VueJs and is also interested in UX design to make
+            technology more accessible.""",
+        'img': 'andi.jpg',
+        'image_license': 'CC-BY 4.0, Andreas Olschnögger'},
     'Christoph Hoffmann': {
         'email': 'christoph.hoffmann@oeaw.ac.at',
         'function': 'Frontend Development',
@@ -44,15 +53,15 @@ team_ = {
             methods in the humanities.""",
         'img': 'christoph.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
-    'Andreas Olschnögger': {
-        'email': 'andreas.olschnoegger@oeaw.ac.at',
-        'function': 'Frontend Development',
-        'text': """Andi is a frontend developer and studies computer
-        science at the Technical University of Vienna. He mainly
-        develops with VueJs and is also interested in UX design to make
-        technology more accessible.""",
-        'img': 'andi.jpg',
-        'image_license': 'CC-BY 4.0, Andreas Olschnögger'},
+    'Veronika Gründhammer': {
+        'email': 'veronika.gruendhammer@oeaw.ac.at',
+        'function': 'Project Administration',
+        'text': """Veronika provides essential support for cooperations in her
+            role as project officer at the
+            <a target="_blank" href='https://www.oeaw.ac.at/acdh/'>ACDH-CH</a>.
+            """,
+        'img': 'veronika.jpg',
+        'image_license': 'CC-BY 4.0, Jan Belik'},
     'Jan Belik': {
         'email': 'buero@janbelik.com',
         'function': 'Logo Design and Design Consulting',
