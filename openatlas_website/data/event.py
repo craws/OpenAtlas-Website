@@ -40,12 +40,13 @@ past = {
                 'Power In Numbers: The Role of the Rural Population in '
                 'Christianisation and State Formation',
             'link':
-                'https://kreas.ff.cuni.cz/udalost/power-in-numbers-the-role-of-'
-                'the-rural-population-in-christianisation-and-state-formation/',
+                'https://kreas.ff.cuni.cz/udalost/power-in-numbers-the-role-of'
+                '-the-rural-population-in-christianisation-and-state-formation'
+                '/',
             'institute': 'Charles University',
             'title':
-                'OpenAtlas - A web based tool to acquire and manage historical '
-                'and archeological data',
+                'OpenAtlas - A web based tool to acquire and manage historical'
+                ' and archeological data',
             'docs': {
                 'Program': '2021-10-11_conference_power_in_numbers.pdf',
                 'Presentation': '2021-10-11_power_in_numbers.pdf'}},
@@ -100,8 +101,8 @@ past = {
                 'https://mamems.uni-mainz.de/conference-medieval-mount-athos-'
                 'between-wealth-and-poverty/',
             'title':
-                'OpenAtlas - An Open Source Application to Map Historical data '
-                'with CIDOC CRM',
+                'OpenAtlas - An Open Source Application to Map Historical data'
+                ' with CIDOC CRM',
             'docs': {
                 'Program': '2021-06-18_program_mount_athos.pdf',
                 'Presentation': '2021-06-18_medieval_mount_athos.pdf'}},
@@ -113,8 +114,8 @@ past = {
                 'Bridging the gap: the Prosopography of a fragmented world '
                 '(13th Cent.)',
             'link':
-                'https://www.oeaw.ac.at/en/imafo/events/event-details/bridging-'
-                'the-gap-the-prosopography-of-a-fragmented-world-13th-cent',
+                'https://www.oeaw.ac.at/en/imafo/events/event-details/bridging'
+                '-the-gap-the-prosopography-of-a-fragmented-world-13th-cent',
             'title': 'Prosopographical Data in OpenAtlas',
             'docs': {
                 'Program': '2021-05-27_program_bridging_the_gap.pdf',
@@ -161,7 +162,8 @@ past = {
                 'meet-the-researchers-programme',
             'title': 'OpenAtlas',
             'docs': {
-                'Presentation': '2020-02-11_OpenAtlas_Meet_the_Researchers.pdf'}
+                'Presentation':
+                    '2020-02-11_OpenAtlas_Meet_the_Researchers.pdf'}
         }},
     '2019': {
         '2019-12-04': {
@@ -171,8 +173,8 @@ past = {
             'name': 'Fourth HistGeo Lecture',
             'link': 'https://histgeo.oeaw.ac.at/category/histgeo-lecture/',
             'title':
-                'THANADOS – The Anthropological and Archaeological Database of '
-                'Sepultures'},
+                'THANADOS – The Anthropological and Archaeological Database of'
+                ' Sepultures'},
         '2019-10-24': {
             'country': 'United Kingdom',
             'city': 'London',
@@ -213,8 +215,8 @@ past = {
             'name': 'International Medieval Congress 2019',
             'link': 'https://www.imc.leeds.ac.uk/imc2019/',
             'title':
-                'OpenAtlas - An open source application to map historical data '
-                'with CIDOC CRM',
+                'OpenAtlas - An open source application to map historical data'
+                ' with CIDOC CRM',
             'docs': {'Presentation': '2019-07-03_OpenAtlas.pdf'}},
         '2019-06-18': {
             'country': 'Austria',
@@ -266,7 +268,7 @@ past = {
             'city': 'Leeds',
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2018',
-            'link': 'https://www.imc.leeds.ac.uk/imcarchive/2018/sessions/840/',
+            'link': 'https://www.imc.leeds.ac.uk/imcarchive/2018/sessions/840',
             'title': 'OpenAtlas - How to Grow Software for Historians',
             'docs': {'Presentation': '2018-07-03_leeds.pdf'}},
         '2018-05-29': {
@@ -287,8 +289,8 @@ past = {
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2017',
             'link':
-                'http://imc.leeds.ac.uk/dbsql02/AQueryServlet?*id=30&*formId=30'
-                '&*context=IMC&conference=2017&sessionId=7539&chosenPaperId='
+                'http://imc.leeds.ac.uk/dbsql02/AQueryServlet?*id=30&*formId='
+                '30&*context=IMC&conference=2017&sessionId=7539&chosenPaperId='
                 '&*servletURI=https://imc.leeds.ac.uk/dbsql02/AQueryServlet',
             'title':
                 'Relational Modelling of Historical Data - '
@@ -318,7 +320,7 @@ past = {
             'city': 'Leeds',
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2016',
-            'link': 'https://www.imc.leeds.ac.uk/imcarchive/2016/sessions/803/',
+            'link': 'https://www.imc.leeds.ac.uk/imcarchive/2016/sessions/803',
             'title':
                 'Relational Modelling of Historical Data '
                 '- A Technical Perspective',

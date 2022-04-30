@@ -63,8 +63,8 @@ news_items = {
                 'OpenAtlas at the "Medieval Mount Athos between Wealth and '
                 'Poverty" conference',
             'text':
-                'To join the conference (17th and 18th of June), check out the '
-                '<a target="_blank" href="'
+                'To join the conference (17th and 18th of June), check out the'
+                ' <a target="_blank" href="'
                 'https://mamems.uni-mainz.de/conference-medieval-mount-athos-'
                 'between-wealth-and-poverty/">MAMENS homepage</a>'},
         '2021-06-13': {
@@ -76,8 +76,8 @@ news_items = {
             'title': 'OpenAtlas joined Twitter',
             'text':
                 'Check out @OpenAtlas_eu on <a target="_blank" '
-                'href="https://twitter.com/OpenAtlas_eu/">Twitter</a> and feel '
-                'free to follow and retweet'},
+                'href="https://twitter.com/OpenAtlas_eu/">Twitter</a> and feel'
+                ' free to follow and retweet'},
         '2021-05-17': {
             'date': '2021-05-17',
             'title': 'New OpenAtlas cooperation with Shahi',
@@ -94,7 +94,8 @@ news_items = {
             'title': 'OpenAtlas at DHA Twitter Schaukasten',
             'text':
                 'OpenAtlas is part of the DHaustria Twitter conference. '
-                'Check #digitalDHaustria on Twitter or <a target="_blank" href='
+                'Check #digitalDHaustria on Twitter or <a target="_blank"'
+                'href='
                 '"https://digital-humanities.at/en/dha/s-project/openatlas">'
                 'here</a>'},
         '2021-04-05': {

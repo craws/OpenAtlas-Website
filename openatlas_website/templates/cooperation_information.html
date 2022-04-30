@@ -1,63 +1,55 @@
 {% extends "layout.html" %}
 {% block content %}
-
-    <p class="breadcrumb">
-        <a href="{{ url_for('about') }}">About</a>&nbsp;>&nbsp;
-        <a href="{{ url_for('cooperation') }}">Cooperation</a>&nbsp;>
-        Information regarding cooperations
-    </a>
-    <p>
-        If you like to establish a cooperation or find out more about the possibilities to cooperate, feel free to contact
-        us at <a href="mailto:openatlas@oeaw.ac.at">openatlas@oeaw.ac.at</a>.
-        In this case, it would be very helpful to provide some of the information listed below.
-        The information given doesn't have to be complete, exact nor is it binding. It would just help us to get a feeling
-        for the project and your specific needs and requirements.
-    </p>
-
-    <p class="mb-1" style="font-weight: bold;">Project</p>
-    <ul>
-        <li>Name</li>
-        <li>Principal Investigator(s)</li>
-        <li>Project start and duration</li>
-        <li>An abstract about the projects content and aims. Can also be a proposal draft, a website or similar.</li>
-    </ul>
-
-    <p class="mb-1" style="font-weight: bold;">Data</p>
-    <ul>
-        <li>Planned license for data (open data required)</li>
-        <li>Will data be imported or entered for the first time</li>
-        <li>
-            What type of information will be worked with, e.g. prosopographical data, geospatial data, texts, archaeological features,
-            image files etc.
-        </li>
-        <li>Estimated data volume (how many entries) and file volume (Gigabyte)</li>
-        <li>How many people will likely enter data</li>
-    </ul>
-
-    <p class="mb-1" style="font-weight: bold;">Organizational</p>
-    <ul>
-        <li>Hosting institution of the project</li>
-        <li>Type of grant or funding</li>
-        <li>Global project budget</li>
-        <li>Estimate of available budget for a cooperation</li>
-        <li>Will it utilize infrastructure of an existing OpenAtlas project</li>
-    </ul>
-
-    <p class="mb-1" style="font-weight: bold;">Which services are requested</p>
-    <ul>
-        <li>
-            Planning - e.g. evaluation how to map research data to <a target="_blank" href="https://www.cidoc-crm.org/">CIDOC CRM</a>
-            and how to enter them into OpenAtlas
-        </li>
-        <li>Hosting - e.g. installation and server maintenance</li>
-        <li>Support - e.g. software updates, training, troubleshooting</li>
-        <li>Development - e.g. software adaptions and additional features</li>
-        <li>Presentation website - if requested: the more details provided, the better</li>
-        <li>Long time archiving in <a target="_blank" href="https://arche.acdh.oeaw.ac.at">ARCHE</a></li>
-    </ul>
-
-    <p>
-        If you have any questions, feel free to contact us at <a href="mailto:openatlas@oeaw.ac.at">openatlas@oeaw.ac.at</a>.
-    </p>
-
+<p class="breadcrumb">
+  <a href="{{ url_for('about') }}">About</a>&nbsp;>&nbsp;
+  <a href="{{ url_for('cooperation') }}">Cooperation</a>&nbsp;>Information regarding cooperations
+</p>
+<p>
+  If you like to establish a cooperation or find out more about the possibilities to cooperate, feel free to contact
+  us at <a href="mailto:openatlas@oeaw.ac.at">openatlas@oeaw.ac.at</a>.
+  In this case, it would be very helpful to provide some of the information listed below. The information given doesn't
+  have to be complete, exact nor is it binding. It would just help us to get a feeling for the project and your specific
+  needs and requirements.
+</p>
+<p class="mb-1" style="font-weight: bold;">Project</p>
+<ul>
+  <li>Name</li>
+  <li>Principal Investigator(s)</li>
+  <li>Project start and duration</li>
+  <li>An abstract about the projects content and aims. Can also be a proposal draft, a website or similar.</li>
+</ul>
+<p class="mb-1" style="font-weight: bold;">Data</p>
+<ul>
+  <li>Planned license for data (open data required)</li>
+  <li>Will data be imported or entered for the first time</li>
+  <li>
+    What type of information will be worked with, e.g. prosopographical data, geospatial data, texts, archaeological
+    features, image files etc.
+  </li>
+  <li>Estimated data volume (how many entries) and file volume (Gigabyte)</li>
+  <li>How many people will likely enter data</li>
+</ul>
+<p class="mb-1" style="font-weight: bold;">Organizational</p>
+<ul>
+  <li>Hosting institution of the project</li>
+  <li>Type of grant or funding</li>
+  <li>Global project budget</li>
+  <li>Estimate of available budget for a cooperation</li>
+  <li>Will it utilize infrastructure of an existing OpenAtlas project</li>
+</ul>
+<p class="mb-1" style="font-weight: bold;">Which services are requested</p>
+<ul>
+  <li>
+    Planning - e.g. evaluation how to map research data to
+    <a target="_blank" href="https://www.cidoc-crm.org/">CIDOC CRM</a> and how to enter them into OpenAtlas
+  </li>
+  <li>Hosting - e.g. installation and server maintenance</li>
+  <li>Support - e.g. software updates, training, troubleshooting</li>
+  <li>Development - e.g. software adaptions and additional features</li>
+  <li>Presentation website - if requested: the more details provided, the better</li>
+  <li>Long time archiving in <a target="_blank" href="https://arche.acdh.oeaw.ac.at">ARCHE</a></li>
+</ul>
+<p>
+  If you have any questions, feel free to contact us at <a href="mailto:openatlas@oeaw.ac.at">openatlas@oeaw.ac.at</a>.
+</p>
 {% endblock %}

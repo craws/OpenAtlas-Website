@@ -21,9 +21,9 @@ team_ = {
         'email': 'bernhard.koschicek-krombholz@oeaw.ac.at',
         'function': 'Software Development, API',
         'text': """Bernhard is currently developing our API and
-            studies Computer Sciences as well as History. His research interests
-            include computer security, Python, digital preservation, historical
-            geography, GIS, medieval and military history.""",
+            studies Computer Sciences as well as History. His research 
+            interests include computer security, Python, digital preservation,
+            historical geography, GIS, medieval and military history.""",
         'img': 'bernhard.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
     'Nina Richards': {
@@ -69,7 +69,7 @@ team_ = {
             director at
             <a href="https://janbelik.com" target="_blank">janbelik.com</a>
             in Vienna, Austria. He has plenty of experience working with local
-            as well as international brands and has created a range of OpenAtlas
-            project logos.""",
+            as well as international brands and has created a range of
+            OpenAtlas project logos.""",
         'img': 'jan.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'}}

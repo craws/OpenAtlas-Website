@@ -10,7 +10,8 @@ from openatlas_website.data.institute import institutes
 @app.template_filter()
 def display_menu(route: str) -> str:
     html = ''
-    for item in ['about', 'projects', 'features', 'software', 'team', 'events']:
+    for item in [
+            'about', 'projects', 'features', 'software', 'team', 'events']:
         active = 'active' if route.startswith('/' + item) else ''
         if item == 'about' and route \
                 in ['/', '/cooperation', '/cooperation/information', '/news']:

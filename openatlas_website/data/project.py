@@ -15,28 +15,29 @@ current = {
         'institutes': ['JGU', 'OEAW', 'ACDH', 'DFG', 'Leibnitz Byzanz'],
         'text':
             'analyzes how visiting the city of Constantinople affected the '
-            'reception of Byzantium by humanists from the Holy Roman Empire in '
-            'the 16th century, when the former Byzantine capital was the seat '
-            'of the Ottoman Empire.'},
+            'reception of Byzantium by humanists from the Holy Roman Empire in'
+            ' the 16th century, when the former Byzantine capital was the seat'
+            ' of the Ottoman Empire.'},
     'INDIGO': {
-         'url': 'https://projectindigo.eu',
-         'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
-         'img': 'indigo.jpeg',
-         'image_license': 'CC-BY-SA 4.0, Geert Verhoeven',
-         'pi': 'Geert Verhoeven, Norbert Pfeifer',
-         'duration': '2021 - 2023',
-         'institutes': [
-             'LBI', 'TUGG', 'OEAW', 'ACDH', 'Wien', 'SprayCity', 'GIFLE',
-             'VRVIS'],
-         'text':
-             'aims to build the basis to systematically document, monitor, '
-             'disseminate, and analyse 7 km of graffiti along Vienna’s Danube '
-             'Canal in the next decade.'},
+        'url': 'https://projectindigo.eu',
+        'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
+        'img': 'indigo.jpeg',
+        'image_license': 'CC-BY-SA 4.0, Geert Verhoeven',
+        'pi': 'Geert Verhoeven, Norbert Pfeifer',
+        'duration': '2021 - 2023',
+        'institutes': [
+            'LBI', 'TUGG', 'OEAW', 'ACDH', 'Wien', 'SprayCity', 'GIFLE',
+            'VRVIS'],
+        'text':
+            'aims to build the basis to systematically document, monitor, '
+            'disseminate, and analyse 7 km of graffiti along Vienna’s Danube '
+            'Canal in the next decade.'},
     'MAMEMS': {
         'url': 'https://mamems.uni-mainz.de/',
         'full_name':
             'Mount Athos in Medieval Eastern Mediterranean Society: '
-            'Contextualizing the History of a Monastic Republic (ca. 850-1550)',
+            'Contextualizing the History of a Monastic Republic '
+            '(ca. 850-1550)',
         'img': 'mamems.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Zachary Chitwood',
@@ -57,19 +58,20 @@ current = {
         'institutes': ['OEAW', 'OeAI', 'ACDH', 'NHM'],
         'text':
             'has the aim to create an online repository of all sepultures in '
-            'nowadays Austria, dating to the Early Middle Ages (ca. 600-1100). '
-            'It combines the three disciplines archaeology, anthropology and '
+            'nowadays Austria, dating to the Early Middle Ages (ca. 600-1100).'
+            ' It combines the three disciplines archaeology, anthropology and '
             'digital humanities.'},
     'Shahi': {
         'url': 'https://shahimaterialculture.univie.ac.at/',
         'full_name':
-            'Cultural Formation and Transformation: Shahi Art and Architecture '
-            'from Afghanistan to the West Tibetan Frontier at the Dawn of the '
-            'Islamic Era',
+            'Cultural Formation and Transformation: Shahi Art and Architecture'
+            ' from Afghanistan to the West Tibetan Frontier at the Dawn of the'
+            ' Islamic Era',
         'img': 'shahi.jpg',
         'image_license': '',
         'pi':
-            'Deborah Klimburg-Salter; National research partner: Michael Alram',
+            'Deborah Klimburg-Salter;'
+            'National research partner: Michael Alram',
         'duration': '2018 - 2022',
         'institutes': ['univie', 'OEAW', 'ACDH', 'FWF', 'KHM', 'CIRDIS'],
         'text':
@@ -77,8 +79,8 @@ current = {
             '(c. 7th-10th centuries) which played a pivotal role in the '
             'history of Central, Inner, and South Asia. Our ongoing research '
             'on the primary source material--artifacts, coins, inscriptions, '
-            'archaeological evidence--suggests that the Hindu-Buddhist culture '
-            'survived through the end of the first millennium and gradually '
+            'archaeological evidence--suggests that the Hindu-Buddhist culture'
+            ' survived through the end of the first millennium and gradually '
             'evolved towards an Islamic culture at the start of the second '
             'millennium.'},
     'CONNEC': {
@@ -107,11 +109,11 @@ current = {
         'institutes': ['MSMT', 'ARUP'],
         'text':
             'deals with the digital collection and presentation of medieval '
-            'cemeteries and it is based at the Archaeological Institute of the '
-            'Czech Academy of Sciences in Prague. All published information is '
-            'provided online and can be explored via a digital catalogue and '
-            'within an interactive map. Cartographic visualisations as well as '
-            'charts and plots are created dynamically based on real '
+            'cemeteries and it is based at the Archaeological Institute of the'
+            ' Czech Academy of Sciences in Prague. All published information '
+            'is  provided online and can be explored via a digital catalogue '
+            'and  within an interactive map. Cartographic visualisations as '
+            'well as charts and plots are created dynamically based on real '
             'archaeological research data.'},
     'MOP': {
         'url': 'https://oeaw.academia.edu/MapsofPower',
@@ -128,8 +130,8 @@ current = {
             ['OEAW', 'IMAFO', 'FWF', 'Byzantine Research', 'TIB', 'UAI'],
         'text':
             'is a sub-project of the Long-Term Project Tabula Imperii '
-            'Byzantini (TIB) and part of the DigTIB initiative of the Austrian '
-            'Academy of Sciences in Vienna. It creates, develops and upkeeps '
+            'Byzantini (TIB) and part of the DigTIB initiative of the Austrian'
+            ' Academy of Sciences in Vienna. It creates, develops and upkeeps '
             'an online atlas of the Byzantine World. Selected parts from the '
             'rich data pool provided by TIB are extracted in order to '
             'digitally address new scholarly questions and methods.'},
@@ -138,7 +140,8 @@ current = {
         'full_name': 'The Prosopography of the Lascarid Period',
         'img': 'plas.jpg',
         'image_license':
-            'CC-BY-SA 4.0, Ekaterini Mitsiou and <br>Johannes Preiser-Kapeller',
+            'CC-BY-SA 4.0, Ekaterini Mitsiou and <br>'
+            'Johannes Preiser-Kapeller',
         'pi': 'Ekaterini Mitsiou',
         'duration': '2018 - ongoing',
         'institutes': [],
@@ -159,11 +162,11 @@ concluded = {
         'duration': '2015 - 2020',
         'institutes': ['OEAW', 'IMAFO', 'ACDH', 'FWF'],
         'text':
-            'highlights the role of Byzantium as a global culture and analyses '
-            'the internal flexibility of Byzantine society. Its main focus is '
-            'to contribute to a re-evaluation of a society and culture that '
-            'has traditionally been depicted as stiff, rigid and encumbered by '
-            'its own tradition.'},
+            'highlights the role of Byzantium as a global culture and analyses'
+            ' the internal flexibility of Byzantine society. Its main focus is'
+            ' to contribute to a re-evaluation of a society and culture that '
+            'has traditionally been depicted as stiff, rigid and encumbered by'
+            ' its own tradition.'},
     'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)': {
         'url': 'https://orthodoxes-wien.oeaw.ac.at/',
         'full_name':
@@ -177,11 +180,11 @@ concluded = {
             'Wien Kultur', 'OEAW', 'IMAFO', 'Byzantine Research', 'AIT', 'BCM',
             'NLS', 'Biblioteka Matice Srpske'],
         'text':
-            'used biographical data on Orthodox Serbs living in Vienna between '
-            '1741 and 1918 in order to illustrate how Orthodox people began to '
-            'migrate into the Habsburg Empire, how Orthodox merchants settled '
-            'in Vienna and how they were integrated into Viennese society of '
-            'that time.'},
+            'used biographical data on Orthodox Serbs living in Vienna '
+            'between 1741 and 1918 in order to illustrate how Orthodox people '
+            'began to migrate into the Habsburg Empire, how Orthodox '
+            'merchants settled in Vienna and how they were integrated into '
+            'Viennese society of  that time.'},
     'DPP': {
         'url': 'https://dpp.oeaw.ac.at/',
         'full_name': 'Digitising Patterns of Power',
@@ -238,5 +241,5 @@ concluded = {
         'institutes': ['OEAW', 'IMAFO', 'FWF'],
         'text':
             'focused on the transformation of the Late Antique province of '
-            'Noricum Mediterraneum into an area inhabited by a Slavic-speaking '
-            'population that eventually became part of Bavaria.'}}
+            'Noricum Mediterraneum into an area inhabited by a Slavic-speaking'
+            ' population that eventually became part of Bavaria.'}}
