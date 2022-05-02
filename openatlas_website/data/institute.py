@@ -64,7 +64,7 @@ institutes = {
     'JGU': {
         'name': 'Johannes Gutenberg University Mainz',
         'url': 'https://www.uni-mainz.de/eng/index.php',
-        'logo': 'jug.png'},
+        'logo': 'jgu.png'},
     'KHM': {
         'name': 'Kunsthistorisches Museum Wien',
         'url': 'https://www.khm.at/',
