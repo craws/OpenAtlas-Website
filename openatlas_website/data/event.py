@@ -1,5 +1,14 @@
 
 upcoming = {
+    '2022-05-12': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'name': 'goINDIGO 2022 - international graffiti symposium',
+        'link': 'https://go-indigo.eu/',
+        'title':
+            'One Ontology to Rule Them All: CIDOC CRM in the Humanities and '
+            'its use in OpenAtlas'},
     '2022-07-04': {
         'country': 'United Kingdom',
         'city': 'Leeds',
@@ -17,8 +26,7 @@ upcoming = {
         'link': 'https://www.imc.leeds.ac.uk/imc-2022',
         'title':
             'Digitising Late Antique Letter Collections in the ERC CONNEC '
-            'Project: A Round Table Discussion'}
-    }
+            'Project: A Round Table Discussion'}}
 
 past = {
     '2021': {
