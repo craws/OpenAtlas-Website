@@ -1,14 +1,5 @@
 
 upcoming = {
-    '2022-05-12': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Austrian Academy of Sciences',
-        'name': 'goINDIGO 2022 - international graffiti symposium',
-        'link': 'https://go-indigo.eu/',
-        'title':
-            'One Ontology to Rule Them All: CIDOC CRM in the Humanities and '
-            'its use in OpenAtlas'},
     '2022-07-04': {
         'country': 'United Kingdom',
         'city': 'Leeds',
@@ -29,6 +20,16 @@ upcoming = {
             'Project: A Round Table Discussion'}}
 
 past = {
+    '2022': {
+        '2022-05-12': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'Austrian Academy of Sciences',
+            'name': 'goINDIGO 2022 - international graffiti symposium',
+            'link': 'https://go-indigo.eu/',
+            'title':
+                'One Ontology to Rule Them All: CIDOC CRM in the Humanities '
+                'and its use in OpenAtlas'}},
     '2021': {
         '2021-10-20': {
             'country': 'Austria',
