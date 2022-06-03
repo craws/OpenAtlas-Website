@@ -12,7 +12,7 @@
       {{ event.name }}<br>
     {% endif %}
     {% if event.title %}
-      <strong>{{ event.title }}</strong><br>
+      <strong>{{ event.title|safe }}</strong><br>
     {% endif %}
     {{ event.country }}, {{ event.city }}, {{ event.institute }}
     {% if event.docs is defined %}

@@ -1,6 +1,6 @@
 
 upcoming = {
-    '2022-07-04': {
+    '2022-07-05': {
         'country': 'United Kingdom',
         'city': 'Leeds',
         'institute': 'University of Leeds',
@@ -16,8 +16,26 @@ upcoming = {
         'name': 'International Medieval Congress 2022',
         'link': 'https://www.imc.leeds.ac.uk/imc-2022',
         'title':
-            'Digitising Late Antique Letter Collections in the ERC CONNEC '
-            'Project: A Round Table Discussion'}}
+            '<span style="font-weight:normal;">Paper:</span> Visualising the '
+            'Dead<br>'
+            '<span style="font-weight:normal;">Paper:</span> Medieval Borders '
+            'in the Digital Age<br>'
+            '<span style="font-weight:normal;">Paper:</span> Tearing Down '
+            'Borders between Disciplines in a Digital '
+            'Age<br>'
+            '<span style="font-weight:normal;">Round Table:</span> Digitising '
+            'Late Antique Letter Collections in the ERC CONNEC Project'},
+    '2022-09-03': {
+        'country': 'Hungary',
+        'city': 'Budapest',
+        'institute': 'European Association of Archaeologists',
+        'name': '28th EAA Annual Meeting',
+        'link':
+            'https://www.e-a-a.org/EAA2022/Home/EAA2022/Home.aspx?'
+            'hkey=d8ca19c5-8cdc-4d80-a1ed-cda328b34274',
+        'title':
+            'OpenAtlas - A Database System for Archeological Data and Beyond'
+    }}
 
 past = {
     '2022': {
