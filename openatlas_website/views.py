@@ -1,3 +1,5 @@
+from typing import Tuple
+
 from flask import render_template
 
 from openatlas_website import app
@@ -17,7 +19,7 @@ def about() -> str:
 
 
 @app.errorhandler(404)
-def page_not_found(e: Exception) -> tuple[str, int]:
+def page_not_found(e: Exception) -> Tuple[str, int]:
     return render_template('404.html', e=e), 404
 
 
