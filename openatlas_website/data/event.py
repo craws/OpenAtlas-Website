@@ -1,33 +1,5 @@
 
 upcoming = {
-    '2022-07-05': {
-        'country': 'United Kingdom',
-        'city': 'Leeds',
-        'institute': 'University of Leeds',
-        'name': 'International Medieval Congress 2022',
-        'link': 'https://www.imc.leeds.ac.uk/imc-2022',
-        'title':
-            'OpenAtlas - Open Software for Overcoming Borders '
-            'between Disciplines',
-        'docs': {
-            'Presentation': '2022-07-05_leeds_openatlas.pdf'}
-    },
-    '2022-07-06': {
-        'country': 'United Kingdom',
-        'city': 'Leeds',
-        'institute': 'University of Leeds',
-        'name': 'International Medieval Congress 2022',
-        'link': 'https://www.imc.leeds.ac.uk/imc-2022',
-        'title':
-            '<span style="font-weight:normal;">Paper:</span> Visualising the '
-            'Dead<br>'
-            '<span style="font-weight:normal;">Paper:</span> Medieval Borders '
-            'in the Digital Age<br>'
-            '<span style="font-weight:normal;">Paper:</span> Tearing Down '
-            'Borders between Disciplines in a Digital '
-            'Age<br>'
-            '<span style="font-weight:normal;">Round Table:</span> Digitising '
-            'Late Antique Letter Collections in the ERC CONNEC Project'},
     '2022-09-03': {
         'country': 'Hungary',
         'city': 'Budapest',
@@ -42,6 +14,34 @@ upcoming = {
 
 past = {
     '2022': {
+        '2022-07-06': {
+            'country': 'United Kingdom',
+            'city': 'Leeds',
+            'institute': 'University of Leeds',
+            'name': 'International Medieval Congress 2022',
+            'link': 'https://www.imc.leeds.ac.uk/imc-2022',
+            'title':
+                '<span style="font-weight:normal;">Paper:</span> '
+                'Visualising the Dead<br>'
+                '<span style="font-weight:normal;">Paper:</span> '
+                'Medieval Borders in the Digital Age<br>'
+                '<span style="font-weight:normal;">Paper:</span> Tearing Down '
+                'Borders between Disciplines in a Digital '
+                'Age<br><span style="font-weight:normal;">Round Table:</span> '
+                'Digitising Late Antique Letter Collections in the '
+                'ERC CONNEC Project'},
+        '2022-07-05': {
+            'country': 'United Kingdom',
+            'city': 'Leeds',
+            'institute': 'University of Leeds',
+            'name': 'International Medieval Congress 2022',
+            'link': 'https://www.imc.leeds.ac.uk/imc-2022',
+            'title':
+                'OpenAtlas - Open Software for Overcoming Borders '
+                'between Disciplines',
+            'docs': {
+                'Presentation': '2022-07-05_leeds_openatlas.pdf'}
+        },
         '2022-05-12': {
             'country': 'Austria',
             'city': 'Vienna',
