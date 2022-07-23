@@ -9,8 +9,12 @@ upcoming = {
             'https://www.e-a-a.org/EAA2022/Home/EAA2022/Home.aspx?'
             'hkey=d8ca19c5-8cdc-4d80-a1ed-cda328b34274',
         'title':
-            'OpenAtlas - A Database System for Archeological Data and Beyond'
-    }}
+            'OpenAtlas - A Database System for Archeological Data and Beyond'},
+    '2021-09-15': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'WUK',
+        'title': 'OpenAtlas Summer Meeting 2022'}}
 
 past = {
     '2022': {
