@@ -10,7 +10,7 @@ upcoming = {
             'hkey=d8ca19c5-8cdc-4d80-a1ed-cda328b34274',
         'title':
             'OpenAtlas - A Database System for Archeological Data and Beyond'},
-    '2021-09-15': {
+    '2022-09-15': {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'WUK',
@@ -315,7 +315,9 @@ past = {
                 'https://www.oeaw.ac.at/acdh/events/event-series/'
                 'acdh-tool-gallery-41',
             'title': 'OpenAtlas',
-            'docs': {'Presentation': '2018-05-29_ACDH_Tool_Gallery.pdf'}}},
+            'docs': {
+                'Presentation': '2018-05-29_ACDH_Tool_Gallery.pdf',
+                'YouTube': 'https://www.youtube.com/watch?v=TbhKDaRPO3U'}}},
     '2017': {
         '2017-07-03': {
             'country': 'United Kingdom',
