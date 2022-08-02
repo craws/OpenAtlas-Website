@@ -44,7 +44,8 @@ past = {
                 'OpenAtlas - Open Software for Overcoming Borders '
                 'between Disciplines',
             'docs': {
-                'Presentation': '2022-07-05_leeds_openatlas.pdf'}
+                'Presentation': '2022-07-05_leeds_openatlas.pdf',
+                'YouTube': 'https://www.youtube.com/watch?v=M3hJCYrS_e8&ab_channel=ACDH-CH'}
         },
         '2022-05-12': {
             'country': 'Austria',
