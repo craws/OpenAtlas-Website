@@ -172,7 +172,7 @@ concluded = {
         'full_name':
             'A Digital Geoportal of the History of the Serbs '
             'in Vienna (1741-1918)',
-        'img': 'openatlas.png',
+        'img': 'geoportal.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Mihailo Popović',
         'duration': '2018 - 2019',
