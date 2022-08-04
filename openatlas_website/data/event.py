@@ -14,7 +14,15 @@ upcoming = {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'WUK',
-        'title': 'OpenAtlas Summer Meeting 2022'}}
+        'title': 'OpenAtlas Summer Meeting 2022'},
+    '2023-07-03': {
+        'country': 'United Kingdom',
+        'city': 'Leeds',
+        'institute': 'University of Leeds',
+        'name': 'International Medieval Congress 2023',
+        'title': 'OpenAtlas',
+        'link': 'https://www.imc.leeds.ac.uk/imc-2023'}
+    }
 
 past = {
     '2022': {
