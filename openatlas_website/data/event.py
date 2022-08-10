@@ -55,6 +55,18 @@ past = {
                 'Presentation': '2022-07-05_leeds_openatlas.pdf',
                 'YouTube': 'https://www.youtube.com/watch?v=M3hJCYrS_e8&ab_channel=ACDH-CH'}
         },
+        '2022-06-23': {
+            'country': 'Germany',
+            'city': 'Cologne',
+            'institute': 'University of Cologne',
+            'name': 'DH-Kolloquiums der Universität zu Köln',
+            'link': 'https://dhc.hypotheses.org/programm-2022',
+            'title':
+                'OpenAtlas und historische Geographie: Die Tabula Imperii'
+                ' Byzantini (Balkan) im digitalen Zeitalter',
+            'docs': {
+                'YouTube': 'https://www.youtube.com/watch?v=cmJo9N05WY4'}
+        },
         '2022-05-12': {
             'country': 'Austria',
             'city': 'Vienna',
