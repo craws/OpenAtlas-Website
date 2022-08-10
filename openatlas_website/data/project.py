@@ -47,6 +47,21 @@ current = {
             'will constitute the first comprehensive examination of the '
             'monastic communities of Mount Athos as independent actors in '
             'medieval Eastern Mediterranean society.'},
+    'DANCEM': {
+        'url': 'https://www.leibniz-gwzo.de/en/research/humans-and-environment/borders-formation-structure-and-shifts/late-antique-cemeteries',
+        'full_name': 'Late antique cemeteries on the Danube',
+        'img': 'dancem.jpg',
+        'image_license': 'CC-BY-SA 4.0. Birte Janzen/Kristin Opitz',
+        'pi': 'Kristin Opitz',
+        'duration': '2020 - ongoing',
+        'institutes': ['GWZO', 'Stadtmuseum_St_Poelten'],
+        'text':
+            'focuses on bringing together and analysing both published and'
+            ' self-compiled archaeological and anthropological data from late'
+            ' antique cemeteries on the Danube Limes and its hinterland '
+            'between Passau and Budapest to gain deeper insights into the '
+            'lives and deaths of the people.'
+    },
     'THANADOS': {
         'url': 'https://thanados.net',
         'full_name':

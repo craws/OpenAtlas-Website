@@ -57,6 +57,11 @@ institutes = {
             'Escáner/Photogrammetry and Laser Scanning Research Group',
         'url': 'http://gifle.webs.upv.es/home.html',
         'logo': 'gifle.jpg'},
+    'GWZO': {
+        'name':
+            'Leibniz-Institut für Geschichte und Kultur des östlichen Europa ',
+        'url': 'https://www.leibniz-gwzo.de/',
+        'logo': 'gwzo.jpg'},
     'IMAFO': {
         'name': 'Institute for Medieval Research',
         'url': 'https://www.oeaw.ac.at/imafo/',
@@ -107,6 +112,11 @@ institutes = {
         'name': 'Spraycity.at',
         'url': 'https://spraycity.at/',
         'logo': 'spraycity2.png'},
+    'Stadtmuseum_St_Poelten': {
+        'name':
+            'Stadtmuseum Sankt Pölten',
+        'url': 'http://stadtmuseum-stpoelten.at/',
+        'logo': 'stadtmuseum_st_poelten.jpg'},
     'TIB': {
         'name': 'Tabula Imperii Byzantini',
         'url': 'https://tib.oeaw.ac.at',
