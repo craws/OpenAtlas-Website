@@ -48,7 +48,9 @@ current = {
             'monastic communities of Mount Athos as independent actors in '
             'medieval Eastern Mediterranean society.'},
     'DANCEM': {
-        'url': 'https://www.leibniz-gwzo.de/en/research/humans-and-environment/borders-formation-structure-and-shifts/late-antique-cemeteries',
+        'url':
+            'https://www.leibniz-gwzo.de/en/research/humans-and-environment/'
+            'borders-formation-structure-and-shifts/late-antique-cemeteries',
         'full_name': 'Late antique cemeteries on the Danube',
         'img': 'dancem.jpg',
         'image_license': 'CC-BY-SA 4.0. Birte Janzen/Kristin Opitz',
@@ -60,22 +62,7 @@ current = {
             ' self-compiled archaeological and anthropological data from late'
             ' antique cemeteries on the Danube Limes and its hinterland '
             'between Passau and Budapest to gain deeper insights into the '
-            'lives and deaths of the people.'
-    },
-    'THANADOS': {
-        'url': 'https://thanados.net',
-        'full_name':
-            'The Anthropological and Archaeological Database of Sepultures',
-        'img': 'thanados.png',
-        'image_license': 'CC-BY-SA 4.0, Jan Belik',
-        'pi': 'Stefan Eichert, Nina Richards',
-        'duration': '2019 - 2021',
-        'institutes': ['OEAW', 'OeAI', 'ACDH', 'NHM'],
-        'text':
-            'has the aim to create an online repository of all sepultures in '
-            'nowadays Austria, dating to the Early Middle Ages (ca. 600-1100).'
-            ' It combines the three disciplines archaeology, anthropology and '
-            'digital humanities.'},
+            'lives and deaths of the people.'},
     'Shahi': {
         'url': 'https://shahimaterialculture.univie.ac.at/',
         'full_name':
@@ -165,6 +152,20 @@ current = {
             'first half of the 13th century and mapping the complexities of a '
             'society in transition.'}}
 concluded = {
+    'THANADOS': {
+        'url': 'https://thanados.net',
+        'full_name':
+            'The Anthropological and Archaeological Database of Sepultures',
+        'img': 'thanados.png',
+        'image_license': 'CC-BY-SA 4.0, Jan Belik',
+        'pi': 'Stefan Eichert, Nina Richards',
+        'duration': '2019 - 2021',
+        'institutes': ['OEAW', 'OeAI', 'ACDH', 'NHM'],
+        'text':
+            'has the aim to create an online repository of all sepultures in '
+            'nowadays Austria, dating to the Early Middle Ages (ca. 600-1100).'
+            ' It combines the three disciplines archaeology, anthropology and '
+            'digital humanities.'},
     'Moving Byzantium': {
         'url':
             'https://www.oeaw.ac.at/en/imafo/research/byzantine-research/'
