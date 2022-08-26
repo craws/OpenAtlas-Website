@@ -15,6 +15,12 @@ upcoming = {
         'city': 'Vienna',
         'institute': 'WUK',
         'title': 'OpenAtlas Summer Meeting 2022'},
+    '2023-06-21': {
+       'country': 'Austria',
+       'city': 'Vienna',
+       'institute': 'Austrian Academy of Sciences',
+       'name': 'goINDIGO 2023 - International graffiti symposium',
+       'link': 'https://go-indigo.eu/'},
     '2023-07-03': {
         'country': 'United Kingdom',
         'city': 'Leeds',
@@ -71,7 +77,7 @@ past = {
             'country': 'Austria',
             'city': 'Vienna',
             'institute': 'Austrian Academy of Sciences',
-            'name': 'goINDIGO 2022 - international graffiti symposium',
+            'name': 'goINDIGO 2022 - International graffiti symposium',
             'link': 'https://go-indigo.eu/',
             'title':
                 'One Ontology to Rule Them All: CIDOC CRM in the Humanities '
