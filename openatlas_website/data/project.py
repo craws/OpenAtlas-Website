@@ -101,7 +101,7 @@ current = {
             "the end of the Western  Roman Empire and its division into "
             "smaller polities."},
     'MEDCEM': {
-        'url': 'https://medcem.aiscr.cz/',
+        'url': 'https://thanados.net/about/medcem',
         'full_name':
             'Medieval Cemeteries at the Periphery of the Carolingian World',
         'img': 'medcem.png',
