@@ -8,8 +8,7 @@ if (Path(app.root_path).parent / 'instance' / 'production.py').is_file():
     app.config.from_pyfile('production.py')  # pragma: no cover
 
 # pylint: disable=wrong-import-position, import-outside-toplevel
-from openatlas_website.util import filters
-from openatlas_website import views
+from openatlas_website import util, views
 
 
 @app.before_request

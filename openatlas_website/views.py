@@ -50,10 +50,7 @@ def news() -> str:
 
 @app.route('/projects')
 def projects() -> str:
-    return render_template(
-        'projects.html',
-        current=current,
-        concluded=concluded)
+    return render_template('projects.html', current=current, past=concluded)
 
 
 @app.route('/software')

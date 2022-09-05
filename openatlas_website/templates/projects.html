@@ -10,7 +10,7 @@
 {% endfor %}
 <hr>
 <h3 class="mt-4 mb-4">Concluded</h3>
-{% for name, project in concluded.items() %}
+{% for name, project in past.items() %}
   {% include('projects_row.html') %}
 {% endfor %}
 {% endblock %}

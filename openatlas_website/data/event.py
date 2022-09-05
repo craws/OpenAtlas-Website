@@ -1,15 +1,5 @@
 
 upcoming = {
-    '2022-09-03': {
-        'country': 'Hungary',
-        'city': 'Budapest',
-        'institute': 'European Association of Archaeologists',
-        'name': '28th EAA Annual Meeting',
-        'link':
-            'https://www.e-a-a.org/EAA2022/Home/EAA2022/Home.aspx?'
-            'hkey=d8ca19c5-8cdc-4d80-a1ed-cda328b34274',
-        'title':
-            'OpenAtlas - A Database System for Archeological Data and Beyond'},
     '2022-09-15': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -32,6 +22,17 @@ upcoming = {
 
 past = {
     '2022': {
+        '2022-09-03': {
+            'country': 'Hungary',
+            'city': 'Budapest',
+            'institute': 'European Association of Archaeologists',
+            'name': '28th EAA Annual Meeting',
+            'link':
+                'https://www.e-a-a.org/EAA2022/Home/EAA2022/Home.aspx?'
+                'hkey=d8ca19c5-8cdc-4d80-a1ed-cda328b34274',
+            'title':
+                'OpenAtlas - A Database System for Archeological Data and '
+                'Beyond'},
         '2022-07-06': {
             'country': 'United Kingdom',
             'city': 'Leeds',
@@ -59,7 +60,9 @@ past = {
                 'between Disciplines',
             'docs': {
                 'Presentation': '2022-07-05_leeds_openatlas.pdf',
-                'YouTube': 'https://www.youtube.com/watch?v=M3hJCYrS_e8&ab_channel=ACDH-CH'}
+                'YouTube':
+                    'https://www.youtube.com/'
+                    'watch?v=M3hJCYrS_e8&ab_channel=ACDH-CH'}
         },
         '2022-06-23': {
             'country': 'Germany',

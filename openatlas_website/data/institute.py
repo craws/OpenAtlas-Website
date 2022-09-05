@@ -24,8 +24,9 @@ institutes = {
         'url': 'https://www.oeaw.ac.at/byzanz/',
         'logo': 'byzantine_research.jpg'},
     'Leibnitz Byzanz': {
-        'name': 'Leibnitz WissenschschaftsCampus Byzanz zwischen Orient und'
-                'Okzident, Mainz/Frankfurt',
+        'name':
+            'Leibnitz WissenschschaftsCampus Byzanz zwischen Orient und '
+            'Okzident, Mainz/Frankfurt',
         'url': 'https://www.byzanz-mainz.de/index.php/?L=1',
         'logo': 'leibniz_byzanz.jpg'},
     'CIRDIS': {
