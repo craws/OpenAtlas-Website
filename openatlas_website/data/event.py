@@ -6,18 +6,27 @@ upcoming = {
         'institute': 'WUK',
         'title': 'OpenAtlas Summer Meeting 2022'},
     '2023-06-21': {
-       'country': 'Austria',
-       'city': 'Vienna',
-       'institute': 'Austrian Academy of Sciences',
-       'name': 'goINDIGO 2023 - International graffiti symposium',
-       'link': 'https://go-indigo.eu/'},
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'name': 'goINDIGO 2023 - International graffiti symposium',
+        'title': 'OpenAtlas (TBA)',
+        'link': 'https://go-indigo.eu/'},
     '2023-07-03': {
         'country': 'United Kingdom',
         'city': 'Leeds',
         'institute': 'University of Leeds',
         'name': 'International Medieval Congress 2023',
-        'title': 'OpenAtlas',
-        'link': 'https://www.imc.leeds.ac.uk/imc-2023'}
+        'title': 'OpenAtlas (TBA)',
+        'link': 'https://www.imc.leeds.ac.uk/imc-2023'},
+    '2023-09-27': {
+            'country': 'United Kingdom',
+            'city': 'Oxford',
+            'institute': 'University of Oxford',
+            'title': 'OpenAtlas (TBA)',
+            'name':
+                'The History of a Special Relationship: Women, Eunuchs and '
+                'Medieval Mount Athos'}
     }
 
 past = {
