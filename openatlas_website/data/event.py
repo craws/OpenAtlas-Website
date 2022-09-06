@@ -41,7 +41,8 @@ past = {
                 'hkey=d8ca19c5-8cdc-4d80-a1ed-cda328b34274',
             'title':
                 'OpenAtlas - A Database System for Archeological Data and '
-                'Beyond'},
+                'Beyond',
+            'docs': {'Presentation': '2022-09-03_eaa.pdf'}},
         '2022-07-06': {
             'country': 'United Kingdom',
             'city': 'Leeds',
