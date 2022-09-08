@@ -5,6 +5,14 @@ upcoming = {
         'city': 'Vienna',
         'institute': 'WUK',
         'title': 'OpenAtlas Summer Meeting 2022'},
+    '2022-10-25': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute':
+            'Austrian Centre for Digital Humanities and Cultural Heritage',
+        'name': 'ACDH-CH Research lunch',
+        'title':
+            'OpenAtlas - A Database System for the Humanities and Beyond'},
     '2023-06-21': {
         'country': 'Austria',
         'city': 'Vienna',
