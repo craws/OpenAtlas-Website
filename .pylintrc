@@ -6,3 +6,6 @@ good-names=i,j,k,ex,Run,_,e,js,bc,id,rv,ip  # default is i,j,k,ex,Run,_
 
 [FORMAT]
 max-line-length=79
+
+[TYPECHECK]
+disable=cyclic-import

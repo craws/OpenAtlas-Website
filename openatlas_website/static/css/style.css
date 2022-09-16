@@ -1,5 +1,5 @@
 body {
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 a, a.img, a.without-decoration {
