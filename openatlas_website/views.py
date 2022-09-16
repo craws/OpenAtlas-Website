@@ -4,7 +4,7 @@ from flask import render_template
 
 from openatlas_website import app
 from openatlas_website.data.event import past, upcoming
-from openatlas_website.data.news import news_items
+from openatlas_website.data.news import news_
 from openatlas_website.data.project import concluded, current
 from openatlas_website.data.software import stack
 from openatlas_website.data.team import team_
@@ -12,10 +12,9 @@ from openatlas_website.data.team import team_
 
 @app.route('/')
 def about() -> str:
-    news_dictionary = (list(news_items.values())[0])
     return render_template(
         'about.html',
-        latest_news_item=list(news_dictionary.values())[0])
+        latest_news_item=next(iter(news_['News'].values())))
 
 
 @app.errorhandler(404)
@@ -45,7 +44,7 @@ def features() -> str:
 
 @app.route('/news')
 def news() -> str:
-    return render_template('news.html', news_items=news_items)
+    return render_template('news.html', news=news_)
 
 
 @app.route('/projects')

@@ -27,16 +27,15 @@ def display_menu(route: str) -> str:
 @app.template_filter()
 def display_institutes(institutes_: Iterator[str]) -> str:
     html = ''
-    for short_name in institutes_:
-        institute = institutes[short_name]
+    for name in institutes_:
         html += f"""
             <a
-                href="{institute['url']}"
+                href="{institutes[name]['url']}"
                 target="_blank"
                 class="without-decoration">
                 <img
-                    src="/static/images/institutes/{institute['logo']}"
-                    alt="{institute['name']}"
-                    title="{institute['name']}">
+                    src="/static/images/institutes/{institutes[name]['logo']}"
+                    alt="{institutes[name]['name']}"
+                    title="{institutes[name]['name']}">
             </a>"""
     return Markup(f'<div>{html}</div>')

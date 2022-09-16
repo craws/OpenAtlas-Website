@@ -6,7 +6,7 @@ def release_text(news_id: int) -> str:
         f'release notes</a>'
 
 
-news_items = {
+news_ = {
     'News': {
         '2022-08-25': {
             'date': '2022-08-25',

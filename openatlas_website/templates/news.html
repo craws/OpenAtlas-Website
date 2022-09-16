@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 {% block content %}
-{% for year, items in news_items.items() %}
+{% for year, items in news.items() %}
   <h4 class="mt-4 mb-4">{{year}}</h4>
   {% for date, item in items.items() %}
     <div class="mb-4">
