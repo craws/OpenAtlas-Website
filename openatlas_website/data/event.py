@@ -1,5 +1,14 @@
 
 upcoming = {
+    '2022-10-12': {
+        'country': 'Germany',
+        'city': 'Mainz',
+        'institute': 'Johannes Gutenberg University Mainz',
+        'name': 'Young Academics Network workshop',
+        'link':
+            'https://www.byzanz-mainz.de/en/activities'
+            '/young-academics-network/',
+        'title': 'OpenAtlas: an Introduction'},
     '2022-10-25': {
         'country': 'Austria',
         'city': 'Vienna',
