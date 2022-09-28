@@ -8,7 +8,7 @@ upcoming = {
         'link':
             'https://www.byzanz-mainz.de/en/activities'
             '/young-academics-network/',
-        'title': 'OpenAtlas: an Introduction'},
+        'title': 'OpenAtlas - An Introduction'},
     '2022-10-25': {
         'country': 'Austria',
         'city': 'Vienna',
