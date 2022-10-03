@@ -10,7 +10,7 @@ stack = {
         'url': 'https://palletsprojects.com/p/flask/',
         'text':
             'is a micro web framework, written in Python, with the ability to'
-            'scale up to complex applications.',
+            ' scale up to complex applications.',
         'img': 'flask.png',
         'license': 'BSD'},
     'PostgreSQL': {
@@ -34,7 +34,7 @@ stack = {
     'Leaflet': {
         'url': 'https://leafletjs.com/',
         'text':
-            'is a open source JavaScript library used to build web mapping '
+            'is an open source JavaScript library used to build web mapping '
             'applications.',
         'img': 'leaflet.png',
         'license': 'BSD-2-Clause'},
