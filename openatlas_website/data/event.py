@@ -9,6 +9,12 @@ upcoming = {
             'https://www.byzanz-mainz.de/en/activities'
             '/young-academics-network/',
         'title': 'OpenAtlas - An Introduction'},
+    '2022-10-14': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'TU Wien',
+        'name': 'INDIGO Status quo meeting',
+        'title': 'New OpenAtlas features for INDIGO'},
     '2022-10-25': {
         'country': 'Austria',
         'city': 'Vienna',
