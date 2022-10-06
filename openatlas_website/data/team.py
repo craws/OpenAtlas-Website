@@ -49,16 +49,16 @@ team_ = {
             "accessible.",
         'img': 'andi.jpg',
         'image_license': 'CC-BY 4.0, Andreas Olschnögger'},
-    'Christoph Hoffmann': {
-        'email': 'christoph.hoffmann@oeaw.ac.at',
+    'Moritz "Mocca" Großfurtner': {
+        'email': 'moritz.großfurtner@oeaw.ac.at',
         'function': 'Frontend Development',
         'text':
-            "Christoph is engaged in web design and frontend development. As "
-            "a philosophy student at the University of Vienna, he is "
-            "interested in the epistemological implications of digital "
-            "research methods in the humanities.",
-        'img': 'christoph.jpg',
-        'image_license': 'CC-BY 4.0, Sandra Lehecka'},
+            "Mocca is a frontend developer for Open Atlas. He's currently"
+            "studying computer science at the TU Vienna and interested in"
+            "design that is useful and fun to use. Be that software or real"
+            "life objects."},
+        # 'img': 'christoph.jpg',
+        # 'image_license': 'CC-BY 4.0, Sandra Lehecka'},
     'Veronika Gründhammer': {
         'email': 'veronika.gruendhammer@oeaw.ac.at',
         'function': 'Project Administration',
