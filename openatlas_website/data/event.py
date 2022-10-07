@@ -14,7 +14,7 @@ upcoming = {
         'city': 'Vienna',
         'institute': 'TU Wien',
         'name': 'INDIGO Status quo meeting',
-        'title': 'New OpenAtlas features for INDIGO'},
+        'title': 'Status quo - New OpenAtlas features for INDIGO'},
     '2022-10-25': {
         'country': 'Austria',
         'city': 'Vienna',
