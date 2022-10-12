@@ -1,15 +1,5 @@
 
 upcoming = {
-    '2022-10-12': {
-        'country': 'Germany',
-        'city': 'Mainz',
-        'institute': 'Johannes Gutenberg University Mainz',
-        'name': 'Young Academics Network workshop',
-        'link':
-            'https://www.byzanz-mainz.de/en/activities'
-            '/young-academics-network/',
-        'title': 'OpenAtlas - An Introduction',
-        'docs': {'Presentation': '2022-10-12_openatlas_an_introduction.pdf'}},
     '2022-10-14': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -50,6 +40,17 @@ upcoming = {
 
 past = {
     '2022': {
+        '2022-10-12': {
+            'country': 'Germany',
+            'city': 'Mainz',
+            'institute': 'Johannes Gutenberg University Mainz',
+            'name': 'Young Academics Network workshop',
+            'link':
+                'https://www.byzanz-mainz.de/en/activities'
+                '/young-academics-network/',
+            'title': 'OpenAtlas - An Introduction',
+            'docs': {
+                'Presentation': '2022-10-12_openatlas_an_introduction.pdf'}},
         '2022-09-15': {
             'country': 'Austria',
             'city': 'Vienna',
