@@ -1,14 +1,5 @@
 
 upcoming = {
-    '2022-10-12': {
-        'country': 'Germany',
-        'city': 'Mainz',
-        'institute': 'Johannes Gutenberg University Mainz',
-        'name': 'Young Academics Network workshop',
-        'link':
-            'https://www.byzanz-mainz.de/en/activities'
-            '/young-academics-network/',
-        'title': 'OpenAtlas - An Introduction'},
     '2022-10-25': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -17,7 +8,7 @@ upcoming = {
         'name': 'ACDH-CH Research lunch',
         'title':
             'OpenAtlas - A Database System for the Humanities and Beyond'},
-    '2023-06-21': {
+    '2023-06-14': {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'Austrian Academy of Sciences',
@@ -43,6 +34,23 @@ upcoming = {
 
 past = {
     '2022': {
+        '2022-10-14': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'TU Wien',
+            'name': 'INDIGO Status quo meeting',
+            'title': 'Status quo - New OpenAtlas features for INDIGO'},
+        '2022-10-12': {
+            'country': 'Germany',
+            'city': 'Mainz',
+            'institute': 'Johannes Gutenberg University Mainz',
+            'name': 'Young Academics Network workshop',
+            'link':
+                'https://www.byzanz-mainz.de/en/activities'
+                '/young-academics-network/',
+            'title': 'OpenAtlas - An Introduction',
+            'docs': {
+                'Presentation': '2022-10-12_openatlas_an_introduction.pdf'}},
         '2022-09-15': {
             'country': 'Austria',
             'city': 'Vienna',
