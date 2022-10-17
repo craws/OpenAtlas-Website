@@ -56,9 +56,9 @@ team_ = {
             "Mocca is a frontend developer for Open Atlas. He's currently"
             "studying computer science at the TU Vienna and interested in"
             "design that is useful and fun to use. Be that software or real"
-            "life objects."},
-        # 'img': 'christoph.jpg',
-        # 'image_license': 'CC-BY 4.0, Sandra Lehecka'},
+            "life objects.",
+        'img': 'mocca.jpg',
+        'image_license': 'CC-BY 4.0, Moritz Großfurtner'},
     'Veronika Gründhammer': {
         'email': 'veronika.gruendhammer@oeaw.ac.at',
         'function': 'Project Administration',
