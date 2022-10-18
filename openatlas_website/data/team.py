@@ -53,10 +53,10 @@ team_ = {
         'email': 'moritz.großfurtner@oeaw.ac.at',
         'function': 'Frontend Development',
         'text':
-            "Mocca is a frontend developer for Open Atlas. He's currently"
-            "studying computer science at the TU Vienna and interested in"
-            "design that is useful and fun to use. Be that software or real"
-            "life objects.",
+            "Mocca is a frontend developer for OpenAtlas. He's currently "
+            'studying computer science at the TU Vienna and interested in '
+            'design that is useful and fun to use, be that software or real '
+            'life objects.',
         'img': 'mocca.jpg',
         'image_license': 'CC-BY 4.0, Moritz Großfurtner'},
     'Veronika Gründhammer': {
