@@ -39,7 +39,9 @@ past = {
             'city': 'Vienna',
             'institute': 'TU Wien',
             'name': 'INDIGO Status quo meeting',
-            'title': 'Status quo - New OpenAtlas features for INDIGO'},
+            'title': 'Status quo - New OpenAtlas features for INDIGO',
+            'docs': {
+                'Presentation': '2022-10-14_indigo_status_quo.pdf'}},
         '2022-10-12': {
             'country': 'Germany',
             'city': 'Mainz',
