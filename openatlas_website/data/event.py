@@ -7,7 +7,9 @@ upcoming = {
             'Austrian Centre for Digital Humanities and Cultural Heritage',
         'name': 'ACDH-CH Research lunch',
         'title':
-            'OpenAtlas - A Database System for the Humanities and Beyond'},
+            'OpenAtlas - A Database System for the Humanities and Beyond',
+        'docs': {
+                'Presentation': '2022-10-25_openatlas_research_lunch.pdf'}},
     '2023-06-14': {
         'country': 'Austria',
         'city': 'Vienna',
