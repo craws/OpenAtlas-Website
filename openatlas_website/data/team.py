@@ -1,4 +1,4 @@
-team_ = {
+team = {
     'Stefan Eichert': {
         'email': 'stefan.eichert@nhm-wien.ac.at',
         'function': 'Idea, Concept and Data Modelling',
@@ -34,9 +34,10 @@ team_ = {
         'function': 'Bioarchaeological Expertise',
         'text':
             "Nina is an archaeologist and anthropologist, with a focus on "
-            "Early Medieval  burial grounds. With her expertise she provides "
-            "essential support planning and implementing archeological, "
-            "anthropological and scientific modules in OpenAtlas.",
+            "Early Medieval  burial grounds. Beside project management she "
+            "provides essential support planning and implementing "
+            "archeological, anthropological and scientific modules in "
+            "OpenAtlas.",
         'img': 'nina.jpg',
         'image_license': 'CC-BY 4.0, Jan Belik'},
     'Andreas Olschnögger': {
@@ -80,4 +81,14 @@ team_ = {
             'working with local as well as international brands and has '
             'created a range of OpenAtlas project logos.',
         'img': 'jan.jpg',
+        'image_license': 'CC-BY 4.0, Sandra Lehecka'},
+    'Christoph Hoffmann': {
+        'email': 'christoph.hoffmann@oeaw.ac.at',
+        'function': 'Frontend Expertise',
+        'text':
+            'Christoph is engaged in web design and frontend development. '
+            'As a philosophy student at the University of Vienna, he is '
+            'interested in the epistemological implications of digital '
+            'research methods in the humanities.',
+        'img': 'christoph.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'}}

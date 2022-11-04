@@ -7,7 +7,6 @@ from openatlas_website.data.event import past, upcoming
 from openatlas_website.data.news import news_
 from openatlas_website.data.project import concluded, current
 from openatlas_website.data.software import stack
-from openatlas_website.data.team import team_
 
 
 @app.route('/')
@@ -59,4 +58,4 @@ def software() -> str:
 
 @app.route('/team')
 def team() -> str:
-    return render_template('team.html', team=team_)
+    return render_template('team.html')

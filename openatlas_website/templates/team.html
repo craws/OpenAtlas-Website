@@ -1,35 +1,24 @@
 {% extends "layout.html" %}
 {% block content %}
-  {% for name, person in team.items() %}
-    {% if not loop.index or (loop.index % 2) %}
-      <div class="row">
-    {% endif %}
-      <div class="col-md-auto mb-4">
-        <img class="team" src="/static/images/team/{{ person.img }}" alt=""><br>
-          {% if person.image_license %}
-            <span class="image-license">{{ person.image_license|safe }}</span>
-          {% endif %}
-      </div>
-      <div class="col mb-4">
-        <p>
-          <span style="font-weight: bold;">{{ name }}</span><br>
-            {{ person.function }}<br>
-          <a href="mailto:{{ person.email }}">{{ person.email }}</a>
-        </p>
-        <p>{{ person.text|safe }}</p>
-      </div>
-      {% if not (loop.index % 2) %}
-          </div>
-      {% endif %}
-  {% endfor %}
-  <h5>Contributors</h5>
-  <p>These people supported us in many different ways. Our thanks goes to all of them.</p>
+  <h4>Project lead</h4>
+  {{ 'Stefan Eichert'|display_team_member|safe }}
+  {{ 'Alexander Watzinger'|display_team_member|safe }}
+  {{ 'Nina Richards'|display_team_member|safe }}
+  <h4>Development</h4>
+  {{ 'Bernhard Koschiček-Krombholz'|display_team_member|safe }}
+  {{ 'Andreas Olschnögger'|display_team_member|safe }}
+  {{ 'Moritz "Mocca" Großfurtner'|display_team_member|safe }}
+  <h4>Additional support</h4>
+  {{ 'Christoph Hoffmann'|display_team_member|safe}}
+  {{ 'Veronika Gründhammer'|display_team_member|safe }}
+  {{ 'Jan Belik'|display_team_member|safe }}
+  <h4>Contributors</h4>
+  <p>These people supported us in many ways. Our thanks go to all of them.</p>
   <p class="mb-4">
     Aleksandra Apic<br>
     Asil Çetin<br>
     Britta Breuers<br>
     Christof Rauchenberger<br>
-    Christoph Hoffmann<br>
     Dalibor Pančić<br>
     Daniel Kittel<br>
     Ekaterini Mitsiou<br>

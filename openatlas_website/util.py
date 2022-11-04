@@ -4,6 +4,7 @@ from flask import url_for
 from markupsafe import Markup
 
 from openatlas_website import app
+from openatlas_website.data.team import team
 from openatlas_website.data.institute import institutes
 
 
@@ -39,3 +40,26 @@ def display_institutes(institutes_: Iterator[str]) -> str:
                     title="{institutes[name]['name']}">
             </a>"""
     return Markup(f'<div>{html}</div>')
+
+
+@app.template_filter()
+def display_team_member(name: str) -> str:
+    person = team[name]
+    html = f"""
+        <div class="row">
+        <div class="col-md-auto mb-4">
+            <img class="team" src="/static/images/team/{person['img']}" alt="">
+            <br>"""
+    if person['image_license']:
+        html += f'<span class="image-license">{person["image_license"]}</span>'
+    html += f"""
+        </div>
+        <div class="col">
+            <p>
+              <span style="font-weight: bold;">{name}</span><br>
+                {person['function']}<br>
+              <a href="mailto:{['person.email']}">{person['email']}</a>
+            </p>
+            <p>{person['text']}</p>
+      </div></div>"""
+    return f'{html}'
