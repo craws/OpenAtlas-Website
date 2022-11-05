@@ -11,7 +11,7 @@ team = {
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
     'Alexander Watzinger': {
         'email': 'alexander.watzinger@oeaw.ac.at',
-        'function': 'Lead Development and Concept',
+        'function': 'Development Lead and Concept',
         'text':
             "Alex is the lead developer of OpenAtlas and has a special "
             "interest in data modeling and scientific web applications. His "
