@@ -240,7 +240,7 @@ past = {
             'title':
                 'Winning Best App Award for '
                 '<a target="_blank" href="https://thanados.net">THANADOS</a>',
-            'link': 'https://www.chnt.at/chnt25-over'},
+            'link': 'https://archiv.chnt.at/abstract-2020/'},
         '2020-07-23': {
             'country': 'Austria',
             'city': 'Vienna',
