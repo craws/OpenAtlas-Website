@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
 {% if upcoming %}
-  <h4 class="mt-4 mb-4">Upcoming</h4>
+  <h4 class="mt-4">Upcoming</h4><hr>
 {% endif %}
 {% for date, event in upcoming.items() %}
   <div class="mb-4">
@@ -24,8 +24,7 @@
   </div>
 {% endfor %}
 {% for year, events in past.items() %}
-  <hr>
-  <h4 class="mt-4 mb-4">{{year}}</h4>
+  <h4 class="mt-4 mb-4">{{year}}</h4><hr>
   {% for date, event in events.items() %}
     <div class="mb-4">
       {{ date }}<br>

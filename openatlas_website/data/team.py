@@ -11,7 +11,7 @@ team = {
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
     'Alexander Watzinger': {
         'email': 'alexander.watzinger@oeaw.ac.at',
-        'function': 'Lead Developer and Concept',
+        'function': 'Lead Development and Concept',
         'text':
             "Alex is the lead developer of OpenAtlas and has a special "
             "interest in data modeling and scientific web applications. His "
@@ -19,19 +19,9 @@ team = {
             "software in general.",
         'img': 'alex.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
-    'Bernhard Koschiček-Krombholz': {
-        'email': 'bernhard.koschicek-krombholz@oeaw.ac.at',
-        'function': 'Software Development, API',
-        'text':
-            "Bernhard is currently developing our API and studies Computer "
-            "Sciences as well as History. His research interests include "
-            "computer security, Python, digital preservation, historical "
-            "geography, GIS, medieval and military history.",
-        'img': 'bernhard.jpg',
-        'image_license': 'CC-BY 4.0, Sandra Lehecka'},
     'Nina Richards': {
         'email': 'nina.richards@oeaw.ac.at',
-        'function': 'Bioarchaeological Expertise',
+        'function': 'Project Management and Bioarchaeological Expertise',
         'text':
             "Nina is an archaeologist and anthropologist, with a focus on "
             "Early Medieval  burial grounds. Beside project management she "
@@ -40,6 +30,16 @@ team = {
             "OpenAtlas.",
         'img': 'nina.jpg',
         'image_license': 'CC-BY 4.0, Jan Belik'},
+    'Bernhard Koschiček-Krombholz': {
+        'email': 'bernhard.koschicek-krombholz@oeaw.ac.at',
+        'function': 'Backend Development and API',
+        'text':
+            "Bernhard is currently developing our API and studies Computer "
+            "Sciences as well as History. His research interests include "
+            "computer security, Python, digital preservation, historical "
+            "geography, GIS, medieval and military history.",
+        'img': 'bernhard.jpg',
+        'image_license': 'CC-BY 4.0, Sandra Lehecka'},
     'Andreas Olschnögger': {
         'email': 'andreas.olschnoegger@oeaw.ac.at',
         'function': 'Frontend Development',
@@ -49,7 +49,7 @@ team = {
             "and is also interested in UX design to make technology more "
             "accessible.",
         'img': 'andi.jpg',
-        'image_license': 'CC-BY 4.0, Andreas Olschnögger'},
+        'image_license': 'CC-BY 4.0,<br>Andreas Olschnögger'},
     'Moritz "Mocca" Großfurtner': {
         'email': 'moritz.großfurtner@oeaw.ac.at',
         'function': 'Frontend Development',
