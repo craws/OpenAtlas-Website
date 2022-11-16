@@ -1,5 +1,15 @@
 
 upcoming = {
+    '2022-12-13':{
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute':
+                'Austrian Centre for Digital Humanities and Cultural Heritage',
+            'link':
+                'https://www.oeaw.ac.at/acdh/events/event-series'
+                '/acdh-ch-lectures/',
+            'name': 'ACDH-CH Lecture',
+            'title': 'OpenAtlas'},
     '2023-06-14': {
         'country': 'Austria',
         'city': 'Vienna',
