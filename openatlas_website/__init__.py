@@ -5,7 +5,7 @@ app = Flask(__name__, instance_relative_config=True)
 app.config.from_object('config')
 
 if (Path(app.root_path).parent / 'instance' / 'production.py').is_file():
-    app.config.from_pyfile('production.py')  # pragma: no cover
+    app.config.from_pyfile('production.py')
 
 # pylint: disable=wrong-import-position, import-outside-toplevel
 from openatlas_website import util, views
@@ -13,7 +13,7 @@ from openatlas_website import util, views
 
 @app.before_request
 def before_request() -> None:
-    if request.path.startswith('/static'):  # pragma: no cover
+    if request.path.startswith('/static'):
         return  # Only needed if not running with apache and static alias
 
 
@@ -25,7 +25,3 @@ def apply_caching(response: Response) -> Response:
     response.headers['X-Frame-Options'] = 'SAMEORIGIN'
     response.headers['X-XSS-Protection'] = '1; mode=block'
     return response
-
-
-if __name__ == "__main__":  # pragma: no cover
-    app.run()

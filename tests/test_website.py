@@ -28,3 +28,4 @@ class WebsiteTests(TestBaseCase):
             assert b'Flask' in self.app.get(url_for('software')).data
             assert b'THANADOS' in self.app.get(url_for('news')).data
             assert b'404' in self.app.get('/whatever').data
+            assert 'x00' in str(self.app.get('/static/favicon.ico').data)
