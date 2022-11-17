@@ -1,15 +1,14 @@
-
 upcoming = {
-    '2022-12-13':{
-            'country': 'Austria',
-            'city': 'Vienna',
-            'institute':
-                'Austrian Centre for Digital Humanities and Cultural Heritage',
-            'link':
-                'https://www.oeaw.ac.at/acdh/events/event-series'
-                '/acdh-ch-lectures/',
-            'name': 'ACDH-CH Lecture',
-            'title': 'OpenAtlas'},
+    '2022-12-13': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute':
+            'Austrian Centre for Digital Humanities and Cultural Heritage',
+        'link':
+            'https://www.oeaw.ac.at/acdh/events/event-series'
+            '/acdh-ch-lectures/',
+        'name': 'ACDH-CH Lecture',
+        'title': 'OpenAtlas'},
     '2023-06-14': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -25,14 +24,14 @@ upcoming = {
         'title': 'OpenAtlas (TBA)',
         'link': 'https://www.imc.leeds.ac.uk/imc-2023'},
     '2023-09-27': {
-            'country': 'United Kingdom',
-            'city': 'Oxford',
-            'institute': 'University of Oxford',
-            'title': 'OpenAtlas (TBA)',
-            'name':
-                'The History of a Special Relationship: Women, Eunuchs and '
-                'Medieval Mount Athos'}
-    }
+        'country': 'United Kingdom',
+        'city': 'Oxford',
+        'institute': 'University of Oxford',
+        'title': 'OpenAtlas (TBA)',
+        'name':
+            'The History of a Special Relationship: Women, Eunuchs and '
+            'Medieval Mount Athos'}
+}
 
 past = {
     '2022': {
@@ -42,6 +41,7 @@ past = {
             'institute':
                 'Austrian Centre for Digital Humanities and Cultural Heritage',
             'name': 'ACDH-CH Research lunch',
+            'link': 'https://www.oeaw.ac.at/acdh',
             'title':
                 'OpenAtlas - A Database System for the Humanities and Beyond',
             'docs': {
@@ -51,9 +51,9 @@ past = {
             'city': 'Vienna',
             'institute': 'TU Wien',
             'name': 'INDIGO Status quo meeting',
+            'link': 'https://projectindigo.eu/',
             'title': 'Status quo - New OpenAtlas features for INDIGO',
-            'docs': {
-                'Presentation': '2022-10-14_indigo_status_quo.pdf'}},
+            'docs': {'Presentation': '2022-10-14_indigo_status_quo.pdf'}},
         '2022-10-12': {
             'country': 'Germany',
             'city': 'Mainz',
@@ -111,8 +111,7 @@ past = {
                 'Presentation': '2022-07-05_leeds_openatlas.pdf',
                 'YouTube':
                     'https://www.youtube.com/'
-                    'watch?v=M3hJCYrS_e8&ab_channel=ACDH-CH'}
-        },
+                    'watch?v=M3hJCYrS_e8&ab_channel=ACDH-CH'}},
         '2022-06-23': {
             'country': 'Germany',
             'city': 'Cologne',
@@ -123,8 +122,7 @@ past = {
                 'OpenAtlas und historische Geographie: Die Tabula Imperii'
                 ' Byzantini (Balkan) im digitalen Zeitalter',
             'docs': {
-                'YouTube': 'https://www.youtube.com/watch?v=cmJo9N05WY4'}
-        },
+                'YouTube': 'https://www.youtube.com/watch?v=cmJo9N05WY4'}},
         '2022-05-12': {
             'country': 'Austria',
             'city': 'Vienna',
@@ -139,10 +137,10 @@ past = {
             'country': 'Austria',
             'city': 'Vienna',
             'name': 'ACDH-CH Institute Days',
+            'link': 'https://www.oeaw.ac.at/acdh',
             'institute':
                 'Austrian Centre for Digital Humanities and Cultural Heritage',
-            'title':
-                'OpenAtlas at the Science Fair',
+            'title': 'OpenAtlas at the Science Fair',
             'docs': {
                 'Poster (English)': '2021-10-20_science_fair_poster_en.pdf',
                 'Poster (German)': '2021-10-20_science_fair_poster_de.pdf'}},
@@ -276,8 +274,7 @@ past = {
             'title': 'OpenAtlas',
             'docs': {
                 'Presentation':
-                    '2020-02-11_OpenAtlas_Meet_the_Researchers.pdf'}
-        }},
+                    '2020-02-11_OpenAtlas_Meet_the_Researchers.pdf'}}},
     '2019': {
         '2019-12-04': {
             'country': 'Austria',
