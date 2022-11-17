@@ -11,12 +11,6 @@ if (Path(app.root_path).parent / 'instance' / 'production.py').is_file():
 from openatlas_website import util, views
 
 
-@app.before_request
-def before_request() -> None:
-    if request.path.startswith('/static'):
-        return  # Only needed if not running with apache and static alias
-
-
 @app.after_request
 def apply_caching(response: Response) -> Response:
     response.headers['Strict-Transport-Security'] = \
