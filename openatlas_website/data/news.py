@@ -56,7 +56,7 @@ news_ = {
             'text': release_text(18)},
         '2022-01-01': {
             'date': '2022-01-01',
-            'title': 'OpenAtlas version 7.0.0 and new team member',
+            'title': 'OpenAtlas version 7.0.0 and a welcome',
             'text':
                 release_text(17) +
                 '<br>And a warm welcome to our newest team member Andi '
