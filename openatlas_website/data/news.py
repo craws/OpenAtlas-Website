@@ -8,6 +8,19 @@ def release_text(news_id: int) -> str:
 
 news_ = {
     'News': {
+        '2022-12-01': {
+            'date': '2022-12-01',
+            'title': 'First (early) version of OpenAtlas-Discovery released',
+            'text':
+                'The first version of <a target="_blank" '
+                'href="https://github.com/craws/OpenAtlas-Discovery">'
+                'OpenAtlas-Discovery</a> is released. '
+                'It is a general presentation site for data of OpenAtlas '
+                'projects and can also be used as starting point for more '
+                'specialised presentation sites. A preview with demo data is '
+                'available here: '
+                '<a  target="_blank" '
+                'href="https://frontend-demo-dev.openatlas.eu">Demo</a>'},
         '2022-11-18': {
             'date': '2022-11-18',
             'title': 'OpenAtlas version 7.8.0',
