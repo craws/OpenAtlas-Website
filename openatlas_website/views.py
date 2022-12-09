@@ -15,46 +15,33 @@ def about() -> str:
         'about.html',
         latest_news_item=next(iter(news_['News'].values())))
 
-
 @app.errorhandler(404)
 def page_not_found(e: Exception) -> Tuple[str, int]:
     return render_template('404.html', e=e), 404
-
 
 @app.route('/cooperation')
 def cooperation() -> str:
     return render_template('cooperation.html')
 
-
 @app.route('/cooperation/information')
 def cooperation_information() -> str:
     return render_template('cooperation_information.html')
-
 
 @app.route('/events')
 def events() -> str:
     return render_template('events.html', past=past, upcoming=upcoming)
 
-
-@app.route('/features')
-def features() -> str:
-    return render_template('features.html')
-
-
 @app.route('/news')
 def news() -> str:
     return render_template('news.html', news=news_)
-
 
 @app.route('/projects')
 def projects() -> str:
     return render_template('projects.html', current=current, past=concluded)
 
-
 @app.route('/software')
 def software() -> str:
     return render_template('software.html', stack=stack)
-
 
 @app.route('/team')
 def team() -> str:

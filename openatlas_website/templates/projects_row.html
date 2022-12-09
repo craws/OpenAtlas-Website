@@ -34,7 +34,7 @@
     {% endif %}
     {% if project.institutes %}
       <div class="projects-institutes">
-        {{ project.institutes|display_institutes }}
+        {{ project.institutes|display_institutes|safe }}
       </div>
     {% endif %}
   </div>
