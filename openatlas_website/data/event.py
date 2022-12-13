@@ -1,15 +1,4 @@
 upcoming = {
-    '2022-12-13': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute':
-            'Austrian Centre for Digital Humanities and Cultural Heritage',
-        'link':
-            'https://www.oeaw.ac.at/acdh/events/event-series'
-            '/acdh-ch-lectures/',
-        'name': 'ACDH-CH Lecture',
-        'title': 'OpenAtlas',
-        'docs': {'Presentation': '2022-12-13_openatlas_for_students.pdf'}},
     '2023-06-14': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -31,11 +20,21 @@ upcoming = {
         'title': 'OpenAtlas (TBA)',
         'name':
             'The History of a Special Relationship: Women, Eunuchs and '
-            'Medieval Mount Athos'}
-}
+            'Medieval Mount Athos'}}
 
 past = {
     '2022': {
+        '2022-12-13': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute':
+                'Austrian Centre for Digital Humanities and Cultural Heritage',
+            'link':
+                'https://www.oeaw.ac.at/acdh/events/event-series'
+                '/acdh-ch-lectures/',
+            'name': 'ACDH-CH Lecture',
+            'title': 'OpenAtlas',
+            'docs': {'Presentation': '2022-12-13_openatlas_for_students.pdf'}},
         '2022-10-25': {
             'country': 'Austria',
             'city': 'Vienna',
