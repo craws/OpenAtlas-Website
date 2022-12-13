@@ -8,7 +8,8 @@ upcoming = {
             'https://www.oeaw.ac.at/acdh/events/event-series'
             '/acdh-ch-lectures/',
         'name': 'ACDH-CH Lecture',
-        'title': 'OpenAtlas'},
+        'title': 'OpenAtlas',
+        'docs': {'Presentation': '2022-12-13_openatlas_for_students.pdf'}},
     '2023-06-14': {
         'country': 'Austria',
         'city': 'Vienna',
