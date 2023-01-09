@@ -1,50 +1,54 @@
 {% extends "layout.html" %}
 {% block content %}
 <p>
-  Although OpenAtlas is freely available at <a href="https://github.com/craws/OpenAtlas" target="_blank">GitHub</a>,
-  not every project has the internal resources to cover all the aspects needed for a successful research project.
-  It is therefore possible, to cooperate with the <a target="_blank" href="https://www.oeaw.ac.at/acdh">ACDH-CH</a>, an
-  institute of the <a target="_blank" href="https://www.oeaw.ac.at/">Austrian Academy of Sciences</a> if budget is
-  available. For current and former cooperations see: <a href="{{ url_for('projects') }}">projects</a>.
-  Within a cooperation some or all of the aspects below can be covered. Furthermore, a cooperation supports and
-  therefore guaranties the further development of OpenAtlas.
-</p>
-<p>
   If you are interested in a cooperation regarding an open data project, feel free to contact us at
   <a href="mailto:openatlas@oeaw.ac.at">openatlas@oeaw.ac.at</a>.
-  Please provide the following <a href="/cooperation/information">information</a> in your email.
+  If possible, please provide some or all of the following <a href="/cooperation/information">information</a>
+  in your email. These help us to assess your project's specific needs and thus enable adequate consulting.
 </p>
+<p>
+  Although OpenAtlas is freely available on <a href="https://github.com/craws/OpenAtlas" target="_blank">GitHub</a>,
+  not every project has the internal resources to cover all the aspects needed for successfully using the complex
+  software (e.g. setting up a web server and OpenAtlas itself, updates and backups, development of new features, etc.).
+  It is therefore possible, to cooperate with the OpenAtlas team via the
+  <a target="_blank" href="https://www.oeaw.ac.at/acdh">ACDH-CH</a>, an  institute of the
+  <a target="_blank" href="https://www.oeaw.ac.at/">Austrian Academy of Sciences</a> if budget is
+  available. For current and former cooperations see: <a href="{{ url_for('projects') }}">projects</a>.
+  A cooperation allows for the further development of OpenAtlas and within some or all of the following aspects can be
+  covered:
+</p>
+
 <p class="mb-1" style="font-weight: bold;">Software development</p>
 <p>
-  Due to differing research design and research questions, there might be a need for:
+  Due to differing project designs and research questions, there might be a need for:
 <ul>
   <li>New features</li>
   <li>Expanding existing features</li>
   <li>User interface adaptions</li>
 </ul>
 <p>
-  The development of features can be time-consuming and tied to costs. Though, once new features are implemented, they
+  The development of features is time-consuming and tied to costs. Though, once new features are implemented, they
   can be used by all OpenAtlas projects which allow for shared costs and synergies between projects.
 </p>
 
 <p class="mb-1" style="font-weight: bold;">Infrastructure</p>
 <p>
-  Certain infrastructure is needed to use OpenAtlas, e.g. a server to install and make OpenAtlas available, as well
-  as experienced personal to:
+  Certain infrastructure is needed to use OpenAtlas, e.g. a server to install and make OpenAtlas available to your
+  team members. To get this running, experienced personal is needed to:
 </p>
 <ul>
   <li>
-    Install OpenAtlas, as well as a web server, a database, setting up email, etc. - for details see the
+    Install OpenAtlas on a dedicated web server, create a database, set up email, etc. - for details see the
     <a target="_blank" href="https://github.com/craws/OpenAtlas/blob/master/install.md">installation notes</a>
   </li>
-  <li>Software updates - there is a new OpenAtlas release about once a month</li>
-  <li>Server updates, such as security updates that are required over time</li>
-  <li>Setting up automated backups</li>
+  <li>Update the software - new OpenAtlas versions are released about once a month</li>
+  <li>Update the dedicated server, including security updates</li>
+  <li>Set up automated backups</li>
   <li>
-    Troubleshooting e.g. in case:
+    Troubleshooting e.g.:
     <ul>
       <li>The website becomes unresponsive or unavailable</li>
-      <li>Functions don't work as expected</li>
+      <li>Functions do not work as expected</li>
       <li>Available server space is getting low</li>
       <li>A backup import is needed</li>
     </ul>
@@ -54,26 +58,29 @@
 <p class="mb-1" style="font-weight: bold;">Support</p>
 <p>Even with infrastructure in place, support might be needed for e.g.</p>
 <ul>
+  <li>Training sessions and workshops on how to use OpenAtlas</li>
   <li>
-    Evaluation how to map research data to <a target="_blank" href="https://www.cidoc-crm.org/">CIDOC CRM</a> and enter
-    them into OpenAtlas
+    Evaluation on how to map research data to <a target="_blank" href="https://www.cidoc-crm.org/">CIDOC CRM</a> and
+    adaption of the OpenAtlas <a target="_blank" href="https://demo.openatlas.eu/overview/model">model</a>
   </li>
-  <li>Import existing data</li>
-  <li>Training sessions and workshops</li>
-  <li>Re-evaluating the model during the project</li>
-  <li>Support to organize or clean up data</li>
+  <li>Re-evaluation of the model during the project</li>
+  <li>Import of existing data</li>
+  <li>Support in organizing and/or cleaning up data</li>
   <li>Answering user questions and requests</li>
 </ul>
 
 <p class="mb-1" style="font-weight: bold;">Presentation website</p>
 <p>
-  Once data is entered and research results are available, a possibility to present these findings to a broader audience
-  might be desirable.
+  Once research data is entered into OpenAtlas and results are available, a possibility to present these findings to a
+  broader audience in form of a presentation site might be desirable. The OpenAtlas team can advise on the creation of
+  such a site and take care of programming and putting it online.
 </p>
 
-<p class="mb-1" style="font-weight: bold;">Long term archiving</p>
+<p class="mb-1" style="font-weight: bold;">Long-term archiving</p>
 <p class="mb-5">
-  Long-term archiving of data with metadata and making them available online for future use is highly advised. At the
-  ACDH-CH this is possible within <a target="_blank" href="https://arche.acdh.oeaw.ac.at">ARCHE</a>.
+  Long-term archiving of data is highly advised for any kind of research data and part of many grat agreements.
+  Archiving of information in an OpenAtlas instance, including metadata, can be covered within a cooperation. The data
+  will also be made available online which will make the information usable even years after a project is concluded.
+  At the ACDH-CH this is possible within <a target="_blank" href="https://arche.acdh.oeaw.ac.at">ARCHE</a>.
 </p>
 {% endblock %}
