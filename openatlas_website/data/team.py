@@ -91,4 +91,17 @@ team = {
             'interested in the epistemological implications of digital '
             'research methods in the humanities.',
         'img': 'christoph.jpg',
-        'image_license': 'CC-BY 4.0, Sandra Lehecka'}}
+        'image_license': 'CC-BY 4.0, Sandra Lehecka'},
+    'Massimiliano Carloni': {
+        'email': 'massimiliano.carloni@oeaw.ac.at',
+        'function': 'ARCHE Expertise',
+        'text':
+            'Massimiliano is currently developing the interface between '
+            'OpenAtlas and '
+            '<a href="https://arche.acdh.oeaw.ac.at"target="_blank">ARCHE</a>. '
+            'Trained as a classical philologist, he is mostly interested in '
+            'semantic technologies and the preservation of digital research '
+            'data.',
+        'img': 'massimiliano.jpg',
+        'image_license': 'CC-BY 4.0, Nina Richards'}}
+
