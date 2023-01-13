@@ -96,12 +96,11 @@ team = {
         'email': 'massimiliano.carloni@oeaw.ac.at',
         'function': 'ARCHE Expertise',
         'text':
-            'Massimiliano is currently developing the interface between '
-            'OpenAtlas and '
+            'Massimiliano is currently involved developing a interface '
+            'between OpenAtlas and '
             '<a href="https://arche.acdh.oeaw.ac.at"target="_blank">ARCHE</a>. '
             'Trained as a classical philologist, he is mostly interested in '
             'semantic technologies and the preservation of digital research '
             'data.',
         'img': 'massimiliano.jpg',
         'image_license': 'CC-BY 4.0, Nina Richards'}}
-
