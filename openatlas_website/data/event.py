@@ -1,4 +1,10 @@
 upcoming = {
+    '2023-02-23': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'University of Vienna, Department of Art History',
+        'name': 'Shahi project workshop',
+        'title': 'OpenAtlas'},
     '2023-06-14': {
         'country': 'Austria',
         'city': 'Vienna',
