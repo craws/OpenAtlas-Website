@@ -17,7 +17,8 @@ news_ = {
         '2023-01-01': {
             'date': '2023-01-01',
             'title': 'OpenAtlas version 7.9.0',
-            'text': release_text(26)},
+            'text': release_text(26)}},
+    '2022': {
         '2022-12-01': {
             'date': '2022-12-01',
             'title': 'First (early) version of OpenAtlas-Discovery released',
@@ -50,7 +51,7 @@ news_ = {
             'title': 'OpenAtlas version 7.5.0 and a welcome',
             'text':
                 release_text(22) +
-                '<br>And a warm welcome to our new intern Laura (Kremser)'},
+                '<br>And a warm welcome to our new intern Laura Kremser'},
         '2022-06-10': {
             'date': '2022-06-10',
             'title': 'OpenAtlas version 7.4.0',
@@ -72,7 +73,7 @@ news_ = {
             'text':
                 release_text(19) +
                 '<br>And a warm welcome back to the team to Veronika '
-                '(Gründhammer)'},
+                'Gründhammer'},
         '2022-02-15': {
             'date': '2022-02-15',
             'title': 'OpenAtlas version 7.1.0',
