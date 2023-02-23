@@ -1,92 +1,148 @@
 {% extends "layout.html" %}
 {% block content %}
-<p style="font-weight: bold;">Welcome to OpenAtlas</p>
-<p class="mb-3">
-  OpenAtlas is an open source database software developed especially to acquire, edit and manage research data from
-  various fields of humanities like history, archaeology and prosopography as well as related scientific data
-  (e.g. radiocarbon dating, stable isotopes and anthropological information). It provides a user interface that can be
-  accessed via any common web-browser and allows the respective researchers to work with their data via customized
-  forms and categories to record complex relations as simple as possible.
-</p>
-<p class="mb-3">
-  The software automatically maps the information to the international standard of the
-  <a href="https://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a>
-  and takes care of today's requirements regarding data standards, data management and aims for
-  <a href="https://www.force11.org/fairprinciples" target="_blank">FAIR</a>
-  principles against the background of current standards in Digital Humanities.
-</p>
-<p class="mb-3">
-  <a href="https://demo.openatlas.eu" target="_blank">Demo</a><br>
-  <a href="https://demo-dev.openatlas.eu" target="_blank">Development Demo</a><br>
-  <a href="https://manual.openatlas.eu/features.html" target="_blank">Features</a><br>
-  <a href="https://manual.openatlas.eu" target="_blank">Manual</a><br>
-  <a href="https://redmine.openatlas.eu/projects/uni/wiki" target="_blank">Documentation</a><br>
-  <a href="https://demo.openatlas.eu/overview/model" target="_blank">Model</a><br>
-  <a href="https://github.com/craws/OpenAtlas" target="_blank">Code</a> on GitHub
-</p>
+  <section class="hero-section container-fluid row mb-5">
+    <div class="left col-12 col-lg-6">
+      <h1 class="fs-1 fw-bolder lh-sm">Easily Manage your <br> Research Data</h1>
+      <p>OpenAtlas is an open source database software developed especially to acquire, edit and manage research data
+        from various fields of humanities like <strong>history</strong>, <strong>archaeology</strong> and <strong>prosopography</strong>
+        as well as related scientific
+        data.</p>
+      <div class="row g-3 ">
+        <div class="col-auto">
+          <a target="_blank" href="https://github.com/craws/OpenAtlas/blob/main/install.md"
+             class="btn btn-outline-dark fw-bold">GET STARTED</a>
+        </div>
+        <div class="col">
+          <a href="https://demo.openatlas.eu/" target="_blank" class="btn btn-dark fw-bold">LIVE DEMO</a>
+        </div>
+      </div>
 
-<p>
-  <span class="news-teaser">News</span>
-  {{ latest_news_item.date }}: {{ latest_news_item.title }} - <a href="/news">read more</a>
-</p>
+      <img class="mt-5" width="100%" src="/static/images/layout/feature_bar.svg"/>
+      <div class="mt-5">
+        <div class="d-flex">
+          <div><span class="news-teaser">News</span></div>
+          <div class="ms-1 text-black">
+            {{ latest_news_item.title }}
+            <a href="/news" class="fs-7 d-inline-block">read more</a>
+            <span class="d-block text-secondary fs-7">{{ latest_news_item.date }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right col-12 col-lg-6  d-none d-lg-block">
 
-<!-- The Gallery as lightbox dialog -->
-<div id="blueimp-gallery" class="blueimp-gallery">
-  <div class="slides"></div>
-  <h3 class="title">.</h3>
-  <a class="prev">‹</a>
-  <a class="next">›</a>
-  <a class="close">×</a>
-  <a class="play-pause"></a>
-  <ol class="indicator"></ol>
-</div>
-<p class="mb-1" style="font-weight: bold;">Screenshots</p>
-<div id="links" class="mb-3">
-  <a href="/static/images/screenshot/1_big.png" title="Overview">
-    <img class="screenshot" src="/static/images/screenshot/1_small.png" alt="Landing page of OpenAtlas with Overview">
-  </a>
-  <a href="/static/images/screenshot/2_big.png" title="Place overview">
-    <img class="screenshot" src="/static/images/screenshot/2_small.png" alt="Overview of places entered">
-  </a>
-  <a href="/static/images/screenshot/3_big.png" title="Place insert">
-    <img class="screenshot" src="/static/images/screenshot/3_small.png" alt="UI used to enter a new place into the database">
-  </a>
-  <a href="/static/images/screenshot/4_big.png" title="Network">
-    <img class="screenshot" src="/static/images/screenshot/4_small.png" alt="Network of entered entities">
-  </a>
-  <a href="/static/images/screenshot/5_big.png" title="Types">
-    <img class="screenshot" src="/static/images/screenshot/5_small.png" alt="Overview of available types">
-  </a>
-  <a href="/static/images/screenshot/6_big.png" title="Manual">
-    <img class="screenshot" src="/static/images/screenshot/6_small.png" alt="OpenAtlas manual">
-  </a>
-  <a href="/static/images/screenshot/7_big.png" title="Model">
-    <img class="screenshot" src="/static/images/screenshot/7_small.png" alt="CIDOC CRM Model for historical data">
-  </a>
-  <a href="/static/images/screenshot/8_big.png" title="Model">
-    <img class="screenshot" src="/static/images/screenshot/8_small.png" alt="CIDOC CRM Model for archaeological data">
-  </a>
-</div>
-<p class="mb-1" style="font-weight: bold;">How to use OpenAtlas</p>
-<p>
-  OpenAtlas is not a stand alone application but meant to be installed on a Linux web server. The code is open source
-  (<a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GPL2 licence</a>)
-  and freely available on
-  <a href="https://github.com/craws/OpenAtlas" target="_blank">GitHub</a>.
-  Some experience about server administration is required, for more information please take a look at the
-  <a href="https://github.com/craws/OpenAtlas/blob/master/install.md" target="_blank">install notes</a>.
-</p>
-<p class="mb-1" style="font-weight: bold;">Development</p>
-<p>
-  OpenAtlas was and is funded by several <a href="{{ url_for('projects') }}">projects</a>,
-  grants, institutes and departments:
-</p>
-<div id="credits" class="mb-4">
-  {{ ['OEAW', 'ACDH', 'OeAI', 'IMAFO', 'RHUL', 'JGU', 'NHM', 'LBI', 'univie', 'ERC', 'FWF']|display_institutes|safe }}
-</div>
-<p>
-  Feel free to contact us at <a href="mailto:openatlas@oeaw.ac.at">openatlas@oeaw.ac.at</a>.
-</p>
-<script src="/static/js/gallery.js"></script>
-<script src="/static/vendor/blueimp-gallery-2.33.0/js/blueimp-gallery.min.js"></script>
+      <img width="100%" src="/static/images/layout/hero_image.jpg"/>
+    </div>
+  </section>
+
+
+  <section>
+    <h2 class="fw-bold fs-4">What is OpenAtlas?</h2>
+    <p>OpenAtlas is an open source database software developed especially to acquire, edit and manage research data from
+      various fields of humanities like history, archaeology and prosopography as well as related scientific data (e.g.
+      radiocarbon dating, stable isotopes and anthropological information). It provides a user interface that can be
+      accessed via any common web-browser and allows the respective researchers to work with their data via customized
+      forms and categories to record complex relations as simple as possible.</p>
+
+    <p>The software automatically maps the information to the international standard of the <a
+        href="https://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a> and takes care of
+      today's requirements regarding data standards, data management and aims for <a
+          href="https://www.force11.org/fairprinciples" target="_blank">FAIR</a> principles against the background
+      of current standards in Digital Humanities.</p>
+  </section>
+
+
+  <section class="mt-5">
+    <h2 class="fw-bold fs-4">How to use OpenAtlas</h2>
+    <p>OpenAtlas is not a stand alone application but meant to be installed on a Linux web server. The code is open
+      source (GPL2 licence) and freely available on GitHub. Some experience about server administration is required, for
+      more information please take a look at the install notes.</p>
+  </section>
+
+
+  <section class="mt-2 py-4 dark whole-length d-flex justify-content-between align-items-stretch">
+    <div class="d-flex flex-column justify-content-between">
+      <h2 class="fw-bold fs-4">Interested in a <span class="text-oagreen">cooperation</span>?</h2>
+      <p>
+        Although OpenAtlas is freely available on <a href="https://github.com/craws/OpenAtlas"
+                                                     target="_blank">GitHub</a>,
+        not every project has the internal resources to cover all the aspects needed for successfully using the complex
+        software (e.g. setting up a web server and OpenAtlas itself, updates and backups, development of new features,
+        etc.).
+        It is therefore possible, to cooperate with the OpenAtlas team via the
+        <a target="_blank" href="https://www.oeaw.ac.at/acdh">ACDH-CH</a>, an institute of the
+        <a target="_blank" href="https://www.oeaw.ac.at/">Austrian Academy of Sciences</a>, if budget is
+        available. For current and former cooperations see: <a href="{{ url_for('projects') }}">projects</a>.
+
+      </p>
+      <div class="row g-3">
+        <div class="col-auto">
+          <a href="mailto:xyz@abc.com" class="btn btn-light text-capitalize">contact us</a>
+        </div>
+        <div class="col">
+          <a href="{{ url_for('cooperation') }}" class="btn btn-outline-light text-capitalize">more
+            information</a>
+        </div>
+      </div>
+    </div>
+    <div class="d-none d-lg-block">
+      <img style="max-height:300px;" src="/static/images/features/cooperation.png"/>
+
+    </div>
+  </section>
+
+
+  <section class="mt-5">
+    <div class="row g-md-5 align-items-center">
+      <div class="col-12 col-md-6">
+        <h2 class="fw-bold fs-4">Model</h2>
+        <p>The data model specifies the structure in which the information is stored within the database. The use of an
+          ontology, for example, allows the data to be combined more easily with information from other projects and is
+          consistent with the FAIR principles.
+          The OpenAtlas Model is based on the international standard of CIDOC CRM, an ontology widely used within the
+          field of humanities.</p>
+
+        <ul>
+          <li>Types can be used to adapt for specific research topics</li>
+          <li>Reference Systems for Linked Open Data (LOD)</li>
+          <li>Mapping spatial and temporal uncertainty</li>
+          <li>Archaeological finds with detailed mapping</li>
+          <li>Data integrity check functions</li>
+          <li>Model link checker to confirm CIDOC CRM validity</li>
+        </ul>
+      </div>
+      <div class="col-12 col-md-6">
+        <img class="w-100 shadow rounded-3" src="/static/images/features/model.png"/>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-5">
+    <div class="row g-md-5 align-items-center">
+      <div class="col-12 col-md-6  order-1 order-md-0">
+        <img class="w-100" src="/static/images/features/map.jpg"/>
+      </div>
+      <div class="col-12 col-md-6  order-0 order-md-1">
+        <h2 class="fw-bold fs-4">Interactive Map</h2>
+        <p>Places with known location can be entered into an interactive map based on Leaflet, which features different
+          view layers, allows for zooming, fullscreen mode, clustering, searching and much more. PostGIS is used for
+          creating and manipulating spatial data. Therefore, it is possible to enter location as needed as multiple
+          points, lines, areas and shapes</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="my-5">
+    <p class="text-center text-secondary fw-bolder">
+      OpenAtlas was and is funded by several <a class="text-secondary fw-bold"
+                                                href="{{ url_for('projects') }}">projects</a>,
+      grants, institutes and departments:
+    </p>
+    <div class="d-flex flex-wrap justify-content-center mb-4">
+      {{ ['OEAW', 'ACDH', 'OeAI', 'IMAFO', 'RHUL', 'JGU', 'NHM', 'LBI', 'univie', 'ERC', 'FWF']|display_institutes|safe }}
+    </div>
+  </section>
+  <script src="/static/js/gallery.js"></script>
+  <script src="/static/vendor/blueimp-gallery-2.33.0/js/blueimp-gallery.min.js"></script>
 {% endblock %}

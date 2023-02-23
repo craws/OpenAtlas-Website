@@ -1,14 +1,14 @@
 {% extends "layout.html" %}
 {% block content %}
-{% for year, items in news.items() %}
-  <h4 class="mt-4 mb-4">{{year}}</h4>
-  {% for date, item in items.items() %}
-    <div class="mb-4">
-      {{ date }}<br>
-      <strong>{{ item.title|safe }}</strong><br>
-      {{ item.text|safe }}
-    </div>
+  {% for year, items in news.items() %}
+    <h4 class="mt-4 fw-bold fs-4">{{ year }}</h4>
+    <hr>
+    {% for date, item in items.items() %}
+      <div class="mb-4">
+        {{ date }}<br>
+        <strong>{{ item.title|safe }}</strong><br>
+        {{ item.text|safe }}
+      </div>
+    {% endfor %}
   {% endfor %}
-  <hr>
-{% endfor %}
 {% endblock %}
