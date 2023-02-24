@@ -1,4 +1,4 @@
-from typing import Iterator
+from typing import Any, Iterator
 
 from flask import url_for
 
@@ -8,32 +8,28 @@ from openatlas_website.data.team import team
 
 
 @app.context_processor
-def inject_menu() -> dict[list[str]]:
-    content = ['about', 'projects', 'cooperation', 'software', 'team',
-               'events', 'news']
-    menu = [{'name': 'about', 'to': url_for('about')},
-            {'name': 'projects',
-             'to': url_for('projects')},
-            {'name': 'team',
-             'to': url_for('team')},
-            {'name': 'manual',
-             'to': 'https://manual.openatlas.eu'},
-            {'name': 'documentation',
-             'to': 'https://redmine.openatlas.eu/projects/uni/wiki'}]
+def inject_menu() -> dict[str, Any]:
+    content = [
+        'about', 'projects', 'cooperation', 'software', 'team', 'events',
+        'news']
+    menu = [
+        {'name': 'about', 'to': url_for('about')},
+        {'name': 'projects', 'to': url_for('projects')},
+        {'name': 'team', 'to': url_for('team')},
+        {'name': 'manual', 'to': 'https://manual.openatlas.eu'},
+        {'name': 'documentation',
+         'to': 'https://redmine.openatlas.eu/projects/uni/wiki'}]
 
-    external_links = [{'name': 'Demo', 'to': 'https://demo.openatlas.eu'},
-                      {'name': 'Development Demo',
-                       'to': 'https://demo-dev.openatlas.eu'},
-                      {'name': 'Features',
-                       'to': 'https://manual.openatlas.eu/features.html'},
-                      {'name': 'Manual', 'to': 'https://manual.openatlas.eu'},
-                      {'name': 'Documentation',
-                       'to': 'https://redmine.openatlas.eu/projects/uni/wiki'},
-                      {'name': 'Model',
-                       'to': 'https://demo.openatlas.eu/overview/model'},
-                      {'name': 'Code',
-                       'to': 'https://github.com/craws/OpenAtlas'}
-                      ]
+    external_links = [
+        {'name': 'Demo', 'to': 'https://demo.openatlas.eu'},
+        {'name': 'Development Demo', 'to': 'https://demo-dev.openatlas.eu'},
+        {'name': 'Features',
+         'to': 'https://manual.openatlas.eu/features.html'},
+        {'name': 'Manual', 'to': 'https://manual.openatlas.eu'},
+        {'name': 'Documentation',
+         'to': 'https://redmine.openatlas.eu/projects/uni/wiki'},
+        {'name': 'Model', 'to': 'https://demo.openatlas.eu/overview/model'},
+        {'name': 'Code', 'to': 'https://github.com/craws/OpenAtlas'}]
     return dict(menu=menu, content=content, external_links=external_links)
 
 
