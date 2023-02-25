@@ -29,7 +29,7 @@
       <ul class="navbar-nav mb-2 mb-lg-0">
         {% for item in menu %}
           <li class="nav-item">
-            <a class="nav-link text-capitalize {{ 'active' if url_for(request.endpoint) == item.to }}"
+            <a class="nav-link text-capitalize {{ 'active' if request.endpoint and url_for(request.endpoint) == item.to }}"
                target="{{ '_blank' if item.to.startswith('http') else '' }}"
                href="{{ item.to }}">{{ item.name }}</a>
           </li>
