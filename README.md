@@ -1,3 +1,5 @@
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 ![tests](https://github.com/craws/OpenAtlas-Website/actions/workflows/test.yaml/badge.svg)
 
 # About
