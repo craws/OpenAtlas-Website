@@ -22,6 +22,15 @@ upcoming = {
             'Age, Sex, and Diseases of Dead People - '
             'Integrating Anthropological Analysing Methods into DH Tools',
         'link': 'https://dh2023.adho.org/'},
+    '2023-07-10 ': {
+        'country': 'Austria',
+        'city': 'Graz',
+        'institute': 'University of Graz',
+        'name': 'Digital Humanities 2023',
+        'title':
+            'How to be flexible - OpenAtlas as Highly Adaptable Database '
+            'Software in the Scope of Digital Humanities',
+        'link': 'https://dh2023.adho.org/'},
     '2023-09-27': {
         'country': 'United Kingdom',
         'city': 'Oxford',
