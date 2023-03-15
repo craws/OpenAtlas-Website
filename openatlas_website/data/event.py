@@ -4,7 +4,10 @@ upcoming = {
         'city': 'Vienna',
         'institute': 'Austrian Academy of Sciences',
         'name': 'goINDIGO 2023 - International graffiti symposium',
-        'title': 'OpenAtlas (TBA)',
+        'title':
+            'Collaboration of two Digital Humanities projects - '
+            'The cooperation between ARCHE and OpenAtlas within the INDIGO '
+            'project',
         'link': 'https://go-indigo.eu/'},
     '2023-07-03': {
         'country': 'United Kingdom',
