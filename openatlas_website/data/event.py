@@ -14,7 +14,10 @@ upcoming = {
         'city': 'Leeds',
         'institute': 'University of Leeds',
         'name': 'International Medieval Congress 2023',
-        'title': 'OpenAtlas (TBA)',
+        'title':
+            '<span style="font-weight:normal;">Round table:</span> '
+            'Networked Data: Digital Environments for Collecting, Managing, '
+            'and Analysing Relational Data in Medieval Studies',
         'link': 'https://www.imc.leeds.ac.uk/imc-2023'},
     '2023-07-10': {
         'country': 'Austria',
