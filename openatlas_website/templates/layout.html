@@ -56,7 +56,7 @@
       <div class="col-12 col-md-3 mb-5">
         <p class="fw-bold">Content</p>
         {% for item in content %}
-          <p class="mb-0"><a class="text-capitalize" href="{{ url_for(item) }}">{{ item }}</a></p>
+          <p class="mb-0"><a class="text-capitalize" href="{{ url_for(item) }}">{{ item.replace('_', ' ') }}</a></p>
         {% endfor %}
       </div>
       <div class="col-12 col-md-3 mb-5">

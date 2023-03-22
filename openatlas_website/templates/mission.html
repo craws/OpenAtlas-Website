@@ -1,0 +1,85 @@
+{% extends "layout.html" %}
+{% block content %}
+
+  <h4 class="mt-4 fw-bold fs-4">Mission Statement</h4>
+  <hr>
+
+  <h5 class="mt-5 fw-bold fs-5">Open</h5>
+  <p>
+    OpenAtlas puts great emphasis on being open source, open access and just
+    open in general. The code is therefore released under a
+    <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html" target="_blank">GPLv2</a>
+    license. You can find the OpenAtlas code on
+    <a href="https://github.com/craws/OpenAtlas" target="_blank">GitHub</a>. In
+    addition, for any (further) development of the system, only other open
+    source applications and programs are used. Due to the emphasis put on open
+    source and open access, cooperating projects are required to make their
+    data available as open access to interested scientists and the
+    public after the project has been completed.
+  </p>
+
+  <h5 class="mt-5 fw-bold fs-5">Transparent</h5>
+  <p>
+    OpenAtlas places great emphasis on transparency - in the development
+    of the software as well as in the communication with project partners and
+    the public.
+    All documentation of the software is publicly accessible via the
+    <a href="https://manual.openatlas.eu" target="_blank">manual</a> and
+    the project's own <a href="https://redmine.openatlas.eu/projects/uni/wiki" target="_blank">wiki</a>. The <a href="https://redmine.openatlas.eu/projects/uni/issues" target="_blank">issue tracker</a> and the <a href="https://redmine.openatlas.eu/projects/uni/roadmap" target="_blank">roadmap</a> with planned new
+    features are also freely accessible and editable via OpenAtlas’ <a href="https://redmine.openatlas.eu/" target="_blank">Redmine</a>.
+    Here you can also find <a href="https://redmine.openatlas.eu/projects/uni/wiki/Project_meetings" target="_blank">meeting minutes</a> for meetings with cooperating
+    projects as well as for the regular team meetings.
+    The <a href="https://demo.openatlas.eu/" target="_blank">demo</a> as well as the <a href="https://demo-dev.openatlas.eu/" target="_blank">developmental version of the demo</a> (with the latest
+    developments of the database system) allow anyone to explore the software
+    via common browsers.
+    Furthermore, the project's own <a href="{{ url_for('about') }}">homepage</a> offers insight into the team,
+    future and already held events as well as cooperating projects.
+  </p>
+
+  <h5 class="mt-5 fw-bold fs-5">High-Quality</h5>
+  <p>
+    OpenAtlas code is developed with the highest standards in mind. Therefore,
+    coding standards such as <a href="https://peps.python.org/pep-0008/" target="_blank">PEP8</a>, <a href="https://html.spec.whatwg.org/multipage/" target="_blank">HTML 5</a>, etc. are followed during the
+    development of the software. In addition, quality assurance tools such as
+    <a href="https://mypy-lang.org/" target="_blank">Mypy</a> and <a href="https://pypi.org/project/pylint/" target="_blank">Pylint</a> are used.
+    It is also important that the software is always up-to-date.
+    OpenAtlas also uses extensive testing strategies with high coverage during
+    development to detect bugs early. If bugs appear in a production version
+    after all, solving these have the highest priority.
+    To ensure data quality, OpenAtlas uses <a href="https://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a>. In the background of the
+    application, compliance with the specific rules of the ontology is checked.
+    Non-compliant data is not processed. Moreover, own data can be subjected to
+    data integrity checks at any time to guarantee the highest quality.
+  </p>
+
+  <h5 class="mt-5 fw-bold fs-5">Interoperable</h5>
+  <p>
+    Furthermore, the use of the <a href="https://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a> ontology also allows datasets to be recombined. It is one of the ways in which the
+    <a href="https://www.go-fair.org/fair-principles/" target="_blank">FAIR</a>
+    principles are taken into account in the project. To make the data further
+    interoperable, OpenAtlas also provides its own API to interface with other
+    applications and query the data stored in the database. Different output
+    formats are possible. In addition, it is possible to download datasets
+    directly from the user interface - as JSON, RDF, or CSV.
+    External References allow the linking of own datasets with other
+    vocabularies and gazetteers but also analog documents like inventory
+    numbers of museums or card catalogs of libraries and thus create Linked
+    Open Data.
+    The long-term archiving of data is also taken into account through
+    cooperation with <a href="https://arche.acdh.oeaw.ac.at" target="_blank">ARCHE</a>.
+  </p>
+
+  <h5 class="mt-5 fw-bold fs-5">Usable</h5>
+  <p class="mb-5">Great importance is also placed on the usability of the software,
+    especially in light of the fact that many <a href="{{ url_for('cooperation') }}">cooperation partners</a> come from
+    the field of humanities and do not have the additional resources to deal
+    with specific questions of software development in addition to their
+    research focus. Furthermore, the performance of the application is also
+    particularly important and is taken into consideration with every step, as
+    it contributes significantly to enabling fluent working.
+    OpenAtlas offers a multilingual user interface to accommodate researchers
+    from different regions and to facilitate their work. In addition, it is
+    configurable and highly flexible, through the use of types, particularly
+    adaptable to specific research questions.
+  </p>
+{% endblock %}

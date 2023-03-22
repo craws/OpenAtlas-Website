@@ -11,7 +11,7 @@ from openatlas_website.data.team import team
 def inject_menu() -> dict[str, Any]:
     content = [
         'about', 'projects', 'cooperation', 'software', 'team', 'events',
-        'news']
+        'news', 'mission_statement']
     menu = [
         {'name': 'about', 'to': url_for('about')},
         {'name': 'projects', 'to': url_for('projects')},
@@ -21,17 +21,16 @@ def inject_menu() -> dict[str, Any]:
 
     documentation_links = [
         {'name': 'Features',
-        'to': 'https://manual.openatlas.eu/features.html'},
+         'to': 'https://manual.openatlas.eu/features.html'},
         {'name': 'Manual', 'to': 'https://manual.openatlas.eu'},
         {'name': 'Redmine',
-        'to': 'https://redmine.openatlas.eu/projects/uni/wiki'},
+         'to': 'https://redmine.openatlas.eu/projects/uni/wiki'},
         {'name': 'Model', 'to': 'https://demo.openatlas.eu/overview/model'},
         {'name': 'Code', 'to': 'https://github.com/craws/OpenAtlas'}]
 
     demo_links = [
         {'name': 'Demo', 'to': 'https://demo.openatlas.eu'},
-        {'name': 'Development Demo', 'to': 'https://demo-dev.openatlas.eu'},
-    ]
+        {'name': 'Development Demo', 'to': 'https://demo-dev.openatlas.eu'}]
 
     return dict(
         menu=menu,
