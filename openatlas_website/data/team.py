@@ -34,10 +34,9 @@ team = {
         'email': 'bernhard.koschicek-krombholz@oeaw.ac.at',
         'function': 'Backend Development and API',
         'text':
-            "Bernhard is currently developing our API and studies Computer "
-            "Sciences as well as History. His research interests include "
-            "computer security, Python, digital preservation, historical "
-            "geography, GIS, medieval and military history.",
+            "Bernhard is currently developing our API and studied Computer "
+            "Sciences as well as History. He is interested include in "
+            "Python, Linked Open Data, historical geography and GIS.",
         'img': 'bernhard.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
     'Andreas Olschnögger': {
@@ -55,7 +54,7 @@ team = {
         'function': 'Frontend Development',
         'text':
             "Mocca is a frontend developer for OpenAtlas. He's currently "
-            'studying computer science at the TU Vienna and interested in '
+            'studying computer science at the TU Vienna and is interested in '
             'design that is useful and fun to use, be that software or real '
             'life objects.',
         'img': 'mocca.jpg',
@@ -96,7 +95,7 @@ team = {
         'email': 'massimiliano.carloni@oeaw.ac.at',
         'function': 'ARCHE Expertise',
         'text':
-            'Massimiliano is currently involved developing a interface '
+            'Massimiliano is currently involved developing an interface '
             'between OpenAtlas and '
             '<a href="https://arche.acdh.oeaw.ac.at"target="_blank">ARCHE</a>.'
             ' Trained as a classical philologist, he is mostly interested in '

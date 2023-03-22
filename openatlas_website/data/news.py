@@ -3,7 +3,7 @@ def release_text(news_id: int) -> str:
         f'A new software version of OpenAtlas is available, see ' \
         f'<a target="_blank" ' \
         f'href="https://redmine.openatlas.eu/news/{news_id}">' \
-        f'release notes</a>'
+        f'release notes</a>.'
 
 
 news_ = {
@@ -16,7 +16,7 @@ news_ = {
             'date': '2023-02-04',
             'title': 'OpenAtlas version 7.10.0 and a welcome',
             'text': release_text(27) +
-            '<br>And a warm welcome to our archiving expert '
+            '<br>Also, a warm welcome to our archiving expert '
             'Massimiliano Carloni.'},
         '2023-01-01': {
             'date': '2023-01-01',
