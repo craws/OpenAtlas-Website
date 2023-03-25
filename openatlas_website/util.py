@@ -9,34 +9,32 @@ from openatlas_website.data.team import team
 
 @app.context_processor
 def inject_menu() -> dict[str, Any]:
-    content = [
-        'about', 'projects', 'cooperation', 'software', 'team', 'events',
-        'news', 'mission_statement']
-    menu = [
-        {'name': 'about', 'to': url_for('about')},
-        {'name': 'projects', 'to': url_for('projects')},
-        {'name': 'cooperation', 'to': url_for('cooperation')},
-        {'name': 'team', 'to': url_for('team')},
-        {'name': 'events', 'to': url_for('events')}]
-
-    documentation_links = [
-        {'name': 'Features',
-         'to': 'https://manual.openatlas.eu/features.html'},
-        {'name': 'Manual', 'to': 'https://manual.openatlas.eu'},
-        {'name': 'Redmine',
-         'to': 'https://redmine.openatlas.eu/projects/uni/wiki'},
-        {'name': 'Model', 'to': 'https://demo.openatlas.eu/overview/model'},
-        {'name': 'Code', 'to': 'https://github.com/craws/OpenAtlas'}]
-
-    demo_links = [
-        {'name': 'Demo', 'to': 'https://demo.openatlas.eu'},
-        {'name': 'Development Demo', 'to': 'https://demo-dev.openatlas.eu'}]
-
     return dict(
-        menu=menu,
-        content=content,
-        documentation_links=documentation_links,
-        demo_links=demo_links)
+        menu=[
+            {'name': 'about', 'to': url_for('about')},
+            {'name': 'projects', 'to': url_for('projects')},
+            {'name': 'cooperation', 'to': url_for('cooperation')},
+            {'name': 'team', 'to': url_for('team')},
+            {'name': 'events', 'to': url_for('events')}],
+        content=[
+            'about', 'projects', 'cooperation', 'software', 'team', 'events',
+            'news', 'mission_statement'],
+        documentation_links=[
+            {'name': 'Features',
+             'to': 'https://manual.openatlas.eu/features.html'},
+            {'name': 'Manual',
+             'to': 'https://manual.openatlas.eu'},
+            {'name': 'Redmine',
+             'to': 'https://redmine.openatlas.eu/projects/uni/wiki'},
+            {'name': 'Model',
+             'to': 'https://demo.openatlas.eu/overview/model'},
+            {'name': 'Code',
+             'to': 'https://github.com/craws/OpenAtlas'}],
+        demo_links=[
+            {'name': 'Demo',
+             'to': 'https://demo.openatlas.eu'},
+            {'name': 'Development Demo',
+             'to': 'https://demo-dev.openatlas.eu'}])
 
 
 @app.template_filter()

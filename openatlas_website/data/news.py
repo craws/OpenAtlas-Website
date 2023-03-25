@@ -1,9 +1,9 @@
 def release_text(news_id: int) -> str:
     return \
-        f'A new software version of OpenAtlas is available, see ' \
-        f'<a target="_blank" ' \
+        'A new software version of OpenAtlas is available, see ' \
+        '<a target="_blank" ' \
         f'href="https://redmine.openatlas.eu/news/{news_id}">' \
-        f'release notes</a>.'
+        'release notes</a>.'
 
 
 news_ = {

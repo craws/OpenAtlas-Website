@@ -3,10 +3,10 @@
   <section class="hero-section container-fluid row mb-5">
     <div class="left col-12 col-lg-6">
       <h1 class="fs-1 fw-bolder lh-sm">Easily Manage your <br> Research Data</h1>
-      <p>OpenAtlas is an open source database software developed especially to acquire, edit and manage research data
-        from various fields of humanities like <strong>history</strong>, <strong>archaeology</strong> and <strong>cultural heritage</strong>
-        as well as related scientific
-        data.</p>
+      <p>
+        OpenAtlas is an open source database software developed especially to acquire, edit and manage research data
+        from various fields of humanities like <strong>history</strong>, <strong>archaeology</strong> and
+        <strong>cultural heritage</strong> as well as related scientific data.</p>
       <div class="row g-3 ">
         <div class="col-auto">
           <a target="_blank" href="https://github.com/craws/OpenAtlas/blob/main/install.md#installation-notes"
@@ -16,107 +16,104 @@
           <a href="https://demo.openatlas.eu/" target="_blank" class="btn btn-dark fw-bold">LIVE DEMO</a>
         </div>
         <div class="col">
-          <a target="_blank" href="https://manual.openatlas.eu"
-             class="btn btn-outline-dark fw-bold">MANUAL</a>
+          <a target="_blank" href="https://manual.openatlas.eu" class="btn btn-outline-dark fw-bold">MANUAL</a>
         </div>
       </div>
-
-      <img class="mt-5" width="100%" src="/static/images/layout/feature_bar.svg"/>
+      <img class="mt-5" width="100%" src="/static/images/layout/feature_bar.svg">
       <div class="mt-5">
         <div class="d-flex">
           <div><span class="news-teaser">News</span></div>
           <div class="ms-1 text-black">
+            <span class="d-block text-secondary fs-7">{{ latest_news_item.date }}</span>
             {{ latest_news_item.title }}
             <a href="/news" class="fs-7 d-inline-block">read more</a>
-            <span class="d-block text-secondary fs-7">{{ latest_news_item.date }}</span>
           </div>
         </div>
       </div>
     </div>
     <div class="right col-12 col-lg-6  d-none d-lg-block">
-
-      <img width="100%" src="/static/images/layout/hero_image.jpg"/>
+      <img width="100%" src="/static/images/layout/hero_image.jpg">
     </div>
   </section>
 
-
   <section>
     <h2 class="fw-bold fs-4">What is OpenAtlas?</h2>
-    <p>OpenAtlas is an open source database software developed especially to acquire, edit and manage research data from
-      various fields of humanities like history, archaeology and prosopography as well as related scientific data (e.g.
-      radiocarbon dating, stable isotopes and anthropological information). It provides a user interface that can be
-      accessed via any common web-browser and allows the respective researchers to work with their data via customized
-      forms and categories to record complex relations as simple as possible.</p>
-
-    <p>The software automatically maps the information to the international standard of the <a
-        href="https://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a> and takes care of
-      today's requirements regarding data standards, data management and aims for <a
-          href="https://www.force11.org/fairprinciples" target="_blank">FAIR</a> principles against the background
-      of current standards in Digital Humanities.</p>
+    <p>
+      OpenAtlas is an open source database software developed especially to acquire, edit and manage research data from
+      various fields of humanities like history, archaeology and cultural heritage as well as related scientific data
+      (e.g. radiocarbon dating, stable isotopes and anthropological information). It provides a user interface that can
+      be accessed via any common web-browser and allows the respective researchers to work with their data via
+      customized forms and categories to record complex relations as simple as possible.
+    </p>
+    <p>
+      The software automatically maps the information to the international standard of the
+      <a href="https://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a> and takes care of today's requirements
+      regarding data standards, data management and aims for
+      <a href="https://www.force11.org/fairprinciples" target="_blank">FAIR</a> principles against the background of
+      current standards in Digital Humanities.
+    </p>
   </section>
-
 
   <section class="mt-5 mb-5">
     <h2 class="fw-bold fs-4">How to use OpenAtlas</h2>
-    <p>OpenAtlas is not a stand-alone application but meant to be installed on a Linux web server. The code is open
+    <p>
+      OpenAtlas is not a stand-alone application but meant to be installed on a Linux web server. The code is open
       source (GPL2 licence) and freely available on GitHub. Some experience about server administration is required, for
-      more information please take a look at the installation notes.</p>
+      more information please take a look at the installation notes.
+    </p>
   </section>
-
 
   <section class="mt-2 py-4 dark whole-length d-flex justify-content-between align-items-stretch">
     <div class="d-flex flex-column justify-content-between">
       <h2 class="fw-bold fs-4">Interested in a <span class="text-oagreen">cooperation</span>?</h2>
       <p>
-        Although OpenAtlas is freely available on <a href="https://github.com/craws/OpenAtlas"
-                                                     target="_blank">GitHub</a>,
+        Although OpenAtlas is freely available on
+        <a href="https://github.com/craws/OpenAtlas" target="_blank">GitHub</a>,
         not every project has the internal resources to cover all the aspects needed for successfully using the complex
         software (e.g. setting up a web server and OpenAtlas itself, updates and backups, development of new features,
-        etc.).
-        It is therefore possible, to cooperate with the OpenAtlas team via the
+        etc.). It is therefore possible, to cooperate with the OpenAtlas team via the
         <a target="_blank" href="https://www.oeaw.ac.at/acdh">ACDH-CH</a>, an institute of the
         <a target="_blank" href="https://www.oeaw.ac.at/">Austrian Academy of Sciences</a>, if budget is
         available. For current and former cooperations see: <a href="{{ url_for('projects') }}">projects</a>.
-
       </p>
       <div class="row g-3">
         <div class="col-auto">
           <a href="mailto:openatlas@oeaw.ac.at" class="btn btn-light text-capitalize">contact us</a>
         </div>
         <div class="col">
-          <a href="{{ url_for('cooperation') }}" class="btn btn-outline-light text-capitalize">more
-            information</a>
+          <a href="{{ url_for('cooperation') }}" class="btn btn-outline-light text-capitalize">more information</a>
         </div>
       </div>
     </div>
     <div class="d-none d-lg-block">
-      <img style="max-height:300px;" src="/static/images/features/cooperation.png"/>
-
+      <img style="max-height:300px;" src="/static/images/features/cooperation.png">
     </div>
   </section>
-
-
   <section class="mt-5">
     <div class="row g-md-5 align-items-center">
       <div class="col-12 col-md-6">
         <h2 class="fw-bold fs-4">Model</h2>
-        <p>The data <a href="https://demo.openatlas.eu/overview/model">model</a> specifies the structure in which the information is stored within the database. The use of an
-          ontology, for example, allows the data to be combined more easily with information from other projects and is
-          consistent with the FAIR principles.
-          The OpenAtlas Model is based on the international standard of <a href="https://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a>, an ontology widely used within the
-          field of humanities.</p>
-
+        <p>
+          The data <a href="https://demo.openatlas.eu/overview/model">model</a> specifies the structure in which the
+          information is stored within the database. The use of an ontology, for example, allows the data to be combined
+          more easily with information from other projects and is consistent with the FAIR principles. The OpenAtlas
+          Model is based on the international standard of
+          <a href="https://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a>, an ontology widely used within the field
+          of humanities.
+        </p>
         <ul>
           <li>Types can be used to adapt for specific research topics</li>
           <li>Reference Systems for Linked Open Data (LOD)</li>
           <li>Mapping spatial and temporal uncertainty</li>
           <li>Archaeological finds with detailed mapping</li>
           <li>Data integrity check functions</li>
-          <li>Model link checker to confirm <a href="https://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a> validity</li>
+          <li>
+            Model link checker to confirm <a href="https://www.cidoc-crm.org/" target="_blank">CIDOC CRM</a> validity
+          </li>
         </ul>
       </div>
       <div class="col-12 col-md-6">
-        <img class="w-100 shadow rounded-3" src="/static/images/features/model.png"/>
+        <img class="w-100 shadow rounded-3" src="/static/images/features/model.png">
       </div>
     </div>
   </section>
@@ -124,7 +121,7 @@
   <section class="mt-5">
     <div class="row g-md-5 align-items-center">
       <div class="col-12 col-md-6  order-1 order-md-0">
-        <img class="w-100" src="/static/images/features/map.jpg"/>
+        <img class="w-100" src="/static/images/features/map.jpg">
       </div>
       <div class="col-12 col-md-6  order-0 order-md-1">
         <h2 class="fw-bold fs-4">Interactive Map</h2>
@@ -136,17 +133,16 @@
     </div>
   </section>
 
-
   <section class="my-5">
     <p class="text-center text-secondary fw-bolder">
-      OpenAtlas was and is funded by several <a class="text-secondary fw-bold"
-                                                href="{{ url_for('projects') }}">projects</a>,
+      OpenAtlas was and is funded by several
+      <a class="text-secondary fw-bold" href="{{ url_for('projects') }}">projects</a>,
       grants, institutes and departments:
     </p>
     <div class="d-flex flex-wrap justify-content-center mb-4">
-      {{ ['OEAW', 'ACDH', 'OeAI', 'IMAFO', 'RHUL', 'JGU', 'NHM', 'LBI', 'univie', 'ERC', 'FWF']|display_institutes|safe }}
+      {{
+        ['OEAW', 'ACDH', 'OeAI', 'IMAFO', 'RHUL', 'JGU', 'NHM', 'LBI', 'univie', 'ERC', 'FWF']|display_institutes|safe
+      }}
     </div>
   </section>
-  <script src="/static/js/gallery.js"></script>
-  <script src="/static/vendor/blueimp-gallery-2.33.0/js/blueimp-gallery.min.js"></script>
 {% endblock %}
