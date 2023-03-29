@@ -74,7 +74,7 @@ current = {
         'pi':
             'Deborah Klimburg-Salter;'
             'National research partner: Michael Alram',
-        'duration': '2018 - 2022',
+        'duration': '2018 - 2023',
         'institutes': ['univie', 'OEAW', 'ACDH', 'FWF', 'KHM', 'CIRDIS'],
         'text':
             '(FWF, P-31246) considers for the first time the Shahi kingdoms '
@@ -85,21 +85,6 @@ current = {
             ' survived through the end of the first millennium and gradually '
             'evolved towards an Islamic culture at the start of the second '
             'millennium.'},
-    'CONNEC': {
-        'url': 'http://www.connectedclerics.com/',
-        'full_name':
-            'Connected Clerics: Building a Universal Church in the Late '
-            'Antique West (380-604 CE)',
-        'img': 'connec.jpg',
-        'image_license': 'CC-BY-SA 4.0, Sapfo Psani',
-        'pi': 'David Natal',
-        'duration': '2018 - 2022',
-        'institutes': ['RHUL', 'OEAW', 'ACDH', 'ERC'],
-        'text':
-            "analyses how a ‘universal’ Late Antique Church was constructed "
-            "despite the context of political fragmentation that precipitated "
-            "the end of the Western  Roman Empire and its division into "
-            "smaller polities."},
     'MEDCEM': {
         'url': 'https://thanados.net/about/medcem',
         'full_name':
@@ -166,6 +151,21 @@ concluded = {
             'nowadays Austria, dating to the Early Middle Ages (ca. 600-1100).'
             ' It combines the three disciplines archaeology, anthropology and '
             'digital humanities.'},
+    'CONNEC': {
+        'url': 'http://www.connectedclerics.com/',
+        'full_name':
+            'Connected Clerics: Building a Universal Church in the Late '
+            'Antique West (380-604 CE)',
+        'img': 'connec.jpg',
+        'image_license': 'CC-BY-SA 4.0, Sapfo Psani',
+        'pi': 'David Natal',
+        'duration': '2018 - 2022',
+        'institutes': ['RHUL', 'OEAW', 'ACDH', 'ERC'],
+        'text':
+            "analyses how a ‘universal’ Late Antique Church was constructed "
+            "despite the context of political fragmentation that precipitated "
+            "the end of the Western  Roman Empire and its division into "
+            "smaller polities."},
     'Moving Byzantium': {
         'url':
             'https://www.oeaw.ac.at/en/imafo/research/byzantine-research/'
