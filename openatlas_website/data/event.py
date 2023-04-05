@@ -5,9 +5,7 @@ upcoming = {
         'institute': 'Austrian Academy of Sciences',
         'name': 'goINDIGO 2023 - International graffiti symposium',
         'title':
-            'Collaboration of two Digital Humanities projects - '
-            'The cooperation between ARCHE and OpenAtlas within the INDIGO '
-            'project',
+            'The Data Crew - Archive with ARCHE and enrich with OpenAtlas',
         'link': 'https://go-indigo.eu/'},
     '2023-07-03': {
         'country': 'United Kingdom',
@@ -39,7 +37,15 @@ upcoming = {
         'title': 'OpenAtlas (TBA)',
         'name':
             'The History of a Special Relationship: Women, Eunuchs and '
-            'Medieval Mount Athos'}}
+            'Medieval Mount Athos'},
+    '2023-10-24': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'title': 'OpenAtlas (TBA)',
+        'link': 'https://www.oeaw.ac.at/de/acdh/events/chda',
+        'name': 'Cultural Heritage-Research in the Digital Age'}
+}
 
 past = {
     '2023': {
