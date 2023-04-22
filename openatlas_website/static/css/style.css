@@ -31,6 +31,10 @@ span.news-teaser {
   background-color: #919D47;
 }
 
+div.news-date {
+  padding: 0.2em 0.4em;
+}
+
 img.team {
   max-width: 140px;
 }
@@ -62,7 +66,7 @@ img.team {
 
 img.projects-institutes {
   max-height: 40px;
-  margin-right: 1.5em;
+  margin-right: 1.2em;
   margin-top: 1em;
 }
 
