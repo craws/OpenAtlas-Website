@@ -1,4 +1,20 @@
 current = {
+    'bITEM': {
+        'url': 'https://bitem.at',
+        'full_name': 'Beyond the Item',
+        'img': 'bitem.png',
+        'image_license': 'CC-BY-SA 4.0, Jan Belik',
+        'pi': 'Viola Winkler, Roland Filzwieser',
+        'duration': '2023 - 2025',
+        'institutes': ['NHM', 'LBI', 'OEAW', 'ACDH'],
+        'text':
+            'The bITEM project - short for Beyond the Item - Biographies and '
+            'Itineraries of Cultural Heritage Objects in Museums and beyond - '
+            'aims to present well-known museum objects in a state-of-the-art '
+            'web application that is freely accessible online. The objects '
+            'and their biographies are vividly described and, in addition to '
+            'images and texts, 3D models as digital twins, timelines, and '
+            'story maps are made available.'},
     'Approaching Byzantium': {
         'url':
             'https://www.byzanz-mainz.de/en/no_cache/research-byzanz/details'
