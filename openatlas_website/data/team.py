@@ -39,16 +39,6 @@ team = {
             "Python, Linked Open Data, historical geography and GIS.",
         'img': 'bernhard.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
-    'Andreas Olschnögger': {
-        'email': 'andreas.olschnoegger@oeaw.ac.at',
-        'function': 'Frontend Development',
-        'text':
-            "Andi is a frontend developer and studies computer science at the "
-            "Technical University of Vienna. He mainly develops with VueJs "
-            "and is also interested in UX design to make technology more "
-            "accessible.",
-        'img': 'andi.jpg',
-        'image_license': 'CC-BY 4.0,<br>Andreas Olschnögger'},
     'Moritz "Mocca" Großfurtner': {
         'email': 'moritz.großfurtner@oeaw.ac.at',
         'function': 'Frontend Development',
