@@ -27,8 +27,8 @@ upcoming = {
             'Diseases of Dead People - Integrating Anthropological Analysing '
             'Methods into DH Tools<br>'
             '<span style="font-weight:normal;">Poster:</span> How to be '
-            'flexible - OpenAtlas as Highly AdaptableDatabase Software in the '
-            'Scope of Digital Humanities',
+            'flexible - OpenAtlas as Highly Adaptable Database Software in '
+            'the Scope of Digital Humanities',
         'link': 'https://dh2023.adho.org/'},
     '2023-09-27': {
         'country': 'United Kingdom',
@@ -44,7 +44,13 @@ upcoming = {
         'institute': 'Austrian Academy of Sciences',
         'title': 'OpenAtlas (TBA)',
         'link': 'https://www.oeaw.ac.at/de/acdh/events/chda',
-        'name': 'Cultural Heritage-Research in the Digital Age'}
+        'name': 'Cultural Heritage-Research in the Digital Age'},
+    '2024-01-13': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'title': 'OpenAtlas – A Database System for the Humanities and Beyond',
+        'name': 'EHRI-AT Methodological Seminar'}
 }
 
 past = {
