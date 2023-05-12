@@ -169,6 +169,7 @@ past = {
             'institute': 'Austrian Academy of Sciences',
             'name': 'goINDIGO 2022 - International graffiti symposium',
             'link': 'https://go-indigo.eu/',
+            'docs': {'Paper': '2022-05-12_indigo.pdf'},
             'title':
                 'One Ontology to Rule Them All: CIDOC CRM in the Humanities '
                 'and its use in OpenAtlas'}},
