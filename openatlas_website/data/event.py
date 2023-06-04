@@ -30,11 +30,18 @@ upcoming = {
             'flexible - OpenAtlas as Highly Adaptable Database Software in '
             'the Scope of Digital Humanities',
         'link': 'https://dh2023.adho.org/'},
+    '2023-07-27': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'TBA',
+        'title': 'OpenAtlas Summer Meeting 2023'},
     '2023-09-27': {
         'country': 'United Kingdom',
         'city': 'Oxford',
         'institute': 'University of Oxford',
-        'title': 'OpenAtlas (TBA)',
+        'title':
+            'How to Digitally Map Sex and Gender in Research Projects - '
+            'Pitfalls and Solutions',
         'name':
             'The History of a Special Relationship: Women, Eunuchs and '
             'Medieval Mount Athos'},
@@ -42,7 +49,7 @@ upcoming = {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'Austrian Academy of Sciences',
-        'title': 'OpenAtlas (TBA)',
+        'title': 'OpenAtlas - A Database System for the Humanities and Beyond',
         'link': 'https://www.oeaw.ac.at/de/acdh/events/chda',
         'name': 'Cultural Heritage-Research in the Digital Age'},
     '2024-01-13': {
