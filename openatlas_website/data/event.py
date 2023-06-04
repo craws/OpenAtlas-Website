@@ -7,7 +7,7 @@ upcoming = {
         'title':
             'The Data Crew - Archive with ARCHE and enrich with OpenAtlas',
         'link': 'https://go-indigo.eu/'},
-    '2023-07-03': {
+    '2023-07-04': {
         'country': 'United Kingdom',
         'city': 'Leeds',
         'institute': 'University of Leeds',
@@ -17,7 +17,7 @@ upcoming = {
             'Networked Data: Digital Environments for Collecting, Managing, '
             'and Analysing Relational Data in Medieval Studies',
         'link': 'https://www.imc.leeds.ac.uk/imc-2023'},
-    '2023-07-10': {
+    '2023-07-12': {
         'country': 'Austria',
         'city': 'Graz',
         'institute': 'University of Graz',
