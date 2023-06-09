@@ -33,7 +33,7 @@ upcoming = {
     '2023-07-27': {
         'country': 'Austria',
         'city': 'Vienna',
-        'institute': 'TBA',
+        'institute': 'Augarten at 16:00',
         'title': 'OpenAtlas Summer Meeting 2023'},
     '2023-09-27': {
         'country': 'United Kingdom',
