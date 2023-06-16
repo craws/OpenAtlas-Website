@@ -329,7 +329,6 @@ past = {
             'city': 'Vienna',
             'institute': 'Austrian Academy of Sciences',
             'name': 'Fourth HistGeo Lecture',
-            'link': 'https://histgeo.oeaw.ac.at/category/histgeo-lecture/',
             'title':
                 'THANADOS – The Anthropological and Archaeological Database of'
                 ' Sepultures'},
@@ -389,7 +388,7 @@ past = {
                 'Digitising Patterns of Power - Book and Project Presentation',
             'title': 'OpenAtlas unter die Haube geschaut',
             'link':
-                'https://www.oeaw.ac.at/en/detail/news/landkarten-der-macht/',
+                'https://www.oeaw.ac.at/detail/news/landkarten-der-macht',
             'docs': {
                 'Program': '2019-05-16_Programm_DPP.pdf',
                 'Presentation': '2019-05-16_dpp_book_presentation.pdf'}},

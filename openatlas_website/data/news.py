@@ -202,5 +202,5 @@ news_ = {
             'text':
                 'Winning Best App Award for <a target="_blank" '
                 'href="https://thanados.net">THANADOS</a> at '
-                '<a href="https://www.chnt.at/chnt25-over" target="_blank">'
-                '25th CHNT-Conference</a>'}}}
+                '<a href="https://archiv.chnt.at/chnt-25-2020-proceedings/" '
+                'target="_blank">25th CHNT-Conference</a>'}}}
