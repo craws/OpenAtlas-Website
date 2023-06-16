@@ -100,7 +100,10 @@ current = {
             'archaeological evidence--suggests that the Hindu-Buddhist culture'
             ' survived through the end of the first millennium and gradually '
             'evolved towards an Islamic culture at the start of the second '
-            'millennium.'},
+            'millennium.<br>'
+            'Resulting project data can be explored at '
+            '<a target="_blank" href="https://shahi.acdh.oeaw.ac.at/">'
+            'shahi.acdh.oeaw.ac.at</a>.'},
     'MEDCEM': {
         'url': 'https://thanados.net/about/medcem',
         'full_name':
@@ -178,10 +181,13 @@ concluded = {
         'duration': '2018 - 2022',
         'institutes': ['RHUL', 'OEAW', 'ACDH', 'ERC'],
         'text':
-            "analyses how a ‘universal’ Late Antique Church was constructed "
-            "despite the context of political fragmentation that precipitated "
-            "the end of the Western  Roman Empire and its division into "
-            "smaller polities."},
+            'analyses how a ‘universal’ Late Antique Church was constructed '
+            'despite the context of political fragmentation that precipitated '
+            'the end of the Western  Roman Empire and its division into '
+            'smaller polities.<br>'
+            'Resulting project data can be explored at '
+            '<a target="_blank" href="https://discover-connec.openatlas.eu/">'
+            'discover-connec.openatlas.eu</a>.'},
     'Moving Byzantium': {
         'url':
             'https://www.oeaw.ac.at/en/imafo/research/byzantine-research/'
@@ -216,7 +222,10 @@ concluded = {
             'between 1741 and 1918 in order to illustrate how Orthodox people '
             'began to migrate into the Habsburg Empire, how Orthodox '
             'merchants settled in Vienna and how they were integrated into '
-            'Viennese society of  that time.'},
+            'Viennese society of  that time.<br>'
+            'Resulting project data can be explored at '
+            '<a target="_blank" href="https://geoportal.orthodoxes-europa.at/">'
+            'geoportal.orthodoxes-europa.at</a>.'},
     'DPP': {
         'url': 'https://dpp.oeaw.ac.at/',
         'full_name': 'Digitising Patterns of Power',

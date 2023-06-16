@@ -13,7 +13,7 @@ institutes = {
         'logo': 'arup.jpg'},
     'BCM': {
         'name': 'Belgrade City Museum',
-        'url': 'http://www.mgb.org.rs/en/',
+        'url': 'http://www.mgb.org.rs',
         'logo': 'bcm.png'},
     'Biblioteka Matice Srpske': {
         'name': 'Biblioteka Matice Srpske',
