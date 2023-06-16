@@ -223,8 +223,8 @@ concluded = {
             'began to migrate into the Habsburg Empire, how Orthodox '
             'merchants settled in Vienna and how they were integrated into '
             'Viennese society of  that time.<br>'
-            'Resulting project data can be explored at '
-            '<a target="_blank" href="https://geoportal.orthodoxes-europa.at/">'
+            'Resulting project data can be explored at <a target="_blank" '
+            'href="https://geoportal.orthodoxes-europa.at/">'
             'geoportal.orthodoxes-europa.at</a>.'},
     'DPP': {
         'url': 'https://dpp.oeaw.ac.at/',
