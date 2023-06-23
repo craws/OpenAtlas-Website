@@ -1,12 +1,4 @@
 upcoming = {
-    '2023-06-14': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Austrian Academy of Sciences',
-        'name': 'goINDIGO 2023 - International graffiti symposium',
-        'title':
-            'The Data Crew - Archive with ARCHE and enrich with OpenAtlas',
-        'link': 'https://go-indigo.eu/'},
     '2023-07-04': {
         'country': 'United Kingdom',
         'city': 'Leeds',
@@ -51,7 +43,7 @@ upcoming = {
         'institute': 'Austrian Academy of Sciences',
         'title': 'OpenAtlas - A Database System for the Humanities and Beyond',
         'link': 'https://www.oeaw.ac.at/de/acdh/events/chda',
-        'name': 'Cultural Heritage-Research in the Digital Age'},
+        'name': 'Cultural Heritage - Research in the Digital Age'},
     '2024-01-13': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -62,14 +54,21 @@ upcoming = {
 
 past = {
     '2023': {
+        '2023-06-14': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'Austrian Academy of Sciences',
+            'name': 'goINDIGO 2023 - International graffiti symposium',
+            'title':
+                'The Data Crew - Archive with ARCHE and enrich with OpenAtlas',
+            'link': 'https://go-indigo.eu/'},
         '2023-02-23': {
             'country': 'Austria',
             'city': 'Vienna',
             'institute': 'University of Vienna, Department of Art History',
             'name': 'Shahi project workshop',
             'title': 'OpenAtlas and Shahi',
-            'docs': {'Presentation': '2023-02-23_shahi.pdf'}},
-    },
+            'docs': {'Presentation': '2023-02-23_shahi.pdf'}}},
     '2022': {
         '2022-12-13': {
             'country': 'Austria',
