@@ -27,6 +27,15 @@ upcoming = {
         'city': 'Vienna',
         'institute': 'Augarten at 16:00',
         'title': 'OpenAtlas Summer Meeting 2023'},
+    '2023-08-09': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'title': 'OpenAtlas - A Database System for the Humanities and Beyond',
+        'link':
+            'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
+            'meet-the-researchers-programme',
+        'name': 'Meet the Researchers'},
     '2023-09-27': {
         'country': 'United Kingdom',
         'city': 'Oxford',
