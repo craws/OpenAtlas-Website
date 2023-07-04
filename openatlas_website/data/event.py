@@ -8,7 +8,8 @@ upcoming = {
             '<span style="font-weight:normal;">Round table:</span> '
             'Networked Data: Digital Environments for Collecting, Managing, '
             'and Analysing Relational Data in Medieval Studies',
-        'link': 'https://www.imc.leeds.ac.uk/imc-2023'},
+        'link': 'https://www.imc.leeds.ac.uk/imc-2023',
+        'docs': {'Presentation': '2023-07-04_leeds.pdf'}},
     '2023-07-12': {
         'country': 'Austria',
         'city': 'Graz',
