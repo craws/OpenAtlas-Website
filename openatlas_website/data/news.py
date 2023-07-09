@@ -20,7 +20,7 @@ news_ = {
             'date': '2023-04-27',
             'title': 'New OpenAtlas cooperation with bITEM',
             'text':
-                'We are happy to announce a new cooperation with bITEM '
+                'We are happy to announce a new cooperation with bITEM.'
                 '<br>You can find more details at the '
                 '<a target="_blank" href="/projects">projects</a> page.'},
         '2023-04-01': {

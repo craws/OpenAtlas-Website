@@ -1,15 +1,4 @@
 upcoming = {
-    '2023-07-04': {
-        'country': 'United Kingdom',
-        'city': 'Leeds',
-        'institute': 'University of Leeds',
-        'name': 'International Medieval Congress 2023',
-        'title':
-            '<span style="font-weight:normal;">Round table:</span> '
-            'Networked Data: Digital Environments for Collecting, Managing, '
-            'and Analysing Relational Data in Medieval Studies',
-        'link': 'https://www.imc.leeds.ac.uk/imc-2023',
-        'docs': {'Presentation': '2023-07-04_leeds.pdf'}},
     '2023-07-12': {
         'country': 'Austria',
         'city': 'Graz',
@@ -22,7 +11,8 @@ upcoming = {
             '<span style="font-weight:normal;">Poster:</span> How to be '
             'flexible - OpenAtlas as Highly Adaptable Database Software in '
             'the Scope of Digital Humanities',
-        'link': 'https://dh2023.adho.org/'},
+        'link': 'https://dh2023.adho.org/',
+        'docs': {'Poster': '2023-07-11_dh_poster.pdf'}},
     '2023-07-27': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -64,6 +54,17 @@ upcoming = {
 
 past = {
     '2023': {
+        '2023-07-04': {
+            'country': 'United Kingdom',
+            'city': 'Leeds',
+            'institute': 'University of Leeds',
+            'name': 'International Medieval Congress 2023',
+            'title':
+                '<span style="font-weight:normal;">Round table:</span> '
+                'Networked Data: Digital Environments for Collecting, '
+                'Managing, and Analysing Relational Data in Medieval Studies',
+            'link': 'https://www.imc.leeds.ac.uk/imc-2023',
+            'docs': {'Presentation': '2023-07-04_leeds.pdf'}},
         '2023-06-14': {
             'country': 'Austria',
             'city': 'Vienna',
@@ -151,7 +152,7 @@ past = {
                 'Medieval Borders in the Digital Age<br>'
                 '<span style="font-weight:normal;">Paper:</span> Tearing Down '
                 'Borders between Disciplines in a Digital '
-                'Age<br><span style="font-weight:normal;">Round Table:</span> '
+                'Age<br><span style="font-weight:normal;">Round table:</span> '
                 'Digitising Late Antique Letter Collections in the '
                 'ERC CONNEC Project'},
         '2022-07-05': {
@@ -238,18 +239,9 @@ past = {
             'name': 'International Medieval Congress 2021',
             'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
             'title':
-                'Digital Tools for Historical Research: '
-                'A Round Table Discussion',
+                '<span style="font-weight:normal;">Round table:</span> '
+                'Digital Tools for Historical Research',
             'docs': {'Presentation': '2021-07-08_leeds_round_table.pdf'}},
-        '2021-07-05 ': {
-            'country': 'United Kingdom',
-            'city': 'Leeds',
-            'institute': 'University of Leeds',
-            'name': 'International Medieval Congress 2021',
-            'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
-            'title':
-                'OpenAtlas - How to Visualise Historical Points in '
-                'Space and Time'},
         '2021-07-05': {
             'country': 'United Kingdom',
             'city': 'Leeds',
@@ -257,7 +249,11 @@ past = {
             'name': 'International Medieval Congress 2021',
             'link': 'https://www.imc.leeds.ac.uk/imc-2021/',
             'title':
+                '<span style="font-weight:normal;">Paper:</span> '
                 'OpenAtlas - How to Reference Historical Points in '
+                'Space and Time<br>'
+                '<span style="font-weight:normal;">Paper:</span> '
+                'OpenAtlas - How to Visualise Historical Points in '
                 'Space and Time',
             'docs': {'Presentation': '2021-07-05_leeds.pdf'}},
         '2021-06-17': {
