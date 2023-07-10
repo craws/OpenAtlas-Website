@@ -72,7 +72,8 @@ past = {
             'name': 'goINDIGO 2023 - International graffiti symposium',
             'title':
                 'The Data Crew - Archive with ARCHE and enrich with OpenAtlas',
-            'link': 'https://go-indigo.eu/'},
+            'link': 'https://go-indigo.eu/',
+            'docs': {'Presentation': '2023-06-14_goindigo.pdf'}},
         '2023-02-23': {
             'country': 'Austria',
             'city': 'Vienna',
