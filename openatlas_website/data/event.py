@@ -1,24 +1,10 @@
 upcoming = {
-    '2023-07-12': {
-        'country': 'Austria',
-        'city': 'Graz',
-        'institute': 'University of Graz',
-        'name': 'Digital Humanities 2023',
-        'title':
-            '<span style="font-weight:normal;">Paper:</span> Age, Sex, and '
-            'Diseases of Dead People - Integrating Anthropological Analysing '
-            'Methods into DH Tools<br>'
-            '<span style="font-weight:normal;">Poster:</span> How to be '
-            'flexible - OpenAtlas as Highly Adaptable Database Software in '
-            'the Scope of Digital Humanities',
-        'link': 'https://dh2023.adho.org/',
-        'docs': {'Poster': '2023-07-11_dh_poster.pdf'}},
     '2023-07-27': {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'Augarten at 16:00',
         'title': 'OpenAtlas Summer Meeting 2023'},
-    '2023-08-27': {
+    '2023-08-23': {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'Austrian Academy of Sciences',
@@ -43,7 +29,8 @@ upcoming = {
         'institute': 'Austrian Academy of Sciences',
         'title': 'OpenAtlas - A Database System for the Humanities and Beyond',
         'link': 'https://www.oeaw.ac.at/de/acdh/events/chda',
-        'name': 'Cultural Heritage - Research in the Digital Age'},
+        'name': 'Cultural Heritage - Research in the Digital Age',
+        'docs': {'Poster': 'openatlas_poster.pdf'}},
     '2024-01-13': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -54,6 +41,20 @@ upcoming = {
 
 past = {
     '2023': {
+        '2023-07-12': {
+            'country': 'Austria',
+            'city': 'Graz',
+            'institute': 'University of Graz',
+            'name': 'Digital Humanities 2023',
+            'title':
+                '<span style="font-weight:normal;">Paper:</span> Age, Sex, '
+                'and Diseases of Dead People - Integrating Anthropological '
+                'Analysing Methods into DH Tools<br>'
+                '<span style="font-weight:normal;">Poster:</span> How to be '
+                'flexible - OpenAtlas as Highly Adaptable Database Software '
+                'in the Scope of Digital Humanities',
+            'link': 'https://dh2023.adho.org/',
+            'docs': {'Poster': 'openatlas_poster.pdf'}},
         '2023-07-04': {
             'country': 'United Kingdom',
             'city': 'Leeds',
