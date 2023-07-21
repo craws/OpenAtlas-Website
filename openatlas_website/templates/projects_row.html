@@ -17,6 +17,10 @@
     <p>
       <span style="font-weight: bold;">{{ name }}</span><br>
       {{ project.duration }}, PI: {{ project.pi }}
+      {% if project.frontend %}
+          <br>Resulting project data can be explored at the
+          <a target="_blank" href="{{ project.frontend }}">presentation site</a>.
+      {% endif %}
     </p>
     <p>
       {% if not project.full_name.startswith('The') %}The {% endif %}

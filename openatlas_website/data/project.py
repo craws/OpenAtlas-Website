@@ -81,6 +81,7 @@ current = {
             'lives and deaths of the people.'},
     'Shahi': {
         'url': 'https://shahimaterialculture.univie.ac.at/',
+        'frontend': 'https://shahi.acdh.oeaw.ac.at/',
         'full_name':
             'Cultural Formation and Transformation: Shahi Art and Architecture'
             ' from Afghanistan to the West Tibetan Frontier at the Dawn of the'
@@ -100,10 +101,7 @@ current = {
             'archaeological evidence--suggests that the Hindu-Buddhist culture'
             ' survived through the end of the first millennium and gradually '
             'evolved towards an Islamic culture at the start of the second '
-            'millennium.<br>'
-            'Resulting project data can be explored at '
-            '<a target="_blank" href="https://shahi.acdh.oeaw.ac.at/">'
-            'shahi.acdh.oeaw.ac.at</a>.'},
+            'millennium.'},
     'MEDCEM': {
         'url': 'https://thanados.net/about/medcem',
         'full_name':
@@ -158,6 +156,7 @@ current = {
 concluded = {
     'THANADOS': {
         'url': 'https://thanados.net',
+        'frontend': 'https://thanados.net',
         'full_name':
             'The Anthropological and Archaeological Database of Sepultures',
         'img': 'thanados.png',
@@ -172,6 +171,7 @@ concluded = {
             'digital humanities.'},
     'CONNEC': {
         'url': 'http://www.connectedclerics.com/',
+        'frontend': 'https://discover-connec.openatlas.eu/',
         'full_name':
             'Connected Clerics: Building a Universal Church in the Late '
             'Antique West (380-604 CE)',
@@ -184,10 +184,7 @@ concluded = {
             'analyses how a ‘universal’ Late Antique Church was constructed '
             'despite the context of political fragmentation that precipitated '
             'the end of the Western  Roman Empire and its division into '
-            'smaller polities.<br>'
-            'Resulting project data can be explored at '
-            '<a target="_blank" href="https://discover-connec.openatlas.eu/">'
-            'discover-connec.openatlas.eu</a>.'},
+            'smaller polities.'},
     'Moving Byzantium': {
         'url':
             'https://www.oeaw.ac.at/en/imafo/research/byzantine-research/'
@@ -207,6 +204,7 @@ concluded = {
             ' its own tradition.'},
     'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)': {
         'url': 'https://orthodoxes-wien.oeaw.ac.at/',
+        'frontend': 'https://geoportal.orthodoxes-europa.at/',
         'full_name':
             'A Digital Geoportal of the History of the Serbs '
             'in Vienna (1741-1918)',
@@ -222,10 +220,7 @@ concluded = {
             'between 1741 and 1918 in order to illustrate how Orthodox people '
             'began to migrate into the Habsburg Empire, how Orthodox '
             'merchants settled in Vienna and how they were integrated into '
-            'Viennese society of  that time.<br>'
-            'Resulting project data can be explored at <a target="_blank" '
-            'href="https://geoportal.orthodoxes-europa.at/">'
-            'geoportal.orthodoxes-europa.at</a>.'},
+            'Viennese society of  that time.'},
     'DPP': {
         'url': 'https://dpp.oeaw.ac.at/',
         'full_name': 'Digitising Patterns of Power',
