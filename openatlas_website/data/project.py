@@ -104,6 +104,7 @@ current = {
             'millennium.'},
     'MEDCEM': {
         'url': 'https://thanados.net/about/medcem',
+        'frontend': 'https://thanados.net/',
         'full_name':
             'Medieval Cemeteries at the Periphery of the Carolingian World',
         'img': 'medcem.png',
@@ -120,7 +121,7 @@ current = {
             'well as charts and plots are created dynamically based on real '
             'archaeological research data.'},
     'MOP': {
-        'url': 'https://oeaw.academia.edu/MapsofPower',
+        'url': 'https://maps-of-power.oeaw.ac.at/',
         'full_name':
             'Maps of Power: Historical Atlas of Places, Borderzones and '
             'Migration Dynamics in Byzantium',
