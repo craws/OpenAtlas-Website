@@ -1,9 +1,4 @@
 upcoming = {
-    '2023-07-27': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Augarten at 16:00',
-        'title': 'OpenAtlas Summer Meeting 2023'},
     '2023-08-23': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -41,6 +36,11 @@ upcoming = {
 
 past = {
     '2023': {
+        '2023-07-27': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'Augarten',
+            'title': 'OpenAtlas Summer Meeting 2023'},
         '2023-07-12': {
             'country': 'Austria',
             'city': 'Graz',
