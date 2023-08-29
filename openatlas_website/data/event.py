@@ -1,13 +1,4 @@
 upcoming = {
-    '2023-08-23': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Austrian Academy of Sciences',
-        'title': 'OpenAtlas - A Database System for the Humanities and Beyond',
-        'link':
-            'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
-            'meet-the-researchers-programme',
-        'name': 'Meet the Researchers'},
     '2023-09-27': {
         'country': 'United Kingdom',
         'city': 'Oxford',
@@ -36,6 +27,19 @@ upcoming = {
 
 past = {
     '2023': {
+        '2023-08-23': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'Austrian Academy of Sciences',
+            'name': 'Meet the Researchers',
+            'title':
+                'OpenAtlas - A Database System for the Humanities and Beyond',
+            'docs': {
+                'Presentation':
+                '2023-08-13_openatlas_meet_the_researcher.pdf'},
+            'link':
+                'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
+                'meet-the-researchers-programme'},
         '2023-07-27': {
             'country': 'Austria',
             'city': 'Vienna',
