@@ -1,4 +1,13 @@
 upcoming = {
+    '2023-09-19': {
+        'country': 'Serbia',
+        'city': 'Belgrade',
+        'institute': 'Serbian Academy of Sciences and Arts',
+        'title': 'OpenAtlas - A Database System for the Humanities and Beyond',
+        'name':
+        'From Barbarians to Christians and Rhomaioi. The Process of '
+        'Byzantinization in the Central Balkans (Late 10th-Mid-13th Century).'
+        },
     '2023-09-27': {
         'country': 'United Kingdom',
         'city': 'Oxford',
