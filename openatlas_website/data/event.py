@@ -7,18 +7,17 @@ upcoming = {
         'name':
         'From Barbarians to Christians and Rhomaioi. The Process of '
         'Byzantinization in the Central Balkans (Late 10th-Mid-13th Century).'
-        },
-    '2023-09-27': {
+    },
+    '2023-09-28': {
         'country': 'United Kingdom',
         'city': 'Oxford',
         'institute': 'University of Oxford',
         'title':
             'How to Digitally Map Sex and Gender in Research Projects - '
             'Pitfalls and Solutions',
-        'name':
-            'The History of a Special Relationship: Women, Eunuchs and '
-            'Medieval Mount Athos'},
-    '2023-10-24': {
+        'name': 'A Special Relationship? Gender on Medieval Mount Athos',
+        'docs': {'Program': '2023-09-27_athos_and_gender_program.pdf'}},
+    '2023-10-25': {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'Austrian Academy of Sciences',
