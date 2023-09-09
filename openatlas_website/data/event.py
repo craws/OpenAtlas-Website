@@ -1,24 +1,23 @@
 upcoming = {
-    '2023-08-23': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Austrian Academy of Sciences',
+    '2023-09-19': {
+        'country': 'Serbia',
+        'city': 'Belgrade',
+        'institute': 'Serbian Academy of Sciences and Arts',
         'title': 'OpenAtlas - A Database System for the Humanities and Beyond',
-        'link':
-            'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
-            'meet-the-researchers-programme',
-        'name': 'Meet the Researchers'},
-    '2023-09-27': {
+        'name':
+        'From Barbarians to Christians and Rhomaioi. The Process of '
+        'Byzantinization in the Central Balkans (Late 10th-Mid-13th Century).'
+    },
+    '2023-09-28': {
         'country': 'United Kingdom',
         'city': 'Oxford',
         'institute': 'University of Oxford',
         'title':
             'How to Digitally Map Sex and Gender in Research Projects - '
             'Pitfalls and Solutions',
-        'name':
-            'The History of a Special Relationship: Women, Eunuchs and '
-            'Medieval Mount Athos'},
-    '2023-10-24': {
+        'name': 'A Special Relationship? Gender on Medieval Mount Athos',
+        'docs': {'Program': '2023-09-27_athos_and_gender_program.pdf'}},
+    '2023-10-25': {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'Austrian Academy of Sciences',
@@ -36,6 +35,19 @@ upcoming = {
 
 past = {
     '2023': {
+        '2023-08-23': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'Austrian Academy of Sciences',
+            'name': 'Meet the Researchers',
+            'title':
+                'OpenAtlas - A Database System for the Humanities and Beyond',
+            'docs': {
+                'Presentation':
+                '2023-08-13_openatlas_meet_the_researcher.pdf'},
+            'link':
+                'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
+                'meet-the-researchers-programme'},
         '2023-07-27': {
             'country': 'Austria',
             'city': 'Vienna',
