@@ -10,8 +10,10 @@ news_ = {
     'News': {
         '2023-09-09': {
             'date': '2023-09-09',
-            'title': 'OpenAtlas version 7.16.0',
-            'text': release_text(33)},
+            'title': 'OpenAtlas version 7.16.0 and a welcome',
+            'text': release_text(33) +
+            '<br>And a warm welcome to our new frontend developer '
+            'Olivia Reichl.'},
         '2023-07-22': {
             'date': '2023-07-22',
             'title': 'OpenAtlas version 7.15.0',
