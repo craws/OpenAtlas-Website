@@ -49,6 +49,15 @@ team = {
             'life objects.',
         'img': 'mocca.jpg',
         'image_license': 'CC-BY 4.0, Moritz Großfurtner'},
+    'Olivia Reichl': {
+        'email': 'olivia.reichl@oeaw.ac.at',
+        'function': 'Frontend Development',
+        'text':
+            'Olivia is a frontend developer for OpenAtlas. She graduated '
+            'at the TU Wien / Technical University of '
+            'Vienna in computer science, with a focus on medical informatics.',
+        'img': 'olivia.jpg',
+        'image_license': 'CC-BY 4.0, Oliver Reichl'},
     'Veronika Gründhammer': {
         'email': 'veronika.gruendhammer@oeaw.ac.at',
         'function': 'Project Administration',
