@@ -122,24 +122,21 @@ current = {
             'archaeological research data.'},
     'MOP': {
         'url': 'https://maps-of-power.oeaw.ac.at/',
-        'full_name':
-            'Maps of Power: Historical Atlas of Places, Borderzones and '
-            'Migration Dynamics in Byzantium',
-        'img': 'digtib.jpg',
+        'full_name': 'Maps of Power',
+        'img': 'mop.jpg',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
-        'pi':
-            'Mihailo Popović (TIB PI: Balkans), '
-            'Andreas Külzer (TIB PI: Asia Minor)',
+        'pi': 'Mihailo St. Popović',
         'duration': '2019 - ongoing',
         'institutes':
             ['OEAW', 'IMAFO', 'FWF', 'Byzantine Research', 'TIB', 'UAI'],
         'text':
-            'is a sub-project of the Long-Term Project Tabula Imperii '
-            'Byzantini (TIB) and part of the DigTIB initiative of the Austrian'
-            ' Academy of Sciences in Vienna. It creates, develops and upkeeps '
-            'an online atlas of the Byzantine World. Selected parts from the '
-            'rich data pool provided by TIB are extracted in order to '
-            'digitally address new scholarly questions and methods.'},
+            'is a research initiative that serves the methodological '
+            'and interdisciplinary networking of scholars from the field of '
+            'Historical Geography. It focuses on Historical Ecology, Sacred '
+            'Topography and Cultural Heritage and sees itself as a scholarly '
+            'platform that implements its own projects based on OpenAtlas as '
+            'well as networks in an interdisciplinary fashion through joint '
+            'projects.'},
     'PLAS': {
         'url': '',
         'full_name': 'The Prosopography of the Lascarid Period',
