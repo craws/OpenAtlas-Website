@@ -1,13 +1,4 @@
 upcoming = {
-    '2023-09-19': {
-        'country': 'Serbia',
-        'city': 'Belgrade',
-        'institute': 'Serbian Academy of Sciences and Arts',
-        'title': 'OpenAtlas - A Database System for the Humanities and Beyond',
-        'name':
-        'From Barbarians to Christians and Rhomaioi. The Process of '
-        'Byzantinization in the Central Balkans (Late 10th-Mid-13th Century).'
-    },
     '2023-09-28': {
         'country': 'United Kingdom',
         'city': 'Oxford',
@@ -16,7 +7,10 @@ upcoming = {
             'How to Digitally Map Sex and Gender in Research Projects - '
             'Pitfalls and Solutions',
         'name': 'A Special Relationship? Gender on Medieval Mount Athos',
-        'docs': {'Program': '2023-09-27_athos_and_gender_program.pdf'}},
+        'docs': {
+            'Program': '2023-09-27_athos_and_gender_program.pdf',
+            'Presentation':
+                '2023-09-27_how_to_digitally_map_sex_and_gender.pdf'}},
     '2023-10-25': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -35,6 +29,16 @@ upcoming = {
 
 past = {
     '2023': {
+        '2023-09-19': {
+            'country': 'Serbia',
+            'city': 'Belgrade',
+            'institute': 'Serbian Academy of Sciences and Arts',
+            'title':
+                'OpenAtlas - A Database System for the Humanities and Beyond',
+            'name':
+                'From Barbarians to Christians and Rhomaioi. The Process of '
+                'Byzantinization in the Central Balkans (Late 10th-Mid-13th '
+                'Century).'},
         '2023-08-23': {
             'country': 'Austria',
             'city': 'Vienna',
@@ -44,7 +48,7 @@ past = {
                 'OpenAtlas - A Database System for the Humanities and Beyond',
             'docs': {
                 'Presentation':
-                '2023-08-13_openatlas_meet_the_researcher.pdf'},
+                    '2023-08-13_openatlas_meet_the_researcher.pdf'},
             'link':
                 'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
                 'meet-the-researchers-programme'},
