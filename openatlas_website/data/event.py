@@ -38,7 +38,10 @@ past = {
             'name':
                 'From Barbarians to Christians and Rhomaioi. The Process of '
                 'Byzantinization in the Central Balkans (Late 10th-Mid-13th '
-                'Century).'},
+                'Century).',
+            'docs': {
+                'Presentation':
+                    '2023-09-19_Barbarians_to_Christians_and_Rhomaioi.pdf'}},
         '2023-08-23': {
             'country': 'Austria',
             'city': 'Vienna',
