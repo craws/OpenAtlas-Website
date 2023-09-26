@@ -2,10 +2,13 @@ upcoming = {
     '2023-09-28': {
         'country': 'United Kingdom',
         'city': 'Oxford',
-        'institute': 'University of Oxford',
+        'institute': "Maison Française d'Oxford",
         'title':
             'How to Digitally Map Sex and Gender in Research Projects - '
             'Pitfalls and Solutions',
+        'link':
+            'https://mfo.web.ox.ac.uk/event/special-relationship-gender-'
+            'medieval-mount-athos',
         'name': 'A Special Relationship? Gender on Medieval Mount Athos',
         'docs': {
             'Program': '2023-09-27_athos_and_gender_program.pdf',
