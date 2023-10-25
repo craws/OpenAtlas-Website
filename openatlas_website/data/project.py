@@ -168,8 +168,8 @@ concluded = {
             ' It combines the three disciplines archaeology, anthropology and '
             'digital humanities.'},
     'CONNEC': {
-        'url': 'http://www.connectedclerics.com/',
-        'frontend': 'https://discover-connec.openatlas.eu/',
+        'url': 'https://connectedclerics.com/',
+        'frontend': 'https://connectedclerics.com/',
         'full_name':
             'Connected Clerics: Building a Universal Church in the Late '
             'Antique West (380-604 CE)',
