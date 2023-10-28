@@ -1,12 +1,4 @@
 upcoming = {
-    '2023-10-25': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Austrian Academy of Sciences',
-        'title': 'OpenAtlas - A Database System for the Humanities and Beyond',
-        'link': 'https://www.oeaw.ac.at/de/acdh/events/chda',
-        'name': 'Cultural Heritage - Research in the Digital Age',
-        'docs': {'Poster': 'openatlas_poster.pdf'}},
     '2024-01-13': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -17,6 +9,15 @@ upcoming = {
 
 past = {
     '2023': {
+        '2023-10-25': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'Austrian Academy of Sciences',
+            'title':
+                'OpenAtlas - A Database System for the Humanities and Beyond',
+            'link': 'https://www.oeaw.ac.at/de/acdh/events/chda',
+            'name': 'Cultural Heritage - Research in the Digital Age',
+            'docs': {'Poster': 'openatlas_poster.pdf'}},
         '2023-09-28': {
             'country': 'United Kingdom',
             'city': 'Oxford',
