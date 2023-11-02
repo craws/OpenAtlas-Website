@@ -97,6 +97,10 @@ institutes = {
         'name': 'National Library of Serbia',
         'url': 'https://www.nb.rs',
         'logo': 'nls.jpg'},
+    'Novetus': {
+        'name': 'Novetus',
+        'url': 'https://www.novetus.at/',
+        'logo': 'novetus.svg'},
     'OeAI': {
         'name': 'Austrian Archaeological Institute',
         'url': 'https://www.oeaw.ac.at/oeai/',

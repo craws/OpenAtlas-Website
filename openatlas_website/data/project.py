@@ -1,4 +1,21 @@
 current = {
+    'FemCareVienna': {
+            'url': 'https://discover-femcarevienna.openatlas.eu/',
+            'full_name': 'FemCareVienna',
+            'img': 'femcare.jpg',
+            'image_license': 'CC-BY-SA 4.0, Jasmin Hangartner/ Novetus GmbH',
+            'pi': 'Michaela Binder',
+            'duration': '2023 - 2026',
+            'institutes': ['Novetus', 'OEAW', 'ACDH'],
+            'text':
+                '(FWF individual grant P 36459-G) aims to elucidate the '
+                'history of medical care for woman through an '
+                'interdisciplinary study of the historical and '
+                'bioarchaeological record pertaining to the Hospital of the '
+                'Elisabethians in Vienna. Central to the project are the life '
+                'histories of 390 patients from the 18th century whose '
+                'skeletal human remains were excavated from the hospital '
+                'cemetery.'},
     'bITEM': {
         'url': 'https://bitem.at',
         'full_name': 'Beyond the Item',
@@ -8,7 +25,7 @@ current = {
         'duration': '2023 - 2025',
         'institutes': ['NHM', 'LBI', 'OEAW', 'ACDH'],
         'text':
-            'The bITEM project - short for Beyond the Item - Biographies and '
+            ' - short for Beyond the Item - Biographies and '
             'Itineraries of Cultural Heritage Objects in Museums and beyond - '
             'aims to present well-known museum objects in a state-of-the-art '
             'web application that is freely accessible online. The objects '
