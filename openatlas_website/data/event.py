@@ -2,7 +2,7 @@ upcoming = {
     '2024-01-13': {
         'country': 'Austria',
         'city': 'Vienna',
-        'institute': 'Austrian Academy of Sciences',
+        'institute': 'Vienna Wiesenthal Institute (VWI)',
         'title': 'OpenAtlas – A Database System for the Humanities and Beyond',
         'name': 'EHRI-AT Methodological Seminar'}
 }
