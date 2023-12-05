@@ -186,7 +186,7 @@ concluded = {
             'digital humanities.'},
     'CONNEC': {
         'url': 'https://connectedclerics.com/',
-        'frontend': 'https://connectedclerics.com/',
+        'frontend': 'https://discover-connec.openatlas.eu/',
         'full_name':
             'Connected Clerics: Building a Universal Church in the Late '
             'Antique West (380-604 CE)',
