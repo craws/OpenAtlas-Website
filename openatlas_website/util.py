@@ -9,17 +9,17 @@ from openatlas_website.data.team import team
 
 @app.context_processor
 def inject_menu() -> dict[str, Any]:
-    return dict(
-        menu=[
+    return {
+        'menu': [
             {'name': 'about', 'to': url_for('about')},
             {'name': 'projects', 'to': url_for('projects')},
             {'name': 'cooperation', 'to': url_for('cooperation')},
             {'name': 'team', 'to': url_for('team')},
             {'name': 'events', 'to': url_for('events')}],
-        content=[
+        'content': [
             'about', 'projects', 'cooperation', 'software', 'team', 'events',
             'news', 'mission_statement'],
-        documentation_links=[
+        'documentation_links': [
             {'name': 'Features',
              'to': 'https://manual.openatlas.eu/features.html'},
             {'name': 'Manual',
@@ -30,11 +30,11 @@ def inject_menu() -> dict[str, Any]:
              'to': 'https://demo.openatlas.eu/overview/model'},
             {'name': 'Code',
              'to': 'https://github.com/craws/OpenAtlas'}],
-        demo_links=[
+        'demo_links': [
             {'name': 'Demo',
              'to': 'https://demo.openatlas.eu'},
             {'name': 'Development Demo',
-             'to': 'https://demo-dev.openatlas.eu'}])
+             'to': 'https://demo-dev.openatlas.eu'}]}
 
 
 @app.template_filter()
