@@ -1,21 +1,20 @@
 current = {
     'FemCareVienna': {
-            'url': 'https://discover-femcarevienna.openatlas.eu/',
-            'full_name': 'FemCareVienna',
-            'img': 'femcare.jpg',
-            'image_license': 'CC-BY-SA 4.0, Jasmin Hangartner/ Novetus GmbH',
-            'pi': 'Michaela Binder',
-            'duration': '2023 - 2026',
-            'institutes': ['Novetus', 'OEAW', 'ACDH'],
-            'text':
-                '(FWF individual grant P 36459-G) aims to elucidate the '
-                'history of medical care for woman through an '
-                'interdisciplinary study of the historical and '
-                'bioarchaeological record pertaining to the Hospital of the '
-                'Elisabethians in Vienna. Central to the project are the life '
-                'histories of 390 patients from the 18th century whose '
-                'skeletal human remains were excavated from the hospital '
-                'cemetery.'},
+        'url': 'https://discover-femcarevienna.openatlas.eu/',
+        'full_name': 'FemCareVienna',
+        'img': 'femcare.jpg',
+        'image_license': 'CC-BY-SA 4.0, Jasmin Hangartner/ Novetus GmbH',
+        'pi': 'Michaela Binder',
+        'duration': '2023 - 2026',
+        'institutes': ['Novetus', 'OEAW', 'ACDH'],
+        'text':
+            '(FWF individual grant P 36459-G) aims to elucidate the history '
+            'of medical care for woman through an interdisciplinary study of '
+            'the historical and bioarchaeological record pertaining to the '
+            'Hospital of the Elisabethians in Vienna. Central to the project '
+            'are the life histories of 390 patients from the 18th century '
+            'whose skeletal human remains were excavated from the hospital '
+            'cemetery.'},
     'bITEM': {
         'url': 'https://bitem.at',
         'full_name': 'Beyond the Item',
@@ -51,20 +50,6 @@ current = {
             'reception of Byzantium by humanists from the Holy Roman Empire in'
             ' the 16th century, when the former Byzantine capital was the seat'
             ' of the Ottoman Empire.'},
-    'INDIGO': {
-        'url': 'https://projectindigo.eu',
-        'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
-        'img': 'indigo.jpeg',
-        'image_license': 'CC-BY-SA 4.0, Geert Verhoeven',
-        'pi': 'Geert Verhoeven, Norbert Pfeifer',
-        'duration': '2021 - 2023',
-        'institutes': [
-            'LBI', 'TUGG', 'OEAW', 'ACDH', 'Wien', 'SprayCity', 'GIFLE',
-            'VRVIS'],
-        'text':
-            'aims to build the basis to systematically document, monitor, '
-            'disseminate, and analyse 7 km of graffiti along Vienna’s Danube '
-            'Canal in the next decade.'},
     'MAMEMS': {
         'url': 'https://mamems.uni-mainz.de/',
         'full_name':
@@ -96,29 +81,6 @@ current = {
             ' antique cemeteries on the Danube Limes and its hinterland '
             'between Passau and Budapest to gain deeper insights into the '
             'lives and deaths of the people.'},
-    'Shahi': {
-        'url': 'https://shahimaterialculture.univie.ac.at/',
-        'frontend': 'https://shahi.acdh.oeaw.ac.at/',
-        'full_name':
-            'Cultural Formation and Transformation: Shahi Art and Architecture'
-            ' from Afghanistan to the West Tibetan Frontier at the Dawn of the'
-            ' Islamic Era',
-        'img': 'shahi.jpg',
-        'image_license': '',
-        'pi':
-            'Deborah Klimburg-Salter;'
-            'National research partner: Michael Alram',
-        'duration': '2018 - 2023',
-        'institutes': ['univie', 'OEAW', 'ACDH', 'FWF', 'KHM', 'CIRDIS'],
-        'text':
-            '(FWF, P-31246) considers for the first time the Shahi kingdoms '
-            '(c. 7th-10th centuries) which played a pivotal role in the '
-            'history of Central, Inner, and South Asia. Our ongoing research '
-            'on the primary source material--artifacts, coins, inscriptions, '
-            'archaeological evidence--suggests that the Hindu-Buddhist culture'
-            ' survived through the end of the first millennium and gradually '
-            'evolved towards an Islamic culture at the start of the second '
-            'millennium.'},
     'MEDCEM': {
         'url': 'https://thanados.net/about/medcem',
         'frontend': 'https://thanados.net/',
@@ -169,6 +131,43 @@ current = {
             'first half of the 13th century and mapping the complexities of a '
             'society in transition.'}}
 concluded = {
+    'Shahi': {
+        'url': 'https://shahimaterialculture.univie.ac.at/',
+        'frontend': 'https://shahi.acdh.oeaw.ac.at/',
+        'full_name':
+            'Cultural Formation and Transformation: Shahi Art and Architecture'
+            ' from Afghanistan to the West Tibetan Frontier at the Dawn of the'
+            ' Islamic Era',
+        'img': 'shahi.jpg',
+        'image_license': '',
+        'pi':
+            'Deborah Klimburg-Salter;'
+            'National research partner: Michael Alram',
+        'duration': '2018 - 2023',
+        'institutes': ['univie', 'OEAW', 'ACDH', 'FWF', 'KHM', 'CIRDIS'],
+        'text':
+            '(FWF, P-31246) considers for the first time the Shahi kingdoms '
+            '(c. 7th-10th centuries) which played a pivotal role in the '
+            'history of Central, Inner, and South Asia. Our ongoing research '
+            'on the primary source material--artifacts, coins, inscriptions, '
+            'archaeological evidence--suggests that the Hindu-Buddhist culture'
+            ' survived through the end of the first millennium and gradually '
+            'evolved towards an Islamic culture at the start of the second '
+            'millennium.'},
+    'INDIGO': {
+        'url': 'https://projectindigo.eu',
+        'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
+        'img': 'indigo.jpeg',
+        'image_license': 'CC-BY-SA 4.0, Geert Verhoeven',
+        'pi': 'Geert Verhoeven, Norbert Pfeifer',
+        'duration': '2021 - 2023',
+        'institutes': [
+            'LBI', 'TUGG', 'OEAW', 'ACDH', 'Wien', 'SprayCity', 'GIFLE',
+            'VRVIS'],
+        'text':
+            'aims to build the basis to systematically document, monitor, '
+            'disseminate, and analyse 7 km of graffiti along Vienna’s Danube '
+            'Canal in the next decade.'},
     'THANADOS': {
         'url': 'https://thanados.net',
         'frontend': 'https://thanados.net',
