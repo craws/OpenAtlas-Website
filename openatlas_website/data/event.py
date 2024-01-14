@@ -4,8 +4,18 @@ upcoming = {
         'city': 'Vienna',
         'institute': 'Vienna Wiesenthal Institute (VWI)',
         'title': 'OpenAtlas – A Database System for the Humanities and Beyond',
-        'name': 'EHRI-AT Methodological Seminar'}
+        'name': 'EHRI-AT Methodological Seminar',
+        'docs': {
+            'Presentation':
+                '2024-01-16_openatlas_an_introduction.pdf'}},
+    '2024-04-23': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'title': 'OpenAtlas – A Database System for the Humanities and Beyond',
+        'name': 'ACDH-CH Research Day “Methods of investigating space”'}
 }
+
 
 past = {
     '2023': {
