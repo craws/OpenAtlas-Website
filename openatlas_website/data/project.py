@@ -33,9 +33,10 @@ current = {
             'story maps are made available.'},
     'Approaching Byzantium': {
         'url':
-            'https://www.byzanz-mainz.de/en/no_cache/research-byzanz/details'
-            '-projects/article/approaching-byzantium-in-ottoman-istanbul-the'
-            '-reception-of-the-byzantine-heritage-of-constantinople-1/',
+            'https://www.byzanz-mainz.de/en/research/project-details/'
+            'approaching-byzantium-in-ottoman-istanbul-the-reception-of-the-'
+            'byzantine-heritage-of-constantinople-by-scholars-from-the-holy-'
+            'roman-empire-in-the-16th-century',
         'full_name':
             'Approaching Byzantium in Ottoman Istanbul: the Reception of the '
             'Byzantine Heritage of Constantinople by Scholars from the Holy '
