@@ -4,7 +4,18 @@ upcoming = {
         'city': 'Vienna',
         'institute': 'Austrian Academy of Sciences',
         'title': 'OpenAtlas – A Database System for the Humanities and Beyond',
-        'name': 'ACDH-CH Research Day “Methods of investigating space”'}}
+        'name': 'ACDH-CH Research Day “Methods of investigating space”'},
+    '2024-05-14': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute':
+            'Austria, Vienna, University of Vienna, '
+            'Faculty of Historical and Cultural Studies',
+        'title': 'OpenAtlas – Ein Datenbank System für die Humanities',
+        'link':
+            'https://publichistoryinvienna.com/'
+            'guest-lectures/public-history-research-seminar/',
+        'name': 'Public History: Oberseminar'}}
 
 past = {
     '2024': {
