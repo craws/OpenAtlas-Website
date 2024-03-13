@@ -4,6 +4,9 @@ upcoming = {
         'city': 'Vienna',
         'institute': 'Austrian Academy of Sciences',
         'title': 'OpenAtlas – A Database System for the Humanities and Beyond',
+        'link':
+            'https://www.oeaw.ac.at/acdh/events/event-series/'
+            'acdh-ch-research-day-3',
         'name': 'ACDH-CH Research Day “Methods of investigating space”'},
     '2024-05-14': {
         'country': 'Austria',
