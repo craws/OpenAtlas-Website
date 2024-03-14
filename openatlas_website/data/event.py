@@ -12,8 +12,7 @@ upcoming = {
         'country': 'Austria',
         'city': 'Vienna',
         'institute':
-            'Austria, Vienna, University of Vienna, '
-            'Faculty of Historical and Cultural Studies',
+            'University of Vienna, Faculty of Historical and Cultural Studies',
         'title': 'OpenAtlas – Ein Datenbank System für die Humanities',
         'link':
             'https://publichistoryinvienna.com/'
