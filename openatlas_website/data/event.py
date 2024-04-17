@@ -23,7 +23,13 @@ upcoming = {
         'link':
             'https://publichistoryinvienna.com/'
             'guest-lectures/public-history-research-seminar/',
-        'name': 'Public History: Oberseminar'}}
+        'name': 'Public History: Oberseminar'},
+    '2024-07-08': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'title': 'OpenAtlas – A Database System for the Humanities and Beyond',
+        'name': 'Meet the Researchers'}}
 
 past = {
     '2024': {
