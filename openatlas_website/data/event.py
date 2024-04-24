@@ -20,7 +20,10 @@ upcoming = {
         'city': 'Vienna',
         'institute': 'Austrian Academy of Sciences',
         'title': 'OpenAtlas – A Database System for the Humanities and Beyond',
-        'name': 'Meet the Researchers'}}
+        'name': 'Meet the Researchers',
+        'link':
+            'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
+            'meet-the-researchers-programme'}}
 
 past = {
     '2024': {
