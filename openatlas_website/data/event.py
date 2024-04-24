@@ -1,14 +1,4 @@
 upcoming = {
-    '2024-04-23': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Austrian Academy of Sciences',
-        'title': 'OpenAtlas – A Database System for the Humanities and Beyond',
-        'link':
-            'https://www.oeaw.ac.at/acdh/events/event-series/'
-            'acdh-ch-research-day-3',
-        'name': 'ACDH-CH Research Day “Methods of investigating space”',
-        'docs': {'Presentation': '2024-04-23_acdh_research_day.pdf'}},
     '2024-04-25': {
         'country': 'Slovakia',
         'city': 'Trnava',
@@ -34,6 +24,17 @@ upcoming = {
 
 past = {
     '2024': {
+        '2024-04-23': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'Austrian Academy of Sciences',
+            'title':
+                'OpenAtlas – A Database System for the Humanities and Beyond',
+            'link':
+                'https://www.oeaw.ac.at/acdh/events/event-series/'
+                'acdh-ch-research-day-3',
+            'name': 'ACDH-CH Research Day “Methods of investigating space”',
+            'docs': {'Presentation': '2024-04-23_acdh_research_day.pdf'}},
         '2024-01-13': {
             'country': 'Austria',
             'city': 'Vienna',
