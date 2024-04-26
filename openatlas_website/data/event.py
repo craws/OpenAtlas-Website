@@ -1,10 +1,4 @@
 upcoming = {
-    '2024-04-25': {
-        'country': 'Slovakia',
-        'city': 'Trnava',
-        'institute': 'University of Trnava',
-        'title': 'OpenAtlas – A Database System for the Humanities and Beyond',
-        'name': 'Seminar at University of Trnava'},
     '2024-05-14': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -27,6 +21,14 @@ upcoming = {
 
 past = {
     '2024': {
+        '2024-04-25': {
+            'country': 'Slovakia',
+            'city': 'Trnava',
+            'institute': 'University of Trnava',
+            'title':
+                'OpenAtlas – A Database System for the Humanities and Beyond',
+            'name': 'Seminar at University of Trnava',
+            'docs': {'Presentation': '2024-04-25_OpenAtlas_Trnava.pdf'}},
         '2024-04-23': {
             'country': 'Austria',
             'city': 'Vienna',
