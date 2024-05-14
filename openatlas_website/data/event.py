@@ -8,7 +8,8 @@ upcoming = {
         'link':
             'https://publichistoryinvienna.com/'
             'guest-lectures/public-history-research-seminar/',
-        'name': 'Public History: Oberseminar'},
+        'name': 'Public History: Oberseminar',
+        'docs': {'Presentation (German)': '2024-05-14_oberseminar.pdf'}},
     '2024-07-08': {
         'country': 'Austria',
         'city': 'Vienna',
