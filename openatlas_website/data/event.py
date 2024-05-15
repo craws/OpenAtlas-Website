@@ -1,15 +1,4 @@
 upcoming = {
-    '2024-05-14': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute':
-            'University of Vienna, Faculty of Historical and Cultural Studies',
-        'title': 'OpenAtlas – Ein Datenbank System für die Humanities',
-        'link':
-            'https://publichistoryinvienna.com/'
-            'guest-lectures/public-history-research-seminar/',
-        'name': 'Public History: Oberseminar',
-        'docs': {'Presentation (German)': '2024-05-14_oberseminar.pdf'}},
     '2024-07-08': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -22,6 +11,18 @@ upcoming = {
 
 past = {
     '2024': {
+        '2024-05-14': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute':
+                'University of Vienna, '
+                'Faculty of Historical and Cultural Studies',
+            'title': 'OpenAtlas – Ein Datenbank System für die Humanities',
+            'link':
+                'https://publichistoryinvienna.com/'
+                'guest-lectures/public-history-research-seminar/',
+            'name': 'Public History: Oberseminar',
+            'docs': {'Presentation (German)': '2024-05-14_oberseminar.pdf'}},
         '2024-04-25': {
             'country': 'Slovakia',
             'city': 'Trnava',
