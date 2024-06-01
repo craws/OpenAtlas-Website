@@ -8,6 +8,10 @@ def release_text(news_id: int) -> str:
 
 news_ = {
     'News': {
+        '2024-06-01': {
+            'date': '2024-06-01',
+            'title': 'OpenAtlas version 8.5.0',
+            'text': release_text(40)},
         '2024-05-05': {
             'date': '2024-05-05',
             'title': 'OpenAtlas version 8.4.0',
