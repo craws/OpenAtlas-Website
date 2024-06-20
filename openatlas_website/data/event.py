@@ -1,9 +1,4 @@
 upcoming = {
-    '2024-06-19': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'WUK',
-        'title': 'OpenAtlas Summer Meeting 2024'},
     '2024-07-08': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -16,6 +11,11 @@ upcoming = {
 
 past = {
     '2024': {
+        '2024-06-19': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'WUK',
+            'title': 'OpenAtlas Summer Meeting 2024'},
         '2024-05-14': {
             'country': 'Austria',
             'city': 'Vienna',
