@@ -23,6 +23,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: install dependencies
       run: |
+        sudo apt update
         sudo apt install python3 python3-flask python3-jinja2
 
     - name: unittest
