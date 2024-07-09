@@ -39,16 +39,6 @@ team = {
             "Python, Linked Open Data, historical geography and GIS.",
         'img': 'bernhard.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
-    'Moritz "Mocca" Großfurtner': {
-        'email': 'moritz.großfurtner@oeaw.ac.at',
-        'function': 'Frontend Development',
-        'text':
-            "Mocca is a frontend developer for OpenAtlas. He's currently "
-            'studying computer science at the TU Vienna and is interested in '
-            'design that is useful and fun to use, be that software or real '
-            'life objects.',
-        'img': 'mocca.jpg',
-        'image_license': 'CC-BY 4.0, Moritz Großfurtner'},
     'Olivia Reichl': {
         'email': 'olivia.reichl@oeaw.ac.at',
         'function': 'Frontend Development',
@@ -58,16 +48,6 @@ team = {
             'Vienna in computer science, with a focus on medical informatics.',
         'img': 'olivia.jpg',
         'image_license': 'CC-BY 4.0, Oliver Reichl'},
-    'Veronika Gründhammer': {
-        'email': 'veronika.gruendhammer@oeaw.ac.at',
-        'function': 'Project Administration',
-        'text':
-            'Veronika provides essential support for cooperations in her role '
-            'as project officer at the '
-            '<a target="_blank" href="https://www.oeaw.ac.at/acdh/">'
-            'ACDH-CH</a>.',
-        'img': 'veronika.jpg',
-        'image_license': 'CC-BY 4.0, Jan Belik'},
     'Jan Belik': {
         'email': 'buero@janbelik.com',
         'function': 'Logo Design and Design Consulting',
