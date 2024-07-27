@@ -16,48 +16,12 @@
   <hr>
   <p>These people supported us in many ways. Our thanks go to all of them.</p>
   <div class="row mb-4">
-    <div class="col">
-      Aleksandra Apic<br>
-      Andreas Olschnögger<br>
-      Asil Çetin<br>
-      Britta Breuers<br>
-      Clément Besnier<br>
-      Christof Rauchenberger<br>
-      Dalibor Pančić<br>
-      Daniel Kittel<br>
-      Ekaterini Mitsiou<br>
-    </div>
-    <div class="col">
-      Enric Rodellas<br>
-      Eugen Hotwagner<br>
-      Johannes Preiser-Kapeller<br>
-      Judith Pucher<br>
-      Katharina Winckler<br>
-      Klaus Illmayer<br>
-      Laura Kremser<br>
-      Ludwig Maximilian Breuer<br>
-      Markus Pluschkovits<br>
-    </div>
-    <div class="col">
-      Mihailo Popović<br>
-      Moritz Großfurtner<br>
-      Nicole Zehetmayer-Lorenz<br>
-      Omar Siam<br>
-      Peter Andorfer<br>
-      Petra Heinicker<br>
-      Roland Filzwieser<br>
-      Sandra Lehecka<br>
-      Saranya Balasubramanian<br>
-    </div>
-    <div class="col">
-      Sebastian Majstorovic<br>
-      Selina Hofbauer<br>
-      Semra Kilic-Dinler<br>
-      Seta Štuhec<br>
-      Silvia Gómez-Senovilla<br>
-      Stefan Probst<br>
-      Veronika Gründhammer<br>
-      Zachary Chitwood<br>
-    </div>
+    {% for column in contributors %}
+      <div class="col">
+        {% for name in column %}
+          {{ name }}<br>
+        {% endfor %}
+      </div>
+    {% endfor %}
   </div>
 {% endblock %}

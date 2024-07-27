@@ -1,7 +1,7 @@
 [MASTER]
 ignore=openatlas_website.wsgi
 disable=C0111  # missing-docstring
-good-names=i,j,k,ex,Run,_,e,js,bc,id,rv,ip  # default is i,j,k,ex,Run,_
+good-names=i,j,k,n,ex,Run,_,e,js,bc,id,rv,ip  # default is i,j,k,ex,Run,_
 
 [FORMAT]
 max-line-length=79

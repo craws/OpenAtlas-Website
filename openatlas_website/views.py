@@ -3,6 +3,7 @@ from typing import Tuple
 from flask import render_template
 
 from openatlas_website import app
+from openatlas_website.data.contributors import get_contributor_lists
 from openatlas_website.data.event import past, upcoming
 from openatlas_website.data.news import news_
 from openatlas_website.data.project import concluded, current
@@ -53,7 +54,7 @@ def software() -> str:
 
 @app.route('/team')
 def team() -> str:
-    return render_template('team.html')
+    return render_template('team.html', contributors=get_contributor_lists())
 
 
 @app.route('/mission')
