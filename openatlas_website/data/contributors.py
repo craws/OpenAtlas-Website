@@ -36,6 +36,7 @@ contributors = [
     'Seta Štuhec',
     'Silvia Gómez-Senovilla',
     'Stefan Probst',
+    'Vera Charvát',
     'Veronika Gründhammer',
     'Zachary Chitwood']
 
