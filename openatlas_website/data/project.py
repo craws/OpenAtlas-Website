@@ -21,8 +21,8 @@ current = {
         'img': 'bitem.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Viola Winkler, Roland Filzwieser',
-        'duration': '2023 - 2025',
-        'institutes': ['NHM', 'LBI', 'OEAW', 'ACDH'],
+        'duration': '2022 - 2024',
+        'institutes': ['NHM', 'LBI', 'VIAS', 'OEAW', 'ACDH'],
         'text':
             ' - short for Beyond the Item - Biographies and '
             'Itineraries of Cultural Heritage Objects in Museums and beyond - '
@@ -61,7 +61,7 @@ current = {
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Zachary Chitwood',
         'duration': '2020 - 2025',
-        'institutes': ['JGU', 'OEAW', 'ACDH', 'ERC'],
+        'institutes': ['JGU', 'LMU', 'OEAW', 'ACDH', 'ERC'],
         'text':
             'will constitute the first comprehensive examination of the '
             'monastic communities of Mount Athos as independent actors in '

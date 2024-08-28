@@ -65,11 +65,11 @@ institutes = {
         'logo': 'gwzo.jpg'},
     'IMAFO': {
         'name': 'Institute for Medieval Research',
-        'url': 'https://www.oeaw.ac.at/imafo/',
+        'url': 'https://www.oeaw.ac.at/en/imafo/home',
         'logo': 'imafo.png'},
     'JGU': {
         'name': 'Johannes Gutenberg University Mainz',
-        'url': 'https://www.uni-mainz.de/eng/index.php',
+        'url': 'https://www.uni-mainz.de/en/',
         'logo': 'jgu.png'},
     'KHM': {
         'name': 'Kunsthistorisches Museum Wien',
@@ -81,6 +81,11 @@ institutes = {
             'Virtual Archaeology',
         'url': 'https://archpro.lbg.ac.at/',
         'logo': 'lbi.jpg'},
+    'LMU': {
+        'name':
+            'Ludwig-Maximilians-Universität München',
+        'url': 'https://www.lmu.de/en/',
+        'logo': 'lmu.png'},
     'MSMT': {
         'name': 'Ministry of Education, Youth and Sports',
         'url': 'https://www.msmt.cz',
@@ -137,6 +142,10 @@ institutes = {
     'univie': {
         'name': 'University of Vienna',
         'url': 'https://www.univie.ac.at/',
+        'logo': 'uni_vienna.png'},
+    'VIAS': {
+        'name': 'Vienna Institute for Archaeological Science',
+        'url': 'https://vias.univie.ac.at/vias/',
         'logo': 'uni_vienna.png'},
     'VRVIS': {
         'name':
