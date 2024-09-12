@@ -1,9 +1,11 @@
 upcoming = {
-    'TBA - most likely October 2024': {
-        'country': 'Germany',
-        'city': 'Munich',
-        'title': 'OpenAtlas workshop',
-        'institute': 'University of Munich'}}
+    '2024-10-17': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'title': 'Version Control and Automation Workshop',
+        'name': 'OpenAtlas - Versioning and Workflows',
+        'institute':
+            'Austrian Centre for Digital Humanities and Cultural Heritage'}}
 past = {
     '2024': {
         '2024-07-08': {
