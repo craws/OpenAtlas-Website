@@ -1,5 +1,6 @@
+<div class=" project {{' '.join(project.tags_sanitized) }}">
 <div class="row">
-  <div class="col-md-3 projects mr-5" style="text-align:center;">
+  <div class="col-md-3 projects {{' '.join(project.tags_sanitized) }} mr-5" style="text-align:center;">
     {% if project.img %}
       {% if project.url %}
         <a class="img" target="_blank" rel="noopener" href="{{ project.url }}">
@@ -37,9 +38,19 @@
       </p>
     {% endif %}
     {% if project.institutes %}
-      <div class="projects-institutes">
+      <p class="projects-institutes">
         {{ project.institutes|display_institutes|safe }}
-      </div>
+      </p>
+    {% endif %}
+    {% if project.tags %}
+    <p>
+      {% for tag in project.tags %}
+        <div class="tag {{ tag }}">
+         {{ tag }}
+        </div>
+      {% endfor %}
+    </p>
     {% endif %}
   </div>
+</div>
 </div>

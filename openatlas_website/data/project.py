@@ -1,4 +1,4 @@
-current = {
+projectList = {
     'FemCareVienna': {
         'url': 'https://discover-femcarevienna.openatlas.eu/',
         'full_name': 'FemCareVienna',
@@ -14,7 +14,9 @@ current = {
             'Hospital of the Elisabethians in Vienna. Central to the project '
             'are the life histories of 390 patients from the 18th century '
             'whose skeletal human remains were excavated from the hospital '
-            'cemetery.'},
+            'cemetery.',
+        'tags': ['Ongoing', 'Archaeology', 'History', 'Anthropology', 'Cooperation']
+    },
     'bITEM': {
         'url': 'https://bitem.at',
         'full_name': 'Beyond the Item',
@@ -30,7 +32,9 @@ current = {
             'web application that is freely accessible online. The objects '
             'and their biographies are vividly described and, in addition to '
             'images and texts, 3D models as digital twins, timelines, and '
-            'story maps are made available.'},
+            'story maps are made available.',
+        'tags': ['Ongoing', 'Archaeology', 'History', 'Cooperation', 'Presentation-Site']
+    },
     'Approaching Byzantium': {
         'url':
             'https://www.byzanz-mainz.de/en/research/project-details/'
@@ -50,7 +54,9 @@ current = {
             'analyzes how visiting the city of Constantinople affected the '
             'reception of Byzantium by humanists from the Holy Roman Empire in'
             ' the 16th century, when the former Byzantine capital was the seat'
-            ' of the Ottoman Empire.'},
+            ' of the Ottoman Empire.',
+        'tags': ['Ongoing', 'History', 'Prosopography', 'Cooperation', 'Presentation-Site']
+    },
     'MAMEMS': {
         'url': 'https://mamems.uni-mainz.de/',
         'full_name':
@@ -65,7 +71,9 @@ current = {
         'text':
             'will constitute the first comprehensive examination of the '
             'monastic communities of Mount Athos as independent actors in '
-            'medieval Eastern Mediterranean society.'},
+            'medieval Eastern Mediterranean society.',
+        'tags': ['Ongoing', 'History', 'Prosopography', 'Cooperation', 'Presentation-Site']
+    },
     'DANCEM': {
         'url':
             'https://www.leibniz-gwzo.de/en/research/humans-and-environment/'
@@ -81,7 +89,9 @@ current = {
             ' self-compiled archaeological and anthropological data from late'
             ' antique cemeteries on the Danube Limes and its hinterland '
             'between Passau and Budapest to gain deeper insights into the '
-            'lives and deaths of the people.'},
+            'lives and deaths of the people.',
+        'tags': ['Ongoing', 'Archaeology', 'Anthropology']
+    },
     'MEDCEM': {
         'url': 'https://thanados.net/about/medcem',
         'frontend': 'https://thanados.net/',
@@ -99,7 +109,9 @@ current = {
             'is  provided online and can be explored via a digital catalogue '
             'and  within an interactive map. Cartographic visualisations as '
             'well as charts and plots are created dynamically based on real '
-            'archaeological research data.'},
+            'archaeological research data.',
+        'tags': ['Ongoing', 'Archaeology', 'Anthropology', 'Presentation-Site']
+    },
     'MOP': {
         'url': 'https://maps-of-power.oeaw.ac.at/',
         'full_name': 'Maps of Power',
@@ -116,7 +128,9 @@ current = {
             'Topography and Cultural Heritage and sees itself as a scholarly '
             'platform that implements its own projects based on OpenAtlas as '
             'well as networks in an interdisciplinary fashion through joint '
-            'projects.'},
+            'projects.',
+        'tags': ['Ongoing', 'History', 'Prosopography']
+    },
     'PLAS': {
         'url': '',
         'full_name': 'The Prosopography of the Lascarid Period',
@@ -130,8 +144,9 @@ current = {
         'text':
             'aims at creating a prosopographical database of Byzantium in the '
             'first half of the 13th century and mapping the complexities of a '
-            'society in transition.'}}
-concluded = {
+            'society in transition.',
+        'tags': ['Ongoing', 'History', 'Prosopography']
+    },
     'Shahi': {
         'url': 'https://shahimaterialculture.univie.ac.at/',
         'frontend': 'https://shahi.acdh.oeaw.ac.at/',
@@ -154,7 +169,9 @@ concluded = {
             'archaeological evidence--suggests that the Hindu-Buddhist culture'
             ' survived through the end of the first millennium and gradually '
             'evolved towards an Islamic culture at the start of the second '
-            'millennium.'},
+            'millennium.',
+            'tags': ['Concluded', 'Archaeology', 'Cooperation', 'Presentation-Site']
+    },
     'INDIGO': {
         'url': 'https://projectindigo.eu',
         'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
@@ -168,7 +185,9 @@ concluded = {
         'text':
             'aims to build the basis to systematically document, monitor, '
             'disseminate, and analyse 7 km of graffiti along Vienna’s Danube '
-            'Canal in the next decade.'},
+            'Canal in the next decade.',
+            'tags': ['Concluded', 'Cultural-Heritage', 'Cooperation']
+    },
     'THANADOS': {
         'url': 'https://thanados.net',
         'frontend': 'https://thanados.net',
@@ -183,7 +202,9 @@ concluded = {
             'has the aim to create an online repository of all sepultures in '
             'nowadays Austria, dating to the Early Middle Ages (ca. 600-1100).'
             ' It combines the three disciplines archaeology, anthropology and '
-            'digital humanities.'},
+            'digital humanities.',
+        'tags': ['Concluded', 'Archaeology', 'Anthropology', 'Cooperation']
+    },
     'CONNEC': {
         'url': 'https://connectedclerics.com/',
         'frontend': 'https://discover-connec.openatlas.eu/',
@@ -199,7 +220,9 @@ concluded = {
             'analyses how a ‘universal’ Late Antique Church was constructed '
             'despite the context of political fragmentation that precipitated '
             'the end of the Western  Roman Empire and its division into '
-            'smaller polities.'},
+            'smaller polities.',
+        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation', 'Presentation-Site']
+    },
     'Moving Byzantium': {
         'url':
             'https://www.oeaw.ac.at/en/imafo/research/byzantine-research/'
@@ -216,7 +239,9 @@ concluded = {
             ' the internal flexibility of Byzantine society. Its main focus is'
             ' to contribute to a re-evaluation of a society and culture that '
             'has traditionally been depicted as stiff, rigid and encumbered by'
-            ' its own tradition.'},
+            ' its own tradition.',
+        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation']
+    },
     'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)': {
         'url': 'https://orthodoxes-wien.oeaw.ac.at/',
         'frontend': 'https://geoportal.orthodoxes-europa.at/',
@@ -235,7 +260,9 @@ concluded = {
             'between 1741 and 1918 in order to illustrate how Orthodox people '
             'began to migrate into the Habsburg Empire, how Orthodox '
             'merchants settled in Vienna and how they were integrated into '
-            'Viennese society of  that time.'},
+            'Viennese society of  that time.',
+        'tags': ['Concluded', 'History', 'Prosopography', 'Presentation-Site']
+    },
     'DPP': {
         'url': 'https://dpp.oeaw.ac.at/',
         'full_name': 'Digitising Patterns of Power',
@@ -249,7 +276,9 @@ concluded = {
             'written sources as well as the interaction between men-made and '
             'natural environment and the appropriation of space and the '
             'emergence of new political, religious and economic structures of '
-            'power.'},
+            'power.',
+        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation']
+    },
     'MEDCON': {
         'url':
             'https://www.oeaw.ac.at/imafo/das-institut/'
@@ -264,7 +293,9 @@ concluded = {
         'text':
             'examined the explanatory power of concepts of social and spatial '
             'network analysis for phenomena of political conflict in medieval '
-            'societies.'},
+            'societies.',
+        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation']
+    },
     "Frontier, Contact Zone or No Man's Land": {
         'url': 'https://openatlas.eu/gkn',
         'full_name': "Frontier, Contact Zone or No Man's Land",
@@ -278,7 +309,9 @@ concluded = {
             'the Austrian Science Fund (FWF) and Grantová agentura České '
             'republiky (GA ČR). It focused on the Morawa-Thaya region as '
             'boarder region between nowadays Austria and Czechia in Medieval '
-            'times.'},
+            'times.',
+        'tags': ['Concluded',  'Archaeology']
+    },
     'The Eastern Alps Revisited': {
         'url':
             'https://www.oeaw.ac.at/imafo/forschung/'
@@ -293,4 +326,6 @@ concluded = {
         'text':
             'focused on the transformation of the Late Antique province of '
             'Noricum Mediterraneum into an area inhabited by a Slavic-speaking'
-            ' population that eventually became part of Bavaria.'}}
+            ' population that eventually became part of Bavaria.',
+        'tags': ['Concluded',  'Archaeology']
+    }}

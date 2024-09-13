@@ -1,18 +1,20 @@
 {% extends "layout.html" %}
 {% block content %}
   <h4 class="mt-4 fw-bold fs-4">Projects</h4>
-  <hr>
+<div style="padding-top: 5px; display: flex;">
+    {{ unique_tags|safe }}
+</div>
+
+  <div>
   <p class="mb-5">
     Listed below you can find projects from different fields of the humanities that used or are currently using
     OpenAtlas for their research. These projects cooperate closely with the OpenAtlas team. Their requirements and
     requested features were and are implemented within the main development of the software.
   </p>
-  {% for name, project in current.items() %}
+  </div>
+  {% for name, project in projectList.items() %}
     {% include('projects_row.html') %}
   {% endfor %}
-  <h3 class="mt-4 mb-4">Concluded</h3>
-  <hr>
-  {% for name, project in past.items() %}
-    {% include('projects_row.html') %}
-  {% endfor %}
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/static/functions.js"></script>
 {% endblock %}
