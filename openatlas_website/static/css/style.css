@@ -99,25 +99,25 @@ img.projects-institutes {
 
 
 #tags div, .tag {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 #tags div {
-	background-color: #B8CF5B;
+  background-color: #B8CF5B;
 }
 
 #tags div.active, #footer-separator {
-	background-color: #929D48;
+  background-color: #929D48;
 }
 
 .tag,
 .tag,
 #separator {
-	background-color: #b4b4b4;
+  background-color: #b4b4b4;
 }
 
 .tag.active {
-	background-color: #666666;
+  background-color: #666666;
 }
 
 #tags {
@@ -133,7 +133,6 @@ img.projects-institutes {
   margin-right: 1em;
   margin-bottom: 1em;
   cursor: pointer;
-  font-size: 0.8em;
 }
 
 #tags div:hover {

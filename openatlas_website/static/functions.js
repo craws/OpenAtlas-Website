@@ -14,12 +14,10 @@ $(document).ready(function() {
         var shouldHide = !activeTags.every(function(tag) {
           return projectClasses.includes(tag);
         });
-
         $(this).toggle(!shouldHide);
-
       });
       $.each($(".active"), function() {
-       $(".tag." + $(this).attr("id")).addClass("active");
+        $(".tag." + $(this).attr("id")).addClass("active");
       });
     } else {
       $(".project").show();

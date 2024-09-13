@@ -1,5 +1,5 @@
 from pathlib import Path
-from flask import Flask, Response, request
+from flask import Flask, Response
 
 app = Flask(__name__, instance_relative_config=True)
 app.config.from_object('config')

@@ -1,4 +1,6 @@
-projectList = {
+from typing import Any
+
+projectList: dict[str, Any] = {
     'FemCareVienna': {
         'url': 'https://discover-femcarevienna.openatlas.eu/',
         'full_name': 'FemCareVienna',
@@ -7,6 +9,12 @@ projectList = {
         'pi': 'Michaela Binder',
         'duration': '2023 - 2026',
         'institutes': ['Novetus', 'OEAW', 'ACDH'],
+        'tags': [
+            'Ongoing',
+            'Archaeology',
+            'History',
+            'Anthropology',
+            'Cooperation'],
         'text':
             '(FWF individual grant P 36459-G) aims to elucidate the history '
             'of medical care for woman through an interdisciplinary study of '
@@ -14,17 +22,22 @@ projectList = {
             'Hospital of the Elisabethians in Vienna. Central to the project '
             'are the life histories of 390 patients from the 18th century '
             'whose skeletal human remains were excavated from the hospital '
-            'cemetery.',
-        'tags': ['Ongoing', 'Archaeology', 'History', 'Anthropology', 'Cooperation']
-    },
+            'cemetery.'},
     'bITEM': {
         'url': 'https://bitem.at',
+        'frontend': 'https://bitem.at/',
         'full_name': 'Beyond the Item',
         'img': 'bitem.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Viola Winkler, Roland Filzwieser',
         'duration': '2023 - 2025',
         'institutes': ['NHM', 'LBI', 'OEAW', 'ACDH'],
+        'tags': [
+            'Ongoing',
+            'Archaeology',
+            'History',
+            'Cooperation',
+            'Presentation-Site'],
         'text':
             ' - short for Beyond the Item - Biographies and '
             'Itineraries of Cultural Heritage Objects in Museums and beyond - '
@@ -32,9 +45,7 @@ projectList = {
             'web application that is freely accessible online. The objects '
             'and their biographies are vividly described and, in addition to '
             'images and texts, 3D models as digital twins, timelines, and '
-            'story maps are made available.',
-        'tags': ['Ongoing', 'Archaeology', 'History', 'Cooperation', 'Presentation-Site']
-    },
+            'story maps are made available.'},
     'Approaching Byzantium': {
         'url':
             'https://www.byzanz-mainz.de/en/research/project-details/'
@@ -50,13 +61,12 @@ projectList = {
         'pi': 'Nicholas Melvani',
         'duration': '2021 - 2024',
         'institutes': ['JGU', 'OEAW', 'ACDH', 'DFG', 'Leibnitz Byzanz'],
+        'tags': ['Ongoing', 'History', 'Prosopography', 'Cooperation'],
         'text':
             'analyzes how visiting the city of Constantinople affected the '
             'reception of Byzantium by humanists from the Holy Roman Empire in'
             ' the 16th century, when the former Byzantine capital was the seat'
-            ' of the Ottoman Empire.',
-        'tags': ['Ongoing', 'History', 'Prosopography', 'Cooperation', 'Presentation-Site']
-    },
+            ' of the Ottoman Empire.'},
     'MAMEMS': {
         'url': 'https://mamems.uni-mainz.de/',
         'full_name':
@@ -68,12 +78,11 @@ projectList = {
         'pi': 'Zachary Chitwood',
         'duration': '2020 - 2025',
         'institutes': ['JGU', 'OEAW', 'ACDH', 'ERC'],
+        'tags': ['Ongoing', 'History', 'Prosopography', 'Cooperation'],
         'text':
             'will constitute the first comprehensive examination of the '
             'monastic communities of Mount Athos as independent actors in '
-            'medieval Eastern Mediterranean society.',
-        'tags': ['Ongoing', 'History', 'Prosopography', 'Cooperation', 'Presentation-Site']
-    },
+            'medieval Eastern Mediterranean society.'},
     'DANCEM': {
         'url':
             'https://www.leibniz-gwzo.de/en/research/humans-and-environment/'
@@ -84,14 +93,13 @@ projectList = {
         'pi': 'Kristin Opitz',
         'duration': '2020 - ongoing',
         'institutes': ['GWZO', 'Stadtmuseum_St_Poelten'],
+    'tags': ['Ongoing', 'Archaeology', 'Anthropology'],
         'text':
             'focuses on bringing together and analysing both published and'
             ' self-compiled archaeological and anthropological data from late'
             ' antique cemeteries on the Danube Limes and its hinterland '
             'between Passau and Budapest to gain deeper insights into the '
-            'lives and deaths of the people.',
-        'tags': ['Ongoing', 'Archaeology', 'Anthropology']
-    },
+            'lives and deaths of the people.'},
     'MEDCEM': {
         'url': 'https://thanados.net/about/medcem',
         'frontend': 'https://thanados.net/',
@@ -102,6 +110,8 @@ projectList = {
         'pi': 'Stefan Eichert',
         'duration': '2019 - ongoing',
         'institutes': ['MSMT', 'ARUP'],
+        'tags':
+            ['Ongoing', 'Archaeology', 'Anthropology', 'Presentation-Site'],
         'text':
             'deals with the digital collection and presentation of medieval '
             'cemeteries and it is based at the Archaeological Institute of the'
@@ -109,9 +119,7 @@ projectList = {
             'is  provided online and can be explored via a digital catalogue '
             'and  within an interactive map. Cartographic visualisations as '
             'well as charts and plots are created dynamically based on real '
-            'archaeological research data.',
-        'tags': ['Ongoing', 'Archaeology', 'Anthropology', 'Presentation-Site']
-    },
+            'archaeological research data.'},
     'MOP': {
         'url': 'https://maps-of-power.oeaw.ac.at/',
         'full_name': 'Maps of Power',
@@ -121,6 +129,7 @@ projectList = {
         'duration': '2019 - ongoing',
         'institutes':
             ['OEAW', 'IMAFO', 'FWF', 'Byzantine Research', 'TIB', 'UAI'],
+        'tags': ['Ongoing', 'History', 'Prosopography'],
         'text':
             'is a research initiative that serves the methodological '
             'and interdisciplinary networking of scholars from the field of '
@@ -128,9 +137,7 @@ projectList = {
             'Topography and Cultural Heritage and sees itself as a scholarly '
             'platform that implements its own projects based on OpenAtlas as '
             'well as networks in an interdisciplinary fashion through joint '
-            'projects.',
-        'tags': ['Ongoing', 'History', 'Prosopography']
-    },
+            'projects.'},
     'PLAS': {
         'url': '',
         'full_name': 'The Prosopography of the Lascarid Period',
@@ -141,12 +148,11 @@ projectList = {
         'pi': 'Ekaterini Mitsiou',
         'duration': '2018 - ongoing',
         'institutes': [],
+        'tags': ['Ongoing', 'History', 'Prosopography'],
         'text':
             'aims at creating a prosopographical database of Byzantium in the '
             'first half of the 13th century and mapping the complexities of a '
-            'society in transition.',
-        'tags': ['Ongoing', 'History', 'Prosopography']
-    },
+            'society in transition.'},
     'Shahi': {
         'url': 'https://shahimaterialculture.univie.ac.at/',
         'frontend': 'https://shahi.acdh.oeaw.ac.at/',
@@ -161,6 +167,8 @@ projectList = {
             'National research partner: Michael Alram',
         'duration': '2018 - 2023',
         'institutes': ['univie', 'OEAW', 'ACDH', 'FWF', 'KHM', 'CIRDIS'],
+        'tags':
+            ['Concluded', 'Archaeology', 'Cooperation', 'Presentation-Site'],
         'text':
             '(FWF, P-31246) considers for the first time the Shahi kingdoms '
             '(c. 7th-10th centuries) which played a pivotal role in the '
@@ -169,9 +177,7 @@ projectList = {
             'archaeological evidence--suggests that the Hindu-Buddhist culture'
             ' survived through the end of the first millennium and gradually '
             'evolved towards an Islamic culture at the start of the second '
-            'millennium.',
-            'tags': ['Concluded', 'Archaeology', 'Cooperation', 'Presentation-Site']
-    },
+            'millennium.'},
     'INDIGO': {
         'url': 'https://projectindigo.eu',
         'full_name': 'INventory and DIsseminate Graffiti along the dOnaukanal',
@@ -182,12 +188,11 @@ projectList = {
         'institutes': [
             'LBI', 'TUGG', 'OEAW', 'ACDH', 'Wien', 'SprayCity', 'GIFLE',
             'VRVIS'],
+        'tags': ['Concluded', 'Cultural-Heritage', 'Cooperation'],
         'text':
             'aims to build the basis to systematically document, monitor, '
             'disseminate, and analyse 7 km of graffiti along Vienna’s Danube '
-            'Canal in the next decade.',
-            'tags': ['Concluded', 'Cultural-Heritage', 'Cooperation']
-    },
+            'Canal in the next decade.'},
     'THANADOS': {
         'url': 'https://thanados.net',
         'frontend': 'https://thanados.net',
@@ -198,13 +203,17 @@ projectList = {
         'pi': 'Stefan Eichert, Nina Richards',
         'duration': '2019 - 2021',
         'institutes': ['OEAW', 'OeAI', 'ACDH', 'NHM'],
+        'tags': [
+            'Concluded',
+            'Archaeology',
+            'Anthropology',
+            'Cooperation',
+            'Presentation-Site'],
         'text':
             'has the aim to create an online repository of all sepultures in '
             'nowadays Austria, dating to the Early Middle Ages (ca. 600-1100).'
             ' It combines the three disciplines archaeology, anthropology and '
-            'digital humanities.',
-        'tags': ['Concluded', 'Archaeology', 'Anthropology', 'Cooperation']
-    },
+            'digital humanities.'},
     'CONNEC': {
         'url': 'https://connectedclerics.com/',
         'frontend': 'https://discover-connec.openatlas.eu/',
@@ -216,13 +225,17 @@ projectList = {
         'pi': 'David Natal',
         'duration': '2018 - 2022',
         'institutes': ['RHUL', 'OEAW', 'ACDH', 'ERC'],
+        'tags': [
+            'Concluded',
+            'History',
+            'Prosopography',
+            'Cooperation',
+            'Presentation-Site'],
         'text':
             'analyses how a ‘universal’ Late Antique Church was constructed '
             'despite the context of political fragmentation that precipitated '
             'the end of the Western  Roman Empire and its division into '
-            'smaller polities.',
-        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation', 'Presentation-Site']
-    },
+            'smaller polities.'},
     'Moving Byzantium': {
         'url':
             'https://www.oeaw.ac.at/en/imafo/research/byzantine-research/'
@@ -234,14 +247,13 @@ projectList = {
         'pi': 'Claudia Rapp',
         'duration': '2015 - 2020',
         'institutes': ['OEAW', 'IMAFO', 'ACDH', 'FWF'],
+        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation'],
         'text':
             'highlights the role of Byzantium as a global culture and analyses'
             ' the internal flexibility of Byzantine society. Its main focus is'
             ' to contribute to a re-evaluation of a society and culture that '
             'has traditionally been depicted as stiff, rigid and encumbered by'
-            ' its own tradition.',
-        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation']
-    },
+            ' its own tradition.'},
     'A Digital Geoportal of the History of the Serbs in Vienna (1741-1918)': {
         'url': 'https://orthodoxes-wien.oeaw.ac.at/',
         'frontend': 'https://geoportal.orthodoxes-europa.at/',
@@ -255,14 +267,13 @@ projectList = {
         'institutes': [
             'Wien Kultur', 'OEAW', 'IMAFO', 'Byzantine Research', 'AIT', 'BCM',
             'NLS', 'Biblioteka Matice Srpske'],
+        'tags': ['Concluded', 'History', 'Prosopography', 'Presentation-Site'],
         'text':
             'used biographical data on Orthodox Serbs living in Vienna '
             'between 1741 and 1918 in order to illustrate how Orthodox people '
             'began to migrate into the Habsburg Empire, how Orthodox '
             'merchants settled in Vienna and how they were integrated into '
-            'Viennese society of  that time.',
-        'tags': ['Concluded', 'History', 'Prosopography', 'Presentation-Site']
-    },
+            'Viennese society of  that time.'},
     'DPP': {
         'url': 'https://dpp.oeaw.ac.at/',
         'full_name': 'Digitising Patterns of Power',
@@ -271,14 +282,13 @@ projectList = {
         'pi': 'Mihailo Popović',
         'duration': '2015 - 2019',
         'institutes': ['OEAW', 'IMAFO', 'univie'],
+        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation'],
         'text':
             'focused on the analysis of the depiction of space in medieval '
             'written sources as well as the interaction between men-made and '
             'natural environment and the appropriation of space and the '
             'emergence of new political, religious and economic structures of '
-            'power.',
-        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation']
-    },
+            'power.'},
     'MEDCON': {
         'url':
             'https://www.oeaw.ac.at/imafo/das-institut/'
@@ -290,12 +300,11 @@ projectList = {
         'pi': 'Johannes Preiser-Kapeller',
         'duration': '2014 - 2017',
         'institutes': ['OEAW', 'IMAFO'],
+        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation'],
         'text':
             'examined the explanatory power of concepts of social and spatial '
             'network analysis for phenomena of political conflict in medieval '
-            'societies.',
-        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation']
-    },
+            'societies.'},
     "Frontier, Contact Zone or No Man's Land": {
         'url': 'https://openatlas.eu/gkn',
         'full_name': "Frontier, Contact Zone or No Man's Land",
@@ -304,14 +313,13 @@ projectList = {
         'pi': 'Stefan Eichert, Jiří Macháček',
         'duration': '2014 - 2017',
         'institutes': ['univie', 'MU', 'FWF', 'GACR'],
+        'tags': ['Concluded',  'Archaeology'],
         'text':
             'is an international Austrian-Czech research project sponsored by '
             'the Austrian Science Fund (FWF) and Grantová agentura České '
             'republiky (GA ČR). It focused on the Morawa-Thaya region as '
             'boarder region between nowadays Austria and Czechia in Medieval '
-            'times.',
-        'tags': ['Concluded',  'Archaeology']
-    },
+            'times.'},
     'The Eastern Alps Revisited': {
         'url':
             'https://www.oeaw.ac.at/imafo/forschung/'
@@ -323,9 +331,8 @@ projectList = {
         'pi': 'Maximilian Diesenberger, Claudia Theune',
         'duration': '2012 - 2016',
         'institutes': ['OEAW', 'IMAFO', 'FWF'],
+        'tags': ['Concluded',  'Archaeology'],
         'text':
             'focused on the transformation of the Late Antique province of '
             'Noricum Mediterraneum into an area inhabited by a Slavic-speaking'
-            ' population that eventually became part of Bavaria.',
-        'tags': ['Concluded',  'Archaeology']
-    }}
+            ' population that eventually became part of Bavaria.'}}

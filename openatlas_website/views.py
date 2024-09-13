@@ -1,5 +1,4 @@
-from typing import Tuple, Dict
-from openatlas_website.filters import sanitize
+from typing import Dict, Tuple
 
 from flask import render_template
 
@@ -9,8 +8,9 @@ from openatlas_website.data.event import past, upcoming
 from openatlas_website.data.news import news_
 from openatlas_website.data.project import projectList
 from openatlas_website.data.software import stack
+from openatlas_website.filters import sanitize
 
-print(projectList)
+
 @app.route('/')
 def about() -> str:
     return render_template(
@@ -46,13 +46,9 @@ def news() -> str:
 @app.route('/projects')
 def projects() -> str:
     tags: Dict[str, int] = {}
-
-    # Loop through all projects to process tags and add main_url
-    for name, project in projectList.items():
-        # Assuming each project has a 'urls' dictionary and we extract the first URL as 'main_url'
+    for project in projectList.values():
+        # Assuming an existing 'urls' dict we extract the first as 'main_url'
         project['main_url'] = project['url']
-
-        # Sanitize tags and update the tag counts
         project['tags_sanitized'] = []
         for tag in project['tags']:
             sanitized_tag = sanitize(tag)
@@ -65,7 +61,8 @@ def projects() -> str:
                 tags[tag] = 1
 
     # Create sanitized HTML items for unique tags
-    unique_tag_items = [f'<div id="{sanitize(tag)}">{tag}</div>' for tag in sorted(tags)]
+    unique_tag_items = [
+        f'<div id="{sanitize(tag)}">{tag}</div>' for tag in sorted(tags)]
 
     return render_template(
         'projects.html',
