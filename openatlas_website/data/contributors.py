@@ -29,6 +29,7 @@ contributors = [
     'Petra Heinicker',
     'Roland Filzwieser',
     'Sandra Lehecka',
+    'Samvel Grigoryan',
     'Saranya Balasubramanian',
     'Sebastian Majstorovic',
     'Selina Hofbauer',
