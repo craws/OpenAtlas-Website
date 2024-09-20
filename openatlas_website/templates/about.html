@@ -25,10 +25,10 @@
     <div class="mt-5">
       <div class="d-flex">
         <span class="news-teaser">News</span>
-        <div class="news-date">{{ latest_news_item.date }}</div>
+        <div class="news-date">{{ latest_news[0] }}</div>
       </div>
       <p>
-        {{ latest_news_item.title }} <a href="/news" class="fs-7 d-inline-block">read more</a>
+        {{ latest_news[1]['title'] }} <a href="/news" class="fs-7 d-inline-block">read more</a>
       </p>
     </div>
   </div>

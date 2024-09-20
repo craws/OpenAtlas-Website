@@ -15,7 +15,7 @@ from openatlas_website.filters import sanitize
 def about() -> str:
     return render_template(
         'about.html',
-        latest_news_item=next(iter(news_['News'].values())))
+        latest_news=next(iter(news_['News'].items())))
 
 
 @app.errorhandler(404)
