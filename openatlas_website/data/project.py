@@ -1,5 +1,19 @@
 from typing import Any
 
+tags = {
+    'topic': [
+        'Anthropology',
+        'Archaeology',
+        'Cultural-Heritage',
+        'History',
+        'Prosopography'],
+    'status': [
+        'Ongoing',
+        'Concluded',
+        'Presentation-Site',
+        'Archived',
+        'Cooperation']}
+
 projectList: dict[str, Any] = {
     'FemCareVienna': {
         'url': 'https://discover-femcarevienna.openatlas.eu/',
@@ -300,7 +314,9 @@ projectList: dict[str, Any] = {
         'pi': 'Johannes Preiser-Kapeller',
         'duration': '2014 - 2017',
         'institutes': ['OEAW', 'IMAFO'],
-        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation'],
+        'tags': [
+            'Concluded', 'History', 'Prosopography', 'Cooperation',
+            'Archived'],
         'text':
             'examined the explanatory power of concepts of social and spatial '
             'network analysis for phenomena of political conflict in medieval '

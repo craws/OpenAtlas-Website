@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("#tags div").click(function(event) {
+  $(".tags div").click(function(event) {
     $(this).toggleClass("active");
     $(".project").show();
     $(".project .tag").removeClass("active");

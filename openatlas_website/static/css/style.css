@@ -97,16 +97,15 @@ Footer a {
   font-size: 0.8rem !important;
 }
 
-
-#tags div, .tag {
-  color: #ffffff;
-}
-
-#tags div {
+.tags div {
   background-color: #B8CF5B;
 }
 
-#tags div.active, #footer-separator {
+.tags div, .tag {
+  color: #ffffff;
+}
+
+.tags div.active, #footer-separator {
   background-color: #929D48;
 }
 
@@ -120,27 +119,27 @@ Footer a {
   background-color: #666666;
 }
 
-#tags {
+.tags {
   text-align: center;
 }
 
-#tags div, .tag {
+.tags div, .tag {
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
   border-radius: 1em;
   float:left;
-  padding: 0.3em 0.7em 0.3em 0.7em;
+  padding: 0.3em 0.8em 0.3em 0.8em;
   margin-right: 1em;
   margin-bottom: 1em;
   cursor: pointer;
 }
 
-#tags div:hover {
+#.ags div:hover {
   background-color: #a0b04f;
   transition: background-color 0.5s ease, transform 0.5s ease;
 }
 
 .tag {
-  font-size: 0.8em;
+  font-size: 0.9em;
   cursor: default;
 }
