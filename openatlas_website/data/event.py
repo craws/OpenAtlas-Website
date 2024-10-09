@@ -3,6 +3,9 @@ upcoming = {
         'country': 'Austria',
         'city': 'Vienna',
         'title': 'Version Control and Automation Workshop',
+        'docs': {
+            'Presentation':
+                '2024-10-17_OpenAtlas_Versioning_and_Workflows.pdf'},
         'name': 'OpenAtlas - Versioning and Workflows',
         'institute':
             'Austrian Centre for Digital Humanities and Cultural Heritage'}}
