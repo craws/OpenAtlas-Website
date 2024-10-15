@@ -8,7 +8,18 @@ upcoming = {
                 '2024-10-17_OpenAtlas_Versioning_and_Workflows.pdf'},
         'name': 'OpenAtlas - Versioning and Workflows',
         'institute':
-            'Austrian Centre for Digital Humanities and Cultural Heritage'}}
+            'Austrian Centre for Digital Humanities and Cultural Heritage'},
+    '2025-02-12': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'title':
+            'OpenAtlas – A Database System for the Humanities and Beyond',
+        'name': 'Meet the Researchers',
+        'link':
+            'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
+            'meet-the-researchers-programme'},
+}
 past = {
     '2024': {
         '2024-07-08': {
