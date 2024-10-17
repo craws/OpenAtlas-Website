@@ -1,14 +1,4 @@
 upcoming = {
-    '2024-10-17': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'title': 'Version Control and Automation Workshop',
-        'docs': {
-            'Presentation':
-                '2024-10-17_OpenAtlas_Versioning_and_Workflows.pdf'},
-        'name': 'OpenAtlas - Versioning and Workflows',
-        'institute':
-            'Austrian Centre for Digital Humanities and Cultural Heritage'},
     '2025-02-12': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -22,6 +12,17 @@ upcoming = {
 }
 past = {
     '2024': {
+        '2024-10-17': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'title': 'Version Control and Automation Workshop',
+            'docs': {
+                'Presentation':
+                    '2024-10-17_OpenAtlas_Versioning_and_Workflows.pdf'},
+            'name': 'OpenAtlas - Versioning and Workflows',
+            'institute':
+                'Austrian Centre for Digital Humanities and Cultural Heritage'
+        },
         '2024-07-08': {
             'country': 'Austria',
             'city': 'Vienna',
