@@ -7,7 +7,7 @@ upcoming = {
             'OpenAtlas – A Database System for the Humanities and Beyond',
         'name': 'Meet the Researchers',
         'link':
-            'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
+            'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
             'meet-the-researchers-programme'},
 }
 past = {
@@ -32,7 +32,7 @@ past = {
             'name': 'Meet the Researchers',
             'docs': {'Presentation': '2024-07-08_meet_the_researchers.pdf'},
             'link':
-                'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
+                'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
                 'meet-the-researchers-programme'},
         '2024-06-19': {
             'country': 'Austria',
@@ -66,7 +66,7 @@ past = {
             'title':
                 'OpenAtlas – A Database System for the Humanities and Beyond',
             'link':
-                'https://www.oeaw.ac.at/acdh/events/event-series/'
+                'https://www.oeaw.ac.at/acdh/newsevents/event-series/'
                 'acdh-ch-research-day-3',
             'name': 'ACDH-CH Research Day “Methods of investigating space”',
             'docs': {'Presentation': '2024-04-23_acdh_research_day.pdf'}},
@@ -86,7 +86,7 @@ past = {
             'institute': 'Austrian Academy of Sciences',
             'title':
                 'OpenAtlas - A Database System for the Humanities and Beyond',
-            'link': 'https://www.oeaw.ac.at/de/acdh/events/chda',
+            'link': 'https://www.oeaw.ac.at/acdh/newsevents/events/chda',
             'name': 'Cultural Heritage - Research in the Digital Age',
             'docs': {'Poster': 'openatlas_poster.pdf'}},
         '2023-09-28': {
@@ -128,7 +128,7 @@ past = {
                 'Presentation':
                     '2023-08-13_openatlas_meet_the_researcher.pdf'},
             'link':
-                'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
+                'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
                 'meet-the-researchers-programme'},
         '2023-07-27': {
             'country': 'Austria',
@@ -183,8 +183,8 @@ past = {
             'institute':
                 'Austrian Centre for Digital Humanities and Cultural Heritage',
             'link':
-                'https://www.oeaw.ac.at/acdh/events/event-series'
-                '/acdh-ch-lectures/',
+                'https://www.oeaw.ac.at/acdh/newsevents/event-series/'
+                'acdh-ch-lecture-84',
             'name': 'ACDH-CH Lecture',
             'title': 'OpenAtlas',
             'docs': {'Presentation': '2022-12-13_openatlas_for_students.pdf'}},
@@ -418,7 +418,7 @@ past = {
                 'Austrian Centre for Digital Humanities and Cultural Heritage',
             'name': 'ACDH-CH - Meet the Researchers',
             'link':
-                'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
+                'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
                 'meet-the-researchers-programme',
             'title': 'OpenAtlas',
             'docs': {
@@ -461,7 +461,7 @@ past = {
                 'Austrian Centre for Digital Humanities and Cultural Heritage',
             'name': 'ACDH-CH - Meet the Researchers',
             'link':
-                'https://www.oeaw.ac.at/acdh/education/acdh-ch-internships/'
+                'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
                 'meet-the-researchers-programme',
             'title':
                 'Introduction to CIDOC CRM with OpenAtlas as an example use '
@@ -505,10 +505,8 @@ past = {
             'institute': 'University of Vienna',
             'name': 'Prosopography Hackathon',
             'link':
-                'https://acdh.univie.ac.at/nachrichten/single-view/news/'
-                'linking-past-people-a-prosopography-hackathon-at-the-uni-of-'
-                'vienna/?tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5B'
-                'action%5D=detail&cHash=b3c6c21d5d122910b03f0c0b3f65228e'
+                'https://www.oeaw.ac.at/acdh/detail/news/'
+                'acdh-virtual-hackathon-series'
         }},
     '2018': {
         '2018-10-19': {
@@ -536,7 +534,7 @@ past = {
                 'Austrian Centre for Digital Humanities and Cultural Heritage',
             'name': 'ACDH-CH Tool Gallery - CIDOC CRM',
             'link':
-                'https://www.oeaw.ac.at/acdh/events/event-series/'
+                'https://www.oeaw.ac.at/acdh/newsevents/event-series/'
                 'acdh-tool-gallery-41',
             'title': 'OpenAtlas',
             'docs': {
@@ -548,10 +546,7 @@ past = {
             'city': 'Leeds',
             'institute': 'University of Leeds',
             'name': 'International Medieval Congress 2017',
-            'link':
-                'http://imc.leeds.ac.uk/dbsql02/AQueryServlet?*id=30&*formId='
-                '30&*context=IMC&conference=2017&sessionId=7539&chosenPaperId='
-                '&*servletURI=https://imc.leeds.ac.uk/dbsql02/AQueryServlet',
+            'link': 'https://www.imc.leeds.ac.uk/imc/imc-2017/',
             'title':
                 'Relational Modelling of Historical Data - '
                 'Concepts and Challenges',
