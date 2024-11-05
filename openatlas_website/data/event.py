@@ -1,5 +1,5 @@
 upcoming = {
-    '2025-02-12': {
+    '2025-02-05': {
         'country': 'Austria',
         'city': 'Vienna',
         'institute': 'Austrian Academy of Sciences',
