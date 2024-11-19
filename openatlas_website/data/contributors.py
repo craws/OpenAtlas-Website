@@ -3,6 +3,7 @@ import math
 COLUMNS = 4
 contributors = [
     'Aleksandra Apic',
+    'Amelie Dorn',
     'Andreas Olschnögger',
     'Asil Çetin',
     'Britta Breuers',
