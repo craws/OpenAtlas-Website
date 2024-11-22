@@ -4,6 +4,7 @@ COLUMNS = 4
 contributors = [
     'Aleksandra Apic',
     'Amelie Dorn',
+    'András Barati',
     'Andreas Olschnögger',
     'Asil Çetin',
     'Britta Breuers',
