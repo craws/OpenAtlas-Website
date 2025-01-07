@@ -54,7 +54,7 @@ team = {
         'text':
             'Katharina is a frontend developer for OpenAtlas. She studied '
             'Computer Science at the University of Vienna, where she focused '
-            'on visualizations and data science',
+            'on visualizations and data science.',
         'img': 'katharina.jpg',
         'image_license': 'CC-BY 4.0, Katharina Wünsche'},
     'Jan Belik': {
