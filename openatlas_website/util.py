@@ -18,7 +18,7 @@ def inject_menu() -> dict[str, Any]:
             {'name': 'events', 'to': url_for('events')}],
         'content': [
             'about', 'projects', 'cooperation', 'software', 'team', 'events',
-            'news', 'mission_statement'],
+            'news', 'publications', 'mission_statement'],
         'documentation_links': [
             {'name': 'Features',
              'to': 'https://manual.openatlas.eu/features.html'},
