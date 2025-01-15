@@ -9,6 +9,7 @@ from openatlas_website.data.news import news_
 from openatlas_website.data.project import projectList, tags
 from openatlas_website.data.software import stack
 from openatlas_website.filters import sanitize
+from openatlas_website.data.publications import publicationsList
 
 
 @app.route('/')
@@ -57,7 +58,7 @@ def projects() -> str:
 
 @app.route('/publications')
 def publications() -> str:
-    return render_template('publications.html')
+    return render_template('publications.html', publications=publicationsList)
 
 @app.route('/software')
 def software() -> str:

@@ -1,17 +1,25 @@
 {% extends "layout.html" %}
 {% block content %}
-  <h4 class="mt-4 fw-bold fs-4">Articles</h4>
+  <h4 class="mt-4 fw-bold fs-4">Publications</h4>
   <hr>
-  {{ 'Aspöck et al. 2023' }}
-  {{ 'Richards et al. 2023' }}
-  {{ 'Eichert 2021' }}
-  {{ 'Eichert - Koschiček - Popović 2016' }}
-  <h4 class="fw-bold fs-4">Book Chapters</h4>
-  <hr>
-  {{ 'Eichert - Richards - Watzinger 2024' }}
-  {{ 'Trognitz - Carloni - Koschiček-Krumbholz 2024' }}
-  {{ 'Richards - Eichert - Watzinger 2023' }}
-  {{ 'Watzinger 2019' }}
-  {{ 'Eichert 2014' }}
-  </div>
+  <ul>
+    {% for key, publication in publications.items() %}
+      <li>
+        <strong>{{ key }}</strong> <br> {{ publication['authors'] }},
+        <em>{{ publication['title'] }}.</em>
+        {{ publication['in'] }} ({{ publication['year'] }}),
+        {{ publication.get('pages', 'N/A') }}.
+
+        {% if publication.get('doi') %}
+          <a href="{{ publication['DOI'] }}" target="_blank">DOI</a>
+        {% endif %}
+
+        {% if publication.get('pdf') %}
+          <a href="{{ publication['DOI'] }}" target="_blank">DOI</a>
+        {% endif %}
+
+        <br><br>
+      </li>
+    {% endfor %}
+  </ul>
 {% endblock %}
