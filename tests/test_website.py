@@ -27,4 +27,5 @@ class WebsiteTests(TestBaseCase):
             assert b'Flask' in self.app.get(url_for('software')).data
             assert b'THANADOS' in self.app.get(url_for('news')).data
             assert b'FAIR' in self.app.get(url_for('mission_statement')).data
+            assert b'Richards' in self.app.get(url_for('publications')).data
             assert b'404' in self.app.get('/whatever').data

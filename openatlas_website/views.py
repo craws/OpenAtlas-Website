@@ -56,9 +56,11 @@ def projects() -> str:
         status_tags=[
             f'<div id="{sanitize(t)}">{t}</div>' for t in tags['status']])
 
+
 @app.route('/publications')
 def publications() -> str:
     return render_template('publications.html', publications=publicationsList)
+
 
 @app.route('/software')
 def software() -> str:
