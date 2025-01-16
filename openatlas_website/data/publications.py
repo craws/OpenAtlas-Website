@@ -104,7 +104,7 @@ publicationsList: Dict[str, Dict[str, Any]] = {
             'Historical Research (Eudora-Verlag - Leipzig)',
         'year': '2019',
         'pages': '193-204',
-        'pdf': 'PDF'},
+        'pdf': ''},
     'Eichert - Koschiček - Popović 2018': {
         'authors': 'Stefan Eichert, Bernhard Koschiček, Mihailo St. Popović',
         'title':
@@ -125,7 +125,7 @@ publicationsList: Dict[str, Dict[str, Any]] = {
         'in': 'Acta Archaeologica Carpathica LI',
         'year': '2016',
         'pages': '257-283',
-        'pdf': 'PDF'},
+        'pdf': ''},
     'Eichert 2014': {
         'authors': 'Stefan Eichert',
         'title':
@@ -137,4 +137,4 @@ publicationsList: Dict[str, Dict[str, Any]] = {
             'Heritage and New Technologies 2013, CHNT 18 (Vienna)',
         'year': '2014',
         'pages': '1-8',
-        'pdf': 'PDF'}}
+        'pdf': ''}}
