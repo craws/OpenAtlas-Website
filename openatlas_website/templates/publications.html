@@ -11,11 +11,11 @@
         {{ publication.get('pages', 'N/A') }}.
 
         {% if publication.get('doi') %}
-          <a href="{{ publication['DOI'] }}" target="_blank">DOI</a>
+          <a href="{{ publication['doi'] }}" target="_blank">DOI</a>
         {% endif %}
 
         {% if publication.get('pdf') %}
-          <a href="{{ publication['DOI'] }}" target="_blank">DOI</a>
+          <a href="{{ publication['pdf'] }}" target="_blank">PDF</a>
         {% endif %}
 
         <br><br>
