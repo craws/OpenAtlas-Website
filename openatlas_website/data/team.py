@@ -35,8 +35,8 @@ team = {
         'function': 'Backend Development and API',
         'text':
             "Bernhard is currently developing our API and studied Computer "
-            "Sciences as well as History. He is interested include in "
-            "Python, Linked Open Data, historical geography and GIS.",
+            "Sciences as well as History. He is interested in Python, Linked "
+            "Open Data, historical geography, GIS, and cooking.",
         'img': 'bernhard.jpg',
         'image_license': 'CC-BY 4.0, Sandra Lehecka'},
     'Olivia Reichl': {
