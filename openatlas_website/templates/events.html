@@ -1,8 +1,9 @@
 {% extends "layout.html" %}
 {% block content %}
-  {% if upcoming %}
     <h4 class="mt-4 fw-bold fs-4">Upcoming</h4>
     <hr>
+  {% if not upcoming %}
+    TBA
   {% endif %}
   {% for date, event in upcoming.items() %}
     <div class="mb-4">
