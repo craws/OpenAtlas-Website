@@ -16,6 +16,7 @@ contributors = [
     'Ekaterini Mitsiou',
     'Enric Rodellas',
     'Eugen Hotwagner',
+    'Fabio Rovigo',
     'Johannes Preiser-Kapeller',
     'Judith Pucher',
     'Katharina Winckler',
