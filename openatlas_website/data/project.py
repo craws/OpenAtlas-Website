@@ -73,7 +73,7 @@ projectList: dict[str, Any] = {
         'img': 'approaching_byzantium.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Nicholas Melvani',
-        'duration': '2021 - 2024',
+        'duration': '2021 - 2025',
         'institutes': ['JGU', 'OEAW', 'ACDH', 'DFG', 'Leibnitz Byzanz'],
         'tags': ['Ongoing', 'History', 'Prosopography', 'Cooperation'],
         'text':
