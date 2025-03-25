@@ -3,7 +3,7 @@ upcoming = {
         'country': 'Germany',
         'city': 'Munich',
         'institute': 'University of Munich',
-        'title': 'OpenAtlas – A Database System for the Humanities and Beyond',
+        'title': 'OpenAtlas in Action – Mapping Data, Connecting Knowledge',
         'name': 'OpenAtlas workshop'}}
 past = {
     '2025': {
