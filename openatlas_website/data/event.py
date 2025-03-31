@@ -4,7 +4,9 @@ upcoming = {
         'city': 'Munich',
         'institute': 'University of Munich',
         'title': 'OpenAtlas in Action – Mapping Data, Connecting Knowledge',
-        'name': 'OpenAtlas workshop'}}
+        'name': 'OpenAtlas workshop',
+        'docs': {
+            'Program': '2025-04-14_lmu_workshop.pdf'}}}
 past = {
     '2025': {
         '2025-02-05': {
