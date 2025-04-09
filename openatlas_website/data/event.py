@@ -1,16 +1,4 @@
 upcoming = {
-    '2025-04-08': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'TU Wien',
-        'title':
-            'OpenAtlas – A Database System for the Humanities and Beyond',
-        'name': 'Practical Framework for Research in Architecture',
-        'link':
-            'https://tiss.tuwien.ac.at/course/courseDetails.xhtml?'
-            'dswid=9924&dsrid=283&semester=2025S&locale=en'
-            '&courseNr=251909',
-        'docs': {'Presentation': '2025-04-09_openatlas_tu.pdf'}},
     '2025-04-14': {
         'country': 'Germany',
         'city': 'Munich',
@@ -21,6 +9,18 @@ upcoming = {
             'Program': '2025-04-14_lmu_workshop.pdf'}}}
 past = {
     '2025': {
+        '2025-04-08': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'TU Wien',
+            'title':
+                'OpenAtlas – A Database System for the Humanities and Beyond',
+            'name': 'Practical Framework for Research in Architecture',
+            'link':
+                'https://tiss.tuwien.ac.at/course/courseDetails.xhtml?'
+                'dswid=9924&dsrid=283&semester=2025S&locale=en'
+                '&courseNr=251909',
+            'docs': {'Presentation': '2025-04-09_openatlas_tu.pdf'}},
         '2025-02-05': {
             'country': 'Austria',
             'city': 'Vienna',
