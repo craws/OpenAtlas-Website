@@ -6,7 +6,8 @@ upcoming = {
         'title': 'OpenAtlas in Action – Mapping Data, Connecting Knowledge',
         'name': 'OpenAtlas workshop',
         'docs': {
-            'Program': '2025-04-14_lmu_workshop.pdf'}}}
+            'Program': '2025-04-14_lmu_workshop.pdf',
+            'Presentation': '2025-04-14_lmu_presentation.pdf'}}}
 past = {
     '2025': {
         '2025-04-08': {
