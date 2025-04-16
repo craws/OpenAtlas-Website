@@ -1,15 +1,16 @@
 upcoming = {
-    '2025-04-14': {
-        'country': 'Germany',
-        'city': 'Munich',
-        'institute': 'University of Munich',
-        'title': 'OpenAtlas in Action – Mapping Data, Connecting Knowledge',
-        'name': 'OpenAtlas workshop',
-        'docs': {
-            'Program': '2025-04-14_lmu_workshop.pdf',
-            'Presentation': '2025-04-14_lmu_presentation.pdf'}}}
+    }
 past = {
     '2025': {
+        '2025-04-14': {
+            'country': 'Germany',
+            'city': 'Munich',
+            'institute': 'University of Munich',
+            'title': 'OpenAtlas in Action – Mapping Data, Connecting Knowledge',
+            'name': 'OpenAtlas workshop',
+            'docs': {
+                'Program': '2025-04-14_lmu_workshop.pdf',
+                'Presentation': '2025-04-14_lmu_presentation.pdf'}},
         '2025-04-08': {
             'country': 'Austria',
             'city': 'Vienna',
