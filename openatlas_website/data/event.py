@@ -6,7 +6,8 @@ past = {
             'country': 'Germany',
             'city': 'Munich',
             'institute': 'University of Munich',
-            'title': 'OpenAtlas in Action – Mapping Data, Connecting Knowledge',
+            'title':
+                'OpenAtlas in Action – Mapping Data, Connecting Knowledge',
             'name': 'OpenAtlas workshop',
             'docs': {
                 'Program': '2025-04-14_lmu_workshop.pdf',
