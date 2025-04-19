@@ -5,6 +5,7 @@ contributors = [
     'Aleksandra Apic',
     'Amelie Dorn',
     'András Barati',
+    'Andrea Intilangelo',
     'Andreas Olschnögger',
     'Asil Çetin',
     'Britta Breuers',
