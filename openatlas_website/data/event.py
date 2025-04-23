@@ -6,7 +6,6 @@ upcoming = {
         'title':
             'OpenAtlas – A Database System for the Humanities and Beyond',
         'name': 'Meet the Researchers',
-        'docs': {},
         'link':
             'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
             'meet-the-researchers-programme'}}
