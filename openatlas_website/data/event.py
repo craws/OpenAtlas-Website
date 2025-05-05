@@ -1,4 +1,9 @@
 upcoming = {
+    '2025-06-27': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'WUK',
+        'title': 'OpenAtlas Summer Meeting 2025'},
     '2025-07-14': {
         'country': 'Austria',
         'city': 'Vienna',
