@@ -15,6 +15,28 @@ tags = {
         'Cooperation']}
 
 projectList: dict[str, Any] = {
+    'ENCHANT': {
+        'url':
+            'https://www.oeaw.ac.at/en/imafo/research/byzantine-research/'
+            'byzantium-and-beyond/mobility-and-intercultural-contacts/'
+            'entangled-charters-of-anatolia-1200-1300-enchant',
+        'full_name': 'Entangled Charters of Anatolia (1200-1300)',
+        'img': 'enchant.png',
+        'image_license': 'CC-BY-SA 4.0, Johannes Preiser-Kapeller',
+        'pi': 'Johannes Preiser-Kapeller ',
+        'duration': '2023 - 2026',
+        'institutes': ['OEAW', 'IMAFO', 'ACDH', 'univie', 'FWF'],
+        'tags': ['Ongoing', 'History', 'Cooperation'],
+        'text':
+            '(FWF P 36403-G), aims to provide a comparison based on a '
+            'systematic survey of important artefacts of these efforts, i. e. '
+            'the documents issued by the state chancelleries of the Byzantine '
+            '“empires in exile” of Nicaea and Trebizond, Cilician Armenia and '
+            'the Seljuk Sultanate. The project provides a digital catalogue, '
+            'a corpus of those documents whose texts have been transmitted at '
+            'least in significant parts, and a number of publications '
+            'presenting a comparative analysis of these multifaceted acts '
+            'of “world (re)ordering” after crisis.'},
     'FemCareVienna': {
         'url': 'https://discover-femcarevienna.openatlas.eu/',
         'full_name': 'FemCareVienna',
@@ -22,7 +44,7 @@ projectList: dict[str, Any] = {
         'image_license': 'CC-BY-SA 4.0, Jasmin Hangartner/ Novetus GmbH',
         'pi': 'Michaela Binder',
         'duration': '2023 - 2026',
-        'institutes': ['Novetus', 'OEAW', 'ACDH'],
+        'institutes': ['Novetus', 'OEAW', 'ACDH', 'FWF'],
         'tags': [
             'Ongoing',
             'Archaeology',
