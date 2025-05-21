@@ -17,7 +17,7 @@ institutes = {
         'logo': 'bcm.png'},
     'Biblioteka Matice Srpske': {
         'name': 'Biblioteka Matice Srpske',
-        'url': 'http://www.bms.ns.ac.rs/bms101.htm',
+        'url': 'https://www.bms.rs/',
         'logo': 'biblioteka_matice_srpske.png'},
     'Byzantine Research': {
         'name': 'Byzantine Research',
@@ -69,7 +69,7 @@ institutes = {
         'logo': 'imafo.png'},
     'JGU': {
         'name': 'Johannes Gutenberg University Mainz',
-        'url': 'https://www.uni-mainz.de/eng/index.php',
+        'url': 'https://www.uni-mainz.de/',
         'logo': 'jgu.png'},
     'KHM': {
         'name': 'Kunsthistorisches Museum Wien',

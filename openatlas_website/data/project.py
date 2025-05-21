@@ -251,7 +251,7 @@ projectList: dict[str, Any] = {
             ' It combines the three disciplines archaeology, anthropology and '
             'digital humanities.'},
     'CONNEC': {
-        'url': 'https://connectedclerics.com/',
+        'url': 'https://discover-connec.openatlas.eu/',
         'frontend': 'https://discover-connec.openatlas.eu/',
         'full_name':
             'Connected Clerics: Building a Universal Church in the Late '
