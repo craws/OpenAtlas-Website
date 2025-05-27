@@ -14,6 +14,12 @@ upcoming = {
         'city': 'Vienna',
         'institute': 'WUK',
         'title': 'OpenAtlas Summer Meeting 2025'},
+    '2025-06-30': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'TU Wien',
+        'name': 'Workshop on Spatial Digital Humanities',
+        'title': 'Connecting Places, People, and Time through OpenAtlas'},
     '2025-07-14': {
         'country': 'Austria',
         'city': 'Vienna',
