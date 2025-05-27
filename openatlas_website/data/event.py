@@ -1,4 +1,14 @@
 upcoming = {
+    '2025-06-24': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'name': 'AI meets Humanities & Social Sciences',
+        'title':
+            'LLMs as interfaces: '
+            'Creating custom chatbots to explore Linked Open Data',
+        'link': 'https://www.oeaw.ac.at/conference/ai-meets-hss/en/',
+        'docs': {'Abstract': '2025-06-24_carloni_llms_as_interfaces.pdf'}},
     '2025-06-27': {
         'country': 'Austria',
         'city': 'Vienna',
