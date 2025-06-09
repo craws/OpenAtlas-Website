@@ -8,6 +8,13 @@ def release_text(news_id: int) -> str:
 
 news_ = {
     'News': {
+        '2025-06-09': {
+            'title':
+                'OpenAtlas version 8.12.0 and a new cooperation with ENCHANT',
+            'text': release_text(47) +
+                '<br>Also, we are happy to announce a new cooperation with '
+                'ENCHANT.<br>You can find more details at the '
+                '<a href="/projects">projects</a> page.'},
         '2025-04-18': {
             'title': 'OpenAtlas version 8.11.0',
             'text': release_text(46)},
@@ -57,7 +64,7 @@ news_ = {
             'text': release_text(34) +
                 '<br>Also, we are happy to announce a new cooperation with '
                 'FemCareVienna.<br>You can find more details at the '
-                '<a target="_blank" href="/projects">projects</a> page.'},
+                '<a href="/projects">projects</a> page.'},
         '2023-09-09': {
             'title': 'OpenAtlas version 7.16.0 and a welcome',
             'text': release_text(33) +
