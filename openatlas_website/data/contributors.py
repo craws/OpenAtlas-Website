@@ -18,6 +18,7 @@ contributors = [
     'Enric Rodellas',
     'Eugen Hotwagner',
     'Fabio Rovigo',
+    'Ferat Aydin',
     'Johannes Preiser-Kapeller',
     'Judith Pucher',
     'Katharina Winckler',
