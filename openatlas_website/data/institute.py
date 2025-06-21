@@ -1,6 +1,6 @@
 institutes = {
     'ACDH': {
-        'name': 'Austrian Centre for Digital Humanities and Cultural Heritage',
+        'name': 'Austrian Centre for Digital Humanities',
         'url': 'https://www.oeaw.ac.at/acdh/',
         'logo': 'acdh.png'},
     'AIT': {

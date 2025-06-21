@@ -75,9 +75,7 @@ past = {
                 'Presentation':
                     '2024-10-17_OpenAtlas_Versioning_and_Workflows.pdf'},
             'name': 'OpenAtlas - Versioning and Workflows',
-            'institute':
-                'Austrian Centre for Digital Humanities and Cultural Heritage'
-        },
+            'institute': 'Austrian Centre for Digital Humanities'},
         '2024-07-08': {
             'country': 'Austria',
             'city': 'Vienna',
@@ -123,7 +121,7 @@ past = {
             'link':
                 'https://www.oeaw.ac.at/acdh/newsevents/event-series/'
                 'acdh-ch-research-day-3',
-            'name': 'ACDH-CH Research Day “Methods of investigating space”',
+            'name': 'ACDH Research Day “Methods of investigating space”',
             'docs': {'Presentation': '2024-04-23_acdh_research_day.pdf'}},
         '2024-01-13': {
             'country': 'Austria',
@@ -235,20 +233,18 @@ past = {
         '2022-12-13': {
             'country': 'Austria',
             'city': 'Vienna',
-            'institute':
-                'Austrian Centre for Digital Humanities and Cultural Heritage',
+            'institute': 'Austrian Centre for Digital Humanities',
             'link':
                 'https://www.oeaw.ac.at/acdh/newsevents/event-series/'
                 'acdh-ch-lecture-84',
-            'name': 'ACDH-CH Lecture',
+            'name': 'ACDH Lecture',
             'title': 'OpenAtlas',
             'docs': {'Presentation': '2022-12-13_openatlas_for_students.pdf'}},
         '2022-10-25': {
             'country': 'Austria',
             'city': 'Vienna',
-            'institute':
-                'Austrian Centre for Digital Humanities and Cultural Heritage',
-            'name': 'ACDH-CH Research lunch',
+            'institute': 'Austrian Centre for Digital Humanities',
+            'name': 'ACDH Research lunch',
             'link': 'https://www.oeaw.ac.at/acdh',
             'title':
                 'OpenAtlas - A Database System for the Humanities and Beyond',
@@ -345,10 +341,9 @@ past = {
         '2021-10-20': {
             'country': 'Austria',
             'city': 'Vienna',
-            'name': 'ACDH-CH Institute Days',
+            'name': 'ACDH Institute Days',
             'link': 'https://www.oeaw.ac.at/acdh',
-            'institute':
-                'Austrian Centre for Digital Humanities and Cultural Heritage',
+            'institute': 'Austrian Centre for Digital Humanities',
             'title': 'OpenAtlas at the Science Fair',
             'docs': {
                 'Poster (English)': '2021-10-20_science_fair_poster_en.pdf',
@@ -469,9 +464,8 @@ past = {
         '2020-02-11': {
             'country': 'Austria',
             'city': 'Vienna',
-            'institute':
-                'Austrian Centre for Digital Humanities and Cultural Heritage',
-            'name': 'ACDH-CH - Meet the Researchers',
+            'institute': 'Austrian Centre for Digital Humanities',
+            'name': 'ACDH - Meet the Researchers',
             'link':
                 'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
                 'meet-the-researchers-programme',
@@ -512,9 +506,8 @@ past = {
         '2019-07-16': {
             'country': 'Austria',
             'city': 'Vienna',
-            'institute':
-                'Austrian Centre for Digital Humanities and Cultural Heritage',
-            'name': 'ACDH-CH - Meet the Researchers',
+            'institute': 'Austrian Centre for Digital Humanities',
+            'name': 'ACDH - Meet the Researchers',
             'link':
                 'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
                 'meet-the-researchers-programme',
@@ -585,9 +578,8 @@ past = {
         '2018-05-29': {
             'country': 'Austria',
             'city': 'Vienna',
-            'institute':
-                'Austrian Centre for Digital Humanities and Cultural Heritage',
-            'name': 'ACDH-CH Tool Gallery - CIDOC CRM',
+            'institute': 'Austrian Centre for Digital Humanities',
+            'name': 'ACDH Tool Gallery - CIDOC CRM',
             'link':
                 'https://www.oeaw.ac.at/acdh/newsevents/event-series/'
                 'acdh-tool-gallery-41',
