@@ -1,14 +1,4 @@
 upcoming = {
-    '2025-06-24': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Austrian Academy of Sciences',
-        'name': 'AI meets Humanities & Social Sciences',
-        'title':
-            'LLMs as interfaces: '
-            'Creating custom chatbots to explore Linked Open Data',
-        'link': 'https://www.oeaw.ac.at/conference/ai-meets-hss/en/',
-        'docs': {'Abstract': '2025-06-24_carloni_llms_as_interfaces.pdf'}},
     '2025-06-27': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -33,6 +23,16 @@ upcoming = {
 
 past = {
     '2025': {
+        '2025-06-24': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'Austrian Academy of Sciences',
+            'name': 'AI meets Humanities & Social Sciences',
+            'title':
+                'LLMs as interfaces: '
+                'Creating custom chatbots to explore Linked Open Data',
+            'link': 'https://www.oeaw.ac.at/conference/ai-meets-hss/en/',
+            'docs': {'Abstract': '2025-06-24_carloni_llms_as_interfaces.pdf'}},
         '2025-04-14': {
             'country': 'Germany',
             'city': 'Munich',
@@ -554,8 +554,7 @@ past = {
             'name': 'Prosopography Hackathon',
             'link':
                 'https://www.oeaw.ac.at/acdh/detail/news/'
-                'acdh-virtual-hackathon-series'
-        }},
+                'acdh-virtual-hackathon-series'}},
     '2018': {
         '2018-10-19': {
             'country': 'Austria',
