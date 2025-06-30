@@ -4,7 +4,9 @@ upcoming = {
         'city': 'Vienna',
         'institute': 'TU Wien',
         'name': 'Workshop on Spatial Digital Humanities',
-        'title': 'Connecting Places, People, and Time through OpenAtlas'},
+        'title': 'Connecting Places, People, and Time through OpenAtlas',
+        'docs': {
+            'Presentation': '2025-06-30_connecting_through_openatlas.pdf'}},
     '2025-07-14': {
         'country': 'Austria',
         'city': 'Vienna',
