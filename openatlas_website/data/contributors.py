@@ -44,9 +44,10 @@ contributors = [
     'Stefan Probst',
     'Vera Charvát',
     'Veronika Gründhammer',
-    'Zachary Chitwood']
+    'Zachary Chitwood',
+    'Zuzanna Guzek']
 
 
 def get_contributor_lists() -> list[list[str]]:
     n = math.ceil(len(contributors) / COLUMNS)
-    return list(contributors[i:i+n] for i in range(0, len(contributors), n))
+    return list(contributors[i:i + n] for i in range(0, len(contributors), n))
