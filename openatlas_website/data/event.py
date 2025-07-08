@@ -1,12 +1,4 @@
 upcoming = {
-    '2025-06-30': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'TU Wien',
-        'name': 'Workshop on Spatial Digital Humanities',
-        'title': 'Connecting Places, People, and Time through OpenAtlas',
-        'docs': {
-            'Presentation': '2025-06-30_connecting_through_openatlas.pdf'}},
     '2025-07-14': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -20,6 +12,14 @@ upcoming = {
 
 past = {
     '2025': {
+        '2025-06-30': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'TU Wien',
+            'name': 'Workshop on Spatial Digital Humanities',
+            'title': 'Connecting Places, People, and Time through OpenAtlas',
+            'docs': {
+                'Presentation': '2025-06-30_connecting_through_openatlas.pdf'}},
         '2025-06-27': {
             'country': 'Austria',
             'city': 'Vienna',
