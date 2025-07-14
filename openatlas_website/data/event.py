@@ -1,18 +1,18 @@
-upcoming = {
-    '2025-07-14': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Austrian Academy of Sciences',
-        'title':
-            'OpenAtlas – A Database System for the Humanities and Beyond',
-        'name': 'Meet the Researchers',
-        'docs': {'Presenation': '2025-07-14_meet_the_researchers.pdf'},
-        'link':
-            'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
-            'meet-the-researchers-programme'}}
+upcoming = {}
 
 past = {
     '2025': {
+        '2025-07-14': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'Austrian Academy of Sciences',
+            'title':
+                'OpenAtlas – A Database System for the Humanities and Beyond',
+            'name': 'Meet the Researchers',
+            'docs': {'Presenation': '2025-07-14_meet_the_researchers.pdf'},
+            'link':
+                'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
+                'meet-the-researchers-programme'},
         '2025-06-30': {
             'country': 'Austria',
             'city': 'Vienna',
