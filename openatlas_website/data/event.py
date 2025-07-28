@@ -1,4 +1,6 @@
-upcoming = {}
+from typing import Any
+
+upcoming: dict[str, Any] = {}
 
 past = {
     '2025': {
@@ -9,7 +11,7 @@ past = {
             'title':
                 'OpenAtlas – A Database System for the Humanities and Beyond',
             'name': 'Meet the Researchers',
-            'docs': {'Presenation': '2025-07-14_meet_the_researchers.pdf'},
+            'docs': {'Presentation': '2025-07-14_meet_the_researchers.pdf'},
             'link':
                 'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
                 'meet-the-researchers-programme'},
@@ -20,7 +22,8 @@ past = {
             'name': 'Workshop on Spatial Digital Humanities',
             'title': 'Connecting Places, People, and Time through OpenAtlas',
             'docs': {
-                'Presentation': '2025-06-30_connecting_through_openatlas.pdf'}},
+                'Presentation':
+                '2025-06-30_connecting_through_openatlas.pdf'}},
         '2025-06-27': {
             'country': 'Austria',
             'city': 'Vienna',
