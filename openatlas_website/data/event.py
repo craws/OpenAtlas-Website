@@ -1,6 +1,15 @@
 from typing import Any
 
-upcoming: dict[str, Any] = {}
+upcoming: dict[str, Any] = {
+    '2025-11-02': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austria Center Vienna',
+        'title':
+            'OpenAtlas Discovery: A Cross-Domain Visualization Platform '
+            'for the Digital Humanities',
+        'name': 'VIS4DH',
+        'link': 'https://ieeevis.org/year/2025/welcome'}}
 
 past = {
     '2025': {
