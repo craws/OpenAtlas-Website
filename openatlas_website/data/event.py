@@ -32,7 +32,7 @@ past = {
             'title': 'Connecting Places, People, and Time through OpenAtlas',
             'docs': {
                 'Presentation':
-                '2025-06-30_connecting_through_openatlas.pdf'}},
+                    '2025-06-30_connecting_through_openatlas.pdf'}},
         '2025-06-27': {
             'country': 'Austria',
             'city': 'Vienna',
@@ -48,6 +48,18 @@ past = {
                 'Creating custom chatbots to explore Linked Open Data',
             'link': 'https://www.oeaw.ac.at/conference/ai-meets-hss/en/',
             'docs': {'Abstract': '2025-06-24_carloni_llms_as_interfaces.pdf'}},
+        '2025-06-09': {
+            'country': 'Slovakia',
+            'city': 'Bratislava',
+            'institute':
+                'Institute of Slovak Literatury, '
+                'Slovak Academy of Sciences',
+            'name':
+                'Workshop Spaces of Women\'s Literary Creation',
+            'title':
+                'OpenAtlas - Výzvy digitálneho mapovania '
+                'literatúry a možné benefity OpenAtlas',
+            'docs': {'Presentation': '2025-06-09_OpenAtlas_Bratislava.pdf'}},
         '2025-04-14': {
             'country': 'Germany',
             'city': 'Munich',
@@ -138,7 +150,7 @@ past = {
                 'acdh-ch-research-day-3',
             'name': 'ACDH Research Day “Methods of investigating space”',
             'docs': {'Presentation': '2024-04-23_acdh_research_day.pdf'}},
-        '2024-01-13': {
+        '2024-01-16': {
             'country': 'Austria',
             'city': 'Vienna',
             'institute': 'Vienna Wiesenthal Institute (VWI)',
