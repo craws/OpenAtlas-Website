@@ -21,12 +21,13 @@ projectList: dict[str, Any] = {
             'byzantium-and-beyond/mobility-and-intercultural-contacts/'
             'entangled-charters-of-anatolia-1200-1300-enchant',
         'full_name': 'Entangled Charters of Anatolia (1200-1300)',
+        'frontend': 'https://discover-plas.openatlas.eu/',
         'img': 'enchant.png',
         'image_license': 'CC-BY-SA 4.0, Johannes Preiser-Kapeller',
         'pi': 'Johannes Preiser-Kapeller ',
         'duration': '2023 - 2026',
         'institutes': ['OEAW', 'IMAFO', 'ACDH', 'univie', 'FWF'],
-        'tags': ['Ongoing', 'History', 'Cooperation'],
+        'tags': ['Ongoing', 'History', 'Cooperation', 'Presentation-Site'],
         'text':
             '(FWF P 36403-G), aims to provide a comparison based on a '
             'systematic survey of important artefacts of these efforts, i. e. '
@@ -40,6 +41,7 @@ projectList: dict[str, Any] = {
     'FemCareVienna': {
         'url': 'https://discover-femcarevienna.openatlas.eu/',
         'full_name': 'FemCareVienna',
+        'frontend': 'https://discover-femcarevienna.openatlas.eu/',
         'img': 'femcare.jpg',
         'image_license': 'CC-BY-SA 4.0, Jasmin Hangartner/ Novetus GmbH',
         'pi': 'Michaela Binder',
@@ -50,7 +52,8 @@ projectList: dict[str, Any] = {
             'Archaeology',
             'History',
             'Anthropology',
-            'Cooperation'],
+            'Cooperation',
+            'Presentation-Site'],
         'text':
             '(FWF individual grant P 36459-G) aims to elucidate the history '
             'of medical care for woman through an interdisciplinary study of '
@@ -93,11 +96,17 @@ projectList: dict[str, Any] = {
             'Byzantine Heritage of Constantinople by Scholars from the Holy '
             'Roman Empire in the 16th century',
         'img': 'approaching_byzantium.png',
+        'frontend': 'https://approaching-byzantium.openatlas.eu/',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
         'pi': 'Nicholas Melvani',
         'duration': '2021 - 2025',
         'institutes': ['JGU', 'OEAW', 'ACDH', 'DFG', 'Leibnitz Byzanz'],
-        'tags': ['Ongoing', 'History', 'Prosopography', 'Cooperation'],
+        'tags': [
+            'Ongoing',
+            'History',
+            'Prosopography',
+            'Cooperation',
+            'Presentation-Site'],
         'text':
             'analyzes how visiting the city of Constantinople affected the '
             'reception of Byzantium by humanists from the Holy Roman Empire in'
@@ -111,10 +120,16 @@ projectList: dict[str, Any] = {
             '(ca. 850-1550)',
         'img': 'mamems.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
+        'frontend': 'https://mamems.openatlas.eu/',
         'pi': 'Zachary Chitwood',
         'duration': '2020 - 2025',
         'institutes': ['JGU', 'OEAW', 'ACDH', 'ERC'],
-        'tags': ['Ongoing', 'History', 'Prosopography', 'Cooperation'],
+        'tags': [
+            'Ongoing',
+            'History',
+            'Prosopography',
+            'Cooperation',
+            'Presentation-Site'],
         'text':
             'will constitute the first comprehensive examination of the '
             'monastic communities of Mount Athos as independent actors in '
@@ -178,13 +193,14 @@ projectList: dict[str, Any] = {
         'url': '',
         'full_name': 'The Prosopography of the Lascarid Period',
         'img': 'plas.jpg',
+        'frontend': 'https://discover-plas.openatlas.eu/',
         'image_license':
             'CC-BY-SA 4.0, Ekaterini Mitsiou and <br>'
             'Johannes Preiser-Kapeller',
         'pi': 'Ekaterini Mitsiou',
         'duration': '2018 - ongoing',
         'institutes': [],
-        'tags': ['Ongoing', 'History', 'Prosopography'],
+        'tags': ['Ongoing', 'History', 'Prosopography', 'Presentation-Site'],
         'text':
             'aims at creating a prosopographical database of Byzantium in the '
             'first half of the 13th century and mapping the complexities of a '
@@ -278,12 +294,18 @@ projectList: dict[str, Any] = {
             'byzantium-and-beyond/mobility-and-intercultural-contacts/'
             'moving-byzantium',
         'full_name': 'Moving Byzantium',
+        'frontend': 'https://mobyz-atlas.openatlas.eu/',
         'img': 'moving_byzantium.jpg',
         'image_license': 'CC-BY-SA 4.0, Johannes Preiser-Kapeller',
         'pi': 'Claudia Rapp',
         'duration': '2015 - 2020',
         'institutes': ['OEAW', 'IMAFO', 'ACDH', 'FWF'],
-        'tags': ['Concluded', 'History', 'Prosopography', 'Cooperation'],
+        'tags': [
+            'Concluded',
+            'History',
+            'Prosopography',
+            'Cooperation',
+            'Presentation-Site'],
         'text':
             'highlights the role of Byzantium as a global culture and analyses'
             ' the internal flexibility of Byzantine society. Its main focus is'
