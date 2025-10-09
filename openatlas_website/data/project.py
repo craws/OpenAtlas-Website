@@ -5,6 +5,7 @@ tags = {
         'Anthropology',
         'Archaeology',
         'Cultural-Heritage',
+        'Epigraphy',
         'History',
         'Prosopography'],
     'status': [
@@ -15,6 +16,32 @@ tags = {
         'Cooperation']}
 
 projectList: dict[str, Any] = {
+    'Epigraphies of Pious Travel': {
+        'url':
+            'https://www.oeaw.ac.at/en/byzanz/gesellschaft-und-'
+            'landschaft/epigraphik/epigraphies-of-pious-travel',
+        'full_name': 'Epigraphies of Pious Travel',
+        'frontend': 'https://mobyz-atlas.openatlas.eu/',
+        'img': 'pious_travel.png',
+        'image_license': 'CC-BY 4.0, Rachael Griffiths',
+        'pi': 'Rachael Helen Banes, Andreas Rhoby',
+        'duration': '2021 - ongoing',
+        'institutes': ['OEAW', 'IMAFO', 'ACDH', 'FWF'],
+        'tags': [
+            'Ongoing',
+            'History',
+            'Epigraphy',
+            'Cooperation',
+            'Presentation-Site'],
+        'text':
+            '(FWF project I 5286-G25) collates '
+            'and contextualises graffiti written by pilgrims in the eastern '
+            'Mediterranean during the Byzantine period, c. 300 – 1500 CE. '
+            'Through collaboration with OpenAtlas, the project will produce a '
+            'digital corpus of material in the Greek language. Not reliant on '
+            'a wealthy patron, graffiti written by pilgrims provides an '
+            'insight into Byzantine religious ritual and the experiences of a '
+            'larger cross-section of the population.'},
     'ENCHANT': {
         'url':
             'https://www.oeaw.ac.at/en/imafo/research/byzantine-research/'

@@ -25,7 +25,7 @@ publicationsList: Dict[str, Dict[str, Any]] = {
             '(Urban Creativity - Lisbon)',
         'year': '2024',
         'pages': '62-71',
-        'doi': 'https://doi.org/10.48619/indigo.v0i0.711'},
+        'doi': 'https://doi.org/10.48619/indigo.v0i0.976'},
     'Aspöck et al. 2023': {
         'authors': 'Edeltraud Aspöck, Stefan Eichert, Maria Theodoridou,'
         'Achille Felicetti, Nina Richards',
