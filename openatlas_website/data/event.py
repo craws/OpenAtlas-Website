@@ -18,7 +18,8 @@ past = {
                 'OpenAtlas Discovery: A Cross-Domain Visualization Platform '
                 'for the Digital Humanities',
             'name': 'VIS4DH',
-            'link': 'https://ieeevis.org/year/2025/welcome'},
+            'link': 'https://ieeevis.org/year/2025/welcome',
+            'docs': {'Presentation': '2025-11-02_vis4dh.pdf'}},
         '2025-09-25': {
             'country': 'Austria',
             'city': 'Vienna',

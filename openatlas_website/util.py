@@ -15,7 +15,8 @@ def inject_menu() -> dict[str, Any]:
             {'name': 'projects', 'to': url_for('projects')},
             {'name': 'cooperation', 'to': url_for('cooperation')},
             {'name': 'team', 'to': url_for('team')},
-            {'name': 'events', 'to': url_for('events')}],
+            {'name': 'events', 'to': url_for('events')},
+            {'name': 'pubications', 'to': url_for('publications')}],
         'content': [
             'about', 'projects', 'cooperation', 'software', 'team', 'events',
             'news', 'publications', 'mission_statement'],
