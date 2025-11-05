@@ -1,7 +1,7 @@
 from typing import Any
 
 upcoming: dict[str, Any] = {
-    '2025-12-02': {
+    '2025-12-12': {
         'country': 'Germany',
         'city': 'Munich',
         'institute': 'University of Munich',
