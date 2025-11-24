@@ -6,7 +6,9 @@ upcoming: dict[str, Any] = {
         'city': 'Munich',
         'institute': 'University of Munich',
         'title': 'OpenAtlas workshop',
-        'name': '2nd PROSOPON Workshop'}}
+        'name': '2nd PROSOPON Workshop',
+        'docs': {
+            'Program': '2025-12-12_prosopon.pdf'}}}
 
 past = {
     '2025': {
