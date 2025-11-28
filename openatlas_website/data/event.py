@@ -1,11 +1,18 @@
 from typing import Any
 
 upcoming: dict[str, Any] = {
+    '2025-12-04': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Central European University (CEU)',
+        'title': 'OpenAtlas Workshop',
+        'name': 'CLARIAH-AT Roadshow - DH Festival at CEU',
+        'link': 'https://clariah.at/en/events/clariah-at-roadshow-at-CEU/'},
     '2025-12-12': {
         'country': 'Germany',
         'city': 'Munich',
         'institute': 'University of Munich',
-        'title': 'OpenAtlas workshop',
+        'title': 'OpenAtlas Workshop',
         'name': '2nd PROSOPON Workshop',
         'docs': {
             'Program': '2025-12-12_prosopon.pdf'}}}
