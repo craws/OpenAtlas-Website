@@ -1,13 +1,7 @@
 from typing import Any
 
 upcoming: dict[str, Any] = {
-    '2025-12-04': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Central European University (CEU)',
-        'title': 'OpenAtlas Workshop',
-        'name': 'CLARIAH-AT Roadshow - DH Festival at CEU',
-        'link': 'https://clariah.at/en/events/clariah-at-roadshow-at-CEU/'},
+
     '2025-12-12': {
         'country': 'Germany',
         'city': 'Munich',
@@ -19,6 +13,13 @@ upcoming: dict[str, Any] = {
 
 past = {
     '2025': {
+        '2025-12-04': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'Central European University (CEU)',
+            'title': 'OpenAtlas Workshop',
+            'link': 'https://clariah.at/en/events/clariah-at-roadshow-at-CEU/',
+            'name': 'CLARIAH-AT Roadshow - DH Festival at CEU'},
         '2025-11-02': {
             'country': 'Austria',
             'city': 'Vienna',
