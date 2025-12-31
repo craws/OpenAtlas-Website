@@ -99,8 +99,8 @@ projectList: dict[str, Any] = {
         'duration': '2023 - 2025',
         'institutes': ['NHM', 'LBI', 'OEAW', 'ACDH'],
         'tags': [
-            'Ongoing',
             'Archaeology',
+            'Concluded',
             'History',
             'Cooperation',
             'Presentation-Site'],
@@ -129,7 +129,7 @@ projectList: dict[str, Any] = {
         'duration': '2021 - 2025',
         'institutes': ['JGU', 'OEAW', 'ACDH', 'DFG', 'Leibnitz Byzanz'],
         'tags': [
-            'Ongoing',
+            'Concluded',
             'History',
             'Prosopography',
             'Cooperation',
@@ -152,7 +152,7 @@ projectList: dict[str, Any] = {
         'duration': '2020 - 2025',
         'institutes': ['JGU', 'OEAW', 'ACDH', 'ERC'],
         'tags': [
-            'Ongoing',
+            'Concluded',
             'History',
             'Prosopography',
             'Cooperation',

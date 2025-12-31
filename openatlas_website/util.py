@@ -16,7 +16,7 @@ def inject_menu() -> dict[str, Any]:
             {'name': 'cooperation', 'to': url_for('cooperation')},
             {'name': 'team', 'to': url_for('team')},
             {'name': 'events', 'to': url_for('events')},
-            {'name': 'pubications', 'to': url_for('publications')}],
+            {'name': 'publications', 'to': url_for('publications')}],
         'content': [
             'about', 'projects', 'cooperation', 'software', 'team', 'events',
             'news', 'publications', 'mission_statement'],
@@ -62,8 +62,8 @@ def display_team_member(name: str) -> str:
     html = f"""
     <div class="row">
     <div class="col-md-auto mb-4">
-        <img class="team" src="/static/images/team/{person['img']}" alt="{name}">
-        <br>"""
+        <img class="team" src="/static/images/team/{person['img']}"
+        alt="{name}"><br>"""
     if person['image_license']:
         html += f'<span class="image-license">{person["image_license"]}</span>'
     return html + f"""
