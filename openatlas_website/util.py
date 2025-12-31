@@ -62,8 +62,9 @@ def display_team_member(name: str) -> str:
     html = f"""
     <div class="row">
     <div class="col-md-auto mb-4">
-        <img class="team" src="/static/images/team/{person['img']}"
-        alt="{name}"><br>"""
+        <img class="team"
+            src="/static/images/team/{person['img']}" alt="{name}">
+        <br>"""
     if person['image_license']:
         html += f'<span class="image-license">{person["image_license"]}</span>'
     return html + f"""

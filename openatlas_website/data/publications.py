@@ -41,7 +41,7 @@ publicationsList: Dict[str, Dict[str, Any]] = {
         'authors': 'Nina Richards, Stefan Eichert, Alexander Watzinger',
         'title':
             'One Ontology to Rule them All - CIDOC CRM in the Humanities and'
-            'its Use in OpenAtla',
+            'its Use in OpenAtlas',
         'in':
             'In: G. Verhoeven, J. Schlegel, B. Wild, S. Wogrin, M. Carloni '
             '(eds.) document - archive - disseminate graffiti-scapes. '
