@@ -147,7 +147,7 @@ projectList: dict[str, Any] = {
             '(ca. 850-1550)',
         'img': 'mamems.png',
         'image_license': 'CC-BY-SA 4.0, Jan Belik',
-        'frontend': 'https://mamems.openatlas.eu/',
+        'frontend': 'https://discover-mamems.openatlas.eu/',
         'pi': 'Zachary Chitwood',
         'duration': '2020 - 2025',
         'institutes': ['JGU', 'OEAW', 'ACDH', 'ERC'],
