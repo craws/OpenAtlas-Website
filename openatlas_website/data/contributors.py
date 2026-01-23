@@ -24,6 +24,7 @@ contributors = [
     'Judith Pucher',
     'Katharina Winckler',
     'Klaus Illmayer',
+    'Lara Alice Tudor',
     'Laura Kremser',
     'Ludwig Maximilian Breuer',
     'Markus Pluschkovits',
