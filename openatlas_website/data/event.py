@@ -1,6 +1,26 @@
 from typing import Any
 
 upcoming: dict[str, Any] = {
+    '2026-02-18': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'title': 'OpenAtlas and OpenAtlas Discovery',
+        'name': 'How to get our Data into the Computer',
+        'link':
+            'https://www.oeaw.ac.at/eurasian-transformations/events/'
+            'eurasia-jour-fixe/how-to-get-our-data-into-the-computer'
+            '-tools-for-data-collection-and-presentation-and-the-need'
+            '-for-a-joint-digital-infrastructure-in-the-cluster'},
+    '2026-02-25': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'University of Vienna',
+        'title': 'Archäologie digital vernetzt - THANADOS und OpenAtlas',
+        'name': '20. Österreichischer Archäologietag',
+        'link':
+            'https://klass-archaeologie.univie.ac.at/news-events/'
+            'einzelansicht/news/20-oesterreichischer-archaeologietag/'},
     '2026-08-24': {
         'country': 'Austria',
         'city': 'Vienna',
