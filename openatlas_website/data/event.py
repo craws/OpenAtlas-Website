@@ -1,6 +1,4 @@
-from typing import Any
-
-upcoming: dict[str, Any] = {
+upcoming: dict[str, dict[str, str]] = {
     '2026-02-18': {
         'country': 'Austria',
         'city': 'Vienna',

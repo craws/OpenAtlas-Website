@@ -1,4 +1,4 @@
-from typing import Any, Iterator
+from typing import Iterator
 
 from flask import url_for
 
@@ -8,7 +8,7 @@ from openatlas_website.data.team import team
 
 
 @app.context_processor
-def inject_menu() -> dict[str, Any]:
+def inject_menu() -> dict[str, object]:
     return {
         'menu': [
             {'name': 'about', 'to': url_for('about')},

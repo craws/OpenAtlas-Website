@@ -1,6 +1,4 @@
-from typing import Any, Dict
-
-publicationsList: Dict[str, Dict[str, Any]] = {
+publicationsList: dict[str, dict[str, str]] = {
     'Eichert - Richards - Watzinger 2024': {
         'authors': 'Stefan Eichert, Alexander Watzinger, Nina Richards',
         'title':
