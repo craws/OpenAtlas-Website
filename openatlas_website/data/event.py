@@ -1,20 +1,6 @@
 from typing import Any
 
 upcoming: dict[str, dict[str, Any]] = {
-    '2026-02-18': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Austrian Academy of Sciences',
-        'title': 'OpenAtlas and OpenAtlas Discovery',
-        'name': 'How to get our Data into the Computer',
-        'link':
-            'https://www.oeaw.ac.at/eurasian-transformations/events/'
-            'eurasia-jour-fixe/how-to-get-our-data-into-the-computer'
-            '-tools-for-data-collection-and-presentation-and-the-need'
-            '-for-a-joint-digital-infrastructure-in-the-cluster',
-        'docs': {
-            'Presentation':
-                '2026-02-18_openatlas_and_openatlas_discovery.pdf'}},
     '2026-02-25': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -34,6 +20,21 @@ upcoming: dict[str, dict[str, Any]] = {
         'link': 'https://www.icbs2026.org/'}}
 
 past = {
+    '2026': {
+        '2026-02-18': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'Austrian Academy of Sciences',
+            'title': 'OpenAtlas and OpenAtlas Discovery',
+            'name': 'How to get our Data into the Computer',
+            'link':
+                'https://www.oeaw.ac.at/eurasian-transformations/events/'
+                'eurasia-jour-fixe/how-to-get-our-data-into-the-computer'
+                '-tools-for-data-collection-and-presentation-and-the-need'
+                '-for-a-joint-digital-infrastructure-in-the-cluster',
+            'docs': {
+                'Presentation':
+                    '2026-02-18_openatlas_and_openatlas_discovery.pdf'}}},
     '2025': {
         '2025-12-12': {
             'country': 'Germany',
