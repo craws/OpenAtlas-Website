@@ -16,6 +16,23 @@ tags = {
         'Cooperation']}
 
 projectList: dict[str, Any] = {
+    'WHEIM': {
+        'url': 'https://www.welterbe-salzkammergut.at/',
+        'full_name': 'World Heritage Elements Inventory Mapping',
+        'img': 'wheim.png',
+        'pi': 'Bernd Paulowitz',
+        'duration': '2025 - ongoing',
+        'institutes': ['TU Wien', 'OEAW', 'ACDH'],
+        'tags': [
+            'Ongoing',
+            'Cultural-Heritage',
+            'Cooperation'],
+        'text':
+            'collects, analyses, and locates key attributes of World Heritage '
+            'Sites, focusing on the Hallstatt–Dachstein/ Salzkammergut '
+            'Cultural Landscape. This mapping improves safeguarding and '
+            'monitoring of the region and can also be adopted by other '
+            'World Heritage Sites.'},
     'Epigraphies of Pious Travel': {
         'url':
             'https://www.oeaw.ac.at/en/byzanz/gesellschaft-und-'
@@ -265,7 +282,7 @@ projectList: dict[str, Any] = {
         'pi': 'Geert Verhoeven, Norbert Pfeifer',
         'duration': '2021 - 2023',
         'institutes': [
-            'LBI', 'TUGG', 'OEAW', 'ACDH', 'Wien', 'SprayCity', 'GIFLE',
+            'LBI', 'TU Wien', 'OEAW', 'ACDH', 'Wien', 'SprayCity', 'GIFLE',
             'VRVIS'],
         'tags': ['Concluded', 'Cultural-Heritage', 'Cooperation'],
         'text':

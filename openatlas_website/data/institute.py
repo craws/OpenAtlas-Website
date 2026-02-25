@@ -126,14 +126,20 @@ institutes = {
         'name': 'Tabula Imperii Byzantini',
         'url': 'https://tib.oeaw.ac.at',
         'logo': 'tib.png'},
-    'TUGG': {
-        'name': 'TU Wien, Department of Geodesy and Geoinformation',
-        'url':  'https://www.geo.tuwien.ac.at/',
-        'logo': 'tu_vienna.png'},
+    'TU Wien': {
+        'name': 'TU Wien',
+        'url':  'https://www.tuwien.at/',
+        'logo': 'TU_Wien.png'},
     'UAI': {
         'name': 'Union Académique Internationale',
         'url': 'http://www.uai-iua.org/en',
         'logo': 'uai.jpg'},
+    'unesco': {
+        'name':
+            'World Heritage Management Hallstatt-Dachstein / '
+            'Salzkammergut Cultural Landscape',
+        'url': 'http://www.uai-iua.org/en',
+        'logo': 'unesco.svg'},
     'univie': {
         'name': 'University of Vienna',
         'url': 'https://www.univie.ac.at/',
