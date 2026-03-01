@@ -1,15 +1,6 @@
 from typing import Any
 
 upcoming: dict[str, dict[str, Any]] = {
-    '2026-02-25': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'University of Vienna',
-        'title': 'Archäologie digital vernetzt - THANADOS und OpenAtlas',
-        'name': '20. Österreichischer Archäologietag',
-        'link':
-            'https://klass-archaeologie.univie.ac.at/news-events/'
-            'einzelansicht/news/20-oesterreichischer-archaeologietag/'},
     '2026-08-24': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -21,6 +12,15 @@ upcoming: dict[str, dict[str, Any]] = {
 
 past = {
     '2026': {
+        '2026-02-25': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'University of Vienna',
+            'title': 'Archäologie digital vernetzt - THANADOS und OpenAtlas',
+            'name': '20. Österreichischer Archäologietag',
+            'link':
+                'https://klass-archaeologie.univie.ac.at/news-events/'
+                'einzelansicht/news/20-oesterreichischer-archaeologietag/'},
         '2026-02-18': {
             'country': 'Austria',
             'city': 'Vienna',
