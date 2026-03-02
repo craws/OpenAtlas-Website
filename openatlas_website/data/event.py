@@ -20,7 +20,9 @@ past = {
             'name': '20. Österreichischer Archäologietag',
             'link':
                 'https://klass-archaeologie.univie.ac.at/news-events/'
-                'einzelansicht/news/20-oesterreichischer-archaeologietag/'},
+                'einzelansicht/news/20-oesterreichischer-archaeologietag/',
+            'docs': {
+                'Poster': '2026-02-25_archaeologietag.pdf'}},
         '2026-02-18': {
             'country': 'Austria',
             'city': 'Vienna',
