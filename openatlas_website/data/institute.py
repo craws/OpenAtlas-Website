@@ -19,6 +19,11 @@ institutes = {
         'name': 'Biblioteka Matice Srpske',
         'url': 'https://www.bms.rs/',
         'logo': 'biblioteka_matice_srpske.png'},
+    'BMWKMS': {
+        'name':
+            'Bundesministerium für Wohnen, Kunst, Kultur, Medien und Sport',
+        'url': 'https://www.bmwkms.gv.at',
+        'logo': 'BMWKMS.png'},
     'Byzantine Research': {
         'name': 'Byzantine Research',
         'url': 'https://www.oeaw.ac.at/byzanz/',
@@ -149,6 +154,10 @@ institutes = {
             'Zentrum für Virtual Reality und Visualisierung Forschungs-GmbH',
         'url': 'https://www.vrvis.at/',
         'logo': 'vrvis.png'},
+    'Welterbe': {
+        'name': 'Welterbe Salzkammergut',
+        'url': 'https://www.welterbe-salzkammergut.at/',
+        'logo': 'welterbe.png'},
     'Wien Kultur': {
         'name': 'Wien Kultur (MA 7)',
         'url': 'https://www.wien.gv.at/kultur/abteilung/',

@@ -22,7 +22,8 @@ projectList: dict[str, Any] = {
         'img': 'wheim.png',
         'pi': 'Bernd Paulowitz',
         'duration': '2025 - ongoing',
-        'institutes': ['TU Wien', 'OEAW', 'ACDH'],
+        'institutes': ['Welterbe', 'TU Wien', 'OEAW', 'ACDH', 'BMWKMS'],
+        'image_license': 'CC-BY-SA 4.0, Renate Bornberg',
         'tags': [
             'Ongoing',
             'Cultural-Heritage',
