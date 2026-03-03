@@ -180,16 +180,13 @@ projectList: dict[str, Any] = {
             'monastic communities of Mount Athos as independent actors in '
             'medieval Eastern Mediterranean society.'},
     'DANCEM': {
-        'url':
-            'https://www.leibniz-gwzo.de/en/research/humans-and-environment/'
-            'borders-formation-structure-and-shifts/late-antique-cemeteries',
         'full_name': 'Late antique cemeteries on the Danube',
         'img': 'dancem.jpg',
         'image_license': 'CC-BY-SA 4.0. Birte Janzen/Kristin Opitz',
         'pi': 'Kristin Opitz',
-        'duration': '2020 - ongoing',
+        'duration': '2020 - 2025',
         'institutes': ['GWZO', 'Stadtmuseum_St_Poelten'],
-    'tags': ['Ongoing', 'Archaeology', 'Anthropology'],
+    'tags': ['Concluded', 'Archaeology', 'Anthropology'],
         'text':
             'focuses on bringing together and analysing both published and'
             ' self-compiled archaeological and anthropological data from late'
