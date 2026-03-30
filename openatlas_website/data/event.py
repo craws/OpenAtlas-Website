@@ -1,6 +1,14 @@
 from typing import Any
 
 upcoming: dict[str, dict[str, Any]] = {
+    '2026-03-31': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'University of Vienna',
+        'title':
+            'Keynote: Digital and Computational Archaeology in Austria',
+        'name': '53rd CAA International Conference',
+        'link': 'https://2026.caaconference.org/'},
     '2026-08-24': {
         'country': 'Austria',
         'city': 'Vienna',
