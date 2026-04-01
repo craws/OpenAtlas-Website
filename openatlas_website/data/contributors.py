@@ -25,6 +25,7 @@ contributors = [
     'Johannes Preiser-Kapeller',
     'Judith Pucher',
     'Katharina Winckler',
+    'Katharina Wünsche',
     'Klaus Illmayer',
     'Lara Alice Tudor',
     'Laura Kremser',

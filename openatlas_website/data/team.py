@@ -48,15 +48,6 @@ team = {
             'Vienna in computer science, with a focus on medical informatics.',
         'img': 'olivia.jpg',
         'image_license': 'CC-BY 4.0, Oliver Reichl'},
-    'Katharina Wünsche': {
-        'email': 'katharina.wuensche@oeaw.ac.at',
-        'function': 'Frontend Development',
-        'text':
-            'Katharina is a frontend developer for OpenAtlas. She studied '
-            'Computer Science at the University of Vienna, where she focused '
-            'on visualizations and data science.',
-        'img': 'katharina.jpg',
-        'image_license': 'CC-BY 4.0, Katharina Wünsche'},
     'Jan Belik': {
         'email': 'buero@janbelik.com',
         'function': 'Logo Design and Design Consulting',
