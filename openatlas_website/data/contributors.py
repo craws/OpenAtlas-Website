@@ -38,6 +38,7 @@ contributors = [
     'Peter Andorfer',
     'Petra Heinicker',
     'Renate Bornberg',
+    'Robert Klugseder',
     'Roland Filzwieser',
     'Sandra Lehecka',
     'Samvel Grigoryan',
