@@ -6,6 +6,15 @@ upcoming: dict[str, dict[str, Any]] = {
         'city': 'Vienna',
         'institute': 'WUK',
         'title': 'OpenAtlas Summer Meeting 2026'},
+    '2026-07-13': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'title': 'Introduction to OpenAtlas',
+        'name': 'Meet the Researchers',
+        'link':
+            'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
+            'meet-the-researchers-programme'},
     '2026-07-27': {
         'country': 'South Korea',
         'city': 'Daejeon',
