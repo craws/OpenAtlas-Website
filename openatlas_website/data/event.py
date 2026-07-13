@@ -9,7 +9,9 @@ upcoming: dict[str, dict[str, Any]] = {
         'name': 'Meet the Researchers',
         'link':
             'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
-            'meet-the-researchers-programme'},
+            'meet-the-researchers-programme',
+        'docs': {
+            'Presentation': '2026-07-13_meet_the_researchers.pdf'}},
     '2026-07-27': {
         'country': 'South Korea',
         'city': 'Daejeon',
