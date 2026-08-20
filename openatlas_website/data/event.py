@@ -8,7 +8,8 @@ upcoming: dict[str, dict[str, Any]] = {
         'title':
             'Lost Emperors and Found Data: OpenAtlas in Byzantine Research',
         'name': 'International Congress of Byzantine Studies',
-        'link': 'https://www.icbs2026.org/'}}
+        'link': 'https://www.icbs2026.org/',
+        'docs': {'Poster': '2026-08_27_icbs_poster.pdf'}}}
 
 past = {
     '2026': {
