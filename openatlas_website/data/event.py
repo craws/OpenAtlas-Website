@@ -1,18 +1,28 @@
 from typing import Any
 
 upcoming: dict[str, dict[str, Any]] = {
-    '2026-08-24': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'University of Vienna',
-        'title':
-            'Lost Emperors and Found Data: OpenAtlas in Byzantine Research',
-        'name': 'International Congress of Byzantine Studies',
-        'link': 'https://www.icbs2026.org/',
-        'docs': {'Poster': '2026-08_27_icbs_poster.pdf'}}}
+    '2026-09-21': {
+        'country': 'Germany',
+        'city': 'Kiel',
+        'institute': 'FAU Erlangen-Nürnberg',
+        'title': 'VOCABS',
+        'name': 'THiMO - Workshop 2',
+        'link':
+            'https://faubox.rrze.uni-erlangen.de/getlink'
+            '/fiKAsGiG6vNT6TKp6ojTr6'
+            '/THiMO_Workshop2_Programm_und_Teilnehmende.pdf'}}
 
 past = {
     '2026': {
+        '2026-08-24': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'University of Vienna',
+            'title':
+                'Lost Emperors and Found Data: OpenAtlas in Byzantine Research',
+            'name': 'International Congress of Byzantine Studies',
+            'link': 'https://www.icbs2026.org/',
+            'docs': {'Poster': '2026-08_27_icbs_poster.pdf'}},
         '2026-07-27': {
             'country': 'South Korea',
             'city': 'Daejeon',
