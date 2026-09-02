@@ -19,7 +19,8 @@ past = {
             'city': 'Vienna',
             'institute': 'University of Vienna',
             'title':
-                'Lost Emperors and Found Data: OpenAtlas in Byzantine Research',
+                'Lost Emperors and Found Data: '
+                'OpenAtlas in Byzantine Research',
             'name': 'International Congress of Byzantine Studies',
             'link': 'https://www.icbs2026.org/',
             'docs': {'Poster': '2026-08_27_icbs_poster.pdf'}},
@@ -47,6 +48,16 @@ past = {
             'city': 'Vienna',
             'institute': 'WUK',
             'title': 'OpenAtlas Summer Meeting 2026'},
+        '2026-04-02': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'University of Vienna',
+            'title':
+                'Here Be Links: Taming the Data Dragons with OpenAtlas',
+            'name': '53rd CAA International Conference',
+            'docs': {
+                'Presentation': '2026-04-02_CCA26_Taming_the_data_dragon.pdf'},
+            'link': 'https://2026.caaconference.org/'},
         '2026-03-31': {
             'country': 'Austria',
             'city': 'Vienna',
