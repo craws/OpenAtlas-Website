@@ -10,7 +10,22 @@ upcoming: dict[str, dict[str, Any]] = {
         'link':
             'https://faubox.rrze.uni-erlangen.de/getlink'
             '/fiKAsGiG6vNT6TKp6ojTr6'
-            '/THiMO_Workshop2_Programm_und_Teilnehmende.pdf'}}
+            '/THiMO_Workshop2_Programm_und_Teilnehmende.pdf'},
+    '2026-10-22': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Natural History Museum',
+        'title': 'From Ashes to Assets',
+        'name': 'Cremations in Archaeology 2026',
+        'link':
+            'https://uha.univie.ac.at/news-events/'
+            'cremations-in-archaeology-2026/'},
+    '2026-10-27': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'name': 'Hack the Pool',
+        'link': 'https://info.kulturpool.at/hack-the-pool-2026/'}}
 
 past = {
     '2026': {
