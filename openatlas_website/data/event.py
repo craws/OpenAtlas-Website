@@ -1,16 +1,6 @@
 from typing import Any
 
 upcoming: dict[str, dict[str, Any]] = {
-    '2026-09-21': {
-        'country': 'Germany',
-        'city': 'Kiel',
-        'institute': 'FAU Erlangen-Nürnberg',
-        'title': 'VOCABS',
-        'name': 'THiMO - Workshop 2',
-        'link':
-            'https://faubox.rrze.uni-erlangen.de/getlink'
-            '/fiKAsGiG6vNT6TKp6ojTr6'
-            '/THiMO_Workshop2_Programm_und_Teilnehmende.pdf'},
     '2026-10-22': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -25,10 +15,30 @@ upcoming: dict[str, dict[str, Any]] = {
         'city': 'Vienna',
         'institute': 'Austrian Academy of Sciences',
         'name': 'Hack the Pool',
-        'link': 'https://info.kulturpool.at/hack-the-pool-2026/'}}
+        'link': 'https://info.kulturpool.at/hack-the-pool-2026/'},
+    '2026-11-18': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'name': 'ACDH Research Day “Connect the Dots, Query the World“',
+        'title':
+            'Connecting Dots Without the Drama: Usable CIDOC CRM in OpenAtlas',
+        'link':
+            'https://www.oeaw.ac.at/acdh/newsevents/event-series/'
+            'acdh-research-day-10'}}
 
 past = {
     '2026': {
+        '2026-09-21': {
+            'country': 'Germany',
+            'city': 'Kiel',
+            'institute': 'FAU Erlangen-Nürnberg',
+            'title': 'VOCABS',
+            'name': 'THiMO - Workshop 2',
+            'link':
+                'https://faubox.rrze.uni-erlangen.de/getlink'
+                '/fiKAsGiG6vNT6TKp6ojTr6'
+                '/THiMO_Workshop2_Programm_und_Teilnehmende.pdf'},
         '2026-08-24': {
             'country': 'Austria',
             'city': 'Vienna',
