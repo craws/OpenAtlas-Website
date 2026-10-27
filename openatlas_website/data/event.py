@@ -1,21 +1,6 @@
 from typing import Any
 
 upcoming: dict[str, dict[str, Any]] = {
-    '2026-10-22': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Natural History Museum',
-        'title': 'From Ashes to Assets',
-        'name': 'Cremations in Archaeology 2026',
-        'link':
-            'https://uha.univie.ac.at/news-events/'
-            'cremations-in-archaeology-2026/'},
-    '2026-10-27': {
-        'country': 'Austria',
-        'city': 'Vienna',
-        'institute': 'Austrian Academy of Sciences',
-        'name': 'Hack the Pool',
-        'link': 'https://info.kulturpool.at/hack-the-pool-2026/'},
     '2026-11-18': {
         'country': 'Austria',
         'city': 'Vienna',
@@ -29,6 +14,16 @@ upcoming: dict[str, dict[str, Any]] = {
 
 past = {
     '2026': {
+        '2026-10-22': {
+            'country': 'Austria',
+            'city': 'Vienna',
+            'institute': 'Natural History Museum',
+            'title': 'From Ashes to Assets',
+            'name': 'Cremations in Archaeology 2026',
+            'docs': {'Poster': '2026-10-22_from_ashes_to_assets.pdf'},
+            'link':
+                'https://uha.univie.ac.at/news-events/'
+                'cremations-in-archaeology-2026/'},
         '2026-09-21': {
             'country': 'Germany',
             'city': 'Kiel',
