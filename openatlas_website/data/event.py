@@ -10,7 +10,16 @@ upcoming: dict[str, dict[str, Any]] = {
             'Connecting Dots Without the Drama: Usable CIDOC CRM in OpenAtlas',
         'link':
             'https://www.oeaw.ac.at/acdh/newsevents/event-series/'
-            'acdh-research-day-10'}}
+            'acdh-research-day-10'},
+    '2027-02-03': {
+        'country': 'Austria',
+        'city': 'Vienna',
+        'institute': 'Austrian Academy of Sciences',
+        'title': 'Introduction to OpenAtlas',
+        'name': 'Meet the Researchers',
+        'link':
+            'https://www.oeaw.ac.at/acdh/knowledge-transfer/internships/'
+            'meet-the-researchers-programme'}}
 
 past = {
     '2026': {
