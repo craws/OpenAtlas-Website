@@ -8,7 +8,7 @@ upcoming: dict[str, dict[str, Any]] = {
         'name': 'ACDH Research Day “Connect the Dots, Query the World“',
         'title':
             'Connecting Dots Without the Drama: Usable CIDOC CRM in OpenAtlas',
-        'docs': {'Poster': '2026-11-18_connecting_dots.pdf'},
+        'docs': {'Presentation': '2026-11-18_connecting_dots.pdf'},
         'link':
             'https://www.oeaw.ac.at/acdh/newsevents/event-series/'
             'acdh-research-day-10'},
