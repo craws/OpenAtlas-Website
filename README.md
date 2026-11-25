@@ -4,11 +4,13 @@
 
 # About
 
-OpenAtlas website is the home page of the [OpenAtlas](https://openatlas.eu)
+OpenAtlas website was the home page of the [OpenAtlas](https://openatlas.eu)
 project which is an open source, web based database system for complex
 archaeological, historical and geospatial data.
 
-This is just the code for the project website which is rather basic.
+This was the code for the rather basic project website which was replaced with
+a CMS in 2026.
+
 If you are interested in a more complex Flask application you might want to take
 a look at the OpenAtlas project on [GitHub](https://github.com/craws/OpenAtlas).
 
